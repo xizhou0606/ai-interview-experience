@@ -5,6 +5,7 @@ import { HomePage } from '../pages/home/HomePage'
 import { PatternsPage } from '../pages/patterns/PatternsPage'
 import { ProjectsPage } from '../pages/projects/ProjectsPage'
 import { RoadmapPage } from '../pages/roadmap/RoadmapPage'
+import { NewsPage } from '../pages/news/NewsPage'
 import { SourcesPage } from '../pages/sources/SourcesPage'
 import { TechnologiesPage } from '../pages/technologies/TechnologiesPage'
 import { TechnologyDetailPage } from '../pages/technology/TechnologyDetailPage'
@@ -25,6 +26,7 @@ export function AppRoutes({ route }: { route: AppRoute }) {
   if (route.page === 'coverage') return <CoveragePage />
   if (route.page === 'projects') return <ProjectsPage />
   if (route.page === 'patterns') return <PatternsPage />
+  if (route.page === 'news') return <NewsPage />
   if (route.page === 'sources') return <SourcesPage />
   if (route.page === 'api') {
     return <ApiDetailRoutePage slug={route.slug} />

@@ -13,7 +13,7 @@
   .mobile-page-toc nav button span { color: var(--forest-2); font: 9px ui-monospace, SFMono-Regular, monospace; }
   .hero-section { grid-template-columns: 1fr 390px; gap: 42px; }
   .project-showcase-inner { grid-template-columns: 270px 1fr; gap: 45px; }
-  .article-section { scroll-margin-top: calc(var(--header-h) + 76px); }
+  .article-section, .news-day { scroll-margin-top: calc(var(--header-h) + 76px); }
 }
 
 @media (max-width: 900px) {
@@ -102,6 +102,8 @@
   .article-complete { align-items: stretch; flex-direction: column; }
   .article-pager { grid-template-columns: 1fr; }
   .api-detail-page button, .coverage-section-head button, .api-card button { min-height: 44px; }
+  .news-item h3 { font-size: 15px; }
+  .news-item p { font-size: 12px; line-height: 1.7; }
   .site-footer { grid-template-columns: 1fr 1fr; gap: 35px 20px; }
   .site-footer > div:first-child { grid-column: 1 / -1; }
   .search-dialog { border-radius: 12px; }
