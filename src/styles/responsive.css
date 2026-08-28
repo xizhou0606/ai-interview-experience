@@ -85,7 +85,8 @@
   .page-intro > p { font-size: 13px; }
   .intro-stats { gap: 18px; }
   .intro-stats div { flex-direction: column; gap: 2px; }
-  .technology-grid, .project-list, .pattern-grid, .trust-model { grid-template-columns: 1fr; }
+  .technology-grid, .project-list, .pattern-grid, .trust-model, .news-list { grid-template-columns: 1fr; }
+  .news-card { padding: 14px; }
   .technology-card { min-height: 390px; }
   .roadmap-item { grid-template-columns: 42px 1fr; gap: 11px; }
   .roadmap-rail span { width: 38px; height: 38px; }
