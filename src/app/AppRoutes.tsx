@@ -2,6 +2,7 @@ import { lazy } from 'react'
 import type { AppRoute } from './types'
 import { technologies } from '../data/catalog'
 import { HomePage } from '../pages/home/HomePage'
+import { NewsPage } from '../pages/news/NewsPage'
 import { PatternsPage } from '../pages/patterns/PatternsPage'
 import { ProjectsPage } from '../pages/projects/ProjectsPage'
 import { RoadmapPage } from '../pages/roadmap/RoadmapPage'
@@ -18,6 +19,7 @@ const CoveragePage = lazy(() => import('../pages/coverage/CoveragePage').then((m
 export function AppRoutes({ route }: { route: AppRoute }) {
   if (route.page === 'home') return <HomePage />
   if (route.page === 'roadmap') return <RoadmapPage />
+  if (route.page === 'news') return <NewsPage />
   if (route.page === 'technologies') return <TechnologiesPage />
   if (route.page === 'apis') return <FrameworkApiExplorerPage />
   if (route.page === 'project-apis') return <ApiExplorerPage />
