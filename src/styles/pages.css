@@ -488,6 +488,28 @@
 .two-column-copy h3, .concept-grid h3, .operations-grid h3, .pitfall-list h3, .comparison-card strong, .checklist-card h3, .source-list strong, .code-explanation > strong { font-size: 14px; }
 .prerequisites strong, .prerequisites span, .flow-diagram strong, .caption, .usage-list code { font-size: 11px; }
 
+.news-filter { margin-bottom: 28px; }
+.news-day { margin: 0 0 34px; scroll-margin-top: calc(var(--header-h) + 18px); }
+.news-day-head { margin: 0 0 12px; padding: 0 2px 10px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.news-day-head h2 { margin: 0; color: var(--ink); font: 15px ui-monospace, SFMono-Regular, monospace; letter-spacing: -.02em; }
+.news-day-head em { color: var(--forest-2); font-size: 9px; font-style: normal; font-weight: 800; }
+.news-list { display: grid; gap: 8px; }
+.news-card { display: grid; grid-template-columns: auto minmax(0, 1fr) 18px; gap: 12px; align-items: start; padding: 15px 16px; color: inherit; background: white; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; }
+.news-card:hover { border-color: #b8c8be; box-shadow: var(--shadow-sm); }
+.news-badge { margin-top: 2px; padding: 4px 7px; border-radius: 4px; font-size: 8px; font-weight: 800; white-space: nowrap; }
+.news-badge-前端 { color: var(--forest-2); background: var(--mint-soft); }
+.news-badge-后端 { color: #315846; background: #edf1eb; }
+.news-badge-AI { color: #765e19; background: #fff9e9; }
+.news-card small { color: var(--faint); font: 8px ui-monospace, SFMono-Regular, monospace; }
+.news-card h3 { margin: 5px 0 6px; font-size: 15px; letter-spacing: -.02em; }
+.news-card p { margin: 0 0 8px; color: var(--muted); font-size: 11px; line-height: 1.65; }
+.news-source { color: var(--forest-2); font-size: 9px; font-weight: 750; }
+.news-card svg { margin-top: 4px; color: var(--faint); }
+.news-empty { max-width: 520px; padding: 36px 22px; display: grid; gap: 8px; color: var(--muted); background: white; border: 1px dashed var(--line-strong); border-radius: 12px; text-align: center; }
+.news-empty svg { margin: 0 auto; color: var(--forest-2); }
+.news-empty strong { color: var(--ink); font-size: 14px; }
+.news-empty p { margin: 0; font-size: 11px; line-height: 1.7; }
+
 /* Keep the final responsive overrides after every learning component definition. */
 @container docs (max-width: 760px) {
   .two-column-copy, .concept-grid, .operations-grid, .exercise-grid, .technology-comparison-grid, .beginner-choice-grid, .decision-map-steps, .ai-sdk-quickstart-heading, .ai-sdk-choice-guide > div:last-child, .ai-sdk-code-grid, .pattern-learning-columns { grid-template-columns: 1fr; }
