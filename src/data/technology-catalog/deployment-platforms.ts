@@ -1,0 +1,55 @@
+import type { Technology } from '../catalog'
+
+export const deploymentPlatformTechnologies: Technology[] = [
+  {
+    slug: 'docker',
+    name: 'Docker',
+    eyebrow: '从可运行镜像到多服务生产部署',
+    category: '开发与构建工具',
+    version: 'Docker Engine / Dockerfile / Compose Specification（官方文档核验于 2026-07-16）',
+    difficulty: '入门',
+    minutes: 420,
+    accent: '#2477e8',
+    summary: '把应用、运行时和必要文件打包成可重复启动的 OCI 镜像，再用 Compose 组织 Web、数据库、缓存和 Worker。',
+    boundary: 'Docker 解决构建、分发和进程隔离，不替代云平台、Kubernetes、数据库备份、密钥管理、监控或应用自身的高可用设计。',
+    why: '当项目出现“我电脑能跑、服务器跑不了”、Node 版本不一致、部署步骤靠手工记忆，或 Web、数据库、Redis、Worker 需要一起启动时，Docker 能把运行环境写成可审查、可复现的文件。',
+    prerequisites: ['终端与目录基础', 'package.json scripts', '端口与 localhost', '环境变量', '进程和文件权限的基本概念'],
+    concepts: [
+      { name: 'Image 与 Container', detail: '镜像是只读模板，容器是镜像的一次运行实例；改容器不等于改镜像，重新部署应重新构建。' },
+      { name: 'Layer 与构建缓存', detail: 'Dockerfile 每条构建指令形成可缓存层。先复制锁文件安装依赖，再复制源码，改业务代码时就不必重新下载全部依赖。' },
+      { name: 'Multi-stage build', detail: 'builder 阶段拥有编译工具和 devDependencies，runner 阶段只复制运行产物，从而减小镜像和攻击面。' },
+      { name: 'Compose service', detail: '一个 service 对应一种进程角色。Web 和 Worker 即使共用同一镜像，也要用不同 command、健康检查和扩缩容策略。' },
+    ],
+    flow: ['编写 .dockerignore', 'Dockerfile 安装依赖并构建', '生成最小运行镜像', 'Compose 注入非秘密配置', '创建网络与数据卷', '按健康条件启动依赖服务', '检查 health、logs 与数据持久化'],
+    usage: [],
+    example: {
+      language: 'dockerfile',
+      filename: 'Dockerfile',
+      code: `FROM node:22-alpine AS build\nWORKDIR /app\nCOPY package*.json ./\nRUN npm ci\nCOPY . .\nRUN npm run build\n\nFROM nginx:1.27-alpine AS runtime\nCOPY --from=build /app/dist /usr/share/nginx/html\nEXPOSE 80`,
+      explanation: ['build 阶段安装依赖并生成 dist，运行阶段不保留 Node 和源码。', '先复制依赖清单可以复用 npm ci 的缓存层。', 'EXPOSE 是镜像说明，真正映射宿主机端口仍要使用 -p 或 Compose ports。'],
+    },
+    practices: ['固定基础镜像版本并定期升级补丁，不依赖浮动 latest。', '使用多阶段构建和 .dockerignore，只把运行必需文件放进最终镜像。', '容器使用非 root 用户，秘密通过运行环境或 secret 注入，不写进镜像层。', '健康检查验证应用真的可用；depends_on 只配合 service_healthy 才能表达就绪顺序。', 'Web 与 Worker 分成不同 service，共用镜像但独立命令、重启和扩缩容。'],
+    pitfalls: [
+      { title: '把 localhost 理解成宿主机', detail: '容器里的 localhost 只指当前容器。访问 Compose 中的数据库应使用 service 名，如 postgres:5432。' },
+      { title: '把密钥写进 Dockerfile', detail: 'ENV、ARG 和复制进去的 .env 都可能留在镜像历史或构建上下文，应在运行时注入。' },
+      { title: '只写 depends_on 不做健康检查', detail: '进程启动不代表数据库已经接受连接；应用仍可能在启动瞬间失败。' },
+      { title: '一个容器跑 Web 和 Worker', detail: '两个角色无法独立重启、扩容和观察，任一进程退出也容易造成状态含糊。' },
+    ],
+    operations: {
+      testing: '在干净环境执行 build、up、health、日志、重启和数据恢复；至少验证首次启动、依赖延迟、容器重建和配置缺失。',
+      observability: '日志输出到 stdout/stderr，并记录镜像版本、容器健康状态、重启次数、CPU、内存、磁盘和各 service 的业务指标。',
+      security: '使用小型受支持基础镜像、非 root 用户、只读文件系统（可行时）、依赖/镜像扫描，并把秘密放在部署平台的 secret 管理中。',
+      performance: '优化构建上下文和层缓存；为 Node 设置合理内存；静态资源交给 Nginx/CDN；Web 与 Worker 根据各自负载独立扩缩。',
+    },
+    comparison: 'Docker 是最成熟的容器开发与交付工作流；Podman 强调无守护进程和 rootless；Buildpacks 更自动化但控制较少；Kubernetes 是容器编排平台，不是 Dockerfile 的同层替代。',
+    checklist: ['镜像可重复构建', '最终镜像无源码和开发依赖', '容器非 root 运行', '秘密未进入镜像', '健康检查真实可用', '数据库有持久卷与备份', 'Web/Worker 可独立重启扩容'],
+    exercise: { task: '依次完成静态站点、SSR 服务和 Web + Worker + PostgreSQL + Redis 三种部署。', done: ['每个脚本能逐行解释', '重建容器数据不丢失', '依赖未就绪时不会误启动', 'Web 与 Worker 可独立扩容'] },
+    sources: [
+      { label: 'Dockerfile reference', url: 'https://docs.docker.com/reference/dockerfile/', kind: '官方文档', note: 'FROM、COPY、RUN、USER、HEALTHCHECK 等指令语义' },
+      { label: 'Multi-stage builds', url: 'https://docs.docker.com/build/building/multi-stage/', kind: '官方文档', note: '多阶段构建和选择性复制产物' },
+      { label: 'Docker build best practices', url: 'https://docs.docker.com/build/building/best-practices/', kind: '官方文档', note: '小镜像、缓存、固定版本和可重建原则' },
+      { label: 'Compose startup order', url: 'https://docs.docker.com/compose/how-tos/startup-order/', kind: '官方文档', note: 'depends_on、service_healthy 与重启传播' },
+    ],
+    verifiedAt: '2026-07-16',
+  },
+]

@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 24px); }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper); color: var(--ink); }
+button, input { font: inherit; }
+button { color: inherit; }
+a { color: inherit; text-decoration: none; }
+h1, h2, h3, p { margin-top: 0; }
+button:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid rgba(46, 125, 98, .28); outline-offset: 2px; }
+::selection { color: var(--forest); background: var(--mint); }
+.mobile-only { display: none !important; }
+.section-wrap { width: min(1180px, calc(100% - 48px)); margin: 0 auto; }
+.section-kicker { display: inline-block; color: var(--forest-2); font-size: 11px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+.section-kicker.mint { color: var(--mint); }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 0 18px; border-radius: var(--radius-sm); border: 1px solid transparent; font-size: 14px; font-weight: 700; cursor: pointer; transition: transform .18s ease, background .18s ease, border-color .18s ease; }
+.button:hover { transform: translateY(-1px); }
+.button-primary { color: white; background: var(--forest); box-shadow: 0 8px 24px rgba(21, 63, 50, .18); }
+.button-primary:hover { background: #0e3127; }
+.button-quiet { background: white; border-color: var(--line-strong); }
+.button-quiet:hover { border-color: var(--forest-2); }
+.button-complete { color: var(--forest); background: var(--mint-soft); border-color: #a9d9c1; }
+.text-link { display: inline-flex; align-items: center; gap: 6px; padding: 0; color: var(--forest-2); background: none; border: 0; font-weight: 750; cursor: pointer; }
+.text-link.light { color: var(--mint); }
+.tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag-row span { padding: 4px 8px; color: #4f6159; background: #edf1eb; border: 1px solid #dfe6dd; border-radius: 5px; font-size: 10px; font-weight: 700; }
+.tag-row.dark span { color: #aabbb2; background: rgba(255, 255, 255, .05); border-color: rgba(255, 255, 255, .09); }

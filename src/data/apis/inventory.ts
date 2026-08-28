@@ -1,0 +1,41 @@
+export const aiInterviewInventory = {
+  repository: 'agniwen/ai-interview', branch: 'main', commit: 'ee897c2801eb13b52f88fb7f57acbf1a0be32f6b', verifiedAt: '2026-07-15',
+  totals: { trackedFiles: 1463, httpEndpoints: 216, databaseTables: 62, documentedApis: 279 },
+  endpoints: [
+    { group: 'Studio', count: 155 }, { group: 'Public', count: 17 }, { group: 'Platform', count: 12 },
+    { group: 'Chat', count: 12 }, { group: 'Interview + Analysis', count: 11 }, { group: 'Agent callback', count: 3 },
+    { group: 'Resume helper', count: 3 }, { group: 'Join', count: 2 }, { group: 'LiveKit webhook', count: 1 },
+  ],
+  codeAreas: [
+    { name: 'Web', files: 585, lines: 94847 }, { name: 'Backend', files: 373, lines: 46421 },
+    { name: 'Worker', files: 17, lines: 986 }, { name: 'LiveKit Agent', files: 12, lines: 2301 },
+    { name: 'DB Schema', files: 15, lines: 5058 }, { name: 'Resume Queue', files: 6, lines: 1023 },
+    { name: 'Shared', files: 72, lines: 5023 },
+  ],
+  stacks: [
+    ['React / React DOM', '19.2.3', 'Web UI'], ['TypeScript', '7.0.2', '全栈类型'], ['Vite', '8.1.3', '构建'],
+    ['TanStack Start', '1.168.27', 'SSR / Server Functions'], ['TanStack Router', '1.170.15', '文件路由'], ['TanStack Query', '5.100.14', '服务端状态'],
+    ['Hono', '4.12.23', '216 个显式端点'], ['Better Auth', '1.6.11', '认证与组织'], ['Drizzle ORM', '1.0.0-rc.1', '62 张 PostgreSQL 表'],
+    ['Zod', '4.4.3', 'API / AI / 队列契约'], ['AI SDK', '6.0.219', 'Chat / ToolLoopAgent / Stream'], ['@ai-sdk/react', '3.0.221', 'useChat'],
+    ['Mastra Core', '1.47.0', 'Agent / Workflow'], ['Mastra AI SDK', '1.6.1', '流转换'], ['Mastra Evals', '1.5.0', '5 个 scorer'],
+    ['Qdrant JS', '1.18.0', '简历语义向量'], ['BullMQ', '5.78.0', '三类后台队列'], ['OpenAI Node SDK', '6.39.0', 'Qwen-VL OCR'],
+    ['LiveKit Server SDK', '2.15.3', 'Token / Webhook'], ['LiveKit Agents Python', '1.6.4', '语音 Agent'], ['LiveKit Client', '2.19.0', '浏览器实时房间'],
+    ['Resend', '6.12.3', '邮件'], ['ImapFlow', '1.4.1', '邮箱摄取'], ['postgres.js', '3.4.9', '连接池'],
+  ] as [string, string, string][],
+  upgradeRadar: [
+    { name: 'AI SDK', repository: '6.0.219', sameSeries: '6.0.226', latest: '7.0.28', strategy: '主教程固定 v6；v7 只放迁移附录，禁止 API 混写。' },
+    { name: 'OpenAI-compatible', repository: '2.0.56', sameSeries: '2.0.60', latest: '3.0.10', strategy: '与 AI SDK 6 配套讲 2.x。' },
+    { name: 'OpenAI Node', repository: '6.39.0', sameSeries: '6.47.0', latest: '6.47.0', strategy: '兼容服务保留 Chat Completions；原生 OpenAI 优先 Responses。' },
+    { name: 'LiveKit Agents', repository: '1.6.4', sameSeries: '1.6.5', latest: '1.6.5', strategy: '按 1.6 Audio Turn Detector 教学，迁移弃用 metrics 事件。' },
+    { name: 'BullMQ', repository: '5.78.0', sameSeries: '5.80.3', latest: '5.80.3', strategy: '可兼容升级；评估原生 deduplication 取代先删后加。' },
+    { name: 'Hono', repository: '4.12.23', sameSeries: '4.12.30', latest: '4.12.30', strategy: '补丁升级后回归 hc<AppType> 与错误协议。' },
+    { name: 'TanStack Start', repository: '1.168.27', sameSeries: '1.168.28', latest: '1.168.28', strategy: '只做补丁回归；保持 routeTree 为生成文件。' },
+    { name: 'Drizzle ORM', repository: '1.0.0-rc.1', sameSeries: '1.0.0-rc.4', latest: '0.45.2 stable', strategy: '当前使用 Relations v2 RC，不能按 0.45 文档降级；升级先审 migration SQL。' },
+  ],
+  caveats: [
+    '216 只统计显式 Hono 业务端点，不含 Better Auth 动态端点和 TanStack 页面路由。',
+    '版本以 pnpm-lock.yaml / uv.lock 为准；本地 node_modules 存在版本漂移。',
+    '@mastra/observability 已安装但未发现初始化，不能宣传为已完成 OpenTelemetry。',
+    '自研 Aliyun STT 是备用代码；当前运行链是 ElevenLabs scribe_v2_realtime。',
+  ],
+}
