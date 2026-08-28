@@ -100,11 +100,12 @@ const ALL_NEWS: TechnologyNewsItem[] = [
   },
   {
     date: '2026-08-20',
+    time: '04:08',
     category: '前端',
     title: 'Vite 8.2.2 修复循环依赖热更新',
     summary: '循环导入改为热更新而非整页刷新，同时修正 SSR 解构与符号链接根路径。',
     source: 'Vite',
-    url: 'https://github.com/vitejs/vite/blob/v8.2.2/packages/vite/CHANGELOG.md',
+    url: 'https://github.com/vitejs/vite/releases/tag/v8.2.2',
   },
   {
     date: '2026-08-18',
