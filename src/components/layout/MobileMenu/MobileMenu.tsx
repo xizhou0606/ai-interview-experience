@@ -1,4 +1,4 @@
-import { BarChart3, BookMarked, BookOpen, Boxes, Braces, ChevronRight, FolderGit2, ListTree, Route, Workflow, X } from 'lucide-react'
+import { BarChart3, BookMarked, BookOpen, Boxes, Braces, ChevronRight, FolderGit2, ListTree, Newspaper, Route, Workflow, X } from 'lucide-react'
 import { navigateTo } from '../../../app/router'
 import { engineeringPatternTechnologies, frameworkTechnologies } from '../../../data/catalog'
 import { buildTechnologyNavigation } from '../../../data/technology-navigation'
@@ -10,6 +10,7 @@ export function MobileMenu({ open, onClose }: MobileMenuProps) {
   if (!open) return null
   const openRoute = (hash: string) => { navigateTo(hash); onClose() }
   const sections = [
+    { title: '动态', items: [{ label: '技术新闻', hash: '#news', icon: Newspaper }] },
     { title: '开始', items: [{ label: '学习路线', hash: '#roadmap', icon: Route }, { label: '技术栈总览与选型', hash: '#technologies', icon: Boxes }] },
     ...buildTechnologyNavigation(frameworkTechnologies).map((group) => ({ title: group.label, items: group.technologies.map((tech) => ({ label: tech.learningName ?? tech.name, hash: `#technology/${tech.slug}`, icon: BookOpen })) })),
     { title: '工程实践', items: [{ label: '工程实践总览', hash: '#patterns', icon: Workflow }, ...engineeringPatternTechnologies.map((practice) => ({ label: practice.name, hash: `#technology/${practice.slug}`, icon: Workflow }))] },

@@ -488,6 +488,22 @@
 .two-column-copy h3, .concept-grid h3, .operations-grid h3, .pitfall-list h3, .comparison-card strong, .checklist-card h3, .source-list strong, .code-explanation > strong { font-size: 14px; }
 .prerequisites strong, .prerequisites span, .flow-diagram strong, .caption, .usage-list code { font-size: 11px; }
 
+.news-empty { margin: 12px 0 0; padding: 28px 18px; color: var(--muted); background: white; border: 1px dashed var(--line-strong); border-radius: 10px; font-size: 13px; text-align: center; }
+.news-day { margin: 0 0 28px; padding: 0 0 8px; border-bottom: 1px solid var(--line); }
+.news-day:last-child { border-bottom: 0; }
+.news-day h2 { margin: 0 0 12px; color: var(--forest-2); font: 800 13px/1 ui-monospace, SFMono-Regular, monospace; letter-spacing: .04em; }
+.news-item { margin: 0 0 10px; padding: 16px 18px; background: white; border: 1px solid var(--line); border-radius: 12px; }
+.news-item-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 10px; }
+.news-badge { padding: 4px 7px; border-radius: 4px; font-size: 9px; font-weight: 800; }
+.news-badge-frontend { color: var(--forest-2); background: var(--mint-soft); }
+.news-badge-backend { color: #3d5870; background: #e7eef5; }
+.news-badge-ai { color: #5a4a78; background: #efe9f8; }
+.news-item time { color: var(--faint); font: 9px ui-monospace, SFMono-Regular, monospace; }
+.news-item h3 { margin: 0 0 6px; font-size: 16px; letter-spacing: -.02em; }
+.news-item p { margin: 0 0 12px; color: var(--muted); font-size: 12px; line-height: 1.65; }
+.news-item a { display: inline-flex; align-items: center; gap: 5px; color: var(--forest-2); font-size: 10px; font-weight: 750; }
+.news-item a:hover { color: var(--forest); }
+
 /* Keep the final responsive overrides after every learning component definition. */
 @container docs (max-width: 760px) {
   .two-column-copy, .concept-grid, .operations-grid, .exercise-grid, .technology-comparison-grid, .beginner-choice-grid, .decision-map-steps, .ai-sdk-quickstart-heading, .ai-sdk-choice-guide > div:last-child, .ai-sdk-code-grid, .pattern-learning-columns { grid-template-columns: 1fr; }
