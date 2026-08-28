@@ -148,6 +148,25 @@
 .reference-list h3 { margin: 4px 0; font-size: 14px; }
 .reference-list p { margin: 0; color: var(--muted); font-size: 9px; }
 .reference-list svg { color: var(--faint); }
+.news-day { margin: 0 0 34px; }
+.news-day-head { margin: 0 0 12px; padding: 0 2px 10px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.news-day-head span { color: var(--ink); font: 16px ui-monospace, SFMono-Regular, monospace; font-weight: 850; }
+.news-day-head em { color: var(--forest-2); font-size: 9px; font-style: normal; font-weight: 800; }
+.news-list { display: grid; gap: 10px; }
+.news-item { padding: 18px 18px 16px; background: white; border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow-sm); }
+.news-item-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.news-item-meta time { color: var(--faint); font: 9px ui-monospace, SFMono-Regular, monospace; }
+.news-badge { padding: 4px 7px; border-radius: 4px; font-size: 8px; font-weight: 800; letter-spacing: .06em; }
+.news-badge-前端 { color: var(--forest-2); background: var(--mint-soft); }
+.news-badge-后端 { color: #3d5a73; background: #e6eef5; }
+.news-badge-AI { color: #9a5d13; background: #fff0d5; }
+.news-item h3 { margin: 10px 0 7px; font-size: 16px; letter-spacing: -.02em; }
+.news-item > p { margin: 0 0 14px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.news-item > a { min-width: 0; display: grid; grid-template-columns: auto minmax(0, 1fr) 16px; align-items: center; gap: 8px; padding-top: 12px; border-top: 1px solid var(--line); color: var(--forest-2); font-size: 10px; font-weight: 750; }
+.news-item > a small { overflow: hidden; color: var(--faint); font-weight: 600; white-space: nowrap; text-overflow: ellipsis; }
+.news-item > a svg { color: var(--faint); }
+.news-item > a:hover { color: var(--forest); }
+.news-empty { margin: 28px 0 0; color: var(--muted); font-size: 13px; }
 
 .article-page { max-width: 780px; margin: 0 auto; }
 .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-bottom: 32px; color: #59675f; font-size: 9px; line-height: 1.5; }
