@@ -1,6 +1,7 @@
-import { Braces, Boxes, FolderGit2, Route, Workflow } from 'lucide-react'
+import { Braces, Boxes, FolderGit2, Newspaper, Route, Workflow } from 'lucide-react'
 
 export const NAV_ITEMS = [
+  { label: '技术新闻', hash: '#news', icon: Newspaper },
   { label: '学习路线', hash: '#roadmap', icon: Route },
   { label: '技术栈', hash: '#technologies', icon: Boxes },
   { label: '框架 API', hash: '#apis', icon: Braces },

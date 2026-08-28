@@ -1,5 +1,6 @@
 export type AppRoute =
   | { page: 'home' }
+  | { page: 'news' }
   | { page: 'roadmap' }
   | { page: 'technologies' }
   | { page: 'technology'; slug: string }

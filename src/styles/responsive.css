@@ -13,7 +13,7 @@
   .mobile-page-toc nav button span { color: var(--forest-2); font: 9px ui-monospace, SFMono-Regular, monospace; }
   .hero-section { grid-template-columns: 1fr 390px; gap: 42px; }
   .project-showcase-inner { grid-template-columns: 270px 1fr; gap: 45px; }
-  .article-section { scroll-margin-top: calc(var(--header-h) + 76px); }
+  .article-section, .news-day { scroll-margin-top: calc(var(--header-h) + 76px); }
 }
 
 @media (max-width: 900px) {
