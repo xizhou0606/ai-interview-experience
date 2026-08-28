@@ -14,6 +14,7 @@
   .hero-section { grid-template-columns: 1fr 390px; gap: 42px; }
   .project-showcase-inner { grid-template-columns: 270px 1fr; gap: 45px; }
   .article-section { scroll-margin-top: calc(var(--header-h) + 76px); }
+  .news-day { scroll-margin-top: calc(var(--header-h) + 76px); }
 }
 
 @media (max-width: 900px) {
@@ -86,6 +87,8 @@
   .intro-stats { gap: 18px; }
   .intro-stats div { flex-direction: column; gap: 2px; }
   .technology-grid, .project-list, .pattern-grid, .trust-model { grid-template-columns: 1fr; }
+  .news-item { padding: 14px; }
+  .news-item h2 { font-size: 16px; }
   .technology-card { min-height: 390px; }
   .roadmap-item { grid-template-columns: 42px 1fr; gap: 11px; }
   .roadmap-rail span { width: 38px; height: 38px; }
