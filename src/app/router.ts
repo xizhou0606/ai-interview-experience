@@ -5,7 +5,7 @@ export function parseRoute(): AppRoute {
   if (!value) return { page: 'home' }
   if (value.startsWith('technology/')) return { page: 'technology', slug: value.split('/')[1] }
   if (value.startsWith('api/')) return { page: 'api', slug: value.split('/')[1] }
-  if (value === 'roadmap' || value === 'technologies' || value === 'apis' || value === 'project-apis' || value === 'endpoints' || value === 'coverage' || value === 'projects' || value === 'patterns' || value === 'sources') {
+  if (value === 'roadmap' || value === 'technologies' || value === 'apis' || value === 'project-apis' || value === 'endpoints' || value === 'coverage' || value === 'projects' || value === 'patterns' || value === 'sources' || value === 'news') {
     return { page: value }
   }
   return { page: 'home' }

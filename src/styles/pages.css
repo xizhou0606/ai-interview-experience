@@ -488,6 +488,22 @@
 .two-column-copy h3, .concept-grid h3, .operations-grid h3, .pitfall-list h3, .comparison-card strong, .checklist-card h3, .source-list strong, .code-explanation > strong { font-size: 14px; }
 .prerequisites strong, .prerequisites span, .flow-diagram strong, .caption, .usage-list code { font-size: 11px; }
 
+.news-day .article-section-heading em { margin-left: auto; color: var(--forest-2); font-size: 9px; font-style: normal; font-weight: 800; }
+.news-list { display: grid; gap: 10px; }
+.news-item { padding: 18px 20px; background: white; border: 1px solid var(--line); border-radius: 12px; }
+.news-item-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.news-item-meta time { color: var(--faint); font: 9px ui-monospace, SFMono-Regular, monospace; }
+.news-badge { padding: 3px 7px; border-radius: 4px; font-size: 8px; font-weight: 800; }
+.news-badge-前端 { color: var(--forest-2); background: var(--mint-soft); }
+.news-badge-后端 { color: #3d5a78; background: #e8eef5; }
+.news-badge-AI { color: #96513a; background: #fff5f0; }
+.news-item h3 { margin: 12px 0 8px; font-size: 16px; letter-spacing: -.02em; }
+.news-item > p { margin: 0 0 14px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.news-item-source { display: flex; flex-wrap: wrap; gap: 14px; }
+.news-item-source a { display: inline-flex; align-items: center; gap: 5px; color: var(--forest-2); font-size: 10px; font-weight: 750; }
+.news-item-source svg { color: var(--faint); }
+.news-empty { padding: 36px 18px; color: var(--muted); background: var(--surface-2); border: 1px dashed var(--line-strong); border-radius: 10px; text-align: center; font-size: 12px; }
+
 /* Keep the final responsive overrides after every learning component definition. */
 @container docs (max-width: 760px) {
   .two-column-copy, .concept-grid, .operations-grid, .exercise-grid, .technology-comparison-grid, .beginner-choice-grid, .decision-map-steps, .ai-sdk-quickstart-heading, .ai-sdk-choice-guide > div:last-child, .ai-sdk-code-grid, .pattern-learning-columns { grid-template-columns: 1fr; }
