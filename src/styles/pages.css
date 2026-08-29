@@ -149,6 +149,25 @@
 .reference-list p { margin: 0; color: var(--muted); font-size: 9px; }
 .reference-list svg { color: var(--faint); }
 
+.news-day { margin: 0 0 34px; }
+.news-day-head { margin: 0 0 12px; padding: 0 2px 10px; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.news-day-head span { color: var(--ink); font-size: 16px; font-weight: 850; }
+.news-day-head em { color: var(--forest-2); font-size: 9px; font-style: normal; font-weight: 800; }
+.news-list { display: grid; gap: 8px; }
+.news-item { padding: 16px 18px; background: white; border: 1px solid var(--line); border-radius: 10px; }
+.news-item-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.news-item time { color: var(--faint); font: 9px ui-monospace, SFMono-Regular, monospace; }
+.news-badge { padding: 3px 7px; border: 1px solid transparent; border-radius: 4px; font-size: 8px; font-weight: 800; }
+.news-badge-frontend { color: var(--forest-2); background: var(--mint-soft); border-color: #c6e2d2; }
+.news-badge-backend { color: #3d4f72; background: #eef2f8; border-color: #d4dcea; }
+.news-badge-ai { color: #76520d; background: #fff8e7; border-color: #ecd59d; }
+.news-item h3 { margin: 10px 0 6px; font-size: 16px; letter-spacing: -.02em; }
+.news-item p { margin: 0 0 12px; color: var(--muted); font-size: 11px; line-height: 1.65; }
+.news-item a { display: inline-flex; align-items: center; gap: 5px; color: var(--forest-2); font-size: 9px; font-weight: 750; text-decoration: none; }
+.news-item a:hover { color: var(--forest); }
+.news-item a svg { color: var(--faint); }
+.news-empty { margin: 28px 0 0; color: var(--muted); font-size: 13px; }
+
 .article-page { max-width: 780px; margin: 0 auto; }
 .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; margin-bottom: 32px; color: #59675f; font-size: 9px; line-height: 1.5; }
 .breadcrumbs button { padding: 0; color: var(--forest-2); background: none; border: 0; cursor: pointer; }
