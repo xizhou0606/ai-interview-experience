@@ -2,6 +2,7 @@ import { lazy } from 'react'
 import type { AppRoute } from './types'
 import { technologies } from '../data/catalog'
 import { HomePage } from '../pages/home/HomePage'
+import { NewsPage } from '../pages/news/NewsPage'
 import { PatternsPage } from '../pages/patterns/PatternsPage'
 import { ProjectsPage } from '../pages/projects/ProjectsPage'
 import { RoadmapPage } from '../pages/roadmap/RoadmapPage'
@@ -26,6 +27,7 @@ export function AppRoutes({ route }: { route: AppRoute }) {
   if (route.page === 'projects') return <ProjectsPage />
   if (route.page === 'patterns') return <PatternsPage />
   if (route.page === 'sources') return <SourcesPage />
+  if (route.page === 'news') return <NewsPage />
   if (route.page === 'api') {
     return <ApiDetailRoutePage slug={route.slug} />
   }
