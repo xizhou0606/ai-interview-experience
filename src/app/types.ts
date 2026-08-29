@@ -11,3 +11,4 @@ export type AppRoute =
   | { page: 'projects' }
   | { page: 'patterns' }
   | { page: 'sources' }
+  | { page: 'news' }
