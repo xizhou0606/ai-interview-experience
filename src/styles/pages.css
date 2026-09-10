@@ -134,6 +134,18 @@
 .pattern-grid h2 { margin: 27px 0 10px; font-size: 19px; }
 .pattern-grid > article > p { color: var(--muted); font-size: 10px; line-height: 1.7; }
 .pattern-grid article > div:nth-last-child(2) { display: flex; align-items: center; gap: 5px; margin-top: auto; color: var(--faint); font-size: 8px; }
+.news-day { margin: 0 0 34px; }
+.news-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.news-item { min-height: 198px; padding: 18px 20px; display: flex; flex-direction: column; background: white; border: 1px solid var(--line); border-radius: 12px; }
+.news-item-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.news-item time { color: var(--faint); font: 8px ui-monospace, SFMono-Regular, monospace; }
+.news-badge { padding: 4px 7px; border-radius: 4px; font-size: 8px; font-weight: 750; }
+.news-badge-前端 { color: var(--forest-2); background: var(--mint-soft); }
+.news-badge-后端 { color: #3d5a73; background: #e7eef4; }
+.news-badge-AI { color: #6a4d1d; background: #f6eedc; }
+.news-item h2 { margin: 16px 0 8px; font-size: 16px; letter-spacing: -.02em; }
+.news-item p { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.65; }
+.news-item a { margin-top: auto; padding-top: 14px; display: inline-flex; align-items: center; gap: 5px; color: var(--forest-2); font-size: 9px; font-weight: 750; }
 .trust-model { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; margin-bottom: 45px; }
 .trust-model div { padding: 18px; background: white; border: 1px solid var(--line); border-radius: 10px; }
 .trust-model svg { color: var(--forest-2); }
@@ -424,8 +436,8 @@
 .docker-complex-takeaways { padding: 16px; display: grid; gap: 9px; background: #fff9ec; border: 1px solid #ead7ac; border-radius: 10px; }.docker-complex-takeaways > strong { color: #6c4b16; font-size: 12px; }.docker-complex-takeaways p { min-width: 0; margin: 0; display: grid; grid-template-columns: 22px minmax(0, 1fr); align-items: start; gap: 8px; color: #665b48; font-size: 10px; line-height: 1.7; }.docker-takeaway-number { width: 21px; height: 21px; display: grid; place-items: center; color: white; background: #9b712e; border-radius: 50%; font-size: 8px; }.docker-takeaway-copy { min-width: 0; overflow-wrap: anywhere; }.docker-complex-takeaways code { color: #704f1c; font: 9px ui-monospace, monospace; font-weight: 750; }
 
 /* Shared learning layouts must allow long Chinese copy, API names and code tokens to shrink inside their grid column. */
-.article-page, .article-section, .article-section > *, .article-title-row > div, .two-column-copy > *, .concept-grid > *, .operations-grid > *, .exercise-grid > *, .technology-comparison-grid > article, .technology-comparison-choice > div, .source-item > div, .usage-list article, .interview-answer-grid article, .decision-map-steps article { min-width: 0; }
-.article-title-row h1, .article-section-heading h2, .two-column-copy h3, .two-column-copy p, .concept-grid h3, .concept-grid p, .operations-grid h3, .operations-grid p, .technology-comparison-grid strong, .technology-comparison-grid p, .exercise-card h3, .source-list strong, .source-list p, .usage-list p { overflow-wrap: anywhere; }
+.article-page, .article-section, .article-section > *, .article-title-row > div, .two-column-copy > *, .concept-grid > *, .operations-grid > *, .exercise-grid > *, .technology-comparison-grid > article, .technology-comparison-choice > div, .source-item > div, .usage-list article, .interview-answer-grid article, .decision-map-steps article, .news-item { min-width: 0; }
+.article-title-row h1, .article-section-heading h2, .two-column-copy h3, .two-column-copy p, .concept-grid h3, .concept-grid p, .operations-grid h3, .operations-grid p, .technology-comparison-grid strong, .technology-comparison-grid p, .exercise-card h3, .source-list strong, .source-list p, .usage-list p, .news-item h2, .news-item p { overflow-wrap: anywhere; }
 .usage-list code { max-width: 100%; display: block; overflow-wrap: anywhere; white-space: normal; }
 .docker-labs-intro { padding: 18px; background: #eef6ff; border: 1px solid #cbdff8; border-radius: 11px; }
 .docker-labs-intro strong { color: #1859a8; font-size: 14px; }.docker-labs-intro p { margin: 6px 0 0; color: #526477; font-size: 11px; line-height: 1.75; }
