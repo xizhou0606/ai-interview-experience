@@ -1082,6 +1082,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Neon Blog',
     url: 'https://neon.com/blog/an-agent-provisions-a-neon-backend-a-human-claims-it-later',
   },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Google Cloud 推出编码智能体插件',
+    summary: '旗舰插件打包技能与文档知识 MCP，经开放规范装入 Claude Code、Codex CLI。',
+    source: 'Google Cloud Blog',
+    url: 'https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents',
+  },
 ]
 
 function codePointLength(value: string) {
