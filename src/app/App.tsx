@@ -17,6 +17,7 @@ export function App() {
 
   useEffect(() => {
     const onHash = () => setRoute(parseRoute())
+    onHash()
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])

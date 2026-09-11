@@ -10,4 +10,5 @@ export type AppRoute =
   | { page: 'coverage' }
   | { page: 'projects' }
   | { page: 'patterns' }
+  | { page: 'news' }
   | { page: 'sources' }
