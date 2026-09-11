@@ -20,6 +20,22 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-11',
+    category: '前端',
+    title: 'Safari TP 252 落地多项 Web 标准',
+    summary: '取消 user-select 前缀，支持外部 SVG 资源与 Wasm memory64 多内存。',
+    source: 'WebKit Blog',
+    url: 'https://webkit.org/blog/18304/release-notes-for-safari-technology-preview-252/',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Google Tunix 智能体通宵自主后训练',
+    summary: 'Markdown 规格驱动智能体在 TPU 上整夜迭代 SFT 与 GRPO 训练脚本。',
+    source: 'Google Developers Blog',
+    url: 'https://developers.googleblog.com/autonomous-llm-post-training-with-tunix-on-tpus/',
+  },
+  {
+    date: '2026-09-11',
     category: 'AI',
     title: 'Claude 不再向未成年人开放',
     summary: '消费者版引入年龄验证，疑似未成年账户将停用，需经 Yoti 核验后恢复。',
@@ -41,6 +57,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '用最新 SDK 与 CLI 且以镜像创建沙箱时，默认存储翻倍到 64GB。',
     source: 'Vercel Changelog',
     url: 'https://vercel.com/changelog/vercel-sandbox-64-gb-storage',
+  },
+  {
+    date: '2026-09-10',
+    category: 'AI',
+    title: 'GGUF 量化新增按张量布局映射',
+    summary: '按 KL 散度测张量敏感度，求解器分配比特预算，敏感层保留更高精度。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/bartowski/per-tensor-layout-maps-for-gguf-quantization',
   },
   {
     date: '2026-09-10',
@@ -269,6 +293,22 @@ export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-09',
     category: 'AI',
+    title: 'Google ADK for Kotlin 1.0 发布',
+    summary: '与 Python、Java 核心对齐，KMP 内核加 LiteRT-LM、Firebase 等 Android 扩展。',
+    source: 'Google Developers Blog',
+    url: 'https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
+    title: 'Google 拆解编码智能体 Harness 工程',
+    summary: '主张用单元级行为测试补充 SWE-bench，安全迭代提示词与升级模型。',
+    source: 'Google Developers Blog',
+    url: 'https://developers.googleblog.com/the-anatomy-of-harness-engineering-how-to-evaluate-iterate-and-guard-ai-coding-agents/',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
     title: 'Codex CLI 接入 GPT-6-Astra',
     summary: '模型选择器新增 GPT-6-Astra，实验性 worktree 隔离检出，支持边跑边提问。',
     source: 'Codex GitHub',
@@ -409,6 +449,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '新增原生滚动条样式、逻辑属性工具与 zoom、tab-size，@variant 支持也增强。',
     source: 'Tailwind Blog',
     url: 'https://tailwindcss.com/blog/tailwindcss-v4-3',
+  },
+  {
+    date: '2026-09-08',
+    category: '前端',
+    title: 'Expo Modules 2.0 抢先看',
+    summary: '@JS 宏把参数转换移到编译期，同步调用提速 2.5 到 5.6 倍，SDK 57 先行。',
+    source: 'Expo Blog',
+    url: 'https://expo.dev/blog/an-early-look-at-expo-modules-2-0',
   },
   {
     date: '2026-09-08',
@@ -665,6 +713,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '介绍 Go 1.27 的 goroutine 泄漏 profile：采集、解读与压测定位思路。',
     source: 'The Go Blog',
     url: 'https://go.dev/blog/goroutine-leak-profiles',
+  },
+  {
+    date: '2026-09-01',
+    category: '前端',
+    title: 'Svelte 九月动态：SvelteKit 3 推进',
+    summary: 'Svelte 5.57 加 SvelteMap 新方法，sv 1.0 预览带任务化 SvelteKit 3 迁移。',
+    source: 'Svelte Blog',
+    url: 'https://svelte.dev/blog/whats-new-in-svelte-september-2026',
   },
   {
     date: '2026-09-01',
