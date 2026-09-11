@@ -20,11 +20,43 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-11',
+    category: 'AI',
+    title: 'Claude 不再向未成年人开放',
+    summary: '消费者版引入年龄验证，疑似未成年账户将停用，需经 Yoti 核验后恢复。',
+    source: 'Anthropic Help Center',
+    url: 'https://support.claude.com/en/articles/15171100-age-assurance-on-claude',
+  },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'Cloudflare CASB 支持自动修复策略',
+    summary: '发现风险后经队列与工作流自动撤销共享或发 Webhook，目标五分钟内完成。',
+    source: 'Cloudflare Blog',
+    url: 'https://blog.cloudflare.com/casb-policies/',
+  },
+  {
+    date: '2026-09-11',
     category: '后端',
     title: 'Vercel Sandbox 存储增至 64GB',
     summary: '用最新 SDK 与 CLI 且以镜像创建沙箱时，默认存储翻倍到 64GB。',
     source: 'Vercel Changelog',
     url: 'https://vercel.com/changelog/vercel-sandbox-64-gb-storage',
+  },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'Forgejo 16.0.4 修复严重 RCE',
+    summary: '模板仓库借变量展开植入 .git 可致任意代码执行，16.0.3 及更早需升级。',
+    source: 'Forgejo Release Notes',
+    url: 'https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md',
+  },
+  {
+    date: '2026-09-10',
+    category: '前端',
+    title: 'Deathray：恶意网站可冻结 Mac',
+    summary: 'WebGPU 无限循环着色器拖垮 macOS 窗口系统，三大浏览器均受影响。',
+    source: 'Auberon Blog',
+    url: 'https://auberon.xyz/blog/posts/deathray/',
   },
   {
     date: '2026-09-10',
@@ -217,6 +249,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '可同时听说的实时语音模型上线，推理与工具调用交后端智能体，按秒计费每分钟 0.05 美元。',
     source: 'OpenAI Dev Docs',
     url: 'https://developers.openai.com/api/docs/models/gpt-live-1',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
+    title: 'GitHub 企业级智能体权限管控上线',
+    summary: '管理员可对 Shell、文件编辑与网络域名设禁用或审批，用户设置无法放宽。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations',
   },
   {
     date: '2026-09-09',
