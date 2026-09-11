@@ -970,6 +970,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'AWS News Blog',
     url: 'https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/',
   },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'Rune 终端 IDE 开源，采用 GPLv3',
+    summary: 'Go 编写的终端 IDE 兼多路复用器，面向 AI 编码工作流，源码与文档同步开放。',
+    source: 'Rune Blog',
+    url: 'https://rune.build/blog/rune-is-now-open-source',
+  },
 ]
 
 function codePointLength(value: string) {
