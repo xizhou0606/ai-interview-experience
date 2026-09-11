@@ -259,6 +259,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://developers.openai.com/api/docs/models/gpt-live-1',
   },
   {
+    date: '2026-09-10',
+    category: 'AI',
+    title: 'Copilot 应用接入 Jira 工单',
+    summary: '周更公告：Copilot 应用可将 Jira 议题拉入画布，调查、实现到开 PR 全程携带上下文。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-10-github-copilot-weekly-releases-september-7',
+  },
+  {
     date: '2026-09-09',
     category: '后端',
     title: 'GitHub 高级安全试用扩至 300 席',
@@ -387,6 +395,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://blog.cloudflare.com/workers-module-registry-nodejs/',
   },
   {
+    date: '2026-09-09',
+    category: '前端',
+    title: 'Tailwind CSS 4.3 正式发布',
+    summary: '新增原生滚动条样式、逻辑属性工具与 zoom、tab-size，@variant 支持也增强。',
+    source: 'Tailwind Blog',
+    url: 'https://tailwindcss.com/blog/tailwindcss-v4-3',
+  },
+  {
     date: '2026-09-08',
     category: '后端',
     title: 'GitHub 企业自托管版 3.22 发布',
@@ -497,6 +513,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'kubelet、CRI 运行时与 kube-proxy 改以用户命名空间非 root 运行，节点更安全。',
     source: 'Kubernetes Blog',
     url: 'https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/',
+  },
+  {
+    date: '2026-09-04',
+    category: '前端',
+    title: 'Playwright 1.63 支持命名测试锁',
+    summary: '命名锁防并发重跑，新增 locator.visible()、子树 frameLocator 搜索与步骤参数。',
+    source: 'Playwright GitHub',
+    url: 'https://github.com/microsoft/playwright/releases/tag/v1.63.0',
   },
   {
     date: '2026-09-03',
