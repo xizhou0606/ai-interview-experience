@@ -268,6 +268,14 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-09',
+    category: 'AI',
+    title: 'Codex CLI 接入 GPT-6-Astra',
+    summary: '模型选择器新增 GPT-6-Astra，实验性 worktree 隔离检出，支持边跑边提问。',
+    source: 'Codex GitHub',
+    url: 'https://github.com/openai/codex/releases/tag/rust-v0.154.0',
+  },
+  {
+    date: '2026-09-09',
     category: '后端',
     title: 'GitHub 高级安全试用扩至 300 席',
     summary: '企业云客户自助试用上限从 100 席升至 300 席，可评估代码安全与密钥保护。',
@@ -405,6 +413,14 @@ export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-08',
     category: '后端',
+    title: '.NET 11 RC1 发布，支持生产上线',
+    summary: 'RC1 带 go-live 支持许可，C# 15 unions 转稳，SignalR 认证刷新 API 定稿。',
+    source: '.NET Blog',
+    url: 'https://devblogs.microsoft.com/dotnet/dotnet-11-rc-1/',
+  },
+  {
+    date: '2026-09-08',
+    category: '后端',
     title: 'GitHub 企业自托管版 3.22 发布',
     summary: 'Copilot CLI 可用于离线气隙环境，企业团队与必需审查者规则双双转正。',
     source: 'GitHub Changelog',
@@ -465,6 +481,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Sunburst 专注精准编辑重绘，Flare 主打高速生成，均新增 xhigh 与 max 质量档。',
     source: 'OpenAI Dev Docs',
     url: 'https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst',
+  },
+  {
+    date: '2026-09-07',
+    category: '后端',
+    title: 'Kotlin 2.4.20 发布，K1 编译器弃用',
+    summary: '显式上下文参数转正，Kotlin/Native 增量编译默认开启，新增实验语言版本 2.6。',
+    source: 'Kotlin GitHub',
+    url: 'https://github.com/JetBrains/kotlin/releases/tag/v2.4.20',
   },
   {
     date: '2026-09-05',
@@ -689,30 +713,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '内存优化型 R9g/R9gd 全面可用，官方称每 vCPU 算力较 Graviton4 最高提升 25%。',
     source: 'AWS News Blog',
     url: 'https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/',
-  },
-  {
-    date: '2026-08-28',
-    category: '前端',
-    title: 'Svelte 5.57.0 发布',
-    summary: '新增 RenderOutput 等导出，createContext 可用 has 与 select 默认值。',
-    source: 'Svelte GitHub',
-    url: 'https://github.com/sveltejs/svelte/releases/tag/svelte%405.57.0',
-  },
-  {
-    date: '2026-08-28',
-    category: '后端',
-    title: 'Vercel CLI 新增 DNS 与域名命令',
-    summary: '终端可检查更新 DNS、续费域名、暂停项目并管理成员，支持 JSON 输出。',
-    source: 'Vercel Changelog',
-    url: 'https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects',
-  },
-  {
-    date: '2026-08-28',
-    category: 'AI',
-    title: '控制台可搭建并部署 eve Agent',
-    summary: '仪表盘向导会建仓库、选模型、接聊天或 Slack，并一键部署可对话的 Agent。',
-    source: 'Vercel Changelog',
-    url: 'https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard',
   },
 ]
 
