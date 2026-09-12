@@ -1474,6 +1474,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'InfoQ',
     url: 'https://www.infoq.com/news/2026/09/blume-docs-ai/',
   },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'Python 3.15 软弃用 re.match()',
+    summary: '新增 re.prefixmatch() 明确起始锚定，仅文档弃用，多数场景应改用 search/fullmatch。',
+    source: 'Hugo van Kemenade Blog',
+    url: 'https://hugovk.dev/blog/2026/soft-deprecating-re.match/',
+  },
 ]
 
 function codePointLength(value: string) {
