@@ -1826,6 +1826,30 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Anthropic',
     url: 'https://www.anthropic.com/news/enterprise-frontier-safeguards',
   },
+  {
+    date: '2026-09-12',
+    category: '前端',
+    title: 'KDE Plasma 6.8 远程桌面优化延迟',
+    summary: 'KRDP 在编码跟不上客户端时丢弃积压帧，Beta 2 定于 9 月 24 日。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/KDE-Plasma-6.8-KRDP-Lower-Lat',
+  },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'ClickFix 假验证码攻击正在流行',
+    summary: '诱导粘贴命令执行，Windows 与 macOS 均中招，无需签名证书即可投毒。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Garry Tan 力挺开放权重蒸馏',
+    summary: 'YC 掌门称监管不应介入蒸馏之争，盼美国开放权重实验室合法蒸馏前沿模型。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/',
+  },
 ]
 
 function codePointLength(value: string) {
