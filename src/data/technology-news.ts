@@ -1434,6 +1434,46 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'TinyGo GitHub',
     url: 'https://github.com/tinygo-org/tinygo/releases/tag/v0.42.0',
   },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'WalShadow：物理 WAL 复制 Postgres',
+    summary: '直接解析物理 WAL 写入 ClickHouse，实测延迟约 200 毫秒，每秒 28.9 万行。',
+    source: 'ClickHouse Blog',
+    url: 'https://clickhouse.com/blog/introducing-walshadow',
+  },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'ClickHouse 按需算力随查询扩容',
+    summary: '可为单个查询临时加节点跑重负载，不扰生产集群，按用量计费。',
+    source: 'ClickHouse Blog',
+    url: 'https://clickhouse.com/blog/on-demand-compute',
+  },
+  {
+    date: '2026-09-07',
+    category: '后端',
+    title: 'Netflix 转用开源 Flink 自动扩缩容',
+    summary: '超 3 万个流作业跨多个 AWS 区域，算子级扩缩弥补集群管理局限。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/',
+  },
+  {
+    date: '2026-09-06',
+    category: 'AI',
+    title: 'Google 开源 Mantis 漏洞扫描框架',
+    summary: 'AI 智能体自动完成识别、验证、复现到修复，主打降误报。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/',
+  },
+  {
+    date: '2026-09-05',
+    category: '前端',
+    title: 'Blume：单文件起步的文档站框架',
+    summary: '基于 Astro 与 Vite，只需 Node 和一个 Markdown 即可建 AI 友好站点。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/blume-docs-ai/',
+  },
 ]
 
 function codePointLength(value: string) {
