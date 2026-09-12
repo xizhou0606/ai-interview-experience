@@ -2106,6 +2106,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Jacob Gold',
     url: 'https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/',
   },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Altman 称 OpenAI 2026 年不上市',
+    summary: '已秘密递交 IPO 申请，称当前安全氛围不宜上市，明确 2026 年不挂牌。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
+    title: '纳维-斯托克斯证明附带 Lean 4 形式版',
+    summary: '人工证明与机器可核验版同时公布，形式化核验仅用 17 小时，成本降四个数量级。',
+    source: 'John D. Cook Blog',
+    url: 'https://johndcook.com/blog/2026/09/09/formal-method-revolution/',
+  },
 ]
 
 function codePointLength(value: string) {
