@@ -1154,6 +1154,38 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Conviva Blog',
     url: 'https://www.conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower/',
   },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'K8s 1.37 原生直方图指标转 Beta',
+    summary: '组件时延指标改用动态指数桶，时间序列最多省 90%，量化分位不再需要 _bucket。',
+    source: 'Kubernetes Blog',
+    url: 'https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'GitHub 用 Copilot 把营销运营做成代码',
+    summary: '议题标签触发 Copilot 智能体跑活动流水线，筹备从大半天缩到分钟级。',
+    source: 'GitHub Blog',
+    url: 'https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/',
+  },
+  {
+    date: '2026-09-10',
+    category: 'AI',
+    title: 'NVIDIA 拆解 NIM 全栈推理优化',
+    summary: '全栈优化让 Nemotron 3 Ultra 部署可承载 2.5 倍并发用户。',
+    source: 'NVIDIA Developer Blog',
+    url: 'https://developer.nvidia.com/blog/how-full-stack-nim-optimizations-deliver-2-5x-more-users-on-nemotron-3-ultra/',
+  },
+  {
+    date: '2026-09-08',
+    category: '后端',
+    title: 'Project Zero 发布内核竞态测试新工具',
+    summary: '内存访问追踪加栈级延迟注入，可确定性复现内核竞态，LLVM 补丁已落地。',
+    source: 'Google Project Zero',
+    url: 'https://projectzero.google/2026/09/maccconc-race-condition.html',
+  },
 ]
 
 function codePointLength(value: string) {
