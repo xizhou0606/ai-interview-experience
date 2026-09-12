@@ -1946,6 +1946,38 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Tedium',
     url: 'https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/',
   },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Void Linux AI 争议致百余包弃管',
+    summary: '贡献者用 AI 未申报被质疑后弃管 113 个包，Kubernetes 等待他人认领。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Void-Linux-AI-Policy-Orphan',
+  },
+  {
+    date: '2026-09-12',
+    category: '后端',
+    title: '开源项目把完整 iOS 27 装进 Mac 虚拟机',
+    summary: '基于 Virtualization.framework 自动引导固件，可 root SSH 与 VNC 调试。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/ios-27-virtualization/',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: '数学家指 OpenAI 以署名条件挖角竞争者',
+    summary: 'Buckmaster 称 Bubeck 以无限算力和独占署名拉拢 Alpöge，OpenAI 否认。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition',
+  },
+  {
+    date: '2026-09-10',
+    category: 'AI',
+    title: 'Anthropic 通报五起蒸馏抽取攻击',
+    summary: '近 2 亿条对话被用于提取推理链，最大一起归因阿里 151M 条与 3500 个账号。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/',
+  },
 ]
 
 function codePointLength(value: string) {
