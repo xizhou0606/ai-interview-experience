@@ -2122,6 +2122,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'John D. Cook Blog',
     url: 'https://johndcook.com/blog/2026/09/09/formal-method-revolution/',
   },
+  {
+    date: '2026-09-02',
+    time: '13:06',
+    category: '后端',
+    title: 'Zoom Linux 客户端被曝持续读取剪贴板',
+    summary: 'PuTTY 作者发现新版 Zoom 未粘贴也主动请求 X11 剪贴板内容，存敏感信息需留意。',
+    source: 'Simon Tatham on Mastodon',
+    url: 'https://hachyderm.io/@simontatham/117201594980991062',
+  },
 ]
 
 function codePointLength(value: string) {
