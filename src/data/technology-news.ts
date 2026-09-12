@@ -1266,6 +1266,46 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'AWS News Blog',
     url: 'https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/',
   },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Schulman 等激辩递归自我改进',
+    summary: '三位研究者：远未到天花板，长程 RL、数据与架构之争及能力时间表全讨论。',
+    source: 'Dwarkesh Podcast',
+    url: 'https://www.dwarkesh.com/p/john-beren-charlie',
+  },
+  {
+    date: '2026-09-09',
+    category: '后端',
+    title: 'Node.js 26.8.2 更新 Current 线',
+    summary: '升级 OpenSSL 3.5.8 与 Undici 8.10.2，弃用 net 内部 _listen2 方法。',
+    source: 'Node.js Blog',
+    url: 'https://nodejs.org/en/blog/release/v26.8.2',
+  },
+  {
+    date: '2026-09-09',
+    category: '后端',
+    title: 'Infisical 拆解文件夹级 RBAC 实现',
+    summary: '不迁移 Zanzibar：五档权限存原表，CASL 分层授权，版本计数器解缓存失效。',
+    source: 'Infisical Blog',
+    url: 'https://infisical.com/blog/folder-based-rbac',
+  },
+  {
+    date: '2026-09-08',
+    category: '前端',
+    title: 'WebStorm 接入 TypeScript 7 引擎',
+    summary: 'Go 版语言服务原生可用，Kibana 加载从 12 秒缩到 3 秒，Angular 与 React 免迁移。',
+    source: 'JetBrains Blog',
+    url: 'https://blog.jetbrains.com/webstorm/2026/09/typescript-7-in-webstorm-faster-coding-assistance-for-angular-and-react-no-migration-required/',
+  },
+  {
+    date: '2026-09-08',
+    category: '后端',
+    title: '论文拆解七种运行时的 async/await 差异',
+    summary: '九个设计维度解释同一示例在七种运行时为何有四种不同输出。',
+    source: 'Brown CEL Blog',
+    url: 'https://cel.cs.brown.edu/blog/design-space-async-await/',
+  },
 ]
 
 function codePointLength(value: string) {
