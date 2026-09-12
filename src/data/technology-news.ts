@@ -2131,6 +2131,31 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Simon Tatham on Mastodon',
     url: 'https://hachyderm.io/@simontatham/117201594980991062',
   },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Real-SWE 基准用真实企业代码考智能体',
+    summary: '八组模型加测试框架在私企真实代码库实测：Fable 5.1 以 38.8% 居首，最难题全员零分。',
+    source: 'Specific',
+    url: 'https://withspecific.com/benchmarks/real-swe',
+  },
+  {
+    date: '2026-09-11',
+    time: '16:00',
+    category: 'AI',
+    title: 'Devin 用 GPT-6 Astra 自测产出',
+    summary: 'Astra 帮 Devin 测试并证明软件真的可用，目标是让工程师少审代码、更快交付。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/cognition-devin-testing-with-astra',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Mecka AI 获红杉领投，估值近 5 亿美元',
+    summary: '机器人训练数据公司 Mecka AI 接近完成红杉领投新一轮融资，估值接近 5 亿美元。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/',
+  },
 ]
 
 function codePointLength(value: string) {
