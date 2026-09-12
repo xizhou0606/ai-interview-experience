@@ -2034,6 +2034,38 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Datasette Blog',
     url: 'https://datasette.io/blog/2026/september-security-releases/',
   },
+  {
+    date: '2026-09-12',
+    category: '后端',
+    title: 'Debian 13.7 发布，安装介质集中修复',
+    summary: '数十项安全修复覆盖内核、Chromium、Samba 与 PHP，Debian 14 预计 2027 下半年发布。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Debian-13.7-Released',
+  },
+  {
+    date: '2026-09-12',
+    category: '后端',
+    title: 'Ubuntu 拟为 HWE 内核配独立固件包',
+    summary: '固件厂商很少测试旧内核组合，回移植曾致 AMD 回归，26.10 或引入 linux-firmware-hwe。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Ubuntu-Considers-Linux-Firm-HWE',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Wringer 量化压到 2.655 比特/权重',
+    summary: '免训练两段量化让 4B 推理模型保留 93.7% 基准分数，同比特率下 k-量化仅 52.7%。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/wcamon/wringer-fill-then-wring-a-4b-reasoning-model-at-26',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
+    title: 'RLHF 共同开发者加入 OpenAI 董事会',
+    summary: 'Christiano 回归并进入安全与保安委员会，称前沿加速已有失控的重大风险。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/',
+  },
 ]
 
 function codePointLength(value: string) {
