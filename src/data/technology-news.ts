@@ -2066,6 +2066,30 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'TechCrunch',
     url: 'https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/',
   },
+  {
+    date: '2026-09-10',
+    category: 'AI',
+    title: '实测显示 LRU 难被缓存新策略击败',
+    summary: '回放 6.8 万条真实智能体会话请求模拟前缀缓存，三种新淘汰策略全部输给 LRU。',
+    source: 'GitHub',
+    url: 'https://github.com/gauravapiscean/agentic-kv-cache',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Nscale 聘 Fidji Simo 进董事会',
+    summary: '前 OpenAI 二把手加入这家 AI 云公司董事会，冲刺秋季 IPO，拟融资至多 35 亿美元。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/',
+  },
+  {
+    date: '2026-09-11',
+    category: 'AI',
+    title: 'Twitch 试点 AI 播后复盘教练',
+    summary: '直播结束后 AI 自动给主播改进建议，先小范围测试，扩大开放时将需自愿加入。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/994238/twitch-is-testing-an-ai-stream-coach-that-gives-creators-tips-after-their-streams',
+  },
 ]
 
 function codePointLength(value: string) {
