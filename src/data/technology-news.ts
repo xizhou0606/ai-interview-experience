@@ -2090,6 +2090,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'The Verge',
     url: 'https://www.theverge.com/ai-artificial-intelligence/994238/twitch-is-testing-an-ai-stream-coach-that-gives-creators-tips-after-their-streams',
   },
+  {
+    date: '2026-09-08',
+    category: '后端',
+    title: 'Rust 1.99 将稳定 never 类型',
+    summary: '推断回退改用 !，Infallible 变为别名，crater 3300 个 crate 仅 7 个真破坏。',
+    source: 'LWN',
+    url: 'https://lwn.net/Articles/1092274/',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: '公开信回应 Amodei：开放权重才是真降速',
+    summary: 'Gold 称第三方评估与算力门槛终致监管俘获，立法强制开放权重才能压低前沿估值。',
+    source: 'Jacob Gold',
+    url: 'https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights/',
+  },
 ]
 
 function codePointLength(value: string) {
