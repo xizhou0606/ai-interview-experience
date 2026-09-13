@@ -2787,6 +2787,31 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: '量子位',
     url: 'https://www.qbitai.com/2026/09/486716.html',
   },
+  {
+    date: '2026-09-13',
+    time: '21:57',
+    category: '后端',
+    title: 'Windows 11 正式移除 WMIC 工具',
+    summary: '9 月累积更新 KB5124008 移除 25 年老工具，官方提供 wmic_dlc.zip 临时恢复包。',
+    source: '快科技',
+    url: 'https://news.mydrivers.com/1/1150/1150796.htm',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: '开源智能体研究 IDE AgentsDock',
+    summary: '一个工作区并跑 Claude Code、Codex 与 Cursor，连自有服务器，桌面与手机可用。',
+    source: 'AgentsDock',
+    url: 'https://agentsdock.net/',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: '模型对齐到底对齐了谁？',
+    summary: '非专家评分员偏爱专家眼中的烂代码，先验失真波及全部自动评测，对齐无法化简。',
+    source: 'Ryan Lopopolo Blog',
+    url: 'https://hyperbo.la/w/aligned-to-whom/',
+  },
 ]
 
 function codePointLength(value: string) {
