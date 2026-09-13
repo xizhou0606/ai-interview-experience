@@ -2812,6 +2812,41 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Ryan Lopopolo Blog',
     url: 'https://hyperbo.la/w/aligned-to-whom/',
   },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Xe Iaso 讽刺降速倡议：除了我',
+    summary: '虚构自家 AGI 实验室表态支持暂停前沿研发，讽刺降速倡议背后的竞争私心。',
+    source: 'Xe Iaso Blog',
+    url: 'https://xeiaso.net/notes/2026/everyone-slowdown-but-me/',
+  },
+  {
+    date: '2026-09-13',
+    time: '21:40',
+    category: '后端',
+    title: 'Win11 云重装：崩溃后免 U 盘恢复',
+    summary: '预览版 26220.9343 在恢复环境提供云重装，从 Windows Update 拉镜像与驱动。',
+    source: '快科技',
+    url: 'https://news.mydrivers.com/1/1150/1150794.htm',
+  },
+  {
+    date: '2026-09-13',
+    time: '22:34',
+    category: 'AI',
+    title: '蚂蚁灵波开源三款 LingBot-World 2.0',
+    summary: '继 7 月 14B 后再放 Small 1.3B、双向与因果预训练三款，单卡实时生成已上 HF。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/863.htm',
+  },
+  {
+    date: '2026-09-13',
+    time: '22:43',
+    category: '后端',
+    title: '微软确认 9 月更新致 USB 音频失效',
+    summary: 'KB5124008 多声道与 3D 音频触发代码 10 错误，修复开发中，立体声可临时救急。',
+    source: '快科技',
+    url: 'https://news.mydrivers.com/1/1150/1150800.htm',
+  },
 ]
 
 function codePointLength(value: string) {
