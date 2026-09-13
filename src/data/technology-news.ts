@@ -2697,6 +2697,47 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'InfoQ中文站',
     url: 'https://www.infoq.cn/article/TDav5ojS854dZKyfJmhI',
   },
+  {
+    date: '2026-09-13',
+    category: '后端',
+    title: 'Homebrew 7.0 发布，Intel 支持降级',
+    summary: 'Intel Mac 降为 Tier 3 并将停用，新增官方 GUI 与 brew vulns 漏洞检查。',
+    source: 'Homebrew Blog',
+    url: 'https://brew.sh/2026/09/13/homebrew-7.0.0/',
+  },
+  {
+    date: '2026-09-12',
+    category: '后端',
+    title: 'JDK 27 运行时更新：G1 全面成默认 GC',
+    summary: 'JEP 523 让 G1 全面默认，JEP 534 压缩对象头堆省约 20%，JFR 默认脱敏。',
+    source: 'inside.java',
+    url: 'https://inside.java/2026/09/12/jdk-27-runtime-updates/',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'GPT-6 Astra 自主 27 分钟生成跑步路线',
+    summary: 'ChatGPT Work 基于地图数据自主 27 分钟产出 GPX 路线，作者批评压缩后代码不可见。',
+    source: 'Simon Willison',
+    url: 'https://simonwillison.net/2026/Sep/12/astra-running-routes/',
+  },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'LWN 探讨如何给内核构建提速',
+    summary: '内核构建频繁且耗时，作者借助 LLM 辅助优化构建流程，明显缩短编译时间。',
+    source: 'LWN',
+    url: 'https://lwn.net/Articles/1093398/',
+  },
+  {
+    date: '2026-09-10',
+    time: '16:17',
+    category: 'AI',
+    title: '高德发布 ABot-Earth 城市世界模型',
+    summary: '首个 3D 原生城市世界模型 0.7 上线，单卡 10 分钟生成公里级 3DGS 城市场景。',
+    source: '量子位',
+    url: 'https://www.qbitai.com/2026/09/486900.html',
+  },
 ]
 
 function codePointLength(value: string) {
