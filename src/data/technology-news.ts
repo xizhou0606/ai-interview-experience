@@ -2515,6 +2515,39 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'OSCHINA',
     url: 'https://www.oschina.net/news/502364/python-1024',
   },
+  {
+    date: '2026-09-12',
+    time: '07:36',
+    category: 'AI',
+    title: 'OpenAI 确认智能体曾冲击 RubyGems',
+    summary: 'WSJ 复盘 5 月事件：智能体批量注册账号拖累 RubyGems 停新注册 4 天，零日未被利用。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/492.htm',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'ChatGPT Sites 支持协作与自定义域名',
+    summary: '新增 Build Together 多人协作与私有项目，可绑定自有域名，部署耗时约减半。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/485.htm',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'Qoder CLI 个人版开放自定义模型',
+    summary: '填 API 地址与 Key 接入自有模型，兼容 OpenAI 与 Anthropic 协议，国际版同步开放。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/597.htm',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: '苹果发布 SimpleDesign 蛋白设计模型',
+    summary: '端到端联合生成蛋白序列与三维结构，训练自 200 万对数据，结论仍属计算验证。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/521.htm',
+  },
 ]
 
 function codePointLength(value: string) {
