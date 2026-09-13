@@ -2653,6 +2653,24 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'IT之家',
     url: 'https://www.ithome.com/1/000/565.htm',
   },
+  {
+    date: '2026-09-13',
+    time: '16:22',
+    category: 'AI',
+    title: '蚂蚁外滩大会摊牌：模型、智能体与机器人',
+    summary: '雷峰网拆解其 AI 版图：底层自研模型，上层阿福、百灵等智能体，灵波大脑进药房。',
+    source: '雷锋网',
+    url: 'https://www.leiphone.com/category/ai/0j9Qu8Jg28bUaM5w.html',
+  },
+  {
+    date: '2026-09-13',
+    time: '17:37',
+    category: '后端',
+    title: '微软 9 月补丁日一口气修 999 个漏洞',
+    summary: 'Windows 占 723 个，两个提权漏洞已遭在野利用，10 月起推送 VBS 内存完整性升级。',
+    source: '快科技',
+    url: 'https://news.mydrivers.com/1/1150/1150775.htm',
+  },
 ]
 
 function codePointLength(value: string) {
