@@ -2938,6 +2938,33 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Phoronix',
     url: 'https://www.phoronix.com/news/GNOME-Shotwell-33',
   },
+  {
+    date: '2026-09-13',
+    time: '10:04',
+    category: '后端',
+    title: 'Zstd 补丁为 Linux 7.4 省去冗余初始化',
+    summary: 'Usama Arif 新补丁避免 Zstd 压缩与解压路径重复初始化，随 Linux 7.4 合入。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Zstd-Linux-7.4-Avoid-Redundant',
+  },
+  {
+    date: '2026-09-13',
+    time: '13:23',
+    category: '后端',
+    title: 'ZLUDA 方案让 AMD 显卡跑 CUDA 应用',
+    summary: 'Windows 上组合 ZLUDA 与 ROCm/HIP，实测 cuBLAS 与 LibTorch 训练负载跑通。',
+    source: 'GitHub',
+    url: 'https://github.com/Speedstu/CUDA-for-AMD-Windows',
+  },
+  {
+    date: '2026-09-12',
+    time: '03:14',
+    category: '后端',
+    title: '谷歌搜索改用 goto 链接反爬虫',
+    summary: '结果链接改写为 google.com/goto 且目标加密，批量抓取需逐条回谷歌解析重定向。',
+    source: 'Autom.dev',
+    url: 'https://www.autom.dev/blog/google-search-goto-links',
+  },
 ]
 
 function codePointLength(value: string) {
