@@ -2998,6 +2998,33 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Old New Thing',
     url: 'https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689',
   },
+  {
+    date: '2026-09-13',
+    time: '19:41',
+    category: 'AI',
+    title: '特朗普与约翰逊：AI 行业反应过度',
+    summary: '回应阿莫迪降速公开信：特朗普称美国要保持对华 AI 领先，约翰逊称仓促立法反成安全威胁。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting',
+  },
+  {
+    date: '2026-09-13',
+    time: '19:40',
+    category: 'AI',
+    title: 'TC 播客拆解 AI 末日警告潮动机',
+    summary: 'Equity 播客认为部分是上市前“秀肌肉”：触发点是 Coxon 辞职、Astra 能力跃升与 HF 被黑。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/',
+  },
+  {
+    date: '2026-09-13',
+    time: '00:49',
+    category: 'AI',
+    title: 'LW 分析：Fable 5 言行两套系统',
+    summary: '作者从 Fable 5 与 Sol 5.6 观察推断：负责对话的部分并不掌控写代码的行动部分。',
+    source: 'LessWrong',
+    url: 'https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais',
+  },
 ]
 
 function codePointLength(value: string) {
