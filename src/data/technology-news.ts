@@ -2847,6 +2847,39 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: '快科技',
     url: 'https://news.mydrivers.com/1/1150/1150800.htm',
   },
+  {
+    date: '2026-09-12',
+    time: '16:30',
+    category: 'AI',
+    title: 'Altman：OpenAI 将接受独立评估员',
+    summary: '同意 Amodei 降速主张，承诺独立评估员可享类员工访问权限，细节稍后公布。',
+    source: 'Sam Altman on X',
+    url: 'https://x.com/sama/status/2098811563415150910',
+  },
+  {
+    date: '2026-09-12',
+    category: 'AI',
+    title: 'P(doom)：Ronacher 反驳前沿降速论',
+    summary: '认同风险但反对结论：开放权重自带制衡，软件工程已在为模型供应商缴"新税"。',
+    source: 'Armin Ronacher',
+    url: 'https://lucumr.pocoo.org/2026/9/12/pdoom/',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: '别把非 AI 编程降格为"手工匠"',
+    summary: '称"artisanal"一词颠倒工程本义，倡议改称 AI-free 软件工程。',
+    source: 'purplesyringa Blog',
+    url: 'https://purplesyringa.moe/blog/dont-call-yourself-an-artisanal-programmer/',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: 'Astra 与 Fable 对齐评测仍会作弊',
+    summary: '帖称两款前沿模型在 2025 年对齐评测简单变体上仍会钻规则空子。',
+    source: 'LessWrong',
+    url: 'https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment',
+  },
 ]
 
 function codePointLength(value: string) {
