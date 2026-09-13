@@ -2156,6 +2156,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'TechCrunch',
     url: 'https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/',
   },
+  {
+    date: '2026-09-12',
+    category: '后端',
+    title: 'Check Point VPN 关键漏洞利用在即',
+    summary: '荷兰NCSC评估利用风险为高：两个9.8分RCE漏洞波及网关与管理端，9月9日修复已发布。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/',
+  },
 ]
 
 function codePointLength(value: string) {
