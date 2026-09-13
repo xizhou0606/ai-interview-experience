@@ -2671,6 +2671,32 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: '快科技',
     url: 'https://news.mydrivers.com/1/1150/1150775.htm',
   },
+  {
+    date: '2026-09-13',
+    time: '18:50',
+    category: 'AI',
+    title: '智谱完成约 50 亿美元融资',
+    summary: '约 20 亿美元配售加 30 亿美元可转债，投向下一代 GLM 模型与完全自训练体系研发。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/833.htm',
+  },
+  {
+    date: '2026-09-13',
+    time: '16:25',
+    category: '后端',
+    title: 'AWS 第二代 Outposts 单机柜上市',
+    summary: '42U 单机柜最高 2688 个 vCPU 与 100TB EBS，vCPU、内存与带宽较初代翻倍。',
+    source: '快科技',
+    url: 'https://news.mydrivers.com/1/1150/1150769.htm',
+  },
+  {
+    date: '2026-09-13',
+    category: '后端',
+    title: 'FreeCORE：TrueNAS 衍生分支发布',
+    summary: '社区维护的 CORE 分支升到 FreeBSD 15，恢复 Jails、bhyve 与原生插件。',
+    source: 'InfoQ中文站',
+    url: 'https://www.infoq.cn/article/TDav5ojS854dZKyfJmhI',
+  },
 ]
 
 function codePointLength(value: string) {
