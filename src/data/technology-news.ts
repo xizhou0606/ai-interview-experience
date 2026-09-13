@@ -2548,6 +2548,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'IT之家',
     url: 'https://www.ithome.com/1/001/521.htm',
   },
+  {
+    date: '2026-09-13',
+    time: '15:32',
+    category: '后端',
+    title: '国产 GPU+类脑芯片大模型混合推理系统发布',
+    summary: '移动云等联合发布国内首个异构混合推理系统，DeepSeek V4 实测性价比翻倍、成本降四成。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/793.htm',
+  },
 ]
 
 function codePointLength(value: string) {
