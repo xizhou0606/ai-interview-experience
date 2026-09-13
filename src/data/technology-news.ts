@@ -2965,6 +2965,39 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Autom.dev',
     url: 'https://www.autom.dev/blog/google-search-goto-links',
   },
+  {
+    date: '2026-09-13',
+    time: '18:30',
+    category: 'AI',
+    title: '理想前首席AI科学家创业做具身智能',
+    summary: '斜跃智能获数亿元天使+轮融资，Duplex Reasoning 主打可打断可修正的双向对话。',
+    source: '雷锋网',
+    url: 'https://www.leiphone.com/category/industrynews/PHYwHDvtZ5GGXTK6.html',
+  },
+  {
+    date: '2026-09-13',
+    category: '后端',
+    title: 'DuckDB 原型支持 AT 子句组合时间旅行',
+    summary: '标量子查询可直接查快照元数据，快照查询可与快照查找自由组合成一条语句。',
+    source: 'rusty.today',
+    url: 'https://rusty.today/blog/duckdb-at-clause-lateral-temporal-tables/',
+  },
+  {
+    date: '2026-09-13',
+    category: '后端',
+    title: 'Tokio 高性能应用的九条原则',
+    summary: '拆解公平与批处理、争用与隔离的平衡：缩短临界区、少碰全局队列、绑定专用核。',
+    source: 'dial9 Blog',
+    url: 'https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/',
+  },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'x86 未定义指令为何叫 ud2',
+    summary: '编译器用它标记不可达代码：ud0/ud1 依赖未定义行为翻车后，Intel 才将 ud2 定为可靠异常。',
+    source: 'Old New Thing',
+    url: 'https://devblogs.microsoft.com/oldnewthing/20260910-00/?p=112689',
+  },
 ]
 
 function codePointLength(value: string) {
