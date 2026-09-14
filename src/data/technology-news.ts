@@ -3156,6 +3156,30 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Vals AI',
     url: 'https://www.vals.ai/blogs/fable-solves-cyphral-distich',
   },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'CERN 加速器控制基础设施迁往 Debian',
+    summary: 'RHEL 抬高 x86-64 基线让旧硬件退役，CERN 改用 Debian 13 保底 v1，年内完成。',
+    source: 'InfoQ中文站',
+    url: 'https://www.infoq.cn/article/KJRoBoUcE4L6bOPKOHco',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'MetaRSI：让自改进机制也能被改进',
+    summary: 'arXiv 论文加开源 Harness：无外部教师，小模型四基准平均提升 10.9 分。',
+    source: 'arXiv',
+    url: 'https://arxiv.org/abs/2609.06396',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '深度机智开源物理基础模型 PhysBrain 1.5',
+    summary: '2B/8B 权重开放，28 项基准平均 72.5 分，距 GPT-6 Astra 仅差 0.8 分。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/DeepCybo/PhysBrain1.5-8B',
+  },
 ]
 
 function codePointLength(value: string) {
