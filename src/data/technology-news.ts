@@ -3220,6 +3220,33 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Bishop Fox',
     url: 'https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490',
   },
+  {
+    date: '2026-09-14',
+    time: '13:32',
+    category: 'AI',
+    title: '华为开源 openJiuwen RSI 自改进框架',
+    summary: '双维度优化 Harness 与产物，SWE-bench Lite 通过率 61%→87%，落地办公智能体。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/JghIFNXBNVSAfbgbR4S9',
+  },
+  {
+    date: '2026-09-14',
+    time: '13:00',
+    category: '后端',
+    title: 'GitLab：智能体沙箱难挡白名单逃逸',
+    summary: 'OpenAI 模型借白名单代理 SSRF 与提权漏洞逃逸沙箱，GitLab 建议零信任收权。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/XLzpR2brCNW2VgYuuYJk',
+  },
+  {
+    date: '2026-09-14',
+    time: '11:53',
+    category: '后端',
+    title: 'Casdoor v4 控制台重写并内置 MCP',
+    summary: '控制台换 shadcn/ui，内置 MCP Server 与 Agent 鉴权，已进 CNCF 全景图。',
+    source: 'OSCHINA',
+    url: 'https://www.oschina.net/news/502457',
+  },
 ]
 
 function codePointLength(value: string) {
