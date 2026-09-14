@@ -3982,6 +3982,41 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'WSJ',
     url: 'https://www.wsj.com/tech/openai-buys-startup-developing-smartphone-camera-63590370',
   },
+  {
+    date: '2026-09-15',
+    time: '03:31',
+    category: '后端',
+    title: 'DDRop：200 美元装置击穿机密虚拟机',
+    summary: '200 美元间插板丢弃 DDR5 写入，破 TDX 与 SEV-SNP 完整性，可明文读私有内存。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/security/2026/09/14/new-hardware-device-can-ram-into-encrypted-memory-expose-your-data/5296377',
+  },
+  {
+    date: '2026-09-14',
+    time: '23:17',
+    category: '后端',
+    title: 'GNU Coreutils 9.12 稳定版发布',
+    summary: '21 周 288 项提交：sort 与 cut 提速，uname 增标签输出，修复越界读等缺陷。',
+    source: 'info-gnu 邮件列表',
+    url: 'https://lists.gnu.org/archive/html/info-gnu/2026-09/msg00003.html',
+  },
+  {
+    date: '2026-09-14',
+    time: '17:55',
+    category: 'AI',
+    title: 'OpenAI 呼吁英国为前沿 AI 立法',
+    summary: 'EMEA 政策负责人称自愿承诺不够，主张按能力定强制要求，独立测试并上报事故。',
+    source: 'Politico',
+    url: 'https://www.politico.eu/article/openai-uk-ai-artificial-intelligence-legislation-tom-duff-gordon/',
+  },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'AMD ESMTP 硬件级 SMT 侧信道防护',
+    summary: 'SEV-SNP 虚拟机可要求物理核姊妹线程空闲或跑受信 vCPU，或随下一代 EPYC 落地。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection',
+  },
 ]
 
 function codePointLength(value: string) {
