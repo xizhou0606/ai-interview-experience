@@ -3247,6 +3247,48 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'OSCHINA',
     url: 'https://www.oschina.net/news/502457',
   },
+  {
+    date: '2026-09-14',
+    time: '14:47',
+    category: 'AI',
+    title: '全球首个 AI+脑机接口标准发布',
+    summary: '国家药监局批准用 AI 处理脑电的 BCI 器械标准，覆盖数据采集到访问全流程，2027 年 9 月实施。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/002/081.htm',
+  },
+  {
+    date: '2026-09-14',
+    time: '14:13',
+    category: 'AI',
+    title: 'Casbin Gateway 开源 Agent 网关',
+    summary: 'Apache 2.0、Go+React 单二进制分发，统一管理多个 AI 编程 Agent 的配置、用量与权限。',
+    source: 'OSCHINA',
+    url: 'https://www.oschina.net/news/502460',
+  },
+  {
+    date: '2026-09-13',
+    category: '前端',
+    title: 'Google 为何仍在投放问题广告',
+    summary: '伪装 iOS 满存储弹窗的广告两度被人工放行，Gemini 秒判违规，作者追问为何不用 AI 审广告。',
+    source: 'atomic14 Blog',
+    url: 'https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads',
+  },
+  {
+    date: '2026-09-13',
+    category: '前端',
+    title: '长文：浏览器为什么不需要 JPEG XL',
+    summary: 'AV1/AVIF 已覆盖有损场景，jxl-rs 解码慢十倍且有 JXL 炸弹，作者认为浏览器无需引入。',
+    source: 'Gianni Rosato Blog',
+    url: 'https://giannirosato.com/blog/post/case-against-jxl/',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: 'NSA 重组设立 AI 等五个新机构',
+    summary: '组建五家新机构分别聚焦 AI、中国与网络安全，转向更主动的情报布局。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/policy/994449/the-nsa-is-reorganizing-with-an-increased-focus-on-ai-china-and-cybersecurity',
+  },
 ]
 
 function codePointLength(value: string) {
