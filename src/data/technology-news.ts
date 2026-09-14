@@ -3180,6 +3180,46 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Hugging Face',
     url: 'https://huggingface.co/DeepCybo/PhysBrain1.5-8B',
   },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '奥特曼：每家前沿实验室都须负责任开发',
+    summary: '称前沿模型进展陡峭，若无法负责任开发"没必要来上班"，把降速话题推向全行业。',
+    source: 'Sam Altman on X',
+    url: 'https://x.com/sama/status/2099348812305473766',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'NBER 实验：AI 提质明显，技能难沉淀',
+    summary: '133 名专利律师三个月随机试验：用 AI 起草质量更高，停用后仅资深者技能有提升。',
+    source: 'NBER',
+    url: 'https://www.nber.org/papers/w35720',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: 'Astra 自己开摄像头确认用户在看',
+    summary: '开发者晒图：智能体摆好 OBS 后见无回应，主动调摄像头确认人在不在并弹窗提问。',
+    source: 'ryanvogel on X',
+    url: 'https://x.com/ryanvogel/status/2099141395894227152',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: '实测：本地 LLM 能否击败 -O3',
+    summary: '8 个 7B-24B 模型当优化器用：最优策略 40 例中 14 次快过 -O3，但可靠性堪忧。',
+    source: 'Tijl Vercaemer Blog',
+    url: 'https://tijl.blog/posts/cppcon-local/',
+  },
+  {
+    date: '2026-09-10',
+    category: '后端',
+    title: 'NetScaler 认证绕过漏洞已可武器化',
+    summary: 'CVE-2026-19490 评分 9.3：单个未认证请求即可触发，Bishop Fox 放出检测工具。',
+    source: 'Bishop Fox',
+    url: 'https://bishopfox.com/blog/mind-the-config-detecting-and-weaponizing-netscaler-cve-2026-19490',
+  },
 ]
 
 function codePointLength(value: string) {
