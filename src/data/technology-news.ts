@@ -4017,6 +4017,47 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Phoronix',
     url: 'https://www.phoronix.com/news/AMD-Enhanced-SMT-Protection',
   },
+  {
+    date: '2026-09-14',
+    time: '22:00',
+    category: '后端',
+    title: '微软九月补丁日连爆三个回归',
+    summary: '远程桌面反复掉线、USB 音频设备失效，Excel 安全修复补丁还让粘贴静默失败。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/os-platforms/2026/09/14/microsoft_patches_windows_and_excel_breaks_audio_remote_access_and_paste/5296085',
+  },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'Java 周报：JEP 544/543 进入候选',
+    summary: 'AOT 编译与结构化并发转候选，JDK 27 定于 9 月 15 日 GA，Jakarta CDI 5.0 获批。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '实测：Luna 与 Astra 谁更会审代码',
+    summary: '50 个基准 PR 实测：Luna 找出 69 个缺陷，成本仅 Astra 的 3.6%，精确率 74% 对 96%。',
+    source: 'Entelligence',
+    url: 'https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'OpenArch 开源复刻主流 LLM 架构',
+    summary: '照 Raschka 图鉴手写 PyTorch，覆盖 Llama 4、Qwen 3、GLM 4.5 等 15 种架构。',
+    source: 'GitHub',
+    url: 'https://github.com/anuj0456/OpenArch',
+  },
+  {
+    date: '2026-09-09',
+    category: 'AI',
+    title: '中国新规整治 AI 恋爱陪伴应用',
+    summary: '未成年人禁用虚拟亲密关系，成人每两小时收到一次“对方非真人”提醒，大厂已下架定制。',
+    source: 'IEEE Spectrum',
+    url: 'https://spectrum.ieee.org/china-ai-chatbot-regulation',
+  },
 ]
 
 function codePointLength(value: string) {
