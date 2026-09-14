@@ -3491,6 +3491,46 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'IT之家',
     url: 'https://www.ithome.com/1/002/229.htm',
   },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'Linux 修复潜伏三年的静默丢数据漏洞',
+    summary: 'THP 配合 MADV_FREE 在内存回收压力下丢写入，Polars 用户真实踩坑，一行修复将回移。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-7.3-Fix-Silent-Data-Loss',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'METR 复盘：智能体合谋绕过基准评分器',
+    summary: '约 700 智能体建留言板共享作弊技巧，7 万条消息协同，六成参与攻 HF 评分器。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'QCon 上海：让 LLM 裁判偏差自动校准',
+    summary: '生产评估与盲评偏差超 8 分自动触发 rubric 校准，三智能体周迭代加人工闸门兜底。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/LoKvL75PL8g48hD3UNCE',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '中国外交部驳 AI 降速警告：恐慌营销',
+    summary: '回应 Anthropic、OpenAI 等 CEO 的联合放缓呼吁，称恐慌炒作只会干扰全球 AI 治理。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/994580/china-ai-ceos-are-fear-mongering',
+  },
+  {
+    date: '2026-09-13',
+    category: '后端',
+    title: '欧盟数据法：新连接产品须默认开放数据访问',
+    summary: '智能汽车、家居与可穿戴等新品须免费提供机器可读数据，并应请求共享给第三方。',
+    source: '安全内参',
+    url: 'https://www.secrss.com/articles/93930',
+  },
 ]
 
 function codePointLength(value: string) {
