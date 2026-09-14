@@ -3114,6 +3114,48 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'InfoQ 中文站',
     url: 'https://www.infoq.cn/article/VIjBCuNElpg2H4bLywVc',
   },
+  {
+    date: '2026-09-14',
+    time: '10:54',
+    category: 'AI',
+    title: '豆包手机助手消费者版发布',
+    summary: '指纹验证免解锁唤起，配套 SAEP 协议：第三方应用可声明拒绝 AI 屏幕自动化。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/971.htm',
+  },
+  {
+    date: '2026-09-14',
+    time: '10:11',
+    category: 'AI',
+    title: '马斯克：Grok 4.8 本周完成训练',
+    summary: '2.5 万亿参数用全新 C++ 软件栈训练，完成后启动 RL；Grok 4.7 因罚分过重延期数日。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/001/947.htm',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: 'Cantrill 撰文反驳 AI 灭绝恐惧',
+    summary: '以校园病毒恶作剧自嘲开篇，称 10% 灭绝论缺证据，物理智能受人类系统约束。',
+    source: 'Bryan Cantrill Blog',
+    url: 'https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/',
+  },
+  {
+    date: '2026-09-13',
+    category: '前端',
+    title: 'Meta 开源 React 设计系统 Astryx',
+    summary: '基于 React 19 与 StyleX，150+ 无障碍组件加设计令牌，配 CLI 与 MCP 工具。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/meta-astryx-design-system/',
+  },
+  {
+    date: '2026-08-31',
+    category: 'AI',
+    title: 'Fable 5.1 解开 370 年历史密文',
+    summary: '1653 年的两行 64 数字密文 44 分钟破译，密钥就藏在书中 32 组词汇表里。',
+    source: 'Vals AI',
+    url: 'https://www.vals.ai/blogs/fable-solves-cyphral-distich',
+  },
 ]
 
 function codePointLength(value: string) {
