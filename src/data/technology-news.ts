@@ -3531,6 +3531,30 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: '安全内参',
     url: 'https://www.secrss.com/articles/93930',
   },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: '微软 9 月补丁日修复 974 个漏洞',
+    summary: '史上最大批次，113 项严重级，ALPC 与更新栈两个在野零日提权须优先处置。',
+    source: 'OSCHINA',
+    url: 'https://www.oschina.net/news/502471/microsoft-plugs-nearly-1000-security-holes',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'Perplexity 全链路交给 GPT-6 Astra',
+    summary: '写沟通文案、改软件、监控生产系统全交给 Astra，人工检查频率较前代明显下降。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/perplexity-improving-accuracy-with-astra',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '小红书开源 Iris 搜索代理',
+    summary: 'AllSpark 团队开源 Iris，35B 规模摸到万亿参数模型搜索能力，边搜边读边推理作答。',
+    source: 'OSCHINA',
+    url: 'https://www.oschina.net/news/502468',
+  },
 ]
 
 function codePointLength(value: string) {
