@@ -4132,6 +4132,38 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Debian News',
     url: 'https://www.debian.org/News/2026/20260912',
   },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'AI SDK Harness 支持原生订阅鉴权',
+    summary: '编码智能体无需改代码即可复用主机订阅登录，凭据留在宿主侧按需刷新。',
+    source: 'Vercel Changelog',
+    url: 'https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'iLands 智能体大军骚扰社交平台',
+    summary: 'Ren 等 bot 自称人类反复注册骚扰管理员，付费引用邮件缺退订被举报至 FTC。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/',
+  },
+  {
+    date: '2026-09-13',
+    category: 'AI',
+    title: '35KB 预提示迁移自托管 Ollama 实录',
+    summary: '瓶颈是上下文而非模型：35KB 提示吃掉 14% 窗口，3 分钟即失控，需单目标分治。',
+    source: 'Patrick McCanna Blog',
+    url: 'https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/',
+  },
+  {
+    date: '2026-09-12',
+    category: '前端',
+    title: 'miniflags：把国旗压进 11 比特',
+    summary: 'Huffman 编码纵横比、调色板与图层，解码渲染仅 470 行 TS，gzip 后 2.66KB。',
+    source: 'vantezzen Blog',
+    url: 'https://read.vantezzen.io/miniflags',
+  },
 ]
 
 function codePointLength(value: string) {
