@@ -19,6 +19,31 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-15',
+    category: 'AI',
+    title: 'NVIDIA 开源 SoL-Pi 智能体工作流自进化',
+    summary: '自动研究循环从 152 个方案留下 4 项机制，较 Pi 省 45–49% token、成本降三分之一。',
+    source: 'NVIDIA',
+    url: 'https://nvlabs.github.io/SoL-Pi/',
+  },
+  {
+    date: '2026-09-14',
+    time: '17:36',
+    category: 'AI',
+    title: '具脑磐石发布类脑认知世界模型 Cog-WM 1.0',
+    summary: '隐空间预测模拟认知地图机制，HM3D 导航成功率达 86.89%，已部署四足巡检机器人。',
+    source: '雷峰网',
+    url: 'https://www.leiphone.com/category/robot/Dq92tSkeaGMAL0rP.html',
+  },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'HBO Max 官方 Reddit 账号遭劫持投毒',
+    summary: '认证账号 48 小时投放 108 条 ClickFix 广告，以仿冒 OpenAI Codex 等诱饵投递窃密木马。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/cyber-crime/2026/09/14/hbo-max-reddit-account-compromised-to-serve-clickfix-attacks/5296408',
+  },
+  {
     date: '2026-09-14',
     category: '后端',
     title: 'K8s 1.37 Memory QoS 升至 Beta',
