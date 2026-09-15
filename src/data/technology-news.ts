@@ -19,6 +19,39 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-16',
+    time: '02:29',
+    category: 'AI',
+    title: '美数据中心用气量 2035 年将超德日之和',
+    summary: 'BNEF 预测 2035 年日均用气 180 亿立方英尺，较九个月前预期近翻倍，仅次于 LNG 出口。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/15/us-data-centers-could-consume-more-natural-gas-than-germany-and-japan-combined-by-2035/',
+  },
+  {
+    date: '2026-09-15',
+    category: '后端',
+    title: 'Wayback Machine 升级反爬防护',
+    summary: '遭海量自动化流量冲击后部署拦截，误伤用户时改用 429 提示并公开致歉。',
+    source: 'Internet Archive',
+    url: 'https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/',
+  },
+  {
+    date: '2026-09-15',
+    category: 'AI',
+    title: 'IEEE Spectrum 拆解推理硬件变局',
+    summary: '解码阶段吃内存带宽致 H100 推理闲置五到八成，d-Matrix 与 Groq LPU 等多路线并进。',
+    source: 'IEEE Spectrum',
+    url: 'https://spectrum.ieee.org/inference-hardware-revolution',
+  },
+  {
+    date: '2026-09-10',
+    category: 'AI',
+    title: 'NVIDIA 用 Z3 形式化验证 Agent 策略',
+    summary: 'OpenShell 把沙箱策略编译成 Z3 约束，毫秒级证明策略包含性并给出具体反例。',
+    source: 'NVIDIA OpenShell',
+    url: 'https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover/',
+  },
+  {
     date: '2026-09-15',
     time: '23:57',
     category: 'AI',
