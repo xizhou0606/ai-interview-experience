@@ -19,6 +19,38 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'K8s 1.37 Memory QoS 升至 Beta',
+    summary: '默认启用但零配置不写限制，可显式开 memory.high 限流与分层预留。',
+    source: 'Kubernetes Blog',
+    url: 'https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/',
+  },
+  {
+    date: '2026-09-14',
+    category: '后端',
+    title: 'K8s CSI 变更块追踪转 Beta',
+    summary: '备份可增量查块卷变更：CRD 升 v1beta1 并移除 v1alpha1，需手动迁移。',
+    source: 'Kubernetes Blog',
+    url: 'https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '律师用 ChatGPT 捏造证词被罚',
+    summary: '新墨西哥州律师在谋杀案上诉提交虚构证词，辩称不知 AI 会幻觉，被罚 5000 美元。',
+    source: 'Solidot',
+    url: 'https://www.solidot.org/story?sid=85372',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: '豆包手机助手消费者版发布',
+    summary: '系统级 AI 助手首发努比亚新机 16 日开售，支持屏幕问答、本地记忆与自动化。',
+    source: '雷峰网',
+    url: 'https://www.leiphone.com/category/industrynews/p1zBbVMbsyYNHOJ4.html',
+  },
+  {
     date: '2026-09-10',
     category: '后端',
     title: 'ASP.NET Core 全面支持 C# 联合类型',
