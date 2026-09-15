@@ -4269,6 +4269,38 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: '快科技',
     url: 'https://news.mydrivers.com/1/1151/1151107.htm',
   },
+  {
+    date: '2026-09-15',
+    category: 'AI',
+    title: '英伟达等企业限制员工使用 Claude',
+    summary: '外媒称英伟达、Palantir 与博思艾伦限用 Anthropic 防代码外泄，敏感任务转自研模型。',
+    source: '雷峰网',
+    url: 'https://www.leiphone.com/category/zaobao/SrmCbu60oiAwTvkH.html',
+  },
+  {
+    date: '2026-09-15',
+    category: 'AI',
+    title: 'COBOL 老将靠 AI 夺 .NET 黑客松冠军',
+    summary: '澳税务局 COBOL 程序员从未写过 C#，用 Copilot 夺内部黑客松冠军，CIO 称 AI 助人跨界。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/ai-and-ml/2026/09/15/cobol-dev-won-net-hackathon-with-help-from-ai-and-their-cio-loves-it/5296438',
+  },
+  {
+    date: '2026-09-11',
+    category: '后端',
+    title: 'eBPF 安全代理靠缓存省 90% CPU',
+    summary: 'inode 缓存免去重复路径遍历，20 万次文件打开内核周期从 280 亿降至 30.3 亿。',
+    source: 'Nathan Naveen Blog',
+    url: 'https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/',
+  },
+  {
+    date: '2026-09-09',
+    category: '后端',
+    title: 'Rust 代数浮点算子解锁自动向量化',
+    summary: 'algebraic_add 允许重排浮点求和，自动生成 AVX+FMA，性能反超手写 intrinsics。',
+    source: 'jsgroth Blog',
+    url: 'https://jsgroth.dev/blog/posts/trying-to-make-a-loop-auto-vectorize/',
+  },
 ]
 
 function codePointLength(value: string) {
