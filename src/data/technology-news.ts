@@ -19,6 +19,42 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-16',
+    time: '17:25',
+    category: '后端',
+    title: '英特尔 CEO 警告内存短缺将继续恶化',
+    summary: '陈立武称内存短缺还将恶化，电力供应与冷却技术将成为半导体行业两大新难题。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/204.htm',
+  },
+  {
+    date: '2026-09-16',
+    time: '16:44',
+    category: 'AI',
+    title: '讯飞发布语音基座大模型 Spark-Audio',
+    summary: '一次听懂语音、环境音与情绪，摆脱转写级联链路，1300 万小时音频纯国产算力训练。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/173.htm',
+  },
+  {
+    date: '2026-09-16',
+    time: '16:24',
+    category: '后端',
+    title: 'DDROP 转接器攻破 DDR5 机密计算加密',
+    summary: '插入转接器制造校验错误静默丢弃写入，波及 TDX、SGX 与 SEV-SNP，厂商暂不修复。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/DDROP-Adapterstecker-hebelt-Confidential-Computing-aus-11454579.html',
+  },
+  {
+    date: '2026-09-16',
+    time: '15:15',
+    category: '后端',
+    title: 'Dropbox 靠十年基建优化为 AI 腾空间',
+    summary: '深度休眠、负载再平衡与 SMR 提密度，存储每 PB 功耗较 2020 年降逾 50%。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/dropbox-datacenter/',
+  },
+  {
     date: '2026-09-15',
     category: 'AI',
     title: 'Hugging Face 向 OpenAI 索赔亿元算力',
