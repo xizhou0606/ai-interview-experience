@@ -19,6 +19,30 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-15',
+    category: 'AI',
+    title: 'Hugging Face 向 OpenAI 索赔亿元算力',
+    summary: 'CEO 德朗盖要求公开失控代理追踪记录，并提供 1 亿美元算力供社区防御，OpenAI 均未答应。',
+    source: 'The Next Web',
+    url: 'https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand',
+  },
+  {
+    date: '2026-09-15',
+    category: '后端',
+    title: 'Baseten 镜像仓库泄露 GitHub 管理员令牌',
+    summary: '公开 Harbor 镜像构建历史内嵌 PAT，自主渗透代理 25 分钟拿到生产仓库权限。',
+    source: 'Strix',
+    url: 'https://www.strix.ai/blog/baseten-harbor-github-pat-takeover',
+  },
+  {
+    date: '2026-09-15',
+    category: 'AI',
+    title: 'GPT-6 Astra 全量开放，首获关键网安评级',
+    summary: '扩展至 ChatGPT 各档与 API、Azure、Bedrock，OSWorld 得 72.6%，幻觉率 4.2%。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/IfxYoy1PPkFQUpjWVBVr',
+  },
+  {
     date: '2026-09-16',
     time: '15:09',
     category: 'AI',
