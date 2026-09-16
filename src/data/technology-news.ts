@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-17',
+    time: '02:50',
+    category: '后端',
+    title: 'KREMLIN 木马强装 Chrome、Edge 扩展',
+    summary: 'Elastic 披露银行木马重算 Chromium 完整性签名强装恶意扩展，窃取 Cookie 与键盘输入。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/',
+  },
+  {
+    date: '2026-09-17',
+    time: '02:00',
+    category: '后端',
+    title: 'ShinyHunters 公开佛州车管数据库',
+    summary: '该组织称因未收到赎金公开数十万份车辆产权文件，含姓名、地址与 VIN，少量含社保号。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/16/hackers-publish-thousands-of-drivers-data-after-breaching-florida-motor-vehicle-database/',
+  },
+  {
+    date: '2026-09-17',
     time: '02:00',
     category: '前端',
     title: 'Vercel Hobby 版下调部署保留数量',
@@ -53,6 +71,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Google Home 推出官方 MCP 服务器，第三方智能体经用户授权后可查询和控制智能家居设备。',
     source: 'Google Developers',
     url: 'https://developers.home.google.com/mcp/home',
+  },
+  {
+    date: '2026-09-17',
+    time: '01:19',
+    category: 'AI',
+    title: 'DeepMind 成立研究院聚焦 AGI 讨论',
+    summary: '由 Legg、Hassabis 与 Manyika 领导，发布 AGI 议题文章并开放公开辩论，不代表谷歌官方立场。',
+    source: 'Google DeepMind',
+    url: 'https://institute.deepmind.com/',
   },
   {
     date: '2026-09-17',
