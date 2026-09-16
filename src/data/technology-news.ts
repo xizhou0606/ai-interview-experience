@@ -20,6 +20,32 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-16',
+    time: '08:00',
+    category: '前端',
+    title: 'Is Agentic 支持按站点类型查看审计',
+    summary: '站点 Agent 就绪度审计按文档/商业/应用/电商四类呈现，meta 标签可设默认视图。',
+    source: 'Vercel Changelog',
+    url: 'https://vercel.com/changelog/is-agentic-report-categories',
+  },
+  {
+    date: '2026-09-15',
+    time: '22:43',
+    category: 'AI',
+    title: '谷歌 TPU 互联迈向百万芯片级',
+    summary: 'SEMICON Taiwan 上称可支撑百万颗 TPU 协同，Anthropic 合作超 1GW，瓶颈转向缺电。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/002/828.htm',
+  },
+  {
+    date: '2026-09-15',
+    category: '后端',
+    title: '伊朗 Chosen Brick 间谍软件遭三国披露',
+    summary: 'FBI、英国 NCSC 与荷兰 AIVD 联合通报：借 WhatsApp 诱导安装，经 Telegram 遥控窃密。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/security/2026/09/15/iranian-spies-hit-windows-machines-with-chosen-brick-data-stealing-malware/5296646',
+  },
+  {
+    date: '2026-09-16',
     time: '05:56',
     category: '后端',
     title: 'Cornelis 与 Delos 挑战 NVLink',
