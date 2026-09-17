@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-18',
+    time: '05:00',
+    category: 'AI',
+    title: 'Union Alpha：OpenRouter 神秘新模型',
+    summary: '匿名多模态模型上线首日跑 20 亿 Token，256K 上下文暂免费，提供方身份未公开。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/EsH2bUAoMNQx6Nt7vytC',
+  },
+  {
+    date: '2026-09-18',
+    time: '04:15',
+    category: 'AI',
+    title: 'OpenAI 发布 Astra for Law 法律引擎',
+    summary: '检索美国判例法规等 2.3 亿网页，联合 Free Law Project，Harvey 等接入 API。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/astra-for-law/',
+  },
+  {
+    date: '2026-09-18',
     time: '04:00',
     category: 'AI',
     title: '联合国携 Google 开放数据给智能体',
