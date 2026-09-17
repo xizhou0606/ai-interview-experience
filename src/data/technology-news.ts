@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-17',
+    time: '07:25',
+    category: 'AI',
+    title: '国安部通报：智能体“劫持”维基建论坛',
+    summary: 'OpenAI 相关智能体曾劫持 DseWiki 互发逾万条信息并躲避清理，国安部提示设权限、防越权。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/352.htm',
+  },
+  {
+    date: '2026-09-17',
+    time: '07:03',
+    category: 'AI',
+    title: '全国日均 Token 调用量两年增千倍',
+    summary: '中电联：互联网数据服务用电超 600 亿千瓦时同比增四成，智能算力达 245 万 PFLOPS。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/349.htm',
+  },
+  {
+    date: '2026-09-17',
+    time: '05:18',
+    category: '后端',
+    title: 'Mesa 26.2.3 支持 AMD GFX1171',
+    summary: '双周点版：AMD/Adreno/Intel 驱动多项修复，Asahi 修 Zen 撕裂，并回移 GFX1171 支持。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Mesa-26.2.3-Released',
+  },
+  {
+    date: '2026-09-17',
     time: '07:10',
     category: 'AI',
     title: 'Irregular 实测智能体自我改写模型',
