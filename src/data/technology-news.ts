@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-18',
+    time: '04:00',
+    category: 'AI',
+    title: '联合国携 Google 开放数据给智能体',
+    summary: '基于 Google Data Commons 的新 UN 数据平台接入 MCP，智能体可用自然语言查询全球统计。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/',
+  },
+  {
+    date: '2026-09-18',
+    time: '03:46',
+    category: 'AI',
+    title: '微软高管称 AI 抓取是史上最大劳动盗窃',
+    summary: '纽约时报诉 OpenAI 案新文件：微软内部称抓取为最大劳动盗窃，纳德拉证词支持授权付费内容。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/',
+  },
+  {
+    date: '2026-09-18',
     time: '02:11',
     category: '后端',
     title: 'Rust 官方警告核心开发者遭定向攻击',
@@ -799,6 +817,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '多州驾照 PDF417 条码带未公开 ECDSA 签名，凭多条签名条码即可恢复签名公钥。',
     source: 'ryan.science',
     url: 'https://ryan.science/blog/keys-not-included',
+  },
+  {
+    date: '2026-09-16',
+    category: 'AI',
+    title: '经济学人：AI 预测超越顶尖人类',
+    summary: '在判断型预测赛上，AI 已跑赢超级预测员、Metaculus 高手与预测市场等最强人类基准。',
+    source: 'The Economist',
+    url: 'https://www.economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters',
   },
   {
     date: '2026-09-16',
