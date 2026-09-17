@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-17',
+    time: '13:36',
+    category: 'AI',
+    title: '火山引擎发布豆包座舱助手',
+    summary: '车载豆包联动 App 实现手车互联与行程推送，感知车况拆解任务，上汽荣威家越 07 首发。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/565.htm',
+  },
+  {
+    date: '2026-09-17',
+    time: '02:49',
+    category: 'AI',
+    title: '开发者开源复刻 Jev 的打分模型',
+    summary: 'jevlike 单次前向为候选打分、免逐 token 生成，演示比小解码器写 400 token 快约百倍。',
+    source: 'GitHub',
+    url: 'https://github.com/vinnylarouge/jevlike',
+  },
+  {
+    date: '2026-09-17',
     time: '12:37',
     category: 'AI',
     title: 'vivo 推蓝河 AgentOS 技术预览版',
