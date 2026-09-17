@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-17',
+    time: '18:31',
+    category: 'AI',
+    title: '今年上线微短剧逾九成是 AI 剧',
+    summary: '广电总局数据：前八月上线 43 万部微短剧，为去年全年 13 倍，AI 剧占比超九成。',
+    source: 'Solidot',
+    url: 'https://www.solidot.org/story?sid=85408',
+  },
+  {
+    date: '2026-09-17',
+    category: '后端',
+    title: 'Omarchy 项目获 1850 万美元资助',
+    summary: 'DHH 的 Arch 发行版获 OpenRouter、DigitalOcean 等认捐，AI 实验室以算力代币参与。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/software/2026/09/17/omarchy-gains-185m-in-backing-fresh-converts-and-fierce-critics/5296780',
+  },
+  {
+    date: '2026-09-17',
     time: '18:00',
     category: '后端',
     title: '多集群编排项目 Karmada 从 CNCF 毕业',
@@ -321,6 +338,14 @@ export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-16',
     category: '后端',
+    title: 'GitHub SCIM 新增 profileUrl 字段',
+    summary: '遵循 RFC 7643，组织与企业 /Users 端点将返回外部身份关联的 GitHub 账户链接。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-16-scim-user-responses-now-include-a-profileurl-attribute',
+  },
+  {
+    date: '2026-09-16',
+    category: '后端',
     title: 'Zed 推 Delta 流程替代 PR',
     summary: 'Zed 编辑器 Delta 公测：以变更流替代传统 Pull Request，官方称是替代 GitHub 第一步。',
     source: 'Zed Blog',
@@ -482,6 +507,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '电网容量封顶 GPU 销量，DSX 让 19 节点跑进 16 节点功耗预算，每瓦性能提升 24%。',
     source: 'The Register',
     url: 'https://www.theregister.com/systems/2026/09/16/nvidia-goes-green-to-keep-grid-capacity-from-zapping-its-revenues/5296984',
+  },
+  {
+    date: '2026-09-15',
+    category: '后端',
+    title: '近 2000 万安装的 PHP 补丁包弃用',
+    summary: '2014 年的临时补丁累计近 2000 万安装，作者因供应链风险与 PHP 8.5 原生 URI 方案宣布弃用。',
+    source: 'jakeasmith.com',
+    url: 'https://jakeasmith.com/blog/http-build-url/',
   },
   {
     date: '2026-09-15',
