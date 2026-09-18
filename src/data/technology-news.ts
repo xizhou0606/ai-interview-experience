@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-19',
+    time: '01:28',
+    category: 'AI',
+    title: '美联邦公报网站嵌入 Qwen 引争议',
+    summary: '联邦公报用阿里 Qwen 检索公众意见，FBI 曾称其恶意，被发现后已下线。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/',
+  },
+  {
+    date: '2026-09-18',
+    time: '21:58',
+    category: '后端',
+    title: 'Teams 将支持自定义封禁附件类型',
+    summary: '11 月起 Teams 管理员可自定义拦截的文件扩展名，全平台生效，默认沿用微软名单。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/',
+  },
+  {
+    date: '2026-09-18',
+    time: '18:06',
+    category: '后端',
+    title: 'AWS 新账号可跳过 IAM 直接开发',
+    summary: '新用户用 Google 等账号登录即得预配置环境，免建 IAM，含 100 美元额度与项目花费上限。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/AWS-ohne-IAM-Frust-direkt-losentwickeln-11457951.html',
+  },
+  {
+    date: '2026-09-19',
     time: '01:53',
     category: '后端',
     title: '朝鲜假招聘木马感染 3 万设备',
