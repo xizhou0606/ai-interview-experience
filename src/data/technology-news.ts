@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-18',
+    time: '13:59',
+    category: '前端',
+    title: 'Edge 的 IE 模式将支持至 2029 年底',
+    summary: '微软确认 IE 模式至少完全支持到 2029 年底，退役前一年起书面通知，企业应清点遗留应用。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/004/076.htm',
+  },
+  {
+    date: '2026-09-18',
+    time: '13:26',
+    category: 'AI',
+    title: '白帽用 Claude Opus 5 攻破 ChatGPT',
+    summary: '安全团队借 Discourse 漏洞攻入 OpenAI 员工账号，Opus 5 自主产出利用，获奖 6500 美元。',
+    source: 'Hacktron AI',
+    url: 'https://hacktron.ai/blog/hacking-openai',
+  },
+  {
+    date: '2026-09-18',
     time: '12:59',
     category: '前端',
     title: 'Unicode 18.0 新增 1.3 万字符',
