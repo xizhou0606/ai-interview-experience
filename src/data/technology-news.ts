@@ -8512,6 +8512,33 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'sam.dev',
     url: 'https://sam.dev/blog/gearhash-on-arm64',
   },
+  {
+    date: '2026-09-18',
+    time: '17:54',
+    category: '后端',
+    title: 'Intel 疑似叫停付费漏洞赏金',
+    summary: '原计划在 Intigriti 显示已暂停，新漏洞报告计划不设奖金，此前单笔最高 10 万美元。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Intel-Bug-Bounty-Program-Ends',
+  },
+  {
+    date: '2026-09-18',
+    time: '17:37',
+    category: 'AI',
+    title: '网信办拟禁诱导沉迷算法模型',
+    summary: '征求意见稿明确不得设置诱导未成年人情感依赖、沉迷与过度消费的算法模型，禁止虚拟伴侣服务。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/004/262.htm',
+  },
+  {
+    date: '2026-09-18',
+    time: '17:34',
+    category: '后端',
+    title: 'Check Point 管理端 Root 漏洞',
+    summary: '安全管理服务器登录栈溢出（CVE-2026-91843），未认证攻击者可获 root 权限执行代码。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/',
+  },
 ]
 
 function codePointLength(value: string) {
