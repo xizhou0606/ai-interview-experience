@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-19',
+    time: '06:45',
+    category: 'AI',
+    title: 'Claude Code 兼容通用 AGENTS.md',
+    summary: '项目无 CLAUDE.md 时自动改读通用 AGENTS.md，可在 /config 的项目指令中切换。',
+    source: 'Claude Code Changelog',
+    url: 'https://code.claude.com/docs/en/changelog',
+  },
+  {
+    date: '2026-09-19',
     time: '05:44',
     category: 'AI',
     title: 'Anthropic 请来首位嵌入式评估员',
@@ -65,12 +74,21 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-19',
-    time: '03:20',
+    time: '02:49',
     category: 'AI',
     title: 'FAA 将用 8.75 亿美元 AI 工具疏拥堵',
     summary: '美国联邦航空局计划先用 AI 缓解华盛顿空域拥堵，验证后再向全国推广。',
     source: 'Ars Technica',
     url: 'https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/',
+  },
+  {
+    date: '2026-09-19',
+    time: '02:29',
+    category: 'AI',
+    title: '弗吉尼亚州长令设 AI 工作组与新规',
+    summary: '行政令禁止数据中心保密协议并加快噪声规制，同时组建 AI 工作组评估就业与隐私风险。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force',
   },
   {
     date: '2026-09-19',
