@@ -20,6 +20,32 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-18',
+    time: '11:34',
+    category: 'AI',
+    title: 'Qwen3.8-Omni-Flash 全模态模型上线',
+    summary: '支持文本图像音视频输入与 1M 上下文，30 项评测平均提升超 26%，音视频接近 Gemini 3.8 Flash。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/004/049.htm',
+  },
+  {
+    date: '2026-09-18',
+    time: '10:48',
+    category: '后端',
+    title: '昇腾 950 智算集群云服务定档商用',
+    summary: '华为云：9 月 30 日国内、11 月 30 日全球商用，1024 卡超节点输出 1 EFLOPS FP8。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/981.htm',
+  },
+  {
+    date: '2026-09-17',
+    category: 'AI',
+    title: '开源权重模型首次占网关 token 过半',
+    summary: 'Vercel 九月生产指数：开放权重 token 占比从 7% 升至 56%，支出仅占 14%。',
+    source: 'Vercel Blog',
+    url: 'https://vercel.com/blog/ai-gateway-production-index-september-2026',
+  },
+  {
+    date: '2026-09-18',
     time: '11:02',
     category: 'AI',
     title: '微软 Azure CTO 用 AI 移植 ZoomIt',
@@ -495,15 +521,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '超网络把运行时数据转为低秩调制，权重随会话在线更新，摆脱冻结参数与上下文窗口。',
     source: 'arXiv',
     url: 'https://arxiv.org/abs/2609.18842',
-  },
-  {
-    date: '2026-09-17',
-    time: '23:45',
-    category: '后端',
-    title: 'Actions 工作流执行保护正式上线',
-    summary: '企业、组织与仓库级执行保护 GA，可用允许清单控制谁能触发工作流。',
-    source: 'GitHub Changelog',
-    url: 'https://github.blog/changelog/2026-09-17-workflow-execution-protections-in-github-actions-generally-available',
   },
   {
     date: '2026-09-17',
