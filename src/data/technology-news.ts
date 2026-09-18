@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-18',
+    time: '08:55',
+    category: 'AI',
+    title: 'Lucid 携手 Bolt 布局欧洲 Robotaxi',
+    summary: '双方计划在欧洲多城部署至少 2.5 万辆 L4 级自动驾驶出租车，基于英伟达 Hyperion 平台。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/916.htm',
+  },
+  {
+    date: '2026-09-18',
+    time: '08:33',
+    category: '后端',
+    title: 'OpenCL 3.1.2 发布',
+    summary: 'cl_khr_command_buffer 扩展脱离实验状态，支持录制与回放命令缓冲以降低开销。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/OpenCL-3.1.2-Released',
+  },
+  {
+    date: '2026-09-18',
+    time: '07:36',
+    category: 'AI',
+    title: '吴恩达称 AI 灭绝警告堪比科幻小说',
+    summary: '彭博专访：灭绝论造势或意在影响监管，行业应聚焦解决实际工程问题。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/003/892.htm',
+  },
+  {
+    date: '2026-09-18',
     time: '07:43',
     category: 'AI',
     title: '特斯拉多车型上线豆包语音助手',
