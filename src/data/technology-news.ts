@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-19',
+    category: '后端',
+    title: 'Docker Desktop 自研 VMM 虚拟化层',
+    summary: '4.86 公测版弃第三方虚拟化：容器启动提速、文件共享改善、空闲内存自动归还主机。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/AXtfCFx09aNmpWgLkqhN',
+  },
+  {
+    date: '2026-09-18',
+    time: '08:50',
+    category: '后端',
+    title: 'Ubuntu 26.10 改用 Linux 7.3',
+    summary: '因上游无延期，26.10 从 7.2 改用 7.3，10 月 15 日发布，内核 10 月 1 日冻结。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Ubuntu-26.10-With-Linux-7.3',
+  },
+  {
+    date: '2026-09-19',
     time: '10:55',
     category: 'AI',
     title: '单机柜能跑多少 Agent？瓶颈不在 GPU',
