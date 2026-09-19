@@ -20,6 +20,31 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-19',
+    time: '07:13',
+    category: 'AI',
+    title: 'Anthropic 开设湿实验室做生物实验',
+    summary: 'AI 模型在湾区实验室跑真实生物实验，聚焦基础生物学，源自收购 Coefficient Bio。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/',
+  },
+  {
+    date: '2026-09-18',
+    category: 'AI',
+    title: '百余位 AI 专家联名吁独立评估',
+    summary: '公开信呼吁在头部实验室派驻第三方评估员，并限制保密协议范围保障评估透明。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/997473/more-than-100-ai-industry-experts-wrote-a-letter-calling-for-independent-evaluation-of-frontier-models',
+  },
+  {
+    date: '2026-09-14',
+    category: 'AI',
+    title: 'OpenAI 自研 LLM 设计芯片内幕',
+    summary: 'Jalapeño 加速器从 RTL 到流片仅 9 个月，LLM 写高层次综合代码，矩阵单元缩小 10%。',
+    source: 'IEEE Spectrum',
+    url: 'https://spectrum.ieee.org/llms-for-chip-design',
+  },
+  {
+    date: '2026-09-19',
     time: '07:50',
     category: '后端',
     title: '256 核 EPYC Venice 官方跑分亮相',
