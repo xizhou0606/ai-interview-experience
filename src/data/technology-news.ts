@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '12:51',
+    category: '后端',
+    title: '通感智算一体化试验卫星发射成功',
+    summary: '国内首次把 5G NTN 基站、核心网、星载 AI 智算与星地激光联合送上太空，可支撑 6G 试验。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/0/1004/730.htm',
+  },
+  {
+    date: '2026-09-20',
     time: '11:56',
     category: '后端',
     title: '长鑫第五代平台量产，晶圆产出增五成',
