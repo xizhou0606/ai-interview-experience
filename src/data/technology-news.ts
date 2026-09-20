@@ -29,6 +29,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-20',
+    time: '09:31',
+    category: '后端',
+    title: 'RSA-896 挑战数被成功分解',
+    summary: '研究者借 Claude 移植 CADO-NFS 到 GPU，动用约 30 GPU 年算力，10 天完成 896 位挑战数分解。',
+    source: 'saweis.net',
+    url: 'https://saweis.net/posts/rsa-896.html',
+  },
+  {
+    date: '2026-09-20',
     time: '23:16',
     category: 'AI',
     title: 'Pirate Face 用 BT 镜像开放权重模型',
