@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '20:32',
+    category: '后端',
+    title: 'KDE 公布 2028 三大发展目标',
+    summary: 'Akademy 社区投票选出企业就绪、文档翻新与基于 Ocean 设计系统的新一代样式。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/KDE-Goals-To-2028',
+  },
+  {
+    date: '2026-09-18',
+    category: '后端',
+    title: '谷歌分析师卧底供应链攻击团伙',
+    summary: 'Mandiant 分析师潜入 TeamPCP 核心群，协调吊销被盗账号，并发现 AI 研发的 2FA 绕过零日。',
+    source: 'WIRED',
+    url: 'https://www.wired.com/story/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/',
+  },
+  {
+    date: '2026-09-20',
     time: '20:00',
     category: 'AI',
     title: '研究人员披露 OpenAI Codex 沙箱逃逸',
@@ -6603,14 +6620,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://github.com/JetBrains/kotlin/releases/tag/v2.4.20',
   },
   {
-    date: '2026-09-05',
-    category: '后端',
-    title: 'Bun 1.4.2 修复两处回归',
-    summary: '修复 1.4.1 引入的 Elysia 构建报错与 AsyncLocalStorage 内存泄漏。',
-    source: 'Bun Blog',
-    url: 'https://bun.com/blog/bun-v1.4.2',
-  },
-  {
     date: '2026-09-11',
     category: '后端',
     title: 'Rune 终端 IDE 开源，采用 GPLv3',
@@ -7075,14 +7084,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/',
   },
   {
-    date: '2026-09-05',
-    category: '前端',
-    title: 'Blume：单文件起步的文档站框架',
-    summary: '基于 Astro 与 Vite，只需 Node 和一个 Markdown 即可建 AI 友好站点。',
-    source: 'InfoQ',
-    url: 'https://www.infoq.com/news/2026/09/blume-docs-ai/',
-  },
-  {
     date: '2026-09-10',
     category: '后端',
     title: 'Python 3.15 软弃用 re.match()',
@@ -7217,14 +7218,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'GTK4 图形 Git 客户端新增并排 diff 与 LFS、子模块支持，GNOME 51 将至。',
     source: 'Phoronix',
     url: 'https://www.phoronix.com/news/Gitte-0.10-Released',
-  },
-  {
-    date: '2026-09-05',
-    category: '前端',
-    title: 'pnpm 12 用 Rust 重写核心',
-    summary: 'Rust 占新核心 65.9%，示例包安装 5.19 秒对 npm 47.7 秒，完全向后兼容。',
-    source: 'DevClass',
-    url: 'https://www.devclass.com/development/2026/09/05/javascript-installer-pnpm-recast-in-rust-because-ecmascript-cant-keep-up/5294488',
   },
   {
     date: '2026-09-12',
