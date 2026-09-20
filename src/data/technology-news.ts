@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '17:55',
+    category: 'AI',
+    title: 'iPhone 18 Pro 实测可本地跑 27B 模型',
+    summary: 'A20 Pro 首配双 16 核神经引擎，270 亿参数模型本地运行速度较 iPhone 17 Pro 快一倍。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/004/909.htm',
+  },
+  {
+    date: '2026-09-20',
+    time: '17:42',
+    category: 'AI',
+    title: '硅基流动年内累计融资近 29 亿元',
+    summary: '完成 B+ 二期与 C 轮融资，国家级基金与央地国资入场，转向规模化 Token 供应基础设施。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/oP7tDkoaamphFBkDY8uW',
+  },
+  {
+    date: '2026-09-20',
     time: '16:59',
     category: '后端',
     title: '英特尔突然关停漏洞赏金计划',
