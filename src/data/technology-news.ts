@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '23:26',
+    category: 'AI',
+    title: '智谱 MaaS 上线数据内容不留存',
+    summary: '开通后平台不静态存储用户输入与输出，仅用于当次调用，Batch API、File API 等除外。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/012.htm',
+  },
+  {
+    date: '2026-09-20',
     time: '22:32',
     category: '后端',
     title: 'Gzip 1.15 修复诞生之初遗留缺陷',
@@ -7129,14 +7138,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/',
   },
   {
-    date: '2026-09-06',
-    category: 'AI',
-    title: 'Google 开源 Mantis 漏洞扫描框架',
-    summary: 'AI 智能体自动完成识别、验证、复现到修复，主打降误报。',
-    source: 'InfoQ',
-    url: 'https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/',
-  },
-  {
     date: '2026-09-10',
     category: '后端',
     title: 'Python 3.15 软弃用 re.match()',
@@ -10260,14 +10261,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'FXC 转译时优化掉整数输入的 fract()，Voronoi 动画跳变，改写 x - floor(x) 修复。',
     source: 'crocidb.com',
     url: 'https://crocidb.com/post/when-the-fractional-part-of-a-float-fixes-your-shader/',
-  },
-  {
-    date: '2026-09-06',
-    category: '后端',
-    title: 'gearhash NEON 提速约 1.8 倍',
-    summary: 'FastCDC 内容分块滚动哈希新增 ARM64 后端，Xet 客户端掩码下提速约 2.14 倍，HN 热议。',
-    source: 'sam.dev',
-    url: 'https://sam.dev/blog/gearhash-on-arm64',
   },
   {
     date: '2026-09-18',
