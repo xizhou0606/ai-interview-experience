@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '15:00',
+    category: 'AI',
+    title: '工信部：大力发展开源基座与垂类模型',
+    summary: '辛国斌在世界制造业大会提出深入推进人工智能+制造，梯度培育智能工厂，夯实智造软硬件基础。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/0/1004/810.htm',
+  },
+  {
+    date: '2026-09-20',
+    time: '14:06',
+    category: '后端',
+    title: 'Dropbox 挖潜能效为 AI 腾算力',
+    summary: '全栈可观测加 Deep Sleep 关停空闲服务器，每 PB 瓦特数自 2020 年已降五成以上。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/zVZhvQIW9BvrWd3SU7st',
+  },
+  {
+    date: '2026-09-20',
     time: '13:46',
     category: 'AI',
     title: 'B站上线 AI 无限竞技场测评榜',
