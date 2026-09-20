@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '23:18',
+    category: 'AI',
+    title: 'ChatGPT 广告采集器跨站关联账号',
+    summary: '广告测量像素回传 __obi Cookie，站外浏览可关联 ChatGPT 账号，实测覆盖 936 个广告主像素。',
+    source: 'buchodi.com',
+    url: 'https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/',
+  },
+  {
+    date: '2026-09-20',
     time: '23:26',
     category: 'AI',
     title: '智谱 MaaS 上线数据内容不留存',
