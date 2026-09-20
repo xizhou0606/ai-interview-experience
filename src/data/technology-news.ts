@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '23:16',
+    category: 'AI',
+    title: 'Pirate Face 用 BT 镜像开放权重模型',
+    summary: '将 Hugging Face 宽松许可权重做成磁力链，内嵌官方校验，模型下架后仍可下载。',
+    source: 'pirateface.co',
+    url: 'https://pirateface.co/',
+  },
+  {
+    date: '2026-09-20',
     time: '23:18',
     category: 'AI',
     title: 'ChatGPT 广告采集器跨站关联账号',
