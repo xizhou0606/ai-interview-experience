@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '05:25',
+    category: '后端',
+    title: 'Linux 7.3-rc4 发布：LLM 找出大量修复',
+    summary: 'Linus 发布 7.3-rc4：修复依旧密集，大量缺陷由 LLM 协助发现，但整体不算危险。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-7.3-rc4',
+  },
+  {
+    date: '2026-09-21',
     time: '02:19',
     category: '后端',
     title: 'Linux 7.3-rc4 合入重要 x86 修复',
