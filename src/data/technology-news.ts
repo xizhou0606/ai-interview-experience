@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-21',
+    time: '02:19',
+    category: '后端',
+    title: 'Linux 7.3-rc4 合入重要 x86 修复',
+    summary: '拦截 Granite Rapids 坏微码防死机，修 FRED 下 Wine 游戏卡死，native 构建暂禁 APX。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-7.3-rc4-x86-Fixes',
+  },
+  {
     date: '2026-09-20',
     time: '23:16',
     category: 'AI',
