@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-20',
+    time: '21:05',
+    category: '后端',
+    title: '慕尼黑大学遭网络攻击，学生数据外泄',
+    summary: '注册记录被完整复制，含姓名、住址、IBAN 与医保信息，约 5.3 万学生受影响，无勒索软件迹象。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Cyberangriff-auf-LMU-Muenchen-Daten-von-Studierenden-abgeflossen-11459343.html',
+  },
+  {
+    date: '2026-09-20',
+    time: '21:02',
+    category: 'AI',
+    title: '千问开源 Qwen-Image-2.1 图像模型',
+    summary: '统一文生图与编辑，支持透明 RGBA 图像生成与抠图，最多 10 张参考图，7B 视觉生成骨干。',
+    source: 'Qwen',
+    url: 'https://qwen.ai/blog?id=qwen-image-2.1',
+  },
+  {
+    date: '2026-09-20',
     time: '20:32',
     category: '后端',
     title: 'KDE 公布 2028 三大发展目标',
