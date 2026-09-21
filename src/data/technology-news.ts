@@ -19,6 +19,41 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-21',
+    time: '15:38',
+    category: 'AI',
+    title: '月之暗面发布 Kimi Code Desktop',
+    summary: '桌面端上线 macOS 与 Windows，内置终端、浏览器与 Git 状态，支持 Swarm 多 Agent。',
+    source: '月之暗面',
+    url: 'https://www.kimi.com/code',
+  },
+  {
+    date: '2026-09-21',
+    time: '08:55',
+    category: 'AI',
+    title: '智谱 MaaS 推出数据不留存功能',
+    summary: '调用输入输出仅内存临时使用、不存储不训练，Batch/Files API 与合规留存除外，控制台可申请开通。',
+    source: '联合早报',
+    url: 'https://www.zaobao.com.sg/news/china/story20260921-9707915',
+  },
+  {
+    date: '2026-09-18',
+    time: '17:00',
+    category: '后端',
+    title: 'Jade Sleet 后门重现于 IT 服务商',
+    summary: '假招聘投毒 Terraform 项目传播，FLATROOF/ROOFDECK 后门首现非加密货币目标。',
+    source: 'SentinelLabs',
+    url: 'https://www.sentinelone.com/labs/dont-call-us-well-call-your-apis-tradertraitor-backdoors-resurface-on-victim-with-no-crypto-ties/',
+  },
+  {
+    date: '2026-09-18',
+    category: 'AI',
+    title: 'Amazon Bedrock 正式接入 Kimi K3',
+    summary: '2.8 万亿参数、1M 上下文的开放权重模型上线，Bedrock 首个支持显式提示缓存的开放权重模型。',
+    source: 'AWS',
+    url: 'https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/',
+  },
+  {
     date: '2026-09-18',
     category: '后端',
     title: 'Notion 详解自研 CRDT 并发编辑',
