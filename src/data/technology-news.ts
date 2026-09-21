@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '14:00',
+    category: 'AI',
+    title: 'OpenClaw 完成第三方安全审计',
+    summary: 'Trail of Bits 经 OpenAI 计划审计：24 项报告 23 确认，0 严重 2 高危，已全部修复。',
+    source: 'OpenClaw',
+    url: 'https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap',
+  },
+  {
+    date: '2026-09-21',
+    category: 'AI',
+    title: 'xAI 发布 Grok 4.7 编码旗舰',
+    summary: '更大基座与更长 RL 训练，主打编码：CursorBench 4.0 达 46.3%，已上线 Grok API。',
+    source: 'xAI',
+    url: 'https://x.ai/news/grok-4-7',
+  },
+  {
+    date: '2026-09-21',
     time: '13:58',
     category: '后端',
     title: 'TASK#STOMP 间谍后门窃取企业文档',
@@ -78,6 +95,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '插件 SHA 校验遭同名分支绕过，自动更新零点击中招；Claude Code、Codex 已修，Copilot 未修。',
     source: 'AIR Security',
     url: 'https://www.air.security/blog-posts/plugin4shell',
+  },
+  {
+    date: '2026-09-17',
+    category: 'AI',
+    title: '联邦学习让无人机自主识别并攻击目标',
+    summary: 'Scaleout 小模型跑在机端：识别定位目标，ALMA 演示自主投弹，瑞典军方已获平台许可。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/',
   },
   {
     date: '2026-09-21',
