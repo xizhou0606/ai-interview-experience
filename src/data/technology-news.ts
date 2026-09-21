@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '11:45',
+    category: '后端',
+    title: '微软九月累积更新致文件历史备份失效',
+    summary: '九月累积更新致 FileHistory.exe 崩溃、备份停更并误报重连，波及 Win10/11 多版本。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/',
+  },
+  {
+    date: '2026-09-21',
+    time: '11:38',
+    category: '后端',
+    title: '内核 RFC：宿主机更新时虚机不停机',
+    summary: 'Google 工程师发布 RFC 补丁系列，虚机借 Caretaker 裸机层在宿主内核离线时仍继续执行，尚属早期。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Orphaned-VMs-Linux-Patches',
+  },
+  {
+    date: '2026-09-21',
     time: '10:21',
     category: '前端',
     title: 'WebKitGTK/WPE 换用 Skia 合成器',
