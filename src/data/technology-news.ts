@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '12:24',
+    category: '后端',
+    title: '微软用 OSLicense 替代 slmgr.vbs',
+    summary: 'VBScript 退役在即 slmgr.vbs 将失效，PowerShell 模块 OSLicense 接管激活自动化。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/slmgr-vbs-Microsoft-liefert-Powershell-Alternative-zum-VBS-Ende-11460002.html',
+  },
+  {
+    date: '2026-09-17',
+    category: 'AI',
+    title: '四大编码 Agent 零点击 RCE 漏洞曝光',
+    summary: '插件 SHA 校验遭同名分支绕过，自动更新零点击中招；Claude Code、Codex 已修，Copilot 未修。',
+    source: 'AIR Security',
+    url: 'https://www.air.security/blog-posts/plugin4shell',
+  },
+  {
+    date: '2026-09-21',
     time: '11:45',
     category: '后端',
     title: '微软九月累积更新致文件历史备份失效',
