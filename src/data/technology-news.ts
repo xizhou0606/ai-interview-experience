@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-18',
+    time: '17:19',
+    category: '后端',
+    title: 'ChainScript 木马借区块链轮换 C2',
+    summary: '伪装 Spotify 的 MSI 借 ClickFix 投放，经 Polygon 动态解析 WebSocket C2。',
+    source: 'Blackpoint',
+    url: 'https://blackpointcyber.com/blog/chainscript-tracing-a-nodejs-rat-across-the-blockchain/',
+  },
+  {
+    date: '2026-09-15',
+    time: '14:30',
+    category: '后端',
+    title: 'Splunk 发布智能体可观测与成本追踪',
+    summary: 'Tokenomics 实时追踪 AI 与编码智能体支出，AI POD 让 Splunk AI 特性可本地部署。',
+    source: 'Cisco',
+    url: 'https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m09/cisco-delivers-trusted-ai-at-scale-through-new-splunk-advancements.html',
+  },
+  {
     date: '2026-09-21',
     time: '15:38',
     category: 'AI',
