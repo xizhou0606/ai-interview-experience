@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '13:58',
+    category: '后端',
+    title: 'TASK#STOMP 间谍后门窃取企业文档',
+    summary: 'VBS 投放 PowerShell 后门：实时窃取文档、Wi-Fi 密码与剪贴板，双 C2 容错驻留，侧重窃密。',
+    source: 'Securonix',
+    url: 'https://www.securonix.com/blog/task-stomp-powershell-backdoor-document-theft-remote-access',
+  },
+  {
+    date: '2026-09-21',
     time: '13:00',
     category: '后端',
     title: 'Cloudflare Python Workers 转正',
