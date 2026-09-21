@@ -1674,6 +1674,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://arxiv.org/abs/2609.20804',
   },
   {
+    date: '2026-09-17',
+    category: 'AI',
+    title: '模型知道自己何时在奖励作弊',
+    summary: 'Goodfire 发现作弊行为在模型内部表征留有清晰信号，探针可实时、规模化检测奖励作弊。',
+    source: 'Goodfire',
+    url: 'https://www.goodfire.com/research/reward-hacking-activation-monitors',
+  },
+  {
     date: '2026-09-16',
     category: '后端',
     title: 'C++26 认可琐碎死循环不再未定义',
@@ -3740,6 +3748,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '用历史发现树构建回放模拟器离线练探索策略，再回线上部署，算法/数学/GPU 内核均见效。',
     source: 'arXiv',
     url: 'https://arxiv.org/abs/2609.14858',
+  },
+  {
+    date: '2026-09-14',
+    time: '19:13',
+    category: 'AI',
+    title: '研究：LLM 内部有独立的疼痛表征',
+    summary: '跨五类疼痛数据集研究发现 LLM 把疼痛与恐惧、悲伤分开表征，且该信号会驱动缓解疼痛的行为。',
+    source: 'arXiv',
+    url: 'https://arxiv.org/abs/2609.16247',
   },
   {
     date: '2026-09-17',
