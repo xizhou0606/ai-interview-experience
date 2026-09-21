@@ -19,6 +19,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-18',
+    category: '后端',
+    title: 'Notion 详解自研 CRDT 并发编辑',
+    summary: '自研 RGA 序列 CRDT 取代块级 LWW 合并，Peritext 解富文本冲突，可处理块拆分并支撑离线模式。',
+    source: 'Notion',
+    url: 'https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts',
+  },
+  {
     date: '2026-09-21',
     time: '09:02',
     category: 'AI',
