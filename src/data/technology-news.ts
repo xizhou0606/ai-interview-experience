@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-21',
+    time: '09:57',
+    category: '后端',
+    title: 'perf 脚本重构为独立 Python 模块',
+    summary: '49 补丁弃用内嵌 Python/Perl 脚本，C 扩展 perf 模块把 3.7 秒脚本降到 0.1 秒。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-Perf-Python-Module',
+  },
+  {
+    date: '2026-09-19',
+    time: '19:14',
+    category: '后端',
+    title: 'Pi-hole FTL 6.7.1 修复高危漏洞',
+    summary: '四处缺陷含 advancedOpts 过滤不足致文件读取与根权限执行，另修 dnsmasq 代码注入。',
+    source: 'GitHub',
+    url: 'https://github.com/pi-hole/FTL/releases/tag/v6.7.1',
+  },
+  {
     date: '2026-09-18',
     time: '17:19',
     category: '后端',
