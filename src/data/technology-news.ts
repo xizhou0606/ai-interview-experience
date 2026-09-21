@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '10:21',
+    category: '前端',
+    title: 'WebKitGTK/WPE 换用 Skia 合成器',
+    summary: 'Igalia 以 Skia 取代 2010 年的 TextureMapper，砍掉自维护着色器，2.54 版随附发布。',
+    source: 'Igalia',
+    url: 'https://blogs.igalia.com/carlosgc/2026/09/21/skia-compositor-for-wpe-webkit-and-webkitgtk/',
+  },
+  {
+    date: '2026-09-20',
+    time: '10:53',
+    category: '前端',
+    title: 'shadcn/ui 警告开放 PR 植入恶意代码',
+    summary: '自动威胁狩猎报告称两个 PR 借 createRequire 注入混淆代码并经以太坊 RPC 回连，提醒勿合并。',
+    source: 'GitHub',
+    url: 'https://github.com/shadcn-ui/ui/issues/11971',
+  },
+  {
+    date: '2026-09-21',
     time: '09:57',
     category: '后端',
     title: 'perf 脚本重构为独立 Python 模块',
