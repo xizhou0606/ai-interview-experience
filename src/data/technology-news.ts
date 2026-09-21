@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '06:32',
+    category: 'AI',
+    title: '谷歌开源 AX 智能体编排器',
+    summary: '重组为通用智能体编排层：YAML 声明 Task/Workspace 等四原语，kubectl 风格 CLI 沙箱执行。',
+    source: 'GitHub',
+    url: 'https://github.com/google/ax',
+  },
+  {
+    date: '2026-09-21',
     time: '05:25',
     category: '后端',
     title: 'Linux 7.3-rc4 发布：LLM 找出大量修复',
@@ -41,7 +50,7 @@ export const technologyNews: TechnologyNewsItem[] = [
     time: '09:31',
     category: '后端',
     title: 'RSA-896 挑战数被成功分解',
-    summary: '研究者借 Claude 移植 CADO-NFS 到 GPU，动用约 30 GPU 年算力，10 天完成 896 位挑战数分解。',
+    summary: '研究者借 Claude 把 CADO-NFS 移植到 GPU，约 30 GPU 年算力完成 896 位挑战数分解。',
     source: 'saweis.net',
     url: 'https://saweis.net/posts/rsa-896.html',
   },
