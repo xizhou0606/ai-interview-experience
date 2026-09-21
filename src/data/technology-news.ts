@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '09:02',
+    category: 'AI',
+    title: '智谱 ZCode 官宣开源并整改道歉',
+    summary: '仓库公开并采用 Apache 2.0，v3.14.0 移除 Repo Wiki 快照上传，审计称云端零数据。',
+    source: 'GitHub',
+    url: 'https://github.com/zai-org/ZCode',
+  },
+  {
+    date: '2026-09-21',
+    time: '09:00',
+    category: '后端',
+    title: 'K8s 1.37 发布：Metrics API 转正',
+    summary: '67 项增强：metrics.k8s.io 转正，rootless kubelet 进 Beta，Pod 证书 GA。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.com/news/2026/09/kubernetes-1-37',
+  },
+  {
+    date: '2026-09-21',
     time: '06:32',
     category: 'AI',
     title: '谷歌开源 AX 智能体编排器',
