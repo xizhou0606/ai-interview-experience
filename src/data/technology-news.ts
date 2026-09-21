@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '16:45',
+    category: '后端',
+    title: '石荷州州府弃 Windows 转 Linux',
+    summary: '石勒苏益格-荷尔斯泰因推进开源：邮件与 Office 迁移后，州总理府桌面已基本运行 Linux。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Nachfolger-von-Windows-Staatskanzlei-Kiel-stellt-auf-Linux-um-11460729.html',
+  },
+  {
+    date: '2026-09-21',
+    category: '后端',
+    title: 'NGINX 1.31.5 新增 Control API',
+    summary: '用 REST 接口读取内存配置并触发重载：事务化返回成败码，不再只靠 SIGHUP 信号。',
+    source: 'NGINX',
+    url: 'https://blog.nginx.org/blog/nginx-control-api-view-in-memory-configuration-and-reload-via-http-requests',
+  },
+  {
+    date: '2026-09-21',
     time: '14:00',
     category: 'AI',
     title: 'OpenClaw 完成第三方安全审计',
