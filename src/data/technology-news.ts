@@ -20,6 +20,23 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '22:24',
+    category: 'AI',
+    title: 'Meta Muse 助手曝零日令牌窃取漏洞',
+    summary: '任意本地程序可改写语音转写端点窃取账号令牌并劫持代理，Meta 未回应，细节将在大会公布。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/',
+  },
+  {
+    date: '2026-09-18',
+    category: 'AI',
+    title: 'Google Workspace 统一搜索 MCP 预览',
+    summary: '开发者预览：单工具跨 Gmail、Drive、日历与 Chat 检索，按已授权 OAuth 范围限定数据。',
+    source: 'Google Developers',
+    url: 'https://developers.google.com/workspace/guides/universal-search-mcp',
+  },
+  {
+    date: '2026-09-21',
     time: '21:18',
     category: '后端',
     title: 'BigCommerce 通报第三方应用数据泄露',
