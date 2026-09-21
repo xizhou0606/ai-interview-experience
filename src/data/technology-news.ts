@@ -20,6 +20,30 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    category: '后端',
+    title: 'Project Zero 详析悬空 COM 提权链',
+    summary: 'CVE-2026-66804：Dark Elevator 补丁不全，悬空 COM 注册可加载恶意 DLL 提权。',
+    source: 'Google Project Zero',
+    url: 'https://projectzero.google/2026/09/windows-dangling-com.html',
+  },
+  {
+    date: '2026-09-18',
+    category: '后端',
+    title: 'npm 仿冒包藏方程触发的加密木马',
+    summary: 'mathmain 仿冒 mathjs，载荷加密休眠，程序解出特定方程才解密运行，经聊天服务与区块链收指令。',
+    source: 'SafeDep',
+    url: 'https://safedep.io/mathmain-encrypted-loader',
+  },
+  {
+    date: '2026-09-18',
+    category: '后端',
+    title: 'Gravity 发布 M4 Mac mini 早期版',
+    summary: 'Cody Ho 团队发布 Fedora 系早期版：GPU 与 DCP 可用，达 OpenGL 3.3，面向开发者。',
+    source: 'Gravity Linux',
+    url: 'https://gravitylinux.org/blog/early-alpha-m4-mac-mini/',
+  },
+  {
+    date: '2026-09-21',
     time: '16:45',
     category: '后端',
     title: '石荷州州府弃 Windows 转 Linux',
@@ -6437,14 +6461,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://mistral.ai/news/legacy-code-modernization/',
   },
   {
-    date: '2026-09-07',
-    category: '后端',
-    title: 'Rust 调试调查：LLDB 最受欢迎',
-    summary: '2300 人参与，81% 认为 print 更快，74% 抱怨值展示差，异步与宏难单步。',
-    source: 'Rust Blog',
-    url: 'https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/',
-  },
-  {
     date: '2026-09-11',
     category: '前端',
     title: 'Safari TP 252 落地多项 Web 标准',
@@ -6981,14 +6997,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst',
   },
   {
-    date: '2026-09-07',
-    category: '后端',
-    title: 'Kotlin 2.4.20 发布，K1 编译器弃用',
-    summary: '显式上下文参数转正，Kotlin/Native 增量编译默认开启，新增实验语言版本 2.6。',
-    source: 'Kotlin GitHub',
-    url: 'https://github.com/JetBrains/kotlin/releases/tag/v2.4.20',
-  },
-  {
     date: '2026-09-11',
     category: '后端',
     title: 'Rune 终端 IDE 开源，采用 GPLv3',
@@ -7253,14 +7261,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom',
   },
   {
-    date: '2026-09-07',
-    category: '后端',
-    title: 'Amazon Linux 2027 开启公测',
-    summary: '下一代 AWS 原生 OS 公测：基于 AL2023 基线、内核 7.1+，面向云原生工作负载。',
-    source: 'AWS News Blog',
-    url: 'https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/',
-  },
-  {
     date: '2026-09-11',
     category: 'AI',
     title: 'Schulman 等激辩递归自我改进',
@@ -7435,14 +7435,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '可为单个查询临时加节点跑重负载，不扰生产集群，按用量计费。',
     source: 'ClickHouse Blog',
     url: 'https://clickhouse.com/blog/on-demand-compute',
-  },
-  {
-    date: '2026-09-07',
-    category: '后端',
-    title: 'Netflix 转用开源 Flink 自动扩缩容',
-    summary: '超 3 万个流作业跨多个 AWS 区域，算子级扩缩弥补集群管理局限。',
-    source: 'InfoQ',
-    url: 'https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/',
   },
   {
     date: '2026-09-10',
@@ -8144,14 +8136,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.ithome.com/0/999/947.htm',
   },
   {
-    date: '2026-09-07',
-    category: '后端',
-    title: 'Asahi Linux 正式支持苹果 M3 系列',
-    summary: 'M3/M3 Pro/M3 Max 可安装，摄像头与 Wi-Fi 等已可用，GPU 支持仍在补齐。',
-    source: 'IT之家',
-    url: 'https://www.ithome.com/0/999/050.htm',
-  },
-  {
     date: '2026-09-13',
     time: '07:40',
     category: 'AI',
@@ -8442,15 +8426,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '版本号从 10.x 对齐至 12.0，首次支持 PostgreSQL，书籍漫画并入核心。',
     source: 'OSCHINA',
     url: 'https://www.oschina.net/news/502373/jellyfin-release-12-0',
-  },
-  {
-    date: '2026-09-07',
-    time: '19:40',
-    category: '后端',
-    title: '1024 字节写出 Python 解释器',
-    summary: 'Austin Henley 用千字节级 C 代码实现可跑 FizzBuzz 的迷你解释器。',
-    source: 'OSCHINA',
-    url: 'https://www.oschina.net/news/502364/python-1024',
   },
   {
     date: '2026-09-12',
