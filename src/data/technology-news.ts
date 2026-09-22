@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '18:04',
+    category: '后端',
+    title: 'ClosedQuorum 恶意软件用 AI 决策攻击',
+    summary: 'Talos 发现其以多模型投票自主选择窃密、注入与持久化动作，经 Discord webhook 外传。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/',
+  },
+  {
+    date: '2026-09-22',
+    time: '16:33',
+    category: 'AI',
+    title: 'Meta Muse 电话测试由人工坐席代打',
+    summary: '内部帖证实通话测试设「人工坐席层」，有测试者事后才知非 AI 通话，引发隐私争议。',
+    source: '404 Media',
+    url: 'https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/',
+  },
+  {
+    date: '2026-09-22',
     time: '18:00',
     category: 'AI',
     title: 'OpenAI 发布 GPT-6 Sol 与 Luna',
