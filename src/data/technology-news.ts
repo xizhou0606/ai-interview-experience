@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '14:04',
+    category: '后端',
+    title: 'Cloudflare 缓存支持 HTTP Vary 头',
+    summary: 'Vary 支持上线 Cache Rules 全部套餐：归一化协商头、精确透传或绕过缓存。',
+    source: 'Cloudflare Blog',
+    url: 'https://blog.cloudflare.com/vary-support/',
+  },
+  {
+    date: '2026-09-22',
+    time: '14:00',
+    category: '后端',
+    title: 'Tailscale 公布吞吐与内存优化方案',
+    summary: '小包免复制提速约 5%，多队列技术下半年落地，提升 connector 与出口节点吞吐。',
+    source: 'Tailscale',
+    url: 'https://tailscale.com/blog/making-tailscale-faster',
+  },
+  {
+    date: '2026-09-22',
+    time: '13:10',
+    category: '后端',
+    title: 'Kafka 原生集群镜像方案解析',
+    summary: 'KIP-1279 将跨集群复制内嵌进 broker，保留偏移量、压缩与消费组状态，免外置组件。',
+    source: 'Red Hat Developer',
+    url: 'https://developers.redhat.com/articles/2026/09/22/data-liberation-apache-kafka-native-cluster-mirroring',
+  },
+  {
+    date: '2026-09-22',
     time: '13:35',
     category: '后端',
     title: 'systemd 262 发布，新增 AI 代码金丝雀',
