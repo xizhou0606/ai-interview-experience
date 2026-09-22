@@ -38,6 +38,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-22',
+    time: '03:22',
+    category: 'AI',
+    title: '华为云码道上线鸿蒙编码大模型',
+    summary: 'ArkTS 专项训练，千行代码错误率降 80%+，一次编译通过率升 78%，已上线 MaaS 模型广场。',
+    source: 'InfoQ 中文站',
+    url: 'https://www.infoq.cn/article/jCdqhiUJHJlVgOYGfWGx',
+  },
+  {
+    date: '2026-09-22',
     time: '03:11',
     category: 'AI',
     title: '谷歌出资支持佐治亚两核电站扩容',
