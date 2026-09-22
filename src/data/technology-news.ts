@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '03:42',
+    category: 'AI',
+    title: '阿里确认 Qwen4 已投入训练',
+    summary: '新架构 Qwen4 训练中，Qwen4.5/Qwen5 将扩至 5-10T 参数，下代视频模型 11 月发布。',
+    source: '量子位',
+    url: 'https://www.qbitai.com/2026/09/493625.html',
+  },
+  {
+    date: '2026-09-22',
+    time: '03:11',
+    category: 'AI',
+    title: '谷歌出资支持佐治亚两核电站扩容',
+    summary: '为 Vogtle 与 Hatch 两站老机组 96MW 扩容注资，待监管批准，寿命期内客户或获约 9 亿美元收益。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/598.htm',
+  },
+  {
+    date: '2026-09-22',
+    time: '03:05',
+    category: 'AI',
+    title: '龙芯通用 GPU 加速计算平台软件首版发布',
+    summary: '基于 LG200 核心，兼容 OpenCL 3.0 与 CUDA，ONNX 模型可经 LacInfer 直接部署。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/595.htm',
+  },
+  {
+    date: '2026-09-22',
     time: '01:25',
     category: '前端',
     title: 'GitHub 仓库 PR 列表页改版正式可用',
