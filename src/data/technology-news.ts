@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '19:09',
+    category: 'AI',
+    title: 'Meta 承认 Muse 深度借鉴 OpenClaw',
+    summary: 'Nat Friedman 回应 Muse 的 SOUL.md 与 OpenClaw 雷同：确受启发，产品为从零构建。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/',
+  },
+  {
+    date: '2026-09-22',
     time: '18:04',
     category: '后端',
     title: 'ClosedQuorum 恶意软件用 AI 决策攻击',
