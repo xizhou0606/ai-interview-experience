@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-22',
+    time: '01:00',
+    category: '后端',
+    title: 'Valve Steam 测试 Pyrowave 编码器',
+    summary: 'VKD3D-Proton 作者开发，Steam Beta 上线，1080p 编解码低于 0.1 毫秒，面向千兆局域网。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave',
+  },
+  {
     date: '2026-09-21',
     time: '23:40',
     category: 'AI',
