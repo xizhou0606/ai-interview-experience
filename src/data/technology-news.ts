@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '10:32',
+    category: '后端',
+    title: 'Linux 7.3 将合入缓存感知调度修复',
+    summary: 'Intel 工程师修复 7.2 引入的多项调度缺陷，补丁本周随 7.3 合入并回移 7.2。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-7.3-CAS-Fixes-Coming',
+  },
+  {
+    date: '2026-09-22',
+    time: '10:21',
+    category: '后端',
+    title: 'Linux 7.4 新增 AMD SEV 状态接口',
+    summary: '新 sysfs 文件 sev_status 直接上报虚拟机加密状态，免用 sevctl 等工具查询。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linux-sysfs-AMD-SEV-Status',
+  },
+  {
+    date: '2026-09-22',
+    time: '09:55',
+    category: '后端',
+    title: 'Defender 新零日可阻断病毒库更新',
+    summary: 'Naceri 发布 BigDiskBuster PoC，后台常驻即可阻止 Defender 病毒库与平台更新。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/',
+  },
+  {
+    date: '2026-09-22',
     time: '09:03',
     category: '后端',
     title: 'Node.js 26.10.0 发布 Current 线',
@@ -197,6 +224,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'VKD3D-Proton 作者开发，Steam Beta 上线，1080p 编解码低于 0.1 毫秒，面向千兆局域网。',
     source: 'Phoronix',
     url: 'https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave',
+  },
+  {
+    date: '2026-09-22',
+    category: 'AI',
+    title: 'Transformers 原生支持 GGUF 量化',
+    summary: 'transformers 可直接加载 llama.cpp 量化模型，复用 ggml 内核跑笔记本本地推理。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/transformers-llama-cpp-quants',
   },
   {
     date: '2026-09-21',
@@ -10892,6 +10927,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '安全管理服务器登录栈溢出（CVE-2026-91843），未认证攻击者可获 root 权限执行代码。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/',
+  },
+  {
+    date: '2026-09-18',
+    category: 'AI',
+    title: 'Gemini 2.5 仅限活跃老用户访问',
+    summary: '为保容量，2.5 系列仅向曾活跃使用的用户开放，模型未弃用，新项目建议 3.8 Flash。',
+    source: 'Google',
+    url: 'https://ai.google.dev/gemini-api/docs/changelog',
   },
 ]
 
