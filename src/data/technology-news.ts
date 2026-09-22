@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '21:45',
+    category: '后端',
+    title: 'TrustSink 攻击可窃取 Entra 登录密码',
+    summary: 'Varonis 披露：攻击者注册恶意外部 MFA 提供商，在 Entra 登录时窃取密码并绕过多因素验证。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/',
+  },
+  {
+    date: '2026-09-22',
     time: '20:52',
     category: 'AI',
     title: 'Rabbit 发布免硬件 AI 智能体 OS3',
