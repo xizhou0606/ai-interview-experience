@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '11:53',
+    category: 'AI',
+    title: 'Meta 热修复 Muse 本地提权漏洞',
+    summary: 'Meta 在 Ars 曝光数小时后发布热修复，称利用需本地已运行恶意代码，实际风险较低。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent',
+  },
+  {
+    date: '2026-09-22',
+    time: '11:01',
+    category: 'AI',
+    title: 'Seedance 2.5 上线 Draft 样片模式',
+    summary: '火山引擎新推样片模式：先 480P 低成本验证创意，满意后复用参数生成 1080P 成片，最多省 77%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/913.htm',
+  },
+  {
+    date: '2026-09-22',
     time: '10:32',
     category: '后端',
     title: 'Linux 7.3 将合入缓存感知调度修复',
