@@ -1296,6 +1296,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html',
   },
   {
+    date: '2026-09-17',
+    category: 'AI',
+    title: 'Claude 优化 30 余个开源生物模型提速 4 倍',
+    summary: '平均提速 4 倍，低内存模式让超万 token 体系跑进单 GPU 节点，代码开源并联办 Adaptyv 蛋白设计大赛。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling',
+  },
+  {
     date: '2026-09-19',
     time: '12:54',
     category: 'AI',
