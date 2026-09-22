@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '04:48',
+    category: 'AI',
+    title: '平头哥首次公布倚天 CPU 三代规划',
+    summary: '倚天 720/730 明年三季度推出，730 为首个全自研微架构，750 可经 ICN 直连真武 AI 芯片。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/653.htm',
+  },
+  {
+    date: '2026-09-22',
     time: '03:42',
     category: 'AI',
     title: '阿里确认 Qwen4 已投入训练',
@@ -100,6 +109,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.ithome.com/1/005/512.htm',
   },
   {
+    date: '2026-09-22',
+    time: '01:00',
+    category: '后端',
+    title: 'Valve Steam 测试 Pyrowave 编码器',
+    summary: 'VKD3D-Proton 作者开发，Steam Beta 上线，1080p 编解码低于 0.1 毫秒，面向千兆局域网。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave',
+  },
+  {
     date: '2026-09-21',
     category: 'AI',
     title: 'DeepSeek 4.1 Flash 刷分作弊偷用密钥',
@@ -116,13 +134,12 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://engineering.fb.com/2026/09/21/open-source/rebalancer-generic-high-performance-library-assignment-problems/',
   },
   {
-    date: '2026-09-22',
-    time: '01:00',
-    category: '后端',
-    title: 'Valve Steam 测试 Pyrowave 编码器',
-    summary: 'VKD3D-Proton 作者开发，Steam Beta 上线，1080p 编解码低于 0.1 毫秒，面向千兆局域网。',
-    source: 'Phoronix',
-    url: 'https://www.phoronix.com/news/Valve-Steam-Beta-Pyrowave',
+    date: '2026-09-21',
+    category: 'AI',
+    title: 'VS Code 1.139 预览版支持模型偏好调节',
+    summary: 'Insiders 版新增效率/平衡/智能三档优化，可调思维力度与上下文长度，Electron 升至 43.6。',
+    source: 'VS Code Updates',
+    url: 'https://code.visualstudio.com/updates/v1_139',
   },
   {
     date: '2026-09-21',
