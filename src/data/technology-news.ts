@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '09:03',
+    category: '后端',
+    title: 'Node.js 26.10.0 发布 Current 线',
+    summary: 'Current 线更新：新增 PKCS#12 证书解析、同步 Blob 读取等 API，util 内置节流与防抖函数。',
+    source: 'Node.js',
+    url: 'https://nodejs.org/en/blog/release/v26.10.0',
+  },
+  {
+    date: '2026-09-22',
+    time: '09:00',
+    category: 'AI',
+    title: 'JetBrains 发布 Air 智能体开发产品体系',
+    summary: '整合 IDE 智能体体验、Teams 协作与治理（原 Central），Junie 经 ACP 跨产品可用。',
+    source: 'JetBrains Blog',
+    url: 'https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air/',
+  },
+  {
+    date: '2026-09-22',
     time: '08:53',
     category: '后端',
     title: 'CISA 限期修复 Zyxel 交换机漏洞',
