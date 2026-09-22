@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '18:00',
+    category: 'AI',
+    title: 'OpenAI 发布 GPT-6 Sol 与 Luna',
+    summary: 'Astra 系列小模型更新：API 价格减半，错误率约为前代一半，已上线 ChatGPT、Codex 与 API。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/introducing-gpt-6-sol-and-luna/',
+  },
+  {
+    date: '2026-09-22',
+    time: '18:00',
+    category: '前端',
+    title: 'Next.js 带外更新修复 RCE 漏洞',
+    summary: 'Satori 上游缺陷可经 next/og 触发 RCE，16.3.6 修复，15.5.26 加固，15.x 不受影响。',
+    source: 'Next.js',
+    url: 'https://nextjs.org/blog/nextjs-security-update-september-22-2026',
+  },
+  {
+    date: '2026-09-22',
+    time: '16:41',
+    category: '后端',
+    title: 'Bifrost AI 网关未授权 RCE',
+    summary: 'CVE-2026-90898 评 9.8：默认免鉴权可注册 stdio MCP 执行任意命令，2.1.0 已修复。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html',
+  },
+  {
+    date: '2026-09-22',
     time: '16:42',
     category: 'AI',
     title: 'OpenRouter 推出半价 Batch API',
