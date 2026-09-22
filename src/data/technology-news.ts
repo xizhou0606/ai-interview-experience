@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '08:53',
+    category: '后端',
+    title: 'CISA 限期修复 Zyxel 交换机漏洞',
+    summary: 'GS1900 交换机 CGI 栈溢出（CVE-2026-7273）已在野利用窃取数据，联邦机构须周四前修复。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/',
+  },
+  {
+    date: '2026-09-22',
+    time: '08:46',
+    category: 'AI',
+    title: '海光发布 1000 系列端侧 CPU',
+    summary: '首款端侧智能算力芯片，C86 架构集成 iGPU 与国密安全，面向工业、边缘与机器人场景。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/837.htm',
+  },
+  {
+    date: '2026-09-22',
+    time: '08:36',
+    category: '后端',
+    title: 'Broadcom 收紧 VMware VDDK 下载',
+    summary: '公开下载已移除，改经指定合作方提供，备份与迁移工具的全新安装部署受阻。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Broadcom-erschwert-den-VMware-Ausstieg-11460659.html',
+  },
+  {
+    date: '2026-09-22',
     time: '07:46',
     category: 'AI',
     title: '千问办公发布 Agent 硬件 QwenNote A2',
