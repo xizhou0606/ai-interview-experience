@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-21',
+    time: '23:40',
+    category: 'AI',
+    title: '浪潮 SD200 Ultra 超节点发布',
+    summary: '单机 128 颗国产芯片承载 2.8 万亿参数 Kimi K3，生成时延首破 5.85 毫秒。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/504.htm',
+  },
+  {
+    date: '2026-09-21',
     time: '22:24',
     category: 'AI',
     title: 'Meta Muse 助手曝零日令牌窃取漏洞',
@@ -34,6 +43,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '开发者预览：单工具跨 Gmail、Drive、日历与 Chat 检索，按已授权 OAuth 范围限定数据。',
     source: 'Google Developers',
     url: 'https://developers.google.com/workspace/guides/universal-search-mcp',
+  },
+  {
+    date: '2026-09-18',
+    category: '后端',
+    title: 'Git 3.0 拟默认 SHA-256 并强制 Rust',
+    summary: 'Hamano 提议 3.0：默认 SHA-256 与 reftable、构建强制 Rust，GitHub 仍未支持。',
+    source: 'LWN',
+    url: 'https://lwn.net/Articles/1094575/',
   },
   {
     date: '2026-09-21',
