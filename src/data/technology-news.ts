@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '07:46',
+    category: 'AI',
+    title: '千问办公发布 Agent 硬件 QwenNote A2',
+    summary: '云栖大会发布企业上下文与数字员工，首款 Agent 硬件 QwenNote A2 售 1199 元。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/005/744.htm',
+  },
+  {
+    date: '2026-09-22',
+    time: '07:12',
+    category: '前端',
+    title: 'Meta 开源 Astryx React 设计系统',
+    summary: '基于 React 19 与 StyleX，150+ 可访问组件，内置 CLI 与 MCP 工具链面向 Agent。',
+    source: 'GitHub',
+    url: 'https://github.com/facebook/astryx',
+  },
+  {
+    date: '2026-09-22',
+    time: '06:03',
+    category: '后端',
+    title: 'WordPress 评论漏洞可致服务器 RCE',
+    summary: 'CVE-2026-93485：匿名评论注入脚本，管理员浏览后可获服务器代码执行，7.1.1 已修复。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html',
+  },
+  {
+    date: '2026-09-22',
     time: '04:48',
     category: 'AI',
     title: '平头哥首次公布倚天 CPU 三代规划',
