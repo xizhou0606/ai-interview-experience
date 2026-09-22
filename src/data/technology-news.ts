@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    time: '22:47',
+    category: '后端',
+    title: '华为仓颉语言 1.2.0 发布',
+    summary: '新增 Android aarch64 与 iOS LTO 支持，增强 ObjC/Java 互操作和 LSP 工具链能力。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/020.htm',
+  },
+  {
+    date: '2026-09-22',
+    time: '22:24',
+    category: 'AI',
+    title: 'Copilot CLI 为 C++ 建全库符号索引',
+    summary: '基于微软 C++ 语言服务器持久索引全库符号，大代码库查定义与引用更快。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-22-faster-c-code-intelligence-with-whole-codebase-indexing',
+  },
+  {
+    date: '2026-09-22',
+    time: '22:12',
+    category: 'AI',
+    title: 'DigitalOcean 发布智能体托管平台预览',
+    summary: 'Firecracker 微虚拟机运行智能体工作区，MCP 网关托管 1.6 万余工具，按秒计费。',
+    source: 'DigitalOcean',
+    url: 'https://www.digitalocean.com/blog/managed-agents-public-preview',
+  },
+  {
+    date: '2026-09-22',
     time: '21:45',
     category: '后端',
     title: 'TrustSink 攻击可窃取 Entra 登录密码',
