@@ -19,6 +19,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-21',
+    category: 'AI',
+    title: 'Redis 之父 antirez 质疑 Jev 炒作',
+    summary: '称 Jev 用例狭窄，热潮恰是 AI 泡沫中多数人分不清轻重的写照，获 13.8 万浏览。',
+    source: 'antirez on X',
+    url: 'https://x.com/antirez/status/2101934907681276204',
+  },
+  {
     date: '2026-09-19',
     time: '12:20',
     category: 'AI',
