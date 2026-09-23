@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '17:24',
+    category: 'AI',
+    title: '谷歌私有 AI 计算新增持久加密记忆',
+    summary: '云端加密保管记忆、密钥只留在用户设备，安全隔离区内临时解密处理，支持跨设备续接上下文。',
+    source: 'Google DeepMind',
+    url: 'https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/',
+  },
+  {
+    date: '2026-09-23',
     time: '16:12',
     category: 'AI',
     title: 'ComfyUI 上线媒体模型统一 API 路由',
