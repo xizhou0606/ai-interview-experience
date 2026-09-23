@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '13:00',
+    category: 'AI',
+    title: 'OpenAI 向乌克兰开放 Daybreak 网络防御',
+    summary: '将 Daybreak 网络防御计划扩展至乌克兰政府，保护民用基础设施免受网络攻击。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense',
+  },
+  {
+    date: '2026-09-23',
+    time: '12:15',
+    category: 'AI',
+    title: 'Claude Code 关遥测不读 AGENTS.md',
+    summary: '加载由远程开关控制，关遥测或经 Bedrock/Vertex 时静默跳过，CLAUDE.md 一行可绕过。',
+    source: 'szypowi.cz Blog',
+    url: 'https://blog.szypowi.cz/p/claude-code-reads-agents-md-only-when-telemetry-is-on/',
+  },
+  {
+    date: '2026-09-23',
     time: '09:42',
     category: 'AI',
     title: '蚂蚁百灵开源 Ming-Image-0.1-Design',
