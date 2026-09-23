@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '13:17',
+    category: 'AI',
+    title: 'NVIDIA 开源说话人分离模型 Nemotron 3',
+    summary: '开源 100M 模型分离说话人，VoiceArena 榜首 14.72% DER，流式离线一体，低延迟误差相对降四成。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/nvidia/nemotron-diarization',
+  },
+  {
+    date: '2026-09-23',
     time: '13:00',
     category: 'AI',
     title: 'OpenAI 向乌克兰开放 Daybreak 网络防御',
