@@ -74,6 +74,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-22',
+    time: '22:23',
+    category: '后端',
+    title: 'AWS 推出 CloudWatch Omni 可观测平台',
+    summary: '以应用为中心的团队观测工作台，OTel 遥测免改造接入，DevOps Agent 参与根因调查。',
+    source: 'AWS News Blog',
+    url: 'https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/',
+  },
+  {
+    date: '2026-09-22',
     category: '后端',
     title: 'CISA 将 F5、Arista 零日列入在野利用目录',
     summary: 'F5 BIG-IP APM 堆溢出与 VeloCloud 输入校验两零日确认遭在野利用，德国 BSI 同步警告。',
