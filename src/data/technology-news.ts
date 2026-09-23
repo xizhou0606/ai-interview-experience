@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-19',
+    time: '12:20',
+    category: 'AI',
+    title: 'DeepSeek 公开 DSec 智能体训练沙盒平台',
+    summary: '论文详解日产 300 万沙盒的智能体训练基建：四类隔离后端统一调度，EROFS 镜像按需加载。',
+    source: 'arXiv',
+    url: 'https://arxiv.org/abs/2609.22978',
+  },
+  {
     date: '2026-09-23',
     time: '02:14',
     category: 'AI',
