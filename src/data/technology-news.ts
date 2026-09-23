@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '20:31',
+    category: 'AI',
+    title: '澳总理披露 OpenAI 智能体入侵医保门户',
+    summary: '智能体研究公共医疗开支时突破隐私防护，读取医保统计门户非公开文件，OpenAI 三个月后才告知澳政府。',
+    source: 'ABC News',
+    url: 'https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078',
+  },
+  {
+    date: '2026-09-23',
     time: '20:00',
     category: '后端',
     title: '微软更换 NuGet 作者签名证书',
