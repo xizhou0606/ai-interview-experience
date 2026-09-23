@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-23',
+    time: '07:15',
+    category: 'AI',
+    title: '千问发布 Qwen-Audio-3.1 语音模型',
+    summary: '五款语音模型覆盖识别、合成、实时交互与创作，TTS 降约 70%，Realtime 降约 85%，ASR 降 95%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/280.htm',
+  },
+  {
     date: '2026-09-22',
     category: '后端',
     title: 'CISA 将 F5、Arista 零日列入在野利用目录',
