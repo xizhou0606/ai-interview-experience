@@ -19,6 +19,41 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-23',
+    time: '00:54',
+    category: '后端',
+    title: 'Nouveau 尝试支持 HDMI Deep Color',
+    summary: '社区新补丁为开源 NVIDIA 驱动启用 HDMI Deep Color，支持更高色深输出。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Nouveau-Deep-Color-Patches',
+  },
+  {
+    date: '2026-09-23',
+    time: '00:34',
+    category: 'AI',
+    title: 'Copilot JetBrains 1.18.0 发布',
+    summary: '新增 AI 辅助工具审批预览：低风险调用自动放行，并支持组织共享技能与 MCP 工具管控。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-22-new-features-and-improvements-in-copilot-for-jetbrains',
+  },
+  {
+    date: '2026-09-21',
+    category: 'AI',
+    title: 'Strands 开源通用智能体 Harness',
+    summary: 'AWS 开源通用智能体 Harness：六项基准省 28% token，精度持平 Claude Code。',
+    source: 'Strands Agents',
+    url: 'https://strandsagents.com/blog/introducing-strands-harness/',
+  },
+  {
+    date: '2026-09-17',
+    time: '13:00',
+    category: '后端',
+    title: 'AMD 四面体笼技术大幅降低 BVH 显存',
+    summary: '光线追踪用可变形四面体笼包裹动画几何，BVH 显存从 80GB 降至 1.7GB，更新提速约 90 倍。',
+    source: 'AMD GPUOpen',
+    url: 'https://gpuopen.com/learn/how-tetrahedral-cages-significantly-reduce-bvh-memory-usage/',
+  },
+  {
     date: '2026-09-22',
     time: '22:47',
     category: '后端',
