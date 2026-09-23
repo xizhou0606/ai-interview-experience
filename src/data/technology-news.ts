@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '22:57',
+    category: '后端',
+    title: 'GitLab 紧急修复两个 CVSS 9.9 RCE',
+    summary: '19.4.1 等版本修复 CI/CD 正则两个 CVSS 9.9 认证 RCE，自建实例应立即升级。',
+    source: 'GitLab Release Notes',
+    url: 'https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-1-released/',
+  },
+  {
+    date: '2026-09-23',
+    time: '22:46',
+    category: '后端',
+    title: '开发文档占位域名遭 ClickFix 滥用',
+    summary: 'third-party.com 现挂假 Cloudflare 验证页，诱导 Windows 用户粘贴运行命令。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/',
+  },
+  {
+    date: '2026-09-23',
     time: '21:25',
     category: '后端',
     title: 'RemControl 安卓银行木马出现',
