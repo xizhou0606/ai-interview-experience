@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-22',
+    time: '22:11',
+    category: '后端',
+    title: '微软安全启动证书更新致宏碁启动故障',
+    summary: '新证书先于兼容固件生效导致部分宏碁 Win11 设备无法开机，禁用 Secure Boot 可暂时恢复。',
+    source: 'BornCity',
+    url: 'https://borncity.com/blog/2026/09/23/windows-secure-boot-probleme-nach-zertifikatsaustausch/',
+  },
+  {
     date: '2026-09-21',
     category: 'AI',
     title: 'Redis 之父 antirez 质疑 Jev 炒作',
