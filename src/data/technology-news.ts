@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '02:14',
+    category: 'AI',
+    title: 'Copilot 应用支持 OTel 遥测导出',
+    summary: '企业管理设置配置 OTel 后，智能体会话与工具调用可导出至监控工具排查异常。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-09-22-opentelemetry-in-the-github-copilot-app',
+  },
+  {
+    date: '2026-09-23',
     time: '01:26',
     category: '后端',
     title: 'Cloudflare 测试缓存转码降低存储',
