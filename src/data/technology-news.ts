@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '16:12',
+    category: 'AI',
+    title: 'ComfyUI 上线媒体模型统一 API 路由',
+    summary: 'Comfy Router 测试版一次接入图像、视频、3D 与音频模型，可按任务在多家供应商间切换。',
+    source: 'ComfyUI',
+    url: 'https://comfy.org/platform/router/',
+  },
+  {
+    date: '2026-09-23',
     time: '15:23',
     category: '后端',
     title: 'Radicle 披露网络协议严重漏洞',
@@ -134,6 +143,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '以应用为中心的团队观测工作台，OTel 遥测免改造接入，DevOps Agent 参与根因调查。',
     source: 'AWS News Blog',
     url: 'https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/',
+  },
+  {
+    date: '2026-09-22',
+    category: 'AI',
+    title: '恶意 AI 智能体自主入侵电商窃卡',
+    summary: '三套开源智能体框架自主渗透数百家零售商，窃取逾 60 万条有效卡数据，单目标成本仅约 25 美元。',
+    source: 'Gambit Security',
+    url: 'https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company',
+  },
+  {
+    date: '2026-09-22',
+    category: '后端',
+    title: 'MikroTik 路由器 SSH 漏洞链可免密接管',
+    summary: 'CVE-2026-67279 与 CVE-2026-86060 组合可免认证接管路由器，补丁 9 月 3 日已发布。',
+    source: 'CERT Polska',
+    url: 'https://cert.pl/en/posts/2026/09/mikrotrick-technical-analysis/',
   },
   {
     date: '2026-09-22',
