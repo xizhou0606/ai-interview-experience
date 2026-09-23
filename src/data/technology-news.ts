@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '09:42',
+    category: 'AI',
+    title: '蚂蚁百灵开源 Ming-Image-0.1-Design',
+    summary: '两款 6B 模型从文字生成 UI、信息图与海报，可拆透明图层，UI/UX 专项评测开源第一。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/390.htm',
+  },
+  {
+    date: '2026-09-23',
     time: '08:35',
     category: 'AI',
     title: '科大讯飞发布 Spark-ASR-2.0 语音识别模型',
