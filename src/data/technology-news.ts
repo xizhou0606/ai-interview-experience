@@ -11251,6 +11251,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/',
   },
   {
+    date: '2026-09-17',
+    category: 'AI',
+    title: '谷歌 CC 智能体扩展至家庭与群组',
+    summary: 'Google Labs 将 CC 升级为家庭智能体，最多 6 名成员共享日程任务与餐饮等家务规划，美国已开放。',
+    source: 'Google',
+    url: 'https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/',
+  },
+  {
+    date: '2026-09-16',
+    category: 'AI',
+    title: '蚂蚁开源金融模型 Ling-3.0-flash-Fin',
+    summary: 'AA 评测：激活参数 51 亿跑平 MiniMax-M2.7，面向金融研究，可查证来源、建估值表与写报告。',
+    source: 'Artificial Analysis',
+    url: 'https://artificialanalysis.ai/articles/ant-group-releases-finance-focused-ling-3-0-flash-fin',
+  },
+  {
     date: '2026-09-13',
     category: '前端',
     title: 'ANGLE 编译链吃掉 fract() 致着色器跳变',
