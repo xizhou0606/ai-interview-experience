@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-23',
+    time: '08:35',
+    category: 'AI',
+    title: '科大讯飞发布 Spark-ASR-2.0 语音识别模型',
+    summary: '融合非自回归与 LLM 增强解码，中英混说、方言与高噪场景词错率下降，明日上线讯飞输入法。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/345.htm',
+  },
+  {
+    date: '2026-09-23',
     time: '07:15',
     category: 'AI',
     title: '千问发布 Qwen-Audio-3.1 语音模型',
@@ -43,6 +52,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '新证书先于兼容固件生效导致部分宏碁 Win11 设备无法开机，禁用 Secure Boot 可暂时恢复。',
     source: 'BornCity',
     url: 'https://borncity.com/blog/2026/09/23/windows-secure-boot-probleme-nach-zertifikatsaustausch/',
+  },
+  {
+    date: '2026-09-21',
+    time: '21:01',
+    category: '后端',
+    title: 'UTA0565 借假网站投放 CLEANGULP 后门',
+    summary: 'Volexity 续报：假网站串联 Chrome 与 Windows 零日，投放 CLEANGULP 后门窃密。',
+    source: 'Volexity',
+    url: 'https://www.volexity.com/blog/2026/09/21/mind-the-patch-gap-part-2-fake-websites-used-to-deploy-chrome-windows-0-day-exploits/',
   },
   {
     date: '2026-09-21',
