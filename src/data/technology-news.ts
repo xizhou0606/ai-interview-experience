@@ -20,6 +20,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-22',
+    category: '后端',
+    title: 'CISA 将 F5、Arista 零日列入在野利用目录',
+    summary: 'F5 BIG-IP APM 堆溢出与 VeloCloud 输入校验两零日确认遭在野利用，德国 BSI 同步警告。',
+    source: 'CISA',
+    url: 'https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog',
+  },
+  {
+    date: '2026-09-22',
     time: '22:11',
     category: '后端',
     title: '微软安全启动证书更新致宏碁启动故障',
