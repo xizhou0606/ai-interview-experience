@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '04:01',
+    category: 'AI',
+    title: 'Claude Code 云会话结束预览正式上线',
+    summary: '关机后任务在云端继续跑，可从浏览器手机终端接管；Pro/Max 可领 100/250 美元额度。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/704.htm',
+  },
+  {
+    date: '2026-09-24',
     time: '03:49',
     category: 'AI',
     title: '腾讯 QClaw 宣布 12 月 24 日停运',
