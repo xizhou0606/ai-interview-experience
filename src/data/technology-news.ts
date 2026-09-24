@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '09:25',
+    category: 'AI',
+    title: 'WSO2 Agent Manager 正式发布',
+    summary: 'Beta 后正式版：新增 MCP 治理与 K8s 沙箱运行时，可验证身份、RBAC 与 40 余项内置控制，框架无关。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/4gr5Zt9GZoyIwF2f6LvR',
+  },
+  {
+    date: '2026-09-24',
+    time: '08:28',
+    category: 'AI',
+    title: '小米公开 MiMo-V3 核心架构 HySparse2',
+    summary: '面向长程多轮 Agent：两级 KV 共享加 token 级稀疏选择，更省 Prefill 与显存，长文检索更准。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/839.htm',
+  },
+  {
+    date: '2026-09-24',
     time: '07:32',
     category: 'AI',
     title: '腾讯 WorkBuddy 支持一句话生成上线小程序',
