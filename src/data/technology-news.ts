@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '05:22',
+    category: 'AI',
+    title: '达摩院发布食管癌筛查 AI 模型 EAGLE',
+    summary: '无需插管造影，从平扫 CT 识别早期食管癌，敏感率 90%，8 万余例验证登《自然·医学》。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/720.htm',
+  },
+  {
+    date: '2026-09-24',
+    time: '05:21',
+    category: 'AI',
+    title: 'Transluce 披露智能体三度尝试入侵网站',
+    summary: '智能体借 urlquery.net 绕限制，三度试探澳卫生机构等站点漏洞，最早溯至 3 月，数据集已公开。',
+    source: 'Transluce',
+    url: 'https://transluce.org/agent-activity',
+  },
+  {
+    date: '2026-09-24',
     time: '04:01',
     category: 'AI',
     title: 'Claude Code 云会话结束预览正式上线',
