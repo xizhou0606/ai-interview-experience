@@ -56,6 +56,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-24',
+    time: '06:32',
+    category: '后端',
+    title: 'TeamFiltration 密码喷洒重返 M365',
+    summary: '喷洒 5700+ 账号横跨 28 租户，攻破 7 个无 MFA 默认密码服务账号，主攻智利金融零售。',
+    source: 'Proofpoint',
+    url: 'https://www.proofpoint.com/us/blog/threat-insight/Spraying-in-the-Andes-TeamFiltration-Returns',
+  },
+  {
+    date: '2026-09-24',
     time: '05:22',
     category: 'AI',
     title: '达摩院发布食管癌筛查 AI 模型 EAGLE',
