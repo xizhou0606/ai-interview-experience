@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '06:35',
+    category: 'AI',
+    title: 'ChatGPT 移动端新增语音智能体功能',
+    summary: '语音即可写文档、总结邮件、建网站做 PPT；Pro/Plus 全量，Free/Go 可用插件和已连应用。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/776.htm',
+  },
+  {
+    date: '2026-09-24',
     time: '05:22',
     category: 'AI',
     title: '达摩院发布食管癌筛查 AI 模型 EAGLE',
