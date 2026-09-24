@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '07:32',
+    category: 'AI',
+    title: '腾讯 WorkBuddy 支持一句话生成上线小程序',
+    summary: '5.6.1 起自然语言生成小程序并直连云数据库、登录与存储，构建发布一站式完成。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/812.htm',
+  },
+  {
+    date: '2026-09-24',
+    time: '07:22',
+    category: 'AI',
+    title: 'OpenAI 发布 MentalHealthBench',
+    summary: '1215 段合成对话、5262 条专家评分标准、19 种语言，GPT-6 Astra 得分最高 57.3%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/805.htm',
+  },
+  {
+    date: '2026-09-24',
+    time: '07:17',
+    category: 'AI',
+    title: '谷歌确认 Gemini 4 后训练中，有望年底前推出',
+    summary: 'DeepMind 负责人称盼远早于年底发布，内部 Antigravity 已用上，3.5 Pro 未再发布。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/800.htm',
+  },
+  {
+    date: '2026-09-24',
     time: '06:35',
     category: 'AI',
     title: 'ChatGPT 移动端新增语音智能体功能',
