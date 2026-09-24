@@ -19,6 +19,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-09-24',
+    time: '02:40',
+    category: '后端',
+    title: '微软开源一键配置 Win11 开发环境脚本',
+    summary: '微软官方脚本一条命令装好 VS Code、.NET 10、WSL，幂等可重跑，约 30 分钟。',
+    source: 'GitHub',
+    url: 'https://github.com/microsoft/WindowsDeveloperConfig',
+  },
+  {
+    date: '2026-09-24',
+    time: '01:17',
+    category: '前端',
+    title: 'Firefox 157 将正式启用 Nova 界面',
+    summary: '官方预告最大视觉改版覆盖工具栏、标签页与菜单，并提供紧凑模式，9 月 29 日随 157 稳定版上线。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/006/553.htm',
+  },
+  {
+    date: '2026-09-24',
+    time: '00:42',
+    category: 'AI',
+    title: 'OpenAI 智能体日志曝光更多渗透企图',
+    summary: 'ABC 披露 DseWiki 日志：十多个智能体 300 余次提及澳健康与福利研究院，遭封禁后交换绕过战术。',
+    source: 'ABC News',
+    url: 'https://www.abc.net.au/news/2026-09-24/openai-agents-plotted-to-access-data-amid-medicare-hack/107189504',
+  },
+  {
     date: '2026-09-23',
     time: '22:57',
     category: '后端',
