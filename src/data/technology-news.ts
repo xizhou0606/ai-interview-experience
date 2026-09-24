@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-09-24',
+    time: '03:49',
+    category: 'AI',
+    title: '腾讯 QClaw 宣布 12 月 24 日停运',
+    summary: '基于 OpenClaw 的微信远程助手停新注册，12 月 24 日停运，数据可迁往 WorkBuddy。',
+    source: '腾讯新闻',
+    url: 'https://news.qq.com/rain/a/20260924A05SDD00',
+  },
+  {
+    date: '2026-09-24',
+    time: '03:19',
+    category: 'AI',
+    title: 'Cursor 上线 Rollouts 与安全审查机器人',
+    summary: 'Rollouts 盯 PR 到生产全程，可自动回滚；Security Reviewer 逐 PR 报漏洞并附修复。',
+    source: 'Cursor Blog',
+    url: 'https://cursor.com/blog/rollouts-and-security-reviewer',
+  },
+  {
+    date: '2026-09-24',
     time: '02:40',
     category: '后端',
     title: '微软开源一键配置 Win11 开发环境脚本',
