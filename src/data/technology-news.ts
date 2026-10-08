@@ -568,6 +568,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.heise.de/news/Anthropic-Pentagon-vollendet-Abschied-Meta-und-Microsoft-schraenken-Nutzung-ein-11476932.html',
   },
   {
+    date: '2026-10-06',
+    time: '03:06',
+    category: '后端',
+    title: 'Vercel 确认 KVM 虚拟机逃逸零日',
+    summary: '研究员经 Vercel 沙箱赏金发现 KVM 虚拟机逃逸零日，官方确认，暂无 CVE 与补丁。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/offbeat/2026/10/06/security-researcher-claims-they-found-kvm-guest-host-escape-flaw/5301267/',
+  },
+  {
     date: '2026-10-05',
     time: '19:16',
     category: 'AI',
