@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '15:41',
+    category: '后端',
+    title: 'Ubuntu 基础设施遭持续 DDoS 攻击',
+    summary: 'Ubuntu 官网与 ISO 下载等资源遭持续 DDoS 攻击无法访问，官方已确认攻击进行中。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Ubuntu-DDoS-October-2026',
+  },
+  {
+    date: '2026-10-08',
+    time: '15:39',
+    category: 'AI',
+    title: 'Ecosia 弃用 Mistral 转向中国开源模型',
+    summary: '搜索引擎 Ecosia 与 Mistral 分手，转投开源及开放权重模型，含中国厂商系统。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Adieu-Mistral-Ecosia-wechselt-zu-chinesischen-Open-Source-KI-Modellen-11481323.html',
+  },
+  {
+    date: '2026-10-08',
+    time: '15:26',
+    category: '后端',
+    title: '思科修复 Nexus 五个关键漏洞',
+    summary: 'NX-OS 五个关键漏洞可致 root 任意代码执行或 DoS，影响 Nexus 3000/9000，已发修复。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/',
+  },
+  {
+    date: '2026-10-08',
     time: '13:28',
     category: 'AI',
     title: '谷歌发布端侧会议笔记应用 Foresight',
