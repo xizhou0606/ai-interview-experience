@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '11:54',
+    category: '后端',
+    title: 'Google 用 Pyrefly 替换 Pytype',
+    summary: '谷歌改用 Meta 开源的 Pyrefly 做 Python 类型检查，替换自研 Pytype，显著提速省算力。',
+    source: 'Google Open Source Blog',
+    url: 'https://opensource.googleblog.com/2026/10/adopting-pyrefly-as-the-python-type-checker-at-google.html',
+  },
+  {
+    date: '2026-10-08',
+    time: '11:52',
+    category: '后端',
+    title: 'Veeam 修复备份服务器关键 RCE',
+    summary: 'Mount 服务反序列化漏洞 CVSS4 9.4，低权限即可执行任意代码，已随 12.3.2 P4 修复。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Veeam-stopft-Schadcode-Luecke-in-Backup-Replication-11480790.html',
+  },
+  {
+    date: '2026-10-08',
     time: '09:41',
     category: '后端',
     title: 'SonicWall 爆 CVSS 满分 SSRF 漏洞',
@@ -224,6 +242,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '/model 命令可发现并接入本地运行模型，Copilot 月底起支持端侧推理切换。',
     source: 'GitHub Changelog',
     url: 'https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli',
+  },
+  {
+    date: '2026-10-07',
+    time: '15:46',
+    category: 'AI',
+    title: 'GitHub Copilot 本地沙箱正式发布',
+    summary: 'Copilot CLI、应用与 VS Code 智能体命令进入本地沙箱，基于 MXC 限制文件、网络与凭据访问。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available',
   },
   {
     date: '2026-10-07',
