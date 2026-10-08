@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '19:00',
+    category: 'AI',
+    title: 'Anthropic 面向开源推出漏洞扫描服务',
+    summary: '基于 Glasswing 经验，半年发现 2.9 万候选漏洞，加入项目可免费获定期安全扫描。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source',
+  },
+  {
+    date: '2026-10-08',
+    time: '18:32',
+    category: '后端',
+    title: 'FBI 称中国关联黑客设门户分享窃取邮箱',
+    summary: 'FBI 表示中国关联黑客运营门户，向第三方提供窃取邮箱数据的访问。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html',
+  },
+  {
+    date: '2026-10-08',
     time: '17:23',
     category: '前端',
     title: 'Bootstrap 6 首个 Alpha 版发布',
@@ -233,6 +251,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '以 Rust+WASM 逆向复刻 PS 等 7 款 Adobe 应用界面与工具，开源免费。',
     source: 'Ars Technica',
     url: 'https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/',
+  },
+  {
+    date: '2026-10-07',
+    time: '21:28',
+    category: '后端',
+    title: 'FBI 警告 FortiBleed 攻击仍在持续',
+    summary: '攻击者利用泄露凭据入侵 FortiGate 防火墙，篡改管理员凭据锁死设备，已涉 8.6 万台。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/',
   },
   {
     date: '2026-10-07',
