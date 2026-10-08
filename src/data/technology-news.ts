@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '19:20',
+    category: '后端',
+    title: '低价安卓手机固件预装代理恶意软件',
+    summary: 'Bitdefender 披露 Midnight Mimosa 固件级恶意软件，波及 150 多国，刷广告并转售住宅代理。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/',
+  },
+  {
+    date: '2026-10-08',
+    time: '19:16',
+    category: 'AI',
+    title: 'Claude 上线仪表盘与动画生成功能',
+    summary: '两项功能开启测试：连数据平台生成实时仪表盘、生成动画讲解视频；Docs、Slides、Design 转免费。',
+    source: 'Anthropic',
+    url: 'https://claude.com/resources/articles/dashboards-and-motion',
+  },
+  {
+    date: '2026-10-08',
+    time: '19:15',
+    category: 'AI',
+    title: 'Anthropic 发布 Cyber Mission',
+    summary: '启动长期安全计划：新设 CIDP 保卫电网水务等关键基础设施，涵盖开源侧 OSS Scanner。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/news/anthropic-cyber-mission',
+  },
+  {
+    date: '2026-10-08',
     time: '19:00',
     category: 'AI',
     title: 'Anthropic 面向开源推出漏洞扫描服务',
