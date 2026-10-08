@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '17:23',
+    category: '前端',
+    title: 'Bootstrap 6 首个 Alpha 版发布',
+    summary: 'Bootstrap 6 Alpha 1 上线 npm：Sass 模块化改造、JS 插件仅 ESM，浏览器基线大幅提升。',
+    source: 'Bootstrap Blog',
+    url: 'https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/',
+  },
+  {
+    date: '2026-10-08',
+    time: '17:10',
+    category: '后端',
+    title: 'FakeGit 恶意仓库复活至 1.7 万个',
+    summary: 'Apiiro：34 小时新增 1.3 万恶意仓库，投递 SmartLoader 与 StealC 窃密木马。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/',
+  },
+  {
+    date: '2026-10-08',
     time: '15:41',
     category: '后端',
     title: 'Ubuntu 基础设施遭持续 DDoS 攻击',
