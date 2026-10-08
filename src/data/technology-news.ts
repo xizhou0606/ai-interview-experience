@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-08',
+    time: '02:23',
+    category: '后端',
+    title: 'Tensorlake npm 包遭投毒成窃密蠕虫',
+    summary: '窃取 GitHub/npm 凭据与 AI 工具配置，撤销令牌即清空主目录，可向其他仓库传播。',
+    source: 'StepSecurity',
+    url: 'https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm',
+  },
+  {
     date: '2026-10-07',
     time: '21:16',
     category: '后端',
