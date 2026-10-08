@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '03:25',
+    category: '后端',
+    title: 'Meta 展示 CRAM 压缩内存新方案',
+    summary: 'LPC 2026 演示：压缩数据保持页表映射可直读，只读性能近原生 DRAM，探索替代 ZRAM。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/010/440.htm',
+  },
+  {
+    date: '2026-10-08',
+    time: '03:19',
+    category: '后端',
+    title: '华为展示 XMFS 跨节点内存文件系统',
+    summary: 'LPC 2026 展示：面向 CXL 3.0 与统一总线，以 POSIX 接口直接寻址跨节点共享内存。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/010/424.htm',
+  },
+  {
+    date: '2026-10-08',
     time: '02:23',
     category: '后端',
     title: 'Tensorlake npm 包遭投毒成窃密蠕虫',
