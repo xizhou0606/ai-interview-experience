@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '13:28',
+    category: 'AI',
+    title: '谷歌发布端侧会议笔记应用 Foresight',
+    summary: '离线转写会议、生成笔记并回答提问，全程端侧 AI 运行，对标 Granola。',
+    source: 'Google for Developers',
+    url: 'https://developers.google.com/edge/foresight',
+  },
+  {
+    date: '2026-10-08',
+    time: '13:21',
+    category: 'AI',
+    title: '谷歌云发布 Gemini Agent 通用智能体',
+    summary: 'Gemini at Work 2026 大会发布，给定目标即可完成工作，支持 Gemini 与 Claude 模型。',
+    source: 'Google Cloud Blog',
+    url: 'https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026',
+  },
+  {
+    date: '2026-10-08',
     time: '12:44',
     category: '前端',
     title: 'DevEco 三件套开启鸿蒙 PC 公测',
