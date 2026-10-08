@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '06:01',
+    category: '后端',
+    title: "Let's Encrypt 证书将默认 64 天有效期",
+    summary: '2027 年 2 月 10 日起默认签发 64 天证书，10 月 14 日先上 staging，建议启用 ARI。',
+    source: "Let's Encrypt",
+    url: 'https://letsencrypt.org/2026/10/07/64-day-certs.html',
+  },
+  {
+    date: '2026-10-08',
+    time: '05:44',
+    category: 'AI',
+    title: '微软 MXC 智能体执行容器正式发布',
+    summary: '为 AI 智能体提供策略化运行时隔离，限定可访问文件与网络，后续接入 Entra 代理身份。',
+    source: 'Windows Developer Blog',
+    url: 'https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/',
+  },
+  {
+    date: '2026-10-08',
     time: '03:25',
     category: '后端',
     title: 'Meta 展示 CRAM 压缩内存新方案',
@@ -206,6 +224,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '图像模型画质升级，1K/2K 输出价格约降至前代一半。',
     source: 'heise',
     url: 'https://www.heise.de/news/Nano-Banana-2-1-Google-verbessert-Bildmodell-und-senkt-Bildpreise-11478751.html',
+  },
+  {
+    date: '2026-10-07',
+    time: '04:00',
+    category: 'AI',
+    title: 'PFN 发布 31B 日语翻译模型 PLaMo',
+    summary: '第三代 PLaMo 驱动翻译服务：53 种语言、会议实时翻译，官方称日语精度比肩 GPT-6 Astra。',
+    source: 'PFN',
+    url: 'https://www.preferred.jp/ja/news/pr20261007/',
   },
   {
     date: '2026-10-07',
