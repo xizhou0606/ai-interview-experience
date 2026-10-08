@@ -101,6 +101,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-08',
+    time: '18:00',
+    category: '前端',
+    title: 'Next.js 预告 10 月 14 日安全更新',
+    summary: 'Next.js 预告下周三发布带外安全更新，修复上游依赖两个 Critical、一个 High 漏洞。',
+    source: 'Next.js',
+    url: 'https://nextjs.org/blog/upcoming-nextjs-security-update-october-2026',
+  },
+  {
+    date: '2026-10-08',
     time: '17:23',
     category: '前端',
     title: 'Bootstrap 6 首个 Alpha 版发布',
@@ -305,6 +314,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '窃取 GitHub/npm 凭据与 AI 工具配置，撤销令牌即清空主目录，可向其他仓库传播。',
     source: 'StepSecurity',
     url: 'https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm',
+  },
+  {
+    date: '2026-10-08',
+    time: '00:00',
+    category: 'AI',
+    title: 'OpenAI 瓦解两个 AI 影响力行动',
+    summary: 'OpenAI 打击两起以假记者和智库作门面散布地缘政治信息的 AI 影响力行动。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/disrupting-ai-enabled-false-front-operations',
   },
   {
     date: '2026-10-07',
