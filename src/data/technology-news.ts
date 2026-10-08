@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '12:44',
+    category: '前端',
+    title: 'DevEco 三件套开启鸿蒙 PC 公测',
+    summary: 'DevEco Studio/Code/CLI 鸿蒙 PC 版开启公测，含 AI 开发工具，用鸿蒙开发鸿蒙。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/010/696.htm',
+  },
+  {
+    date: '2026-10-08',
+    time: '12:34',
+    category: 'AI',
+    title: 'JetBrains 开源编程模型 Mellum 2.1',
+    summary: '2.5B 参数、Apache 2.0 协议开源，经真实环境强化学习，可探索代码库、编辑文件并自检改动。',
+    source: 'JetBrains Blog',
+    url: 'https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/',
+  },
+  {
+    date: '2026-10-08',
     time: '11:54',
     category: '后端',
     title: 'Google 用 Pyrefly 替换 Pytype',
