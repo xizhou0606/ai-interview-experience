@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '09:41',
+    category: '后端',
+    title: 'SonicWall 爆 CVSS 满分 SSRF 漏洞',
+    summary: 'WorkPlace 接口未认证 SSRF 达 CVSS 10.0，可触达内部功能，官方已发布修复。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/SonicWall-SMA1000-Luecke-mit-Hoechstwertung-oeffnet-interne-Funktionen-11480426.html',
+  },
+  {
+    date: '2026-10-08',
+    time: '09:15',
+    category: 'AI',
+    title: 'CrowdStrike 披露 ARTEX 韩国金融攻击',
+    summary: 'AI 驱动的 ARTEX 恶意软件被用于攻击韩国金融机构，为银行入侵事件技术根源。',
+    source: 'CrowdStrike',
+    url: 'https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/',
+  },
+  {
+    date: '2026-10-08',
     time: '08:29',
     category: '后端',
     title: 'LocalStack for Azure 开启公测',
@@ -101,6 +119,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-07',
+    time: '21:56',
+    category: 'AI',
+    title: '开发者用 Opus 5.5 开源克隆 Adobe 套件',
+    summary: '以 Rust+WASM 逆向复刻 PS 等 7 款 Adobe 应用界面与工具，开源免费。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/',
+  },
+  {
+    date: '2026-10-07',
     time: '21:16',
     category: '后端',
     title: '软件工程先驱 Margaret Hamilton 逝世',
@@ -116,6 +143,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '命令行基准工具首个 2.x 大版本：默认免 shell 直跑命令，JSON 导出结构破坏性变更。',
     source: 'GitHub',
     url: 'https://github.com/sharkdp/hyperfine/releases/tag/v2.0.0',
+  },
+  {
+    date: '2026-10-07',
+    time: '20:33',
+    category: '后端',
+    title: '仿冒 AI 产品钓鱼新增 Muse Ads 诱饵',
+    summary: '假冒 Gemini、Claude 等投放假广告页，伪造浏览器窗口窃取凭据与 MFA 码。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/research/2026/10/07/browser-in-browser-attacks-use-fake-meta-muse-ad-lure-to-steal-credentials/5301505',
   },
   {
     date: '2026-10-07',
@@ -188,6 +224,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '/model 命令可发现并接入本地运行模型，Copilot 月底起支持端侧推理切换。',
     source: 'GitHub Changelog',
     url: 'https://github.blog/changelog/2026-10-07-discover-local-models-in-github-copilot-cli',
+  },
+  {
+    date: '2026-10-07',
+    time: '15:43',
+    category: '后端',
+    title: '16 款恶意 Firefox 扩展窃取钱包助记词',
+    summary: '假冒 Rabby 与 OKX 钱包，导入时窃取助记词并发往攻击者的 Cloudflare Workers。',
+    source: 'Socket',
+    url: 'https://socket.dev/blog/firefox-crypto-wallet-stealers',
   },
   {
     date: '2026-10-07',
