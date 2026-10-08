@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-08',
+    time: '06:57',
+    category: '后端',
+    title: 'Atlassian 关键漏洞已出现实际攻击',
+    summary: 'CVE-2026-21589 蜜罐捕获攻击，PoC 与 Nuclei 模板公开，官方建议排查访问日志。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/Angriffe-auf-Atlassian-Data-Center-Luecke-haben-begonnen-11480200.html',
+  },
+  {
+    date: '2026-10-08',
     time: '06:01',
     category: '后端',
     title: "Let's Encrypt 证书将默认 64 天有效期",
@@ -116,6 +125,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Docker 官方发布智能体构建与运行时工具，支持以容器方式运行代理。',
     source: 'Docker',
     url: 'https://github.com/docker/docker-agent',
+  },
+  {
+    date: '2026-10-07',
+    time: '17:01',
+    category: 'AI',
+    title: 'PoeLLM 用诗歌藏毒感染 3000+ 服务器',
+    summary: 'C2 指令藏于 GitHub 诗歌，攻击暴露的 LiteLLM/Ollama 挖矿，系对抗性诗歌首次实战。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672',
   },
   {
     date: '2026-10-07',
