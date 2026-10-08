@@ -83,6 +83,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-08',
+    time: '12:34',
+    category: 'AI',
+    title: '阶跃星辰 Step 5 预览版登陆 OpenRouter',
+    summary: 'StepFun 旗舰智能体模型，600B 总参 27B 激活 MoE，100 万上下文，上线 OpenRouter。',
+    source: 'OpenRouter',
+    url: 'https://openrouter.ai/stepfun/step-5-preview',
+  },
+  {
+    date: '2026-10-08',
     time: '11:54',
     category: '后端',
     title: 'Google 用 Pyrefly 替换 Pytype',
