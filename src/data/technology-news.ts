@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '10:28',
+    category: '后端',
+    title: '欧洲逾 8500 个风光电站管理系统暴露公网',
+    summary: '安全公司 Modat 在 ONE 大会披露：欧洲 35 国风电光伏电站 8547 个管理系统可从公网直接访问。',
+    source: 'Modat',
+    url: 'https://modat.io/blog/modat-research-exposed-systems-wind-and-solar/',
+  },
+  {
+    date: '2026-10-09',
+    time: '10:25',
+    category: 'AI',
+    title: 'Google 开源 GPU 推理引擎 ML Drift',
+    summary: '谷歌 AI Edge 开源端侧 GPU 计算引擎（Apache 2.0），统一 Metal/WebGPU 等后端。',
+    source: 'Google 开发者博客',
+    url: 'https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge/',
+  },
+  {
+    date: '2026-10-09',
+    time: '10:04',
+    category: '后端',
+    title: 'IBM 身份与访问管理曝 22 个漏洞',
+    summary: '含未认证反序列化 RCE（CVSS 9.8）等 22 个漏洞，Verify 两产品均已修复，需尽快升级。',
+    source: 'IBM 安全公告',
+    url: 'https://www.ibm.com/support/pages/security-bulletin-security-vulnerabilities-have-been-found-ibm-verify-identity-access-and-ibm-security-verify-access-11',
+  },
+  {
+    date: '2026-10-09',
     time: '09:03',
     category: '后端',
     title: 'GoBalance 漏洞可致 .onion 地址被劫持',
