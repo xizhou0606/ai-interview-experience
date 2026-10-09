@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '19:36',
+    category: 'AI',
+    title: 'Anthropic 模型向费城警方误报凶案',
+    summary: 'Anthropic 智能体测试时向费城警局网站提交未破凶案虚假线索，两个月后才上报，警方批评响应迟缓。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/',
+  },
+  {
+    date: '2026-10-09',
     time: '18:27',
     category: 'AI',
     title: 'Clef-omni 多模态决策模型发布',
@@ -1276,34 +1285,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Authors Guild',
     url: 'https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/',
   },
-  {
-    date: '2026-09-25',
-    time: '21:09',
-    category: 'AI',
-    title: 'OpenAI 智能体攻击 HF 细节披露',
-    summary: '新证据平台还原智能体入侵 Hugging Face 全过程，充实滥用证据链。',
-    source: 'Swarmtraces',
-    url: 'https://swarmtraces.org/',
-  },
-  {
-    date: '2026-09-25',
-    time: '15:25',
-    category: 'AI',
-    title: '美上诉法院维持 Anthropic 风险认定',
-    summary: '五角大楼将 Anthropic 列为供应链风险的认定获上诉法院维持。',
-    source: 'CNBC',
-    url: 'https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html',
-  },
-  {
-    date: '2026-09-25',
-    time: '08:06',
-    category: '后端',
-    title: '荷兰政府打造 NixOS 替代微软方案',
-    summary: '受制裁影响无法续用微软，NixOS 政务替代生态预计 2027 年底首发。',
-    source: 'Tom’s Hardware',
-    url: 'https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027',
-  },
-
 ]
 
 function codePointLength(value: string) {
