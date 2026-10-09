@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '17:17',
+    category: '后端',
+    title: 'AhsayCBS 未修补漏洞遭在野利用',
+    summary: '黑客利用认证绕过与命令注入两个未修补漏洞入侵备份平台 AhsayCBS，部署 webshell 挖 XMRig。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/',
+  },
+  {
+    date: '2026-10-09',
     time: '16:37',
     category: 'AI',
     title: '欧盟向 OpenAI 与 Anthropic 正式问询',
