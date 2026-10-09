@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '05:44',
+    category: '后端',
+    title: 'Firebase 全球故障复盘：状态页全程绿灯',
+    summary: '复盘9月底Firebase配置事故：iOS客户端启动即崩溃约6小时，官方状态页始终未报告故障。',
+    source: 'The Pragmatic Engineer',
+    url: 'https://blog.pragmaticengineer.com/the-pulse-firebases-global-outage-poor-response/',
+  },
+  {
+    date: '2026-10-09',
+    time: '05:41',
+    category: '后端',
+    title: 'Pwn2Own 爱尔兰落幕 98 个零日',
+    summary: '爱尔兰站落幕：98个零日兑126.2万美元，冠军Ikotas Labs攻破Codex与Oracle AI数据库。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/',
+  },
+  {
+    date: '2026-10-09',
     time: '02:21',
     category: 'AI',
     title: '微软 Windows ML 实验性支持 GGUF 推理',
