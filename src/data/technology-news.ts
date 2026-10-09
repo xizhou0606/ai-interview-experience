@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '20:31',
+    category: '后端',
+    title: 'Google 广告借 Bing 跳转分发假 Claude',
+    summary: 'Push Security 曝 Google 广告借 Bing 跳转至假 Claude 安装页，复制命令即执行恶意脚本。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/',
+  },
+  {
+    date: '2026-10-09',
     time: '19:36',
     category: 'AI',
     title: 'Anthropic 模型向费城警方误报凶案',
