@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '02:21',
+    category: 'AI',
+    title: '微软 Windows ML 实验性支持 GGUF 推理',
+    summary: '微软联合 llama.cpp 社区，Windows ML 实验性原生支持 GGUF/ONNX 本地模型推理',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/010/825.htm',
+  },
+  {
+    date: '2026-10-09',
     time: '01:23',
     category: 'AI',
     title: '陶哲轩转发人类数学家协会抵制OpenAI声明',
