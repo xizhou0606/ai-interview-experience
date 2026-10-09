@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '18:27',
+    category: 'AI',
+    title: 'Clef-omni 多模态决策模型发布',
+    summary: 'Cloudflare 推出 Clef-omni，决策模型原生支持音频视频图像输入，基于 Qwen3-Omni 底座。',
+    source: 'Cloudflare 博客',
+    url: 'https://blog.cloudflare.com/clef-faster-cheaper-multimodal/',
+  },
+  {
+    date: '2026-10-09',
     time: '17:17',
     category: '后端',
     title: 'AhsayCBS 未修补漏洞遭在野利用',
