@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '14:35',
+    category: '后端',
+    title: 'Python 3.15.0 正式发布',
+    summary: 'PEP 810 惰性导入与 UTF-8 默认编码落地，JIT 提速最高 12%，新增 Tachyon 分析器。',
+    source: 'Python.org',
+    url: 'https://www.python.org/downloads/release/python-3150/',
+  },
+  {
+    date: '2026-10-09',
     time: '13:05',
     category: '后端',
     title: '内核弃用 AI 署名 Assisted-by 标签',
