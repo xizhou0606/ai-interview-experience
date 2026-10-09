@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '16:37',
+    category: 'AI',
+    title: '欧盟向 OpenAI 与 Anthropic 正式问询',
+    summary: '因多起 AI 失控网络攻击，欧盟正式问询 OpenAI、Anthropic 及中国企业，违规最高罚 1500 万欧元。',
+    source: 'heise',
+    url: 'https://www.heise.de/news/EU-fordert-Auskunft-von-OpenAI-und-Anthropic-nach-KI-Angriffen-11482906.html',
+  },
+  {
+    date: '2026-10-09',
     time: '15:34',
     category: '后端',
     title: 'Unison Cloud 正式开源',
