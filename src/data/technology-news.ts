@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '15:34',
+    category: '后端',
+    title: 'Unison Cloud 正式开源',
+    summary: '分布式计算平台 Unison Cloud 以 MIT 协议开源，Nimbus 工作节点、API 服务与 UI 首次公开。',
+    source: 'Unison',
+    url: 'https://www.unison-lang.org/blog/unison-cloud-open-source/',
+  },
+  {
+    date: '2026-10-09',
     time: '14:35',
     category: '后端',
     title: 'Python 3.15.0 正式发布',
