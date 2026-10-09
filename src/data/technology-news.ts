@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '13:05',
+    category: '后端',
+    title: '内核弃用 AI 署名 Assisted-by 标签',
+    summary: '维护者峰会达成共识弃用 AI 署名标签，补丁从内核文档与 checkpatch.pl 移除署名要求。',
+    source: 'LKML',
+    url: 'https://lore.kernel.org/lkml/20261009083137.3-1-sashal@kernel.org/',
+  },
+  {
+    date: '2026-10-09',
+    time: '13:00',
+    category: '后端',
+    title: 'Workers 新增按需 CPU/内存火焰图',
+    summary: 'Workers 与 Durable Objects 支持在生产环境生成火焰图，快速定位内存泄漏与性能瓶颈。',
+    source: 'Cloudflare 博客',
+    url: 'https://blog.cloudflare.com/workers-on-demand-profiling/',
+  },
+  {
+    date: '2026-10-09',
     time: '12:50',
     category: '后端',
     title: 'Deno 团队整体并入 Cloudflare',
