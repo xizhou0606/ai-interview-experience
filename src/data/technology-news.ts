@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '09:03',
+    category: '后端',
+    title: 'GoBalance 漏洞可致 .onion 地址被劫持',
+    summary: '仅凭公开信息即可恢复 .onion 地址密钥并劫持站点，Searchlight Cyber 10月8日披露。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html',
+  },
+  {
+    date: '2026-10-09',
     time: '08:50',
     category: 'AI',
     title: 'OpenClaw 拿下 .claw 顶级域名',
