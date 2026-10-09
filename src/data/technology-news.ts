@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-09',
+    time: '01:23',
+    category: 'AI',
+    title: '陶哲轩转发人类数学家协会抵制OpenAI声明',
+    summary: '数学家协会经陶哲轩博客声明：OpenAI一次性发布700余篇数学证明并非学术而是炫技，呼吁停止合作。',
+    source: '陶哲轩博客',
+    url: 'https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/',
+  },
+  {
+    date: '2026-10-09',
+    time: '00:49',
+    category: 'AI',
+    title: '字节Seed揭示DeepSeek长上下文相位缺陷',
+    summary: '分块KV缓存压缩引入相位坐标，长上下文检索准确率随位置周期波动可达40个百分点。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/010/780.htm',
+  },
+  {
     date: '2026-10-08',
     time: '23:29',
     category: '前端',
