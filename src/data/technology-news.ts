@@ -362,6 +362,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-08',
+    time: '02:05',
+    category: 'AI',
+    title: 'OpenAI被曝用AI撰写致澳政府披露邮件',
+    summary: 'OpenAI用AI撰写致澳政府漏洞披露邮件部分措辞，CSO在议会听证会承认通报过迟。',
+    source: 'The Guardian',
+    url: 'https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites',
+  },
+  {
+    date: '2026-10-08',
     time: '00:00',
     category: 'AI',
     title: 'OpenAI 瓦解两个 AI 影响力行动',
