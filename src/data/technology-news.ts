@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-09',
+    time: '06:04',
+    category: 'AI',
+    title: 'Anthropic 暂停 Claude 初创计划优惠',
+    summary: '初创计划申请量达数十万、需求远超预期，官方暂停Claude Team与1000美元API额度发放，重审申请。',
+    source: 'Claude官方X账号',
+    url: 'https://x.com/claudeai/status/2108404561413349695',
+  },
+  {
+    date: '2026-10-09',
     time: '05:44',
     category: '后端',
     title: 'Firebase 全球故障复盘：状态页全程绿灯',
