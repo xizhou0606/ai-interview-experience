@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '01:54',
+    category: '前端',
+    title: '微软紧急提醒 Chromium 下月移除 XSLT',
+    summary: 'Chromium 11 月中旬移除客户端 XSLT，远程桌面 Web 访问或失效，微软建议改用 HTML5 客户端。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/207.htm',
+  },
+  {
+    date: '2026-10-10',
+    time: '01:01',
+    category: 'AI',
+    title: '生数发布 Vidu Q4 Preview 视频模型',
+    summary: '新一代视频生成旗舰预览版支持 2K/4K 输出、10bit 色深与 16 秒时长，参考图最多 15 张。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/192.htm',
+  },
+  {
+    date: '2026-10-10',
     time: '00:41',
     category: '后端',
     title: 'SQLite 3.54.0 发布，性能再提升',
