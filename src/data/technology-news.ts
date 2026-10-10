@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '05:38',
+    category: 'AI',
+    title: 'Claude 管理智能体支持动态工作流',
+    summary: '管理智能体新增动态工作流，单次最多并行 1000 个子智能体，测试稳定检出 70 个隐藏漏洞中的 66 个。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/329.htm',
+  },
+  {
+    date: '2026-10-10',
+    time: '05:15',
+    category: 'AI',
+    title: 'GPT-6.1 Sol UltraFast 极速模式上线',
+    summary: 'UltraFast 上线 API/Codex/ChatGPT，定价高于 Astra，500 美元套餐被吐槽撑不过一天。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/soBOt9TSckGlJlBS519y',
+  },
+  {
+    date: '2026-10-10',
+    time: '03:18',
+    category: '前端',
+    title: 'Bun 1.4.3 内置 TS 类型检查器',
+    summary: '新增 bun check：通过 tsc 7.0.2 全部一致性测试，提速最高 6.4 倍，内存最多省 4.9 倍。',
+    source: 'Bun',
+    url: 'https://bun.com/blog/bun-v1.4.3',
+  },
+  {
+    date: '2026-10-10',
     time: '02:48',
     category: '前端',
     title: 'Edge 155 稳定版发布，增强 AI 标签页整理',
