@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '09:53',
+    category: 'AI',
+    title: 'Gemini 免费用户无法手选模型',
+    summary: '10 月 9 日起免费版仅剩 Auto 分流，多数走 Flash-Lite，关闭智能选择后固定 Flash-Lite。',
+    source: 'Google',
+    url: 'https://support.google.com/gemini/answer/17004136',
+  },
+  {
+    date: '2026-10-10',
+    time: '09:24',
+    category: 'AI',
+    title: '小米披露 MiMo-V2.6 规模化强化学习细节',
+    summary: 'Pro 1.02T 参数单次 RL 后训练成本 260 万美元，单步最高 37 亿 Token，训练环境与框架开源。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK',
+  },
+  {
+    date: '2026-10-10',
     time: '08:52',
     category: 'AI',
     title: '腾讯云开源 TeamAI 跨智能体技能共享',
