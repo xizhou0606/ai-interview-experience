@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '14:42',
+    category: 'AI',
+    title: '腾讯元器智能体平台 11 月 9 日停服',
+    summary: '官方公告：10 月 29 日起停建新智能体与 API 分发，11 月 9 日全面停服，数据可导出至明年 1 月。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/530.htm',
+  },
+  {
+    date: '2026-10-10',
+    time: '14:32',
+    category: '后端',
+    title: 'Bitwarden 商店版将转商业许可',
+    summary: '官方论坛：各商店应用改为商业许可构建，GPLv3 开源版继续在 GitHub 更新，自托管与免费版不变。',
+    source: 'Bitwarden 论坛',
+    url: 'https://community.bitwarden.com/t/published-version-update-in-app-stores/102750',
+  },
+  {
+    date: '2026-10-10',
     time: '11:15',
     category: '后端',
     title: '两个字符绕过 Chromium 仿冒域名防护',
