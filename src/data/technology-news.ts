@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '17:18',
+    category: '前端',
+    title: 'Angular 编译器引入 Rust 混合预处理器',
+    summary: '官方将 Rust AST 分析器与 Wasm 工具链并入编译器 CLI，含语言服务与编辑器扩展。',
+    source: 'GitHub',
+    url: 'https://github.com/angular/angular/pull/71259',
+  },
+  {
+    date: '2026-10-10',
+    time: '16:36',
+    category: '后端',
+    title: 'Ledger 钱包供应链攻击盗取 8600 万美元',
+    summary: '转售商售出的钱包被植入截屏芯片并经 SIM 卡外传助记词，数百钱包被盗，Ledger 已确认。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts',
+  },
+  {
+    date: '2026-10-10',
     time: '14:42',
     category: 'AI',
     title: '腾讯元器智能体平台 11 月 9 日停服',
