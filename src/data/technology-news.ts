@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '11:15',
+    category: '后端',
+    title: '两个字符绕过 Chromium 仿冒域名防护',
+    summary: '研究人员注册 20 个形近域名，西里尔 ө 等字符可让 Chromium 地址栏按 Unicode 显示仿冒网址。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383',
+  },
+  {
+    date: '2026-10-10',
     time: '10:23',
     category: '后端',
     title: 'DuckDB CLI 内置面向智能体的 Agent 模式',
@@ -53,6 +62,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Git 仓库集中管理团队 Skills 与规则，评审合并后自动同步到 Claude Code 等 16 种 Agent。',
     source: '腾讯',
     url: 'https://github.com/Tencent/teamai-cli',
+  },
+  {
+    date: '2026-10-10',
+    time: '08:10',
+    category: 'AI',
+    title: '微软推出 Decision-1 决策模型挑战 Jev',
+    summary: '基于阿里 Qwen3.5-9B，官方称较 Jev 快 2.8 倍，输入 Token 每百万 0.042 美元、输出免费。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/ai-and-ml/2026/10/10/microsoft-leans-on-open-weight-model-from-chinese-ai-lab-to-challenge-jev/5302473',
   },
   {
     date: '2026-10-10',
