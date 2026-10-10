@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '10:23',
+    category: '后端',
+    title: 'DuckDB CLI 内置面向智能体的 Agent 模式',
+    summary: '识别编码智能体后输出紧凑 Markdown 与 JSON 错误，TPC-H 实测智能体读取 Token 减少 59%。',
+    source: 'DuckDB',
+    url: 'https://duckdb.org/2026/10/09/agent-mode',
+  },
+  {
+    date: '2026-10-10',
     time: '09:53',
     category: 'AI',
     title: 'Gemini 免费用户无法手选模型',
