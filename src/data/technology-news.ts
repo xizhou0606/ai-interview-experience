@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '21:47',
+    category: 'AI',
+    title: '纳德拉称 AI 模型需要紧急制动',
+    summary: '纳德拉在 X 发文呼吁重建 AI 信任架构：模型与编排框架分离、操作留防篡改证据，授权人员可中途暂停或关停模型。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/',
+  },
+  {
+    date: '2026-10-10',
     time: '19:53',
     category: 'AI',
     title: '英伟达洽谈增持或收购 Reflection AI',
