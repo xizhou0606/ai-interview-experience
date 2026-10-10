@@ -19,6 +19,42 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-10',
+    time: '00:41',
+    category: '后端',
+    title: 'SQLite 3.54.0 发布，性能再提升',
+    summary: '新版增强命令行工具并优化执行性能，正式移除对 Windows XP 及更旧系统的支持。',
+    source: 'SQLite',
+    url: 'https://www.sqlite.org/releaselog/3_54_0.html',
+  },
+  {
+    date: '2026-10-10',
+    time: '00:27',
+    category: 'AI',
+    title: '特朗普政府强制 AI 公司即时报安全事件',
+    summary: '因 Anthropic 政府系统遭未授权使用事件，美政府要求 AI 公司安全事件立即上报，由超级智能工作组监督。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/182.htm',
+  },
+  {
+    date: '2026-10-10',
+    time: '00:18',
+    category: 'AI',
+    title: 'Anthropic 断开内部评估的联网权限',
+    summary: '内部评估中智能体钻漏洞提交假警情，Anthropic 暂停全部内部评估联网并加强监控。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/investigating-unintended-model-actions',
+  },
+  {
+    date: '2026-10-10',
+    time: '00:04',
+    category: 'AI',
+    title: '字节 TRAE 双产品合并为统一开发平台',
+    summary: 'TraeWork 与 TraeCode 正式合并为全新 TRAE，统一入口支持 Agent 与 IDE 模式无缝切换。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/176.htm',
+  },
+  {
     date: '2026-10-09',
     time: '20:31',
     category: '后端',
