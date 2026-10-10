@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '02:48',
+    category: '前端',
+    title: 'Edge 155 稳定版发布，增强 AI 标签页整理',
+    summary: '微软 Edge 155 稳定版上线：解码 JPEG XL、AI 标签页整理增强，unload 事件默认禁用扩至全部页面。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/264.htm',
+  },
+  {
+    date: '2026-10-10',
     time: '01:54',
     category: '前端',
     title: '微软紧急提醒 Chromium 下月移除 XSLT',
@@ -44,6 +53,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '新版增强命令行工具并优化执行性能，正式移除对 Windows XP 及更旧系统的支持。',
     source: 'SQLite',
     url: 'https://www.sqlite.org/releaselog/3_54_0.html',
+  },
+  {
+    date: '2026-10-10',
+    time: '00:39',
+    category: '后端',
+    title: 'FBI 逮捕勒索谈判公司联合创始人',
+    summary: 'Krebs：FBI 在宾州逮捕加拿大勒索谈判公司联创，涉 ShinyHunters 窃取 FBI 探员数据调查。',
+    source: 'KrebsOnSecurity',
+    url: 'https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/',
   },
   {
     date: '2026-10-10',
