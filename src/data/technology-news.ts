@@ -1404,6 +1404,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-09-29',
+    time: '15:51',
+    category: '后端',
+    title: 'MongoDB 9.0 正式发布',
+    summary: '较 8.0 查询最高提速 35%，加密字段支持子串检索，Atlas Infinite 同步开启公共预览。',
+    source: 'MongoDB',
+    url: 'https://www.mongodb.com/company/newsroom/press-releases/mongodb-launches-mongodb-9-0-the-best-version-ever-built-and-atlas-infinite-for-ai-scale-demand',
+  },
+  {
+    date: '2026-09-29',
     time: '13:00',
     category: '前端',
     title: 'Firefox 全新界面设计上线',
