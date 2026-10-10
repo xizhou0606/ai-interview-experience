@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '19:53',
+    category: 'AI',
+    title: '英伟达洽谈增持或收购 Reflection AI',
+    summary: '据 FT 报道，谈判处早期阶段，或以聘团队加授权形式达成；其开放权重模型 Beam 开发商已获英伟达 8 亿美元投资。',
+    source: 'Reuters',
+    url: 'https://economictimes.indiatimes.com/tech/technology/nvidia-in-talks-to-buy-reflection-ai-or-deepen-its-investment-ft-reports/articleshow/134860347.cms',
+  },
+  {
+    date: '2026-10-10',
+    time: '19:50',
+    category: 'AI',
+    title: 'Apple 招揽 Huxe AI 团队并获技术授权',
+    summary: 'Huxe 出自 NotebookLM AI 播客团队，5 月已停服；Apple 聘用其部分员工并获非独占 IP 授权。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/',
+  },
+  {
+    date: '2026-10-10',
     time: '17:18',
     category: '前端',
     title: 'Angular 编译器引入 Rust 混合预处理器',
