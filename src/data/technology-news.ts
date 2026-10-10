@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '08:52',
+    category: 'AI',
+    title: '腾讯云开源 TeamAI 跨智能体技能共享',
+    summary: 'Git 仓库集中管理团队 Skills 与规则，评审合并后自动同步到 Claude Code 等 16 种 Agent。',
+    source: '腾讯',
+    url: 'https://github.com/Tencent/teamai-cli',
+  },
+  {
+    date: '2026-10-10',
     time: '05:38',
     category: 'AI',
     title: 'Claude 管理智能体支持动态工作流',
