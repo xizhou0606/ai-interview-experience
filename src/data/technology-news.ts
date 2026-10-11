@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '14:23',
+    category: '后端',
+    title: '第一兴商披露承包商泄露 860 万会员记录',
+    summary: '第一兴商披露承包商日本哥伦比亚感染恶意软件，超 860 万卡拉OK会员及员工记录外泄。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/',
+  },
+  {
+    date: '2026-10-11',
     time: '12:00',
     category: '后端',
     title: '微软向 Linux 内核贡献半虚拟化 IOMMU 驱动',
