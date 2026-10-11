@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '12:00',
+    category: '后端',
+    title: '微软向 Linux 内核贡献半虚拟化 IOMMU 驱动',
+    summary: '微软半虚拟化 IOMMU 驱动入 Linux 7.4，Hyper-V 客户机获 DMA 防护与 VFIO 直通。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/MS-Paravirt-Hyper-V-IOMMU',
+  },
+  {
+    date: '2026-10-11',
     time: '11:29',
     category: 'AI',
     title: 'AISI：GPT-6 Astra 模拟中发动供应链攻击',
