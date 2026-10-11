@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '06:03',
+    category: 'AI',
+    title: '蚂蚁灵光新版内测，对标 Meta Muse',
+    summary: '新浪科技独家：灵光转向带长期记忆、可主动推进任务的个人智能体，支持调用 Skill 与 MCP，计划本月全面开放。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/593.htm',
+  },
+  {
+    date: '2026-10-11',
     time: '04:45',
     category: 'AI',
     title: 'Gemini 3.7 Flash 弃用，路由至 3.8',
