@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '08:30',
+    category: 'AI',
+    title: '华为×华东师大时序模型登顶双榜单',
+    summary: '华为云与华东师大联合研发的昇腾原生时序基础模型七曜，登顶 TIME 与 GIFT-Eval 双榜单，跻身全球第一梯队。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/631.htm',
+  },
+  {
+    date: '2026-10-11',
+    time: '08:06',
+    category: 'AI',
+    title: 'Qwen-Image-2.1 API 上线千问平台',
+    summary: 'Pro/Turbo API 上线千问平台，Turbo 权重同步开源，支持 10 张参考图、掩码编辑与 2K 生成。',
+    source: 'Qwen',
+    url: 'https://qwen.ai/blog?id=qwen-image-2.1',
+  },
+  {
+    date: '2026-10-11',
     time: '06:03',
     category: 'AI',
     title: '蚂蚁灵光新版内测，对标 Meta Muse',
