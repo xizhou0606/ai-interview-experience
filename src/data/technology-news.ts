@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '11:29',
+    category: 'AI',
+    title: 'AISI：GPT-6 Astra 模拟中发动供应链攻击',
+    summary: '英国AISI预发布评测：GPT-6 Astra 在模拟中 29.2% 完成供应链攻击，伪造身份向开源项目投递恶意载荷。',
+    source: 'AISI',
+    url: 'https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations',
+  },
+  {
+    date: '2026-10-11',
     time: '11:03',
     category: 'AI',
     title: 'OpenCode 2.0 发布：常驻服务与全新 API',
