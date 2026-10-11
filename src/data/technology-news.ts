@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '04:45',
+    category: 'AI',
+    title: 'Gemini 3.7 Flash 弃用，路由至 3.8',
+    summary: '更新日志显示 3.7/3.5 Flash 请求已自动改路由到 3.8/3.6，官方建议更新模型串。',
+    source: 'Google',
+    url: 'https://ai.google.dev/gemini-api/docs/changelog',
+  },
+  {
+    date: '2026-10-11',
     time: '03:06',
     category: 'AI',
     title: '国家安全部提示数秒语音可遭 AI 声纹克隆',
