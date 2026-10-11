@@ -19,6 +19,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-11',
+    time: '03:06',
+    category: 'AI',
+    title: '国家安全部提示数秒语音可遭 AI 声纹克隆',
+    summary: '接陌生来电宜先沉默三秒：不法分子诱导开口录音，数秒样本即可克隆声纹仿冒身份实施诈骗。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/574.htm',
+  },
+  {
+    date: '2026-10-11',
+    time: '03:05',
+    category: '后端',
+    title: 'Linux 内核拟新增 PON 光网络子系统',
+    summary: '内核收到 12 个 RFC 补丁，拟新增 ONU 侧 PON 子系统，含 netlink 族与 GEM 设备。',
+    source: 'lore.kernel.org',
+    url: 'https://lore.kernel.org/netdev/20261008143249.3439762-1-john@phrozen.org/T/',
+  },
+  {
+    date: '2026-10-11',
+    time: '01:09',
+    category: 'AI',
+    title: '谷歌 Genkit Dart 1.0 正式发布',
+    summary: '面向 Dart/Flutter 的 AI 应用框架首个稳定版：统一多模型 API、类型化 Flow 与人工确认中断。',
+    source: 'Flutter',
+    url: 'https://flutter.dev/blog/announcing-genkit-dart-1-0',
+  },
+  {
     date: '2026-10-10',
     time: '23:08',
     category: '后端',
