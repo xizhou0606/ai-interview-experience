@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-10',
+    time: '23:08',
+    category: '后端',
+    title: '罗森、JR 等六家日企数据大规模外泄',
+    summary: '罗森、第一兴商、JR 东日本、BOOKOFF 等相继公告遭非法访问，合计或近四千万条用户信息外泄。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/544.htm',
+  },
+  {
+    date: '2026-10-10',
+    time: '23:05',
+    category: '后端',
+    title: 'CNCERT 通报荐片播放器感染超 70 万设备',
+    summary: '国家互联网应急中心通报伪装播放器的后门程序大规模传播，超 70 万设备感染，可远程执行任意代码。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/543.htm',
+  },
+  {
+    date: '2026-10-10',
     time: '21:47',
     category: 'AI',
     title: '纳德拉称 AI 模型需要紧急制动',
