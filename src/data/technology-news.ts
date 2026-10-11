@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-11',
+    time: '11:03',
+    category: 'AI',
+    title: 'OpenCode 2.0 发布：常驻服务与全新 API',
+    summary: '终端编码智能体大版本：后台常驻服务统一 TUI/桌面/Web 端，重写 API，新增 SDK 与客户端包。',
+    source: 'Anomaly',
+    url: 'https://anoma.ly/notes/opencode-2-0/',
+  },
+  {
+    date: '2026-10-11',
     time: '08:30',
     category: 'AI',
     title: '华为×华东师大时序模型登顶双榜单',
