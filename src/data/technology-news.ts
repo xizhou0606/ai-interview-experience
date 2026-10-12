@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '22:56',
+    category: 'AI',
+    title: 'xAI 推出 X Subscription 统一订阅',
+    summary: 'Grok、Grok Bot、Cursor、X Premium 四合一订阅，Premium 档 30 美元/月。',
+    source: 'xAI',
+    url: 'https://x.ai/news/x-subscription',
+  },
+  {
+    date: '2026-10-12',
+    time: '22:37',
+    category: '后端',
+    title: 'AWS 推出 Lambda Web Functions',
+    summary: '无服务器原语原生运行 HTTP 框架，多并发执行并自动全球分发，加快 Web 应用响应。',
+    source: 'AWS News Blog',
+    url: 'https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/',
+  },
+  {
+    date: '2026-10-12',
     time: '21:10',
     category: 'AI',
     title: '谷歌 Googlebook 推出 Linux 终端预览',
