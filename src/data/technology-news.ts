@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '18:29',
+    category: 'AI',
+    title: 'Codex CLI 默认启动自更新守护进程',
+    summary: 'daemon_auto_start 默认开启：自动更新可强杀进行中任务，停用后更新进程残留，HN 呼吁改为手动开启。',
+    source: 'GitHub',
+    url: 'https://github.com/openai/codex/issues/48195',
+  },
+  {
+    date: '2026-10-12',
     time: '17:31',
     category: 'AI',
     title: 'Ubuntu 推出本地语音转文字 Myna 预览',
