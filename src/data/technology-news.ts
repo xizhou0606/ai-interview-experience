@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '09:34',
+    category: 'AI',
+    title: '英特尔 CEO：中国前沿 AI 模型普及速度非常快',
+    summary: '陈立武在星展银行座谈称 DeepSeek、Kimi、GLM 性能已够好，坚定支持开源，量子计算三五年内或主流。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/012/013.htm',
+  },
+  {
+    date: '2026-10-12',
+    time: '09:27',
+    category: '后端',
+    title: 'EXT4 拟引入 iomap 缓冲 I/O 路径',
+    summary: '华为工程师将 EXT4 缓冲 I/O 切至 iomap 框架，取代 buffer_head，维护者已排队合入 7.4。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/EXT4-iomap-Buffered-IO',
+  },
+  {
+    date: '2026-10-12',
+    time: '09:02',
+    category: '后端',
+    title: 'CVSS 满分 Bricksforge 漏洞遭在野利用',
+    summary: 'CVE-2026-85097 未授权 RCE：GIF/PHP 混合文件借临时上传缺陷写入，3.1.8.10 已修复。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html',
+  },
+  {
+    date: '2026-10-12',
     time: '08:04',
     category: 'AI',
     title: 'Mistral 开源阿拉伯语实时语音识别模型',
