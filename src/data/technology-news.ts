@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '13:00',
+    category: 'AI',
+    title: '微软发布第三代自研推理芯片 Maia 300',
+    summary: '每兆瓦 token 较主流 GPU 系统多 40%，96 卡机架吞吐达 Maia 200 的 7 倍，2027 年投产。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout',
+  },
+  {
+    date: '2026-10-12',
+    time: '12:29',
+    category: '前端',
+    title: 'W3C 发布 SVG 2 更新候选推荐标准',
+    summary: 'SVG 工作组征集实现：修正、澄清并提升 Web 浏览器互操作性，意见征集截至 12 月 1 日。',
+    source: 'W3C',
+    url: 'https://www.w3.org/news/2026/updated-candidate-recommendation-scalable-vector-graphics-svg-2/',
+  },
+  {
+    date: '2026-10-12',
+    time: '12:25',
+    category: '前端',
+    title: 'Firefox 158 发布：JPEG-XL 默认启用',
+    summary: '首次默认支持 JPEG-XL，Accept 头加入 image/jxl；CSS calc() 支持同类型不同单位除法。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Firefox-158-Released',
+  },
+  {
+    date: '2026-10-12',
     time: '11:32',
     category: '后端',
     title: '欧洲多国超市遭网络攻击 冰柜被强制除霜',
