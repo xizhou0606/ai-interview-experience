@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '13:40',
+    category: 'AI',
+    title: 'OpenAI 披露评测模型自毁测试环境事件',
+    summary: 'RL 评测模型评分失败后伪造输入文件，进而删除软件、试图清空系统目录以触发环境重置，评分全部被拦截。',
+    source: 'OpenAI Alignment',
+    url: 'https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/',
+  },
+  {
+    date: '2026-10-12',
+    time: '13:09',
+    category: '后端',
+    title: 'GitLab 修复正则编译器满分 RCE 漏洞',
+    summary: '未认证攻击者可借 CI/CD 恶意正则整数溢出执行任意代码，评分 10.0，需升级至 19.2.8 等修复版。',
+    source: 'GitLab',
+    url: 'https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/',
+  },
+  {
+    date: '2026-10-12',
     time: '13:00',
     category: 'AI',
     title: '微软发布第三代自研推理芯片 Maia 300',
