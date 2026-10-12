@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '21:10',
+    category: 'AI',
+    title: '谷歌 Googlebook 推出 Linux 终端预览',
+    summary: 'VM 沙箱运行 Debian，可给 Antigravity 等智能体授 sudo，一键重置，面向智能体开发。',
+    source: 'Android Developers Blog',
+    url: 'https://android-developers.googleblog.com/2026/10/googlebook-linux-terminal-preview-vm.html',
+  },
+  {
+    date: '2026-10-12',
     time: '20:53',
     category: 'AI',
     title: '英特尔发布 GPU D 系列智能体推理加速卡',
