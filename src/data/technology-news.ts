@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '11:32',
+    category: '后端',
+    title: '欧洲多国超市遭网络攻击 冰柜被强制除霜',
+    summary: 'Danfoss 制冷控制遭攻击，法荷比多连锁被强制 50°C 除霜，电子价签与配送中断，损失或达数百万欧元。',
+    source: "Tom's Hardware",
+    url: 'https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident',
+  },
+  {
+    date: '2026-10-12',
+    time: '11:22',
+    category: 'AI',
+    title: 'QGIS 全面禁止 AI 辅助代码贡献',
+    summary: 'QEP428 已合并取代人类在环政策：发现用 AI 即回滚代码并追责，旧规执行期间已有核心贡献者流失。',
+    source: 'GitHub',
+    url: 'https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387',
+  },
+  {
+    date: '2026-10-12',
+    time: '11:20',
+    category: 'AI',
+    title: '阿里千问发布 QwenGyre 智能体训练框架',
+    summary: '面向超长程智能体的在线强化学习框架，GPU 弹性调度训练，NL2RepoBench 通过率升至 58.5%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/012/066.htm',
+  },
+  {
+    date: '2026-10-12',
     time: '10:03',
     category: '后端',
     title: 'Linus 用 LLM 解读内核补丁挖出三个老 bug',
