@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '03:21',
+    category: '后端',
+    title: 'Ubuntu 26.10 将推 RISC-V 桌面镜像',
+    summary: '随 10.15 版发布，RISC-V 桌面支持首次比肩 x86-64 与 Arm64，同发 SpacemiT K3 主板',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/823.htm',
+  },
+  {
+    date: '2026-10-12',
+    time: '02:15',
+    category: '后端',
+    title: 'Radicle 协议关键漏洞私有仓库或暴露明文',
+    summary: '握手后丢弃加密状态，私有仓库 Gossip 与 Git 流量未加密，协议无法热修复，须重构网络层。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/h86bNjSBdJRBYwxP4Xgt',
+  },
+  {
+    date: '2026-10-12',
     time: '01:05',
     category: '后端',
     title: 'Artifactory 三漏洞遭在野利用可获管理员权限',
