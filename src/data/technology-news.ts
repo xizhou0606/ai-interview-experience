@@ -28,6 +28,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.infoq.cn/article/CSNMcSceutWCGQhZcL7D',
   },
   {
+    date: '2026-10-12',
+    time: '00:23',
+    category: 'AI',
+    title: 'OpenAI 提升 GPT-6.1 Sol 默认上下文',
+    summary: 'Codex/Work 环境 GPT-6.1 Sol 默认上下文 272k 升至 500k，订阅用量不再收长上下文费。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/736.htm',
+  },
+  {
     date: '2026-10-11',
     time: '23:31',
     category: '后端',
