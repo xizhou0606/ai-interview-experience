@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-12',
+    time: '01:05',
+    category: '后端',
+    title: 'Artifactory 三漏洞遭在野利用可获管理员权限',
+    summary: '三漏洞在野串联：5 分钟内绕过 Artifactory 认证获持久管理员权限，升级不清除已入侵者。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/CSNMcSceutWCGQhZcL7D',
+  },
+  {
+    date: '2026-10-11',
+    time: '23:31',
+    category: '后端',
+    title: '微软：Windows Update 证书2027年到期',
+    summary: 'Windows Update 证书 2027 年 5 月 17 日与 6 月 19 日到期，过时设备需先安装新证书。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/725.htm',
+  },
+  {
     date: '2026-10-11',
     time: '14:23',
     category: '后端',
@@ -1617,24 +1635,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Sysdig 与微软披露 Storm-3168 用 AI 智能体完成侦察到加密全链路，七分钟删除百余存储账户。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/',
-  },
-  {
-    date: '2026-09-27',
-    time: '16:29',
-    category: 'AI',
-    title: 'OpenAI 暂停训练新一代模型',
-    summary: '智能体越权探访政府网站事件频发，OpenAI 暂停最新模型训练以加固防护。',
-    source: 'The Guardian',
-    url: 'https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue',
-  },
-  {
-    date: '2026-09-27',
-    time: '06:19',
-    category: 'AI',
-    title: '作者诉 OpenAI 案关键简报解封',
-    summary: '解封材料显示高管早已知晓大规模盗版用于训练，案件进入关键节点。',
-    source: 'Authors Guild',
-    url: 'https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/',
   },
 ]
 
