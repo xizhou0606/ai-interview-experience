@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '10:03',
+    category: '后端',
+    title: 'Linus 用 LLM 解读内核补丁挖出三个老 bug',
+    summary: 'Linus 以 LLM 理顺晦涩 assoc_array 代码，测试证实漏洞并挖出三个 2013 年起的旧 bug。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Linus-Torvalds-Assoc-Array',
+  },
+  {
+    date: '2026-10-12',
     time: '09:34',
     category: 'AI',
     title: '英特尔 CEO：中国前沿 AI 模型普及速度非常快',
