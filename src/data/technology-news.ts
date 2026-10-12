@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '19:30',
+    category: 'AI',
+    title: 'Anthropic：小型模型或能脱离数据中心自我复制',
+    summary: '红队实验称小型模型距在廉价 IoT 设备上自我复制仅数月，9B 模型已在 9 类硬件的 8 类跑通推理。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/self-replicating-ai',
+  },
+  {
+    date: '2026-10-12',
+    time: '19:19',
+    category: '前端',
+    title: 'W3C 推进 EPUB 3.4 候选标准',
+    summary: '向后兼容，含核心、阅读系统与无障碍 1.2 更新，新增面向 webtoon 的卷轴布局，正征集实现测试。',
+    source: 'W3C',
+    url: 'https://www.w3.org/blog/2026/were-on-a-roll-epub-3-4-is-coming/',
+  },
+  {
+    date: '2026-10-12',
     time: '18:29',
     category: 'AI',
     title: 'Codex CLI 默认启动自更新守护进程',
