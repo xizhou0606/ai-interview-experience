@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '05:00',
+    category: '后端',
+    title: 'Meta ZGateway 代理层连接数降至 1/19',
+    summary: '面向 ZippyDB 的无状态代理层每秒处理超 10 亿次操作、承担约 40% 流量，持久连接总数降至约 1/19。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/d5x9BkQ9AoIZq5mf6LN0',
+  },
+  {
+    date: '2026-10-12',
     time: '03:21',
     category: '后端',
     title: 'Ubuntu 26.10 将推 RISC-V 桌面镜像',
