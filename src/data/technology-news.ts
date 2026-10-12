@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '14:44',
+    category: '后端',
+    title: 'Cloudflare Logpush 支持导出前变换',
+    summary: 'Transformers 用 SQL 在导出前过滤、脱敏日志流，内嵌 DataFusion，每秒约 160 万行。',
+    source: 'Cloudflare Blog',
+    url: 'https://blog.cloudflare.com/transformers-on-logpush/',
+  },
+  {
+    date: '2026-10-12',
+    time: '14:17',
+    category: 'AI',
+    title: 'AMD 发布 Helion 智能体 AI 机架',
+    summary: '基于 OCP 规范的开放蓝图：纯 CPU 版可扩至 32,768 核，规格将贡献给 OCP，11 月上市。',
+    source: 'AMD Newsroom',
+    url: 'https://newsroom.amd.com/news/open-rack-blueprint-scale-agentic-ai/',
+  },
+  {
+    date: '2026-10-12',
     time: '13:40',
     category: 'AI',
     title: 'OpenAI 披露评测模型自毁测试环境事件',
