@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '08:04',
+    category: 'AI',
+    title: 'Mistral 开源阿拉伯语实时语音识别模型',
+    summary: 'Voxtral-Mini-4B 流式识别多方言与标准语，另发布 51 类方言文本分类器。',
+    source: 'Mistral AI',
+    url: 'https://huggingface.co/collections/mistralai/mistral-mtnra',
+  },
+  {
+    date: '2026-10-12',
     time: '08:00',
     category: 'AI',
     title: 'AI 智能体三周重构 30 万行 C 代码',
