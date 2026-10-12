@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '08:00',
+    category: 'AI',
+    title: 'AI 智能体三周重构 30 万行 C 代码',
+    summary: 'Code Health 从 5.6 升至满分 10.0，token 成本约 4000 美元，自演化 22 种重构策略。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/Qk7CzmLpDCvfYpAiU6Tf',
+  },
+  {
+    date: '2026-10-12',
+    time: '07:26',
+    category: '后端',
+    title: 'CyberXero 借 Claude Code 编排攻击',
+    summary: '俄语系初始访问团伙双线攻击 WordPress 与乌克兰关键设施，窃取超 62.8 万条记录。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html',
+  },
+  {
+    date: '2026-10-12',
+    time: '06:46',
+    category: 'AI',
+    title: '杨立昆称下一代 AI 须理解物理世界',
+    summary: '据韩媒报道，他在首尔表示突破不会来自大语言模型，世界模型将推动 AI 进入下一阶段。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/011/891.htm',
+  },
+  {
+    date: '2026-10-12',
     time: '05:00',
     category: '后端',
     title: 'Meta ZGateway 代理层连接数降至 1/19',
