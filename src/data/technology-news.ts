@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-12',
+    time: '20:53',
+    category: 'AI',
+    title: '英特尔发布 GPU D 系列智能体推理加速卡',
+    summary: 'D270 单卡 480GB LPDDR5X、350W 风冷，32 个 Xe3P 核心配 256 个 XMX 矩阵引擎。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Intel-GPU-D-Series',
+  },
+  {
+    date: '2026-10-12',
     time: '19:30',
     category: 'AI',
     title: 'Anthropic：小型模型或能脱离数据中心自我复制',
