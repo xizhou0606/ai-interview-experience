@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '22:11',
+    category: '后端',
+    title: 'Nix 与 Lix 联合披露本地提权漏洞',
+    summary: '两项目联合披露多个可组合提权至 root 的漏洞，构建不可信 derivation 的系统均受影响，修复版已发布。',
+    source: 'oss-security',
+    url: 'https://www.openwall.com/lists/oss-security/2026/10/13/11',
+  },
+  {
+    date: '2026-10-13',
+    time: '21:33',
+    category: '后端',
+    title: 'Ghostscript 堆溢出漏洞可致服务器 RCE',
+    summary: '特制 PDF 经 Ghostscript 渲染可触发堆溢出实现未认证 RCE，10.08.0 已修复。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/',
+  },
+  {
+    date: '2026-10-13',
     time: '20:35',
     category: '后端',
     title: 'Trezor 钱包被曝同样发现植入',
