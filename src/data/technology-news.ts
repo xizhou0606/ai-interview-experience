@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-13',
+    time: '00:48',
+    category: 'AI',
+    title: 'AI 智能体 3 个月反编译《现代战争 2》源码',
+    summary: '开发者团队耗超 5000 亿词元，99% 函数已重建、83% 逐字节匹配，以字节级校验驱动智能体返工。',
+    source: 'Maurice\'s Blog',
+    url: 'https://momo5502.com/posts/2026-10-09-game-decompilation/',
+  },
+  {
+    date: '2026-10-13',
+    time: '00:24',
+    category: '后端',
+    title: 'FreeType 2.15 发布支持新开放字体标准',
+    summary: '支持 ISO OFF 第 5 版：VARC 表让 CJK 可变字体最多省 90%，另增 Apple HVF 实验驱动。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/FreeType-2.15-Released',
+  },
+  {
     date: '2026-10-12',
     time: '22:56',
     category: 'AI',
