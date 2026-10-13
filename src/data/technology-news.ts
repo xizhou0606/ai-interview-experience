@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '13:00',
+    category: 'AI',
+    title: '美国运通推出 AI 代理支付意图验证框架',
+    summary: 'Create Intent API 捕获购买意图与约束，代理凭 Intent ID 与意图令牌结账，替代实体卡号。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/',
+  },
+  {
+    date: '2026-10-13',
     time: '11:09',
     category: '后端',
     title: 'LG 电视 webOS 预认证 Root 漏洞链曝光',
