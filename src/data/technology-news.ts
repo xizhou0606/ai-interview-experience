@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '20:35',
+    category: '后端',
+    title: 'Trezor 钱包被曝同样发现植入',
+    summary: 'Joe Grand 8 月在两台 Trezor 钱包发现植入，Trezor 同日削减授权转售商，仍否认设备被攻破。',
+    source: 'Kim Zetter',
+    url: 'https://www.zetter-zeroday.com/trezor-wallets-also-compromised-with-implants/',
+  },
+  {
+    date: '2026-10-13',
     time: '19:42',
     category: 'AI',
     title: 'Shopify 开放 Shop MCP 代理购物结账',
