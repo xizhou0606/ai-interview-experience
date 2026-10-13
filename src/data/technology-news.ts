@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '15:45',
+    category: '后端',
+    title: 'Ivanti VPN 网关认证绕过零日已遭利用',
+    summary: 'CVE-2026-104935 无需交互即可执行任意命令，多个版本受影响，官方称已出现有限在野利用。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/',
+  },
+  {
+    date: '2026-10-13',
+    time: '15:20',
+    category: '后端',
+    title: 'Docker Hub 漏洞可冒充用户篡改镜像',
+    summary: 'CVE-2026-105445：组织转换会原样重分配个人访问令牌，攻击者可借此读写删除目标仓库镜像。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/',
+  },
+  {
+    date: '2026-10-13',
     time: '13:00',
     category: 'AI',
     title: '美国运通推出 AI 代理支付意图验证框架',
@@ -53,6 +71,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'OCP 峰会演讲展示新一代霄龙：Zen 6 首配 LPDDR5X SOCAMM2 内存，2027 年上市。',
     source: 'Wccftech',
     url: 'https://wccftech.com/amd-next-gen-epyc-verano-cpu-lpddr5x-memory-up-to-192-cores/',
+  },
+  {
+    date: '2026-10-13',
+    time: '08:00',
+    category: 'AI',
+    title: '谷歌 Gemini 4 Argon 全球推送上线',
+    summary: '模型登陆 Antigravity 桌面端、CLI 与 Gemini 应用及 API，面向 Ultra 与企业订阅。',
+    source: 'Google',
+    url: 'https://antigravity.google/blog/gemini-4-argon-in-google-antigravity',
   },
   {
     date: '2026-10-13',
@@ -169,6 +196,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '基于 Vite 与 Nitro 的全栈框架正式生产就绪：支持服务端函数、流式渲染，企业用户 beta 期已投产。',
     source: 'TanStack Blog',
     url: 'https://tanstack.com/blog/tanstack-start-1-0',
+  },
+  {
+    date: '2026-10-13',
+    category: '后端',
+    title: 'Anthropic 五个月自研 Scion 替代 Git',
+    summary: '合并量从日均 2500 涨至超 3 万，源码管理成瓶颈；monorepo 已整体迁离 git。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/engineering/redesigning-source-control',
   },
   {
     date: '2026-10-12',
