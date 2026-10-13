@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '09:12',
+    category: 'AI',
+    title: '面壁智能开源端侧多模态模型 MiniCPM-V 4.7',
+    summary: '借 LES 前瞻专家调度，35B-A3B 成为首个端侧流畅运行的开源 MoE，3GB 内存达 13+ token/s。',
+    source: 'OpenBMB',
+    url: 'https://github.com/OpenBMB/MiniCPM-V',
+  },
+  {
+    date: '2026-10-13',
+    time: '08:20',
+    category: '后端',
+    title: 'AMD 首次展示下一代 EPYC Verano 处理器',
+    summary: 'OCP 峰会演讲展示新一代霄龙：Zen 6 首配 LPDDR5X SOCAMM2 内存，2027 年上市。',
+    source: 'Wccftech',
+    url: 'https://wccftech.com/amd-next-gen-epyc-verano-cpu-lpddr5x-memory-up-to-192-cores/',
+  },
+  {
+    date: '2026-10-13',
     time: '07:41',
     category: 'AI',
     title: '微软 Copilot 应用整合完整 Office 编辑',
