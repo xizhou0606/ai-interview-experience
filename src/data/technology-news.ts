@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '04:37',
+    category: '后端',
+    title: '英特尔在 OCP 展示至强机架级智能体推理方案',
+    summary: 'OCP 展出至强新机架（ORv3），单机架超 4.6 万核；GPU D 系列单卡支持 3000 亿参数模型。',
+    source: 'Intel',
+    url: 'https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-accelerates-open-infrastructure-agentic-ai-era.html',
+  },
+  {
+    date: '2026-10-13',
     time: '03:18',
     category: '后端',
     title: 'Astera Labs 发布 Orion 机架参考架构',
