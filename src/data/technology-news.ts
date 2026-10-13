@@ -460,6 +460,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://github.com/hashicorp/boundary',
   },
   {
+    date: '2026-10-12',
+    category: '后端',
+    title: '谷歌 SRE 经典著作发布第二版',
+    summary: '出版十周年完全重写：面向云与 AI 时代，覆盖燃烧率告警、OpenTelemetry 与平台工程。',
+    source: 'Google Cloud Blog',
+    url: 'https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition',
+  },
+  {
     date: '2026-10-11',
     time: '23:31',
     category: '后端',
