@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '06:07',
+    category: '后端',
+    title: 'curl 8.23.0 内置多项性能与内存优化',
+    summary: '10 月 14 日发布：base64 提速超 2 倍、URL 解析快 20-30%，扣除下载缓冲后内存省 15%。',
+    source: 'daniel.haxx.se',
+    url: 'https://daniel.haxx.se/blog/2026/10/13/a-slightly-faster-slimmer-curl/',
+  },
+  {
+    date: '2026-10-13',
     time: '04:37',
     category: '后端',
     title: '英特尔在 OCP 展示至强机架级智能体推理方案',
