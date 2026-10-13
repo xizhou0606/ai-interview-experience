@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '17:00',
+    category: 'AI',
+    title: 'Google Play 支持私密分发 AI 编码应用',
+    summary: '用户用 AI Studio 造的个人应用可经 Play 私密安装，不上架不公开，初期限美国成年用户。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/10/13/google-play-now-supports-private-vibe-coded-apps-built-just-for-you/',
+  },
+  {
+    date: '2026-10-13',
+    time: '16:18',
+    category: '后端',
+    title: 'npm 可信发布漏洞可无凭据劫持他人包',
+    summary: '研究员发现 npm 可信发布劫持漏洞，1500+ 包暴露，GitHub 现令未验证配置 48 小时过期。',
+    source: 'Bloom Security',
+    url: 'https://bloom.security/blog/slugfest-millions-of-ai-agents-download-exposed-npm-packages',
+  },
+  {
+    date: '2026-10-13',
     time: '15:45',
     category: '后端',
     title: 'Ivanti VPN 网关认证绕过零日已遭利用',
