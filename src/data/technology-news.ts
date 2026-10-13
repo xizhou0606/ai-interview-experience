@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '17:01',
+    category: 'AI',
+    title: 'Facebook 推出自然语言调整动态流算法',
+    summary: '用户可用自然语言告诉算法想看什么，Feed 与 Reels 推荐实时调整，Meta 将 LLM 引入排序系统。',
+    source: 'Meta Newsroom',
+    url: 'https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/',
+  },
+  {
+    date: '2026-10-13',
     time: '17:00',
     category: 'AI',
     title: 'Google Play 支持私密分发 AI 编码应用',
