@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '17:33',
+    category: '后端',
+    title: 'Ivanti VPN 三个零日漏洞遭链式利用',
+    summary: 'Volexity 称 UTA0576 链式利用三个零日漏洞攻破全补丁 ICS，Ivanti 已修复两个。',
+    source: 'Volexity',
+    url: 'https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/',
+  },
+  {
+    date: '2026-10-13',
     time: '17:01',
     category: 'AI',
     title: 'Facebook 推出自然语言调整动态流算法',
