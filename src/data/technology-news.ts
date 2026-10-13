@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '03:18',
+    category: '后端',
+    title: 'Astera Labs 发布 Orion 机架参考架构',
+    summary: '开放标准、计算无关的推理机架参考设计：六大生产级参考架构，单 pod 至多 160 颗加速器，2027Q1 供货。',
+    source: 'Astera Labs',
+    url: 'https://www.asteralabs.com/orion',
+  },
+  {
+    date: '2026-10-13',
     time: '02:12',
     category: '后端',
     title: '英伟达向 OCP 开放 Vera Rubin 机架设计',
