@@ -1951,24 +1951,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Mozilla',
     url: 'https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/',
   },
-  {
-    date: '2026-09-28',
-    time: '17:58',
-    category: 'AI',
-    title: 'Claude Sonnet 5.5 正式发布',
-    summary: '较 Sonnet 5 明显升级，速度快 30% 以上，多数任务成本降三成。',
-    source: 'Anthropic',
-    url: 'https://www.anthropic.com/claude-sonnet-5-5',
-  },
-  {
-    date: '2026-09-28',
-    time: '15:49',
-    category: 'AI',
-    title: 'JadePuffer 智能化勒索攻击 Azure',
-    summary: 'Sysdig 与微软披露 Storm-3168 用 AI 智能体完成侦察到加密全链路，七分钟删除百余存储账户。',
-    source: 'BleepingComputer',
-    url: 'https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/',
-  },
 ]
 
 function codePointLength(value: string) {
