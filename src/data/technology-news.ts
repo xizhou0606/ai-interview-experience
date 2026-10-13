@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '07:41',
+    category: 'AI',
+    title: '微软 Copilot 应用整合完整 Office 编辑',
+    summary: '微软逆转办公 AI 策略：Copilot 应用内创建、编辑并协作 Word/Excel/PPT，新增 Library。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/012/403.htm',
+  },
+  {
+    date: '2026-10-13',
     time: '06:07',
     category: '后端',
     title: 'curl 8.23.0 内置多项性能与内存优化',
