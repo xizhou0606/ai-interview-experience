@@ -163,6 +163,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.phoronix.com/news/FreeType-2.15-Released',
   },
   {
+    date: '2026-10-13',
+    category: '前端',
+    title: 'TanStack Start 1.0 稳定版发布',
+    summary: '基于 Vite 与 Nitro 的全栈框架正式生产就绪：支持服务端函数、流式渲染，企业用户 beta 期已投产。',
+    source: 'TanStack Blog',
+    url: 'https://tanstack.com/blog/tanstack-start-1-0',
+  },
+  {
     date: '2026-10-12',
     time: '22:56',
     category: 'AI',
