@@ -29,6 +29,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-13',
+    time: '04:01',
+    category: '前端',
+    title: 'Mozilla 发布 Firefox 企业版',
+    summary: '基于独立 Gecko 引擎，配自托管管理控制台，集中管控策略、数据流转与 AI 使用。',
+    source: 'Mozilla',
+    url: 'https://blog.mozilla.org/en/firefox/introducing-firefox-enterprise/',
+  },
+  {
+    date: '2026-10-13',
     time: '03:18',
     category: '后端',
     title: 'Astera Labs 发布 Orion 机架参考架构',
