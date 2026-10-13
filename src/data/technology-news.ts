@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '11:09',
+    category: '后端',
+    title: 'LG 电视 webOS 预认证 Root 漏洞链曝光',
+    summary: 'SSD 披露三个 webOS 漏洞链式利用：局域网内免 PIN 直接 Root 电视，LG 已发布修复。',
+    source: 'SSD Secure Disclosure',
+    url: 'https://ssd-disclosure.com/lg-webos-sync-demo-preauth-rce/',
+  },
+  {
+    date: '2026-10-13',
     time: '09:12',
     category: 'AI',
     title: '面壁智能开源端侧多模态模型 MiniCPM-V 4.7',
