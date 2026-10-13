@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '19:42',
+    category: 'AI',
+    title: 'Shopify 开放 Shop MCP 代理购物结账',
+    summary: 'Shop MCP 上线：任意代理可搜索超 10 亿商品目录并用 Shop Pay 结账，买家确认后下单。',
+    source: 'Shopify Dev Changelog',
+    url: 'https://shopify.dev/changelog/posts/add-shopping-and-shop-pay-checkout-to-any-agent-with-shop-mcp',
+  },
+  {
+    date: '2026-10-13',
     time: '17:33',
     category: '后端',
     title: 'Ivanti VPN 三个零日漏洞遭链式利用',
