@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-13',
+    time: '02:12',
+    category: '后端',
+    title: '英伟达向 OCP 开放 Vera Rubin 机架设计',
+    summary: 'MGX 1.2 开放机架与计算托盘设计：250kW 机架、5000A 液冷母线，并联合 AMD 等发布开放数据中心规范。',
+    source: 'NVIDIA',
+    url: 'https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/',
+  },
+  {
+    date: '2026-10-13',
     time: '01:46',
     category: 'AI',
     title: 'Anthropic 新防御使模型蒸馏攻击降超九成',
