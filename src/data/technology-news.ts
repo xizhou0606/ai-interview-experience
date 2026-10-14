@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '09:15',
+    category: '后端',
+    title: 'KDE Plasma 6.8 发布：30 周年纪念版',
+    summary: 'KDE 三十周年之际发布 Plasma 6.8：内置驻留点击无障碍，远程桌面服务端大改，支持虚拟屏共享。',
+    source: 'KDE',
+    url: 'https://kde.org/announcements/plasma/6/6.8.0/',
+  },
+  {
+    date: '2026-10-14',
     time: '09:02',
     category: 'AI',
     title: 'Aisle AI 审计累计报出 35 个 curl 漏洞',
@@ -44,6 +53,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '修复 24 个安全漏洞并移除 SMB，最重为 Anthropic 发现的 HTTP/2 上传 UAF，可致代码执行。',
     source: 'daniel.haxx.se',
     url: 'https://daniel.haxx.se/blog/2026/10/14/curl-8-23-0/',
+  },
+  {
+    date: '2026-10-14',
+    time: '07:46',
+    category: 'AI',
+    title: 'Corvus AI 两小时挖出内核 9 年提权洞',
+    summary: '腾讯朱雀 Corvus AI 发现 vhost 越界 CVE-2026-74580，本地可提权，虚拟机可逃逸至宿主机',
+    source: 'Tencent Zhuque Lab',
+    url: 'https://matrix.tencent.com/en/2026/10/12/vghost-cve-2026-74580',
   },
   {
     date: '2026-10-14',
