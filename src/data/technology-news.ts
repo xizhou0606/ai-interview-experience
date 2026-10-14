@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '14:09',
+    category: '后端',
+    title: 'GitHub Actions 工作流锁文件开启公测',
+    summary: '工作流依赖锁文件公测：将运行固定到已审提交，防被移动的标签注入恶意代码，配 gh actions-lock。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview',
+  },
+  {
+    date: '2026-10-14',
     time: '12:30',
     category: '后端',
     title: 'CISA 将 Ivanti VPN 零日列入 KEV',
