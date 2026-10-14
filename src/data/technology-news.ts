@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '09:02',
+    category: 'AI',
+    title: 'Aisle AI 审计累计报出 35 个 curl 漏洞',
+    summary: 'Aisle 靠 AI 工具一年报出 35 个 curl CVE，单次审计 24 个、18 个随今日版本修复，报告公开。',
+    source: 'daniel.haxx.se',
+    url: 'https://daniel.haxx.se/blog/2026/10/14/a-curl-audit-by-aisle/',
+  },
+  {
+    date: '2026-10-14',
+    time: '08:43',
+    category: 'AI',
+    title: 'XBOW 用 AI 六天攻破 Chrome 全链路',
+    summary: '4 人借公开 AI 模型 6 天构建 Chrome 全链路利用，可接管 Windows，影响约 10 亿用户。',
+    source: 'XBOW',
+    url: 'https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit',
+  },
+  {
+    date: '2026-10-14',
+    time: '07:47',
+    category: '后端',
+    title: 'curl 8.23.0 修复 24 漏洞，移除 SMB',
+    summary: '修复 24 个安全漏洞并移除 SMB，最重为 Anthropic 发现的 HTTP/2 上传 UAF，可致代码执行。',
+    source: 'daniel.haxx.se',
+    url: 'https://daniel.haxx.se/blog/2026/10/14/curl-8-23-0/',
+  },
+  {
+    date: '2026-10-14',
     time: '05:52',
     category: '后端',
     title: 'Windows VBS enclave 曝代码执行漏洞',
