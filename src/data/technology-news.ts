@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '05:22',
+    category: '后端',
+    title: 'VS Copilot 曝 RCE 漏洞，补丁已发布',
+    summary: 'Copilot 绕过路径校验写入自身配置致 RCE，可经间接提示注入利用，微软补丁已发布，VS 2022 亦受影响。',
+    source: 'Embrace The Red',
+    url: 'https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/',
+  },
+  {
+    date: '2026-10-14',
     time: '03:55',
     category: '后端',
     title: '谷歌重构 Chrome 漏洞赏金：写入类最高两万美元',
