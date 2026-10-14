@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '05:52',
+    category: '后端',
+    title: 'Windows VBS enclave 曝代码执行漏洞',
+    summary: 'Doyensec 攻破 Windows VBS enclave，CVE-2026-83498 已于 9 月修复。',
+    source: 'Doyensec',
+    url: 'https://blog.doyensec.com/2026/10/13/Sfape.html',
+  },
+  {
+    date: '2026-10-14',
     time: '05:22',
     category: '后端',
     title: 'VS Copilot 曝 RCE 漏洞，补丁已发布',
