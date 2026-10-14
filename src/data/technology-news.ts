@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '10:09',
+    category: '后端',
+    title: '华为奖励计划要求 AI 漏洞报告先人工验证',
+    summary: 'AI 挖掘报告幻觉误报多，华为要求提交前人工验证复现，无效报告三次提醒五次封号。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/013/049.htm',
+  },
+  {
+    date: '2026-10-14',
+    time: '09:50',
+    category: 'AI',
+    title: 'AI 智能体误删电视台整季成片',
+    summary: '瑞典 TV4 综艺整季成片被删无法恢复，媒体消息源称系制作方引入的 AI 智能体所致，首播推迟至 2027。',
+    source: 'Aftonbladet',
+    url: 'https://www.aftonbladet.se/nojesbladet/a/31oE8A/the-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren',
+  },
+  {
+    date: '2026-10-14',
     time: '09:15',
     category: '后端',
     title: 'KDE Plasma 6.8 发布：30 周年纪念版',
