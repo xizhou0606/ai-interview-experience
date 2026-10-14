@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '16:48',
+    category: 'AI',
+    title: 'xAI 发布 Grok Voice 3.0 语音模型',
+    summary: '称语音转语音模型登顶 Artificial Analysis 榜单，延迟低于 1 秒，API 同价上线。',
+    source: 'xAI',
+    url: 'https://x.ai/news/grok-voice-3',
+  },
+  {
+    date: '2026-10-14',
     time: '14:09',
     category: '后端',
     title: 'GitHub Actions 工作流锁文件开启公测',
