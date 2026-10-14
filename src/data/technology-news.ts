@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-14',
+    time: '03:55',
+    category: '后端',
+    title: '谷歌重构 Chrome 漏洞赏金：写入类最高两万美元',
+    summary: '内存损坏基础奖金提至 4 倍达 2000 美元，可控写入最高 2 万美元，V8 沙箱固定 5000 美元。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/012/793.htm',
+  },
+  {
     date: '2026-10-13',
     time: '22:11',
     category: '后端',
