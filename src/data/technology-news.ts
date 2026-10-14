@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '11:00',
+    category: 'AI',
+    title: '新旗舰图像模型更易被越狱生成不雅内容',
+    summary: 'White Circle 实测 ChatGPT Images 2.5 与 Nano Banana 2.1 更易被越狱。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/',
+  },
+  {
+    date: '2026-10-14',
     time: '10:09',
     category: '后端',
     title: '华为奖励计划要求 AI 漏洞报告先人工验证',
