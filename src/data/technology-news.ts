@@ -20,12 +20,30 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '19:40',
+    category: 'AI',
+    title: '美银雇佣千人修复 Mythos 曝出漏洞',
+    summary: 'CEO 确认增聘 1000 名外包支持 3000 名员工修复专有与供应商软件缺陷，本季度为此多花数亿美元。',
+    source: 'CNBC',
+    url: 'https://www.cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html',
+  },
+  {
+    date: '2026-10-14',
     time: '17:46',
     category: '后端',
     title: 'Ledger 要求亚洲经销商停售硬件钱包',
     summary: '因供应链芯片植入事件，东南亚与香港渠道下架产品，Trezor 也预防性暂停合作。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/',
+  },
+  {
+    date: '2026-10-14',
+    time: '17:38',
+    category: '后端',
+    title: 'Nextcloud 内置 CODE 漏洞已被在野利用',
+    summary: '未认证命令注入可植入 web shell，CVE-2026-110447 评分 9.2，9 月起在野利用，已修复。',
+    source: 'Collabora',
+    url: 'https://github.com/CollaboraOnline/online/security/advisories/GHSA-g3vx-3m76-fghh',
   },
   {
     date: '2026-10-14',
