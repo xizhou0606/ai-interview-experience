@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-14',
+    time: '17:46',
+    category: '后端',
+    title: 'Ledger 要求亚洲经销商停售硬件钱包',
+    summary: '因供应链芯片植入事件，东南亚与香港渠道下架产品，Trezor 也预防性暂停合作。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/',
+  },
+  {
+    date: '2026-10-14',
+    time: '17:29',
+    category: '后端',
+    title: 'Cisco 邮件网关 9.8 分零日已遭在野利用',
+    summary: 'AMP 路径遍历解析恶意附件即可写任意文件并获 root 权限，官方已修复，无变通方案。',
+    source: 'Cisco',
+    url: 'https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp',
+  },
+  {
+    date: '2026-10-14',
+    time: '17:25',
+    category: 'AI',
+    title: 'AI 漏洞猎手报告 vLLM 跨请求输出篡改洞',
+    summary: 'Glasswing 测试架独立发现，批处理下可伪造其他用户输出，已随 vLLM v0.31.0 修复。',
+    source: 'Chainguard',
+    url: 'https://www.chainguard.dev/unchained/the-first-disclosure-from-our-mythos-harness',
+  },
+  {
+    date: '2026-10-14',
     time: '16:48',
     category: 'AI',
     title: 'xAI 发布 Grok Voice 3.0 语音模型',
