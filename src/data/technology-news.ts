@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '05:43',
+    category: 'AI',
+    title: '微软 Work IQ 知识引擎提速办公智能体',
+    summary: '不升级模型提速 4 倍、省 30% 词元：SharePoint 碎片信息编译为知识库供智能体直调。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/013/357.htm',
+  },
+  {
+    date: '2026-10-15',
     time: '05:02',
     category: 'AI',
     title: 'Claude Code 桌面版预览面板数据外泄漏洞',
