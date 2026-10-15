@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '11:52',
+    category: '后端',
+    title: 'Rustls 0.23.46 一次性修复四个安全问题',
+    summary: 'rustls 连发四份安全公告：认证前可分配 1GB 内存、调试输出泄露主密钥等，升级修复。',
+    source: 'rustls',
+    url: 'https://github.com/rustls/rustls/releases/tag/v%2F0.23.46',
+  },
+  {
+    date: '2026-10-15',
     time: '10:43',
     category: '后端',
     title: 'AdFection：定向广告投递零点击间谍软件',
