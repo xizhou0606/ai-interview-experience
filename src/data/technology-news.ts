@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '07:39',
+    category: 'AI',
+    title: 'RubyLLM 2.1 发布：MCP 客户端与智能体评估',
+    summary: 'Ruby LLM 库新增 MCP 客户端、智能体评估与 OTel 追踪，流解析性能大幅提升。',
+    source: 'RubyLLM',
+    url: 'https://rubyllm.com/whats-new-in-2-1/',
+  },
+  {
+    date: '2026-10-15',
     time: '07:23',
     category: '前端',
     title: 'TetraLogical 开源无障碍组件库',
