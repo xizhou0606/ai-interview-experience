@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '22:20',
+    category: '后端',
+    title: 'Forgejo v17.0 发布',
+    summary: '自托管代码协作平台 Forgejo v17.0 发布：action run 事件弃用需手动迁移，新增赞助按钮。',
+    source: 'Forgejo',
+    url: 'https://forgejo.org/2026-10-release-v17-0/',
+  },
+  {
+    date: '2026-10-15',
     time: '21:42',
     category: '后端',
     title: 'Neon 推出 Realtime 实时查询',
