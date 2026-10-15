@@ -128,6 +128,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-14',
+    time: '17:00',
+    category: '前端',
+    title: 'VS Code 1.142 发布：智能体画布上线',
+    summary: 'Canvases 画布预览支持超越聊天的智能体协作，聊天可跨文件夹与 Git worktree 迁移。',
+    source: 'VS Code',
+    url: 'https://code.visualstudio.com/updates/v1_142',
+  },
+  {
+    date: '2026-10-14',
     time: '16:48',
     category: 'AI',
     title: 'xAI 发布 Grok Voice 3.0 语音模型',
