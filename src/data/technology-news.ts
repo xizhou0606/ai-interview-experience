@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '08:45',
+    category: '后端',
+    title: 'GhostAction 窃密波及3万GitHub仓库',
+    summary: '约1900个被劫持账号向3万仓库注入恶意Actions工作流窃取CI/CD密钥，GitHub已拦截。',
+    source: 'GitGuardian',
+    url: 'https://blog.gitguardian.com/ghostaction-github-actions-supply-chain-attack-returns/',
+  },
+  {
+    date: '2026-10-15',
     time: '07:39',
     category: 'AI',
     title: 'RubyLLM 2.1 发布：MCP 客户端与智能体评估',
