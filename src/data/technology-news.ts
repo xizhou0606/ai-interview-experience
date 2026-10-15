@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '20:34',
+    category: 'AI',
+    title: 'IBM Granite Switch 4.1 发布',
+    summary: '8B/30B 双档单端点同时承载对话、决策与语音转写，Guardian 安全决策胜过 Jev 1.13。',
+    source: 'IBM Granite',
+    url: 'https://huggingface.co/blog/ibm-granite/granite-switch-4-1',
+  },
+  {
+    date: '2026-10-15',
+    time: '20:24',
+    category: '后端',
+    title: 'Vercel 沙箱挑战曝 Linux 内核零日',
+    summary: '1285 份报告、24.2 万美元赏金，VM 可泄露宿主内存乃至执行代码，内核主线已修复。',
+    source: 'Vercel',
+    url: 'https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge',
+  },
+  {
+    date: '2026-10-15',
     time: '19:35',
     category: 'AI',
     title: 'GitHub Copilot 将弃用三款模型',
