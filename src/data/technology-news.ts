@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '10:43',
+    category: '后端',
+    title: 'AdFection：定向广告投递零点击间谍软件',
+    summary: '首次证实定向广告可投递零点击雇佣间谍软件，感染半岛电视台设备，中介为 Discover-Tech。',
+    source: 'Citizen Lab',
+    url: 'https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/',
+  },
+  {
+    date: '2026-10-15',
+    time: '10:26',
+    category: '后端',
+    title: '德国 BSI 发布后量子密码迁移国家指南',
+    summary: '落实欧盟 PQC 路线图：高风险应用最迟 2030 年底量子安全，2035 年整体基本完成。',
+    source: 'BSI',
+    url: 'https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/261012_Leitlinie-PQC.html',
+  },
+  {
+    date: '2026-10-15',
+    time: '10:21',
+    category: 'AI',
+    title: 'Ling 3.1 Flash：560B MoE 开源模型',
+    summary: 'inclusionAI 开源：总参数 560B、激活 25B、1M 上下文、MIT 许可、原生混合推理。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/inclusionAI/Ling-3.1-flash',
+  },
+  {
+    date: '2026-10-15',
     time: '09:50',
     category: 'AI',
     title: '智谱引入白帽古河，GLM 挖洞获微软致谢',
