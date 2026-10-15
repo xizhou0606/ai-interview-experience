@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '09:50',
+    category: 'AI',
+    title: '智谱引入白帽古河，GLM 挖洞获微软致谢',
+    summary: '五登 MSRC 年度榜的古河加盟智谱，GLM 协助发现的 23 个 Windows 漏洞获微软致谢，含提权洞。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/JZZ6JSvRBq3R579uy8V3',
+  },
+  {
+    date: '2026-10-15',
+    time: '09:47',
+    category: '后端',
+    title: '微软 WoA 新进展：94% 热门 PyPI 包原生可用',
+    summary: '装 Python 3.15 默认原生 Arm64，CPython 达 Tier 2，Anaconda 2500+包支持。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/013/551.htm',
+  },
+  {
+    date: '2026-10-15',
     time: '08:45',
     category: '后端',
     title: 'GhostAction 窃密波及3万GitHub仓库',
