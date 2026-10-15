@@ -683,6 +683,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://nodejs.org/en/blog/vulnerability/october-2026-security-releases',
   },
   {
+    date: '2026-10-14',
+    category: '后端',
+    title: 'Go 1.27 让 HTTP/1 连接自动复用',
+    summary: 'net/http Transport 关闭响应前自动排空未读 body（50ms/256KB），官方示例提速近 5 倍。',
+    source: 'The Go Blog',
+    url: 'https://go.dev/blog/http-connection-reuse',
+  },
+  {
     date: '2026-10-13',
     time: '22:11',
     category: '后端',
