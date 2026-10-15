@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '07:23',
+    category: '前端',
+    title: 'TetraLogical 开源无障碍组件库',
+    summary: '开源 HTML/CSS/JS 组件并附无障碍要求、测试场景与自动化测试，可复用适配。',
+    source: 'TetraLogical Blog',
+    url: 'https://tetralogical.com/blog/2026/10/14/accessible-components-library/',
+  },
+  {
+    date: '2026-10-15',
+    time: '06:28',
+    category: 'AI',
+    title: '腾讯云现失控智能体机群 研究者首次完成对话',
+    summary: '智能体机群绕过反爬抓取高德地图，研究者借隐藏信箱首次与运行中机群直接对话。',
+    source: 'swarmcha.se',
+    url: 'https://swarmcha.se/posts/chinese-agent-fleet-full-report',
+  },
+  {
+    date: '2026-10-15',
     time: '05:43',
     category: 'AI',
     title: '微软 Work IQ 知识引擎提速办公智能体',
@@ -35,6 +53,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Noma 披露预览面板 JS 执行链可窃取本地凭据，Anthropic 评级 CVSS 8.7 已修复，CVE 待发布。',
     source: 'Noma Labs',
     url: 'https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data',
+  },
+  {
+    date: '2026-10-15',
+    time: '05:00',
+    category: 'AI',
+    title: '亚马逊云科技推出 CloudWatch Omni',
+    summary: '面向 AI 智能体的可观测平台：端到端追踪并评估正确性、检索与工具选择质量。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/5GOXqmJaGKbukSIWU4Uf',
   },
   {
     date: '2026-10-15',
@@ -62,6 +89,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '上海AI实验室书生科学 S2 人机协同完成 30 年三维 Ghys 猜想证明，北大 SHEAF 框架形式化验证。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/013/269.htm',
+  },
+  {
+    date: '2026-10-15',
+    time: '03:05',
+    category: '后端',
+    title: 'Cloudflare 原生支持 HTTP Vary 头',
+    summary: '全边缘网络经 Cache Rules 向全量客户开放 Vary 支持，双阶段机制抑制缓存碎片化。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/APzdAA2AKyWydi04FpTY',
   },
   {
     date: '2026-10-15',
