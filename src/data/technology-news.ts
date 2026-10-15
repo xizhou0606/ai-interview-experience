@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '16:58',
+    category: 'AI',
+    title: 'Meta 开源 Muse Spark Open 权重',
+    summary: '816B 总参 42B 激活多模态开放权重，1M 上下文，主打编码与智能体长程任务，桌面可跑 M5 Ultra。',
+    source: 'Meta AI Research',
+    url: 'https://research.meta.ai/blog/muse-spark-open',
+  },
+  {
+    date: '2026-10-15',
+    time: '16:50',
+    category: '后端',
+    title: '微软推出 dotnetup 工具链管理器',
+    summary: '.NET 官方 rustup 式工具链管理器：用户态免管理员安装 SDK 与每日构建，适配 CI 容器场景。',
+    source: '.NET Blog',
+    url: 'https://devblogs.microsoft.com/dotnet/introducing-dotnetup/',
+  },
+  {
+    date: '2026-10-15',
+    time: '16:32',
+    category: 'AI',
+    title: 'Anthropic 发布美国中期选举防护准备',
+    summary: '基于 25 万会话分析强化选举防护，仅 0.01% 会话询问投票倾向，并上线权威投票信息指引。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/news/2026-us-midterms',
+  },
+  {
+    date: '2026-10-15',
     time: '16:12',
     category: 'AI',
     title: '微软 AI 完成前沿模型 MAI-Base-2 预训练',
@@ -341,6 +368,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '维护者峰会共识弃用 Assisted-by 标签，Linus 反对强制披露 AI 工具使用，称相关规则愚蠢。',
     source: 'The Register',
     url: 'https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140',
+  },
+  {
+    date: '2026-10-15',
+    category: '前端',
+    title: 'Astro 7.4 发布，新增构建耗时分析',
+    summary: 'astro build 新增 --timings 定位构建耗时，预渲染与按需页可用不同图像服务，实验并行预渲染。',
+    source: 'Astro',
+    url: 'https://astro.build/blog/astro-740/',
   },
   {
     date: '2026-10-14',
