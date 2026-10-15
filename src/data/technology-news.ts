@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '13:31',
+    category: 'AI',
+    title: 'ChatGPT 可按提示词与手机号定向投广告',
+    summary: '404 Media 实测：广告主可按邮箱、手机号及提示词内容向 ChatGPT 用户精准投放广告。',
+    source: '404 Media',
+    url: 'https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/',
+  },
+  {
+    date: '2026-10-15',
     time: '13:18',
     category: '后端',
     title: 'Apache Subversion 1.15 发布',
@@ -38,12 +47,30 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-15',
+    time: '13:06',
+    category: '后端',
+    title: 'IntelliJ 引擎 1.0 登陆 Cursor',
+    summary: '十周预览后发布稳定版，IntelliJ 的 Java/Kotlin 智能支持登陆 Cursor 与 VS Code。',
+    source: 'JetBrains Blog',
+    url: 'https://blog.jetbrains.com/idea/2026/10/intellij-idea-s-java-and-kotlin-for-cursor-and-vs-code-hits-1-0/',
+  },
+  {
+    date: '2026-10-15',
     time: '13:00',
     category: 'AI',
     title: 'Cloudflare×OpenAI 改进 AI 内容发现',
     summary: '7 月启动的联合试点已助 OpenAI 搜索索引新增数亿网页，Cloudflare 信号帮站点被发现、减少无效抓取。',
     source: 'Cloudflare Blog',
     url: 'https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/',
+  },
+  {
+    date: '2026-10-15',
+    time: '12:58',
+    category: '后端',
+    title: 'NGINX 修复五个漏洞，含疑似 RCE',
+    summary: '1.30.6/1.31.7 修复五处漏洞：三处内存错误或可 RCE，TLS 会话伪造可绕过客户端证书校验。',
+    source: 'nginx.org',
+    url: 'https://nginx.org/en/security_advisories.html',
   },
   {
     date: '2026-10-15',
