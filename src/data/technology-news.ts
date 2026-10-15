@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '05:02',
+    category: 'AI',
+    title: 'Claude Code 桌面版预览面板数据外泄漏洞',
+    summary: 'Noma 披露预览面板 JS 执行链可窃取本地凭据，Anthropic 评级 CVSS 8.7 已修复，CVE 待发布。',
+    source: 'Noma Labs',
+    url: 'https://noma.security/noma-labs/sneakpeek-how-the-preview-pane-in-claude-code-desktop-can-exfiltrate-your-data',
+  },
+  {
+    date: '2026-10-15',
+    time: '04:51',
+    category: '前端',
+    title: 'Figma 推出 Specs 画布上下文容器',
+    summary: 'Markdown 成为设计协作媒介：Specs 在画布承载设计语言，供团队与智能体共同引用。',
+    source: 'Figma Blog',
+    url: 'https://www.figma.com/blog/introducing-figma-specs/',
+  },
+  {
+    date: '2026-10-15',
+    time: '04:00',
+    category: 'AI',
+    title: '昆仑万维开源 Matrix-Game 4.0 世界模型',
+    summary: '全球首款单张消费级显卡实时运行的视频大模型游戏，单卡 RTX 5090 跑 480p60 帧，延迟低于 150 毫秒。',
+    source: 'GitHub',
+    url: 'https://github.com/SkyworkAI/Matrix-Game',
+  },
+  {
+    date: '2026-10-15',
     time: '03:23',
     category: 'AI',
     title: '书生 S2 大模型人机协同证明 Ghys 猜想',
