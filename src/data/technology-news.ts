@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '19:35',
+    category: 'AI',
+    title: 'GitHub Copilot 将弃用三款模型',
+    summary: '11 月 16 日起下线 Claude Opus 4.8/5 与 GPT-5.6 Terra，官方给出替代型号。',
+    source: 'GitHub',
+    url: 'https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november',
+  },
+  {
+    date: '2026-10-15',
+    time: '19:28',
+    category: 'AI',
+    title: 'Perplexity 开源 SPACE 沙箱平台',
+    summary: '智能体代码执行沙箱 SPACE 开源：Firecracker microVM 隔离运行代码，Apache-2.0。',
+    source: 'Perplexity',
+    url: 'https://www.perplexity.ai/hub/blog/open-sourcing-space',
+  },
+  {
+    date: '2026-10-15',
     time: '17:30',
     category: 'AI',
     title: 'Anthropic 向 METR 开放独立评估访问',
