@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-15',
+    time: '02:17',
+    category: 'AI',
+    title: 'JetBrains Air 智能体开发体验开启 EAP',
+    summary: 'Air 开放 EAP：IDE 内并行调度 Codex、Copilot 等智能体，11 月随 2026.3 发布。',
+    source: 'JetBrains Blog',
+    url: 'https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/',
+  },
+  {
+    date: '2026-10-15',
+    time: '01:40',
+    category: '后端',
+    title: 'Linux 内核将弃用 AI 辅助声明标签',
+    summary: '维护者峰会共识弃用 Assisted-by 标签，Linus 反对强制披露 AI 工具使用，称相关规则愚蠢。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/ai-and-ml/2026/10/14/linux-kernel-devs-drop-obligatory-confession-of-ai-tool-usage/5303140',
+  },
+  {
     date: '2026-10-14',
     time: '22:56',
     category: '后端',
