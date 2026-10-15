@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '03:23',
+    category: 'AI',
+    title: '书生 S2 大模型人机协同证明 Ghys 猜想',
+    summary: '上海AI实验室书生科学 S2 人机协同完成 30 年三维 Ghys 猜想证明，北大 SHEAF 框架形式化验证。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/013/269.htm',
+  },
+  {
+    date: '2026-10-15',
     time: '02:17',
     category: 'AI',
     title: 'JetBrains Air 智能体开发体验开启 EAP',
