@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-15',
+    time: '21:42',
+    category: '后端',
+    title: 'Neon 推出 Realtime 实时查询',
+    summary: '任意 SQL 查询可订阅为实时查询，数据变更自动推送，公测免费，直接跑在 Lakebase Postgres。',
+    source: 'Neon',
+    url: 'https://neon.com/blog/neon-now-has-realtime',
+  },
+  {
+    date: '2026-10-15',
+    time: '21:20',
+    category: 'AI',
+    title: 'Claude 代码审查正式 GA',
+    summary: '研究预览转正，面向 Team 与 Enterprise；评审提速约 3 倍至 6-10 分钟，可按仓库选审查深度。',
+    source: 'Anthropic',
+    url: 'https://claude.com/resources/articles/code-review-is-now-generally-available',
+  },
+  {
+    date: '2026-10-15',
     time: '20:34',
     category: 'AI',
     title: 'IBM Granite Switch 4.1 发布',
@@ -53,6 +71,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '智能体代码执行沙箱 SPACE 开源：Firecracker microVM 隔离运行代码，Apache-2.0。',
     source: 'Perplexity',
     url: 'https://www.perplexity.ai/hub/blog/open-sourcing-space',
+  },
+  {
+    date: '2026-10-15',
+    time: '19:00',
+    category: 'AI',
+    title: 'OpenAI 推出 Rosalind 学术计划',
+    summary: '生命科学模型 GPT-Rosalind 配工作台开放学术实验室，最长 12 个月 30 席免费，需信任准入审批。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/introducing-the-rosalind-academic-plan',
   },
   {
     date: '2026-10-15',
@@ -465,6 +492,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '修复 wcslen 链接错误、x86_64 FFI bool 返回值误编译与 macOS rust-lld 加载失败。',
     source: 'Rust Blog',
     url: 'https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/',
+  },
+  {
+    date: '2026-10-15',
+    category: '前端',
+    title: 'VS Code 现代化界面开启预览',
+    summary: '工作台层级更清晰、减少视觉干扰，为编辑与智能体会话提供统一设计基础，现已开放预览。',
+    source: 'VS Code',
+    url: 'https://code.visualstudio.com/blogs/2026/10/15/modern-ui',
   },
   {
     date: '2026-10-14',
@@ -2540,6 +2575,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '堆叠 PR 结束预览正式上线，大型改动可分块评审逐级合并。',
     source: 'GitHub Changelog',
     url: 'https://github.blog/changelog/2026-10-06-stacked-pull-requests-generally-available',
+  },
+  {
+    date: '2026-10-06',
+    time: '20:00',
+    category: '前端',
+    title: 'Next.js 16.4 主推缓存组件',
+    summary: 'Cache Components 获全面推荐并随新项目默认启用，下代 17 将默认化；内存、编译与包体均优化。',
+    source: 'Next.js',
+    url: 'https://nextjs.org/blog/next-16-4',
   },
   {
     date: '2026-10-06',
