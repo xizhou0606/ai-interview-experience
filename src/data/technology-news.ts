@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '01:35',
+    category: 'AI',
+    title: '小米开源空间音频理解大模型',
+    summary: 'MiDashengLM-Spatial：Apache 2.0 开源权重与推理代码，可感知声源方位与空间分布。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/mispeech/midashenglm-spatial',
+  },
+  {
+    date: '2026-10-16',
     time: '00:22',
     category: 'AI',
     title: '快手可灵 Kling 4.0 全量上线',
