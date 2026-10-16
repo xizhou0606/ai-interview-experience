@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-10-16',
+    time: '00:22',
+    category: 'AI',
+    title: '快手可灵 Kling 4.0 全量上线',
+    summary: '快手宣布 Kling 4.0 全量上线，能力接入 MCP/CLI，单次生成视频最长 30 秒，企业 API 即将开放。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/013/715.htm',
+  },
+  {
     date: '2026-10-15',
     time: '22:20',
     category: '后端',
