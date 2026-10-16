@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '05:50',
+    category: 'AI',
+    title: 'PrismML 发布 2B/4B/9B 端侧三元模型',
+    summary: '基于 Qwen3.5 的三元权重模型，0.43GB 起面向手机 PC 端侧智能体，Apache 2.0 开源。',
+    source: 'PrismML',
+    url: 'https://prismml.com/news/prismml-expands-bonsai-2-family-with-2b-4b-and-9b-models-for-on-device-ai',
+  },
+  {
+    date: '2026-10-16',
+    time: '02:36',
+    category: 'AI',
+    title: '宝马新世代 iX3 搭载千问座舱大模型',
+    summary: '宝马中国创新日宣布与阿里联合开发座舱 AI，以千问为底座，斑马负责车端集成。',
+    source: '雷峰网',
+    url: 'https://www.leiphone.com/category/industrynews/1zjGZ4srbO3kyVEw.html',
+  },
+  {
+    date: '2026-10-16',
     time: '02:16',
     category: 'AI',
     title: 'Copilot 在 Slack/Teams 支持多仓库',
