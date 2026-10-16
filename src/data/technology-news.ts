@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '02:16',
+    category: 'AI',
+    title: 'Copilot 在 Slack/Teams 支持多仓库',
+    summary: '单会话内跨仓库追踪 PR、排查问题，@GitHub 可置于消息任意位置并读取线程上下文。',
+    source: 'GitHub Changelog',
+    url: 'https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates',
+  },
+  {
+    date: '2026-10-16',
     time: '01:35',
     category: 'AI',
     title: '小米开源空间音频理解大模型',
