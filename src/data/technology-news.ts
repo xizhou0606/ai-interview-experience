@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '14:02',
+    category: 'AI',
+    title: 'Meta 新商业条款授权抓取站点训练 AI',
+    summary: '10 月 30 日生效的商业条款含爬虫与测试凭据授权，专家称或凌驾 robots.txt，Meta 称无变化。',
+    source: 'Nieman Lab',
+    url: 'https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/',
+  },
+  {
+    date: '2026-10-16',
     time: '13:00',
     category: '后端',
     title: 'Cloudflare 为认证爬虫引入持续问责机制',
