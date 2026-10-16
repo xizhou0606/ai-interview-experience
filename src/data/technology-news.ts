@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '06:18',
+    category: '后端',
+    title: 'BeyondTrust 修复遭在野利用零日漏洞',
+    summary: '远程支持产品认证绕过（CVE-2026-102764），8 月底起遭利用，SaaS 已修复，自托管需手动升级。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/',
+  },
+  {
+    date: '2026-10-16',
+    time: '06:16',
+    category: '后端',
+    title: 'Lean v4.35.0 搭载已验证内核',
+    summary: 'lake check 可用外置内核复检；con-leche 首个以 Lean 写成并证明一致，由 Claude 实现。',
+    source: 'Leonardo de Moura',
+    url: 'https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/',
+  },
+  {
+    date: '2026-10-16',
     time: '05:50',
     category: 'AI',
     title: 'PrismML 发布 2B/4B/9B 端侧三元模型',
