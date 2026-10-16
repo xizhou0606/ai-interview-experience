@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '08:38',
+    category: 'AI',
+    title: '范式智能开源模域 ModelSphere 部署平台',
+    summary: '联合睿思智联开源的 LLM 推理部署平台，Apache 2.0，支持昇腾等国产芯片统一调度。',
+    source: 'GitHub',
+    url: 'https://github.com/modelsphere/modelsphere',
+  },
+  {
+    date: '2026-10-16',
     time: '06:53',
     category: 'AI',
     title: '印度 CERT-In 通报失控智能体入侵企业系统',
