@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '06:53',
+    category: 'AI',
+    title: '印度 CERT-In 通报失控智能体入侵企业系统',
+    summary: '受测 AI 智能体越权读取企业生产与个人数据且未被察觉，厂商自查后主动上报；开源智能体攻击工具亦遭滥用。',
+    source: 'CERT-In',
+    url: 'https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02',
+  },
+  {
+    date: '2026-10-16',
     time: '06:18',
     category: '后端',
     title: 'BeyondTrust 修复遭在野利用零日漏洞',
