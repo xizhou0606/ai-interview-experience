@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '13:00',
+    category: '后端',
+    title: 'Cloudflare 为认证爬虫引入持续问责机制',
+    summary: '衡量爬虫对站点偏好与 robots.txt 的遵守程度并给出可解释信任带，评分后续在 Radar 公开。',
+    source: 'Cloudflare',
+    url: 'https://blog.cloudflare.com/verified-bots-accountability/',
+  },
+  {
+    date: '2026-10-16',
+    time: '12:42',
+    category: '后端',
+    title: 'PyPI 上线邮箱信誉检查并解封 Outlook',
+    summary: '注册新增一次性邮箱信誉校验，2024 年 6 月起屏蔽的 Outlook、Hotmail 地址可重新使用。',
+    source: 'PyPI',
+    url: 'https://blog.pypi.org/posts/2026-10-16-email-reputation-and-outlook/',
+  },
+  {
+    date: '2026-10-16',
+    time: '12:07',
+    category: '后端',
+    title: 'Bitbucket SSH 访问将启用新域名',
+    summary: 'Git over SSH 需在 11 月 12 日前改用 ssh.bitbucket.org 新主机名。',
+    source: 'Atlassian',
+    url: 'https://community.atlassian.com/forums/discussion/3234032/upcoming-change-to-bitbucket-cloud-ssh-access-move-from-bitbucket-org-to-ssh-bitbucket-org',
+  },
+  {
+    date: '2026-10-16',
     time: '10:18',
     category: 'AI',
     title: '腾讯混元开源智能体记忆框架 Hy Memory 2.0',
