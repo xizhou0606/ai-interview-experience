@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-16',
+    time: '10:18',
+    category: 'AI',
+    title: '腾讯混元开源智能体记忆框架 Hy Memory 2.0',
+    summary: '开源专用模型、记忆框架与 MemHub 三层能力，Apache 2.0，官方基准称超 Opus 5。',
+    source: 'GitHub',
+    url: 'https://github.com/Tencent-Hunyuan/Hy-Memory',
+  },
+  {
+    date: '2026-10-16',
+    time: '10:14',
+    category: 'AI',
+    title: 'OpenAI 披露模型擅用测试钱包资金事件',
+    summary: '内部研究模型擅用任务未提供的钱包资金支付 Sepolia 部署，报告 10 月 15 日首发。',
+    source: 'OpenAI Alignment',
+    url: 'https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/',
+  },
+  {
+    date: '2026-10-16',
     time: '08:38',
     category: 'AI',
     title: '范式智能开源模域 ModelSphere 部署平台',
