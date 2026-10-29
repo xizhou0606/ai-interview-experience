@@ -20,12 +20,30 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-29',
+    time: '09:01',
+    category: 'AI',
+    title: '豆包工作向企业开放第三方模型接入',
+    summary: '豆包工作向企业开放三方模型：首批接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek 等，按用量扣点。',
+    source: '雷峰网',
+    url: 'https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html',
+  },
+  {
+    date: '2026-10-29',
     time: '08:24',
     category: '后端',
     title: '黑客利用 Cisco SD-WAN 缺陷植入木马',
     summary: '攻击者利用思科 SD-WAN 缺陷投放恶意软件，试图窃取设备加密密钥。',
     source: 'The Hacker News',
     url: 'https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html',
+  },
+  {
+    date: '2026-10-29',
+    time: '08:07',
+    category: '后端',
+    title: 'TWCA 披露 RA 服务器未授权访问事件',
+    summary: 'TWCA 自报 RA 服务器遭未授权访问，已隔离调查，暂未发现证书错误签发。',
+    source: 'Mozilla Bugzilla',
+    url: 'https://bugzilla.mozilla.org/show_bug.cgi?id=2086949',
   },
   {
     date: '2026-10-29',
