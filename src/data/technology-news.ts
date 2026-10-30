@@ -29,6 +29,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-10-29',
+    time: '14:14',
+    category: 'AI',
+    title: 'DeepSeek 开源 DeepInfer 推理引擎',
+    summary: 'V4.1-Flash 背后推理引擎开源：MoE 专家并行、异步批调度、定制 Kernel，Apache-2.0。',
+    source: 'GitHub',
+    url: 'https://github.com/deepseek-ai/DeepInfer',
+  },
+  {
+    date: '2026-10-29',
     time: '14:13',
     category: 'AI',
     title: 'Mistral 开源 Large 4 万亿参数权重',
