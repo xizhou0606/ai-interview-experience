@@ -19,6 +19,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-01',
+    time: '01:02',
+    category: 'AI',
+    title: '商汤开源 Loop-9B 多模态模型',
+    summary: '环形解码器+双流 mHC 超连接，面向长上下文与智能体工作流，Apache 2.0。',
+    source: 'GitHub',
+    url: 'https://github.com/OpenSenseNova/SenseNova-Loop',
+  },
+  {
+    date: '2026-10-31',
+    time: '13:43',
+    category: 'AI',
+    title: 'DeepMind 开源 gBench 评测套件',
+    summary: '面向开放模型的评测套件：86 套学术评测、冒烟测试与智能体质量三档。',
+    source: 'GitHub',
+    url: 'https://github.com/google-deepmind/gbench',
+  },
+  {
     date: '2026-10-31',
     time: '13:36',
     category: 'AI',
@@ -345,6 +363,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Orange Tsai 公开 Pwn2Own 17.5 万美元的 Edge 全链利用，全程仅用逻辑漏洞。',
     source: 'Orange Tsai',
     url: 'https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/',
+  },
+  {
+    date: '2026-10-28',
+    category: '后端',
+    title: 'Bitcoin Core 修复 TCP 内存耗尽漏洞',
+    summary: 'CVE-2026-117350：TCP 紧急数据致非 Linux 节点内存耗尽，四版本已修复。',
+    source: 'Bitcoin Core',
+    url: 'https://bitcoincore.org/en/2026/10/28/disclose-tcp-oom/',
   },
   {
     date: '2026-10-28',
