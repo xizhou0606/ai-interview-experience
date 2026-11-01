@@ -20,11 +20,28 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-10-31',
+    time: '13:36',
+    category: 'AI',
+    title: 'DeepSeek 开源 dsh-superagent',
+    summary: 'DeepSeek 主动式编码智能体原型，监听 GitHub 自主领取任务开发并回 PR，多数代码由智能体编写。',
+    source: 'GitHub',
+    url: 'https://github.com/deepseek-ai/dsh-superagent-prototype',
+  },
+  {
+    date: '2026-10-31',
     category: 'AI',
     title: 'Apple 智能国行落地：接入阿里千问',
     summary: '苹果官宣首批 Apple 智能功能落地中国，部分体验接入阿里千问，11 月 4 日开测。',
     source: 'Apple',
     url: 'https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/',
+  },
+  {
+    date: '2026-10-31',
+    category: '后端',
+    title: 'Jepsen:ParticleDB 曝 96 项缺陷',
+    summary: '多模型 AI 数据库号称全 ACID，实测 96 项问题：丢写、幻影表、字符串变整数，新版声称已修复。',
+    source: 'Jepsen',
+    url: 'https://jepsen.io/analyses/particledb-1.1.4',
   },
   {
     date: '2026-10-30',
@@ -87,6 +104,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'CVE-2026-116366：网络可达未认证用户或可执行任意代码，四个版本已推送修复并覆盖云部署。',
     source: 'ClickHouse',
     url: 'https://clickhouse.com/docs/resources/changelogs/security-changelog',
+  },
+  {
+    date: '2026-10-30',
+    category: '后端',
+    title: 'Tangled 详解联邦代码托管与 Knot2',
+    summary: 'AT Protocol 联邦代码托管发布 Knot2：Rust Git/SSH 服务器，议题与 PR 存为仓库协作对象。',
+    source: 'Tangled',
+    url: 'https://tangled.org/blog/forge/',
   },
   {
     date: '2026-10-29',
@@ -320,6 +345,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Orange Tsai 公开 Pwn2Own 17.5 万美元的 Edge 全链利用，全程仅用逻辑漏洞。',
     source: 'Orange Tsai',
     url: 'https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/',
+  },
+  {
+    date: '2026-10-28',
+    category: '后端',
+    title: 'ChatGPT 分享链接可接管账号',
+    summary: '沙盒与 CSP 绕过使公开分享的会话可在受害者登录态执行脚本，官方 10 月 26 日修复。',
+    source: 'Parameter',
+    url: 'https://www.parameter.ai/labs/we-found-a-gap-at-openai',
   },
   {
     date: '2026-10-27',
