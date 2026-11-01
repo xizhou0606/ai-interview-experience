@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-01',
+    time: '06:11',
+    category: 'AI',
+    title: 'Grok 生成文本将添加隐形水印',
+    summary: 'xAI 将为 Grok 文本输出嵌入 Token 级隐形水印，响应欧盟 AI 法案，11 月 7 日起生效。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/020/721.htm',
+  },
+  {
+    date: '2026-11-01',
     time: '01:02',
     category: 'AI',
     title: '商汤开源 Loop-9B 多模态模型',
