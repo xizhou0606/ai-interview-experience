@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-01',
+    time: '12:00',
+    category: '后端',
+    title: 'Qt 推出零代码嵌入式设计工具 Clate',
+    summary: '零代码设计嵌入式界面并导出 QML，首个 Beta 0.6 针对 Qt 6.12，内置 AI 助手与 MCP。',
+    source: 'Qt',
+    url: 'https://doc.qt.io/clate/docs/release-notes/clate-0-6/',
+  },
+  {
+    date: '2026-11-01',
+    time: '09:46',
+    category: 'AI',
+    title: 'Pika 开源 H3 Flex 音视频生成模型',
+    summary: '基于 MiniMax H3 蒸馏至六步去噪，联合生成画面与同步音频，开放 LoRA 适配器权重与推理代码。',
+    source: 'GitHub',
+    url: 'https://github.com/Pika-Labs/Pika-H3-Flex',
+  },
+  {
+    date: '2026-11-01',
     time: '06:11',
     category: 'AI',
     title: 'Grok 生成文本将添加隐形水印',
