@@ -55,6 +55,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-04',
+    time: '20:44',
+    category: '前端',
+    title: 'Discord 弃用 Electron 转向 Rust',
+    summary: 'CTO 在 X 宣告桌面端转向 Rust，移除 Electron 与 React Native，内存降至 290MB。',
+    source: 'Discord',
+    url: 'https://x.com/svishnevskiy/status/2118081920194203799',
+  },
+  {
+    date: '2026-11-04',
     time: '19:15',
     category: '后端',
     title: 'Laravel 复盘 PHP/Node.js 漏洞修复',
