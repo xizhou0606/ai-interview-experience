@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-05',
+    time: '19:35',
+    category: 'AI',
+    title: '英伟达开放 Cosmos 3 世界模拟模型',
+    summary: '新开放 Transfer-Auto、Sim-Auto 等交互式世界模拟权重，面向自动驾驶与机器人物理 AI。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation',
+  },
+  {
+    date: '2026-11-05',
     time: '17:09',
     category: 'AI',
     title: 'OpenAI 发布 GPT-6 Cyber 安全模型',
