@@ -28,7 +28,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV',
   },
   {
-  {
     date: '2026-11-05',
     time: '08:45',
     category: '后端',
@@ -37,6 +36,7 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'JetBrains',
     url: 'https://blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/',
   },
+  {
     date: '2026-11-05',
     time: '06:53',
     category: 'AI',
@@ -81,7 +81,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://security-tracker.debian.org/tracker/CVE-2026-109518',
   },
   {
-  {
     date: '2026-11-04',
     time: '12:06',
     category: '后端',
@@ -90,6 +89,7 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Node.js',
     url: 'https://nodejs.org/en/blog/vulnerability/november-2026-security-releases',
   },
+  {
     date: '2026-11-04',
     time: '08:00',
     category: 'AI',
@@ -108,7 +108,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://openai.com/index/introducing-images-2-6',
   },
   {
-  {
     date: '2026-11-04',
     category: '后端',
     title: 'Go 1.27 引入 encoding/json/v2',
@@ -116,6 +115,7 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Go',
     url: 'https://go.dev/blog/jsonv2',
   },
+  {
     date: '2026-11-04',
     category: '前端',
     title: 'Parcel 3 首个 Alpha：Rust 重写',
@@ -141,7 +141,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://webkit.org/blog/18541/introducing-adaptive-dark-mode/',
   },
   {
-  {
     date: '2026-11-03',
     time: '17:22',
     category: '后端',
@@ -150,6 +149,7 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'GitHub',
     url: 'https://github.com/postmanlabs/postman-app-support/issues/14370',
   },
+  {
     date: '2026-11-03',
     time: '14:00',
     category: '后端',
