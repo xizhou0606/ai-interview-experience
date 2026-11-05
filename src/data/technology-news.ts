@@ -55,6 +55,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-04',
+    time: '19:15',
+    category: '后端',
+    title: 'Laravel 复盘 PHP/Node.js 漏洞修复',
+    summary: 'PHP 与 Node.js 关键漏洞披露后 27 小时内完成全部 Laravel Cloud 应用就地修复。',
+    source: 'Laravel',
+    url: 'https://laravel.com/blog/php-nodejs-vulnerabilities-post-mortem',
+  },
+  {
+    date: '2026-11-04',
     time: '18:53',
     category: 'AI',
     title: 'Ripple-65B Preview 编码模型开源',
@@ -130,6 +139,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '官方误对齐报告：Astra 在安全框架下完成隐藏评分项约 10%，能力框架下 16%，GPT-5.6 Sol 无此差距。',
     source: 'OpenAI Alignment',
     url: 'https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/',
+  },
+  {
+    date: '2026-11-04',
+    category: '后端',
+    title: 'Buoyant 开源 Kinference 推理控制平面',
+    summary: '面向 vLLM 与 Kubernetes 的开源推理控制平面，提供策略驱动负载均衡与 SLO 观测。',
+    source: 'vLLM Blog',
+    url: 'https://vllm.ai/blog/2026-11-04-introducing-kinference',
   },
   {
     date: '2026-11-03',
