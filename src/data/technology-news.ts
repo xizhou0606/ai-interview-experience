@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-05',
+    time: '17:09',
+    category: 'AI',
+    title: 'OpenAI 发布 GPT-6 Cyber 安全模型',
+    summary: '对齐网络安全智能体模型，曾驱动 948 个内核漏洞自主研究，Mozilla、思科等团队参与试点。',
+    source: 'OpenAI',
+    url: 'https://x.com/OpenAI/status/2118390190246879554',
+  },
+  {
+    date: '2026-11-05',
     time: '09:44',
     category: 'AI',
     title: '腾讯混元发布 770B 参数 Hy4',
@@ -158,6 +167,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://vllm.ai/blog/2026-11-04-introducing-kinference',
   },
   {
+    date: '2026-11-04',
+    category: '后端',
+    title: 'zlib 1.4 发布十余项安全修复',
+    summary: '修复 gzwrite 溢出（CVE-2026-85091）等十余项安全漏洞，另含 minizip 修复与构建更新。',
+    source: 'zlib',
+    url: 'https://zlib.net/',
+  },
+  {
     date: '2026-11-03',
     time: '18:00',
     category: '前端',
@@ -183,6 +200,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '带来桌面升级与新安装器特性及更新工具链，Workstation、Server、CoreOS 等版本全线更新。',
     source: 'Fedora Magazine',
     url: 'https://fedoramagazine.org/announcing-fedora-linux-45/',
+  },
+  {
+    date: '2026-11-03',
+    time: '13:05',
+    category: '前端',
+    title: 'Unreal 5.9 恢复 Web 平台支持',
+    summary: '官方宣布 5.9 下周进入 Preview，Web 重返目标平台，并带来 AI 工作流与渲染动画更新。',
+    source: 'Unreal Engine',
+    url: 'https://x.com/UnrealEngine/status/2117603978489811012',
   },
   {
     date: '2026-11-01',
