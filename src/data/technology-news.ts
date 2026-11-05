@@ -63,6 +63,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.openssh.com/releasenotes.html',
   },
   {
+    date: '2026-11-05',
+    category: 'AI',
+    title: 'Claude 推出个人理财功能',
+    summary: 'Claude 支持连接银行账户分析消费支出并答疑，经由 Plaid 接入，网页与移动端可用。',
+    source: 'Anthropic',
+    url: 'https://claude.com/resources/articles/introducing-personal-finance-in-claude',
+  },
+  {
     date: '2026-11-04',
     time: '20:44',
     category: '前端',
