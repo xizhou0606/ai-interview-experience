@@ -28,6 +28,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV',
   },
   {
+  {
+    date: '2026-11-05',
+    time: '08:45',
+    category: '后端',
+    title: 'IntelliJ IDEA 2026.3 正式发布',
+    summary: '年度大版本带来 JetBrains Air、Cursor/VS Code 扩展、调试改进与 Java 生态新支持。',
+    source: 'JetBrains',
+    url: 'https://blog.jetbrains.com/idea/2026/11/whats-new-in-intellij-idea-2026-3/',
+  },
     date: '2026-11-05',
     time: '06:53',
     category: 'AI',
@@ -35,6 +44,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '280B 总参 14B 激活稀疏 MoE，33.5T tokens 预训练，支持 128K 训练与 1M 上下文。',
     source: 'Hugging Face',
     url: 'https://huggingface.co/baidu/ERNIE-5.5-Flash-Base',
+  },
+  {
+    date: '2026-11-05',
+    category: '后端',
+    title: 'OpenSSH 10.6p2 修复 sshd 认证绕过',
+    summary: 'Linux 禁用 PAM 构建的 sshd 存在密码认证绕过，10.6p2 变通修复并支持抗量子 CA 签名。',
+    source: 'OpenSSH',
+    url: 'https://www.openssh.com/releasenotes.html',
   },
   {
     date: '2026-11-04',
@@ -64,6 +81,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://security-tracker.debian.org/tracker/CVE-2026-109518',
   },
   {
+  {
+    date: '2026-11-04',
+    time: '12:06',
+    category: '后端',
+    title: 'Node.js 预告 11 月 11 日安全更新',
+    summary: '官方预告 11 月 11 日发布覆盖多个受支持版本的安全更新，建议关注发布公告。',
+    source: 'Node.js',
+    url: 'https://nodejs.org/en/blog/vulnerability/november-2026-security-releases',
+  },
     date: '2026-11-04',
     time: '08:00',
     category: 'AI',
@@ -82,6 +108,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://openai.com/index/introducing-images-2-6',
   },
   {
+  {
+    date: '2026-11-04',
+    category: '后端',
+    title: 'Go 1.27 引入 encoding/json/v2',
+    summary: 'encoding/json/v2 与 jsontext 包在 Go 1.27 稳定发布，反序列化显著提速。',
+    source: 'Go',
+    url: 'https://go.dev/blog/jsonv2',
+  },
     date: '2026-11-04',
     category: '前端',
     title: 'Parcel 3 首个 Alpha：Rust 重写',
@@ -107,6 +141,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://webkit.org/blog/18541/introducing-adaptive-dark-mode/',
   },
   {
+  {
+    date: '2026-11-03',
+    time: '17:22',
+    category: '后端',
+    title: 'Postman 被曝自动安装 AI 插件',
+    summary: 'GitHub issue 称桌面端自动安装 Codex/Claude 插件并试图信任自身启动钩子。',
+    source: 'GitHub',
+    url: 'https://github.com/postmanlabs/postman-app-support/issues/14370',
+  },
     date: '2026-11-03',
     time: '14:00',
     category: '后端',
