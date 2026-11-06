@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-06',
+    time: '05:58',
+    category: '后端',
+    title: 'Control Web Panel 曝无日志后门',
+    summary: '奇安信 XLab 发现 cwpsrv 内嵌 cwpdoor 后门，特制请求头即可执行命令且不写访问日志。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html',
+  },
+  {
+    date: '2026-11-06',
+    time: '05:39',
+    category: '后端',
+    title: 'Barracuda 邮件网关链式漏洞可获 root',
+    summary: 'watchTowr 演示未认证备份恢复叠加命令注入可拿 root，9.4.0.030 及以上版本已修复。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html',
+  },
+  {
+    date: '2026-11-06',
     time: '03:50',
     category: 'AI',
     title: '淘宝 MNN 团队开源 MNN-Pocket-0.3B',
@@ -296,6 +314,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '修复 gzwrite 溢出（CVE-2026-85091）等十余项安全漏洞，另含 minizip 修复与构建更新。',
     source: 'zlib',
     url: 'https://zlib.net/',
+  },
+  {
+    date: '2026-11-04',
+    category: 'AI',
+    title: 'webAI 开源 TwIL-8B 推理模型',
+    summary: '基于 Granite 4.2 8B，专注数学与代码，MATH-500 达 98.2 分，非商业许可开放下载。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/webAI-Official/TwIL-8B',
   },
   {
     date: '2026-11-03',
