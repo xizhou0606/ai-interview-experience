@@ -115,6 +115,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://thinkingmachines.ai/news/inkling-2-small/',
   },
   {
+    date: '2026-11-05',
+    category: 'AI',
+    title: 'World Labs 开放 Frameboy 实时预览',
+    summary: 'Atlas 世界模型研究预览：云端 GPU 以最高 15fps 向浏览器流式传输帧，可实时探索生成世界。',
+    source: 'World Labs',
+    url: 'https://www.worldlabs.ai/blog/atlas-realtime',
+  },
+  {
     date: '2026-11-04',
     time: '20:44',
     category: '前端',
