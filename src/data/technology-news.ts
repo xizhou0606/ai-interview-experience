@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-06',
+    time: '00:00',
+    category: 'AI',
+    title: '蚂蚁发布百灵 Ling 3.2 Flash',
+    summary: '原生多模态：560B 总参数、1M 上下文，官方基准三项超越 Claude Opus 5，限时免费。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/023/043.htm',
+  },
+  {
     date: '2026-11-05',
     time: '22:44',
     category: 'AI',
@@ -96,6 +105,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Claude 支持连接银行账户分析消费支出并答疑，经由 Plaid 接入，网页与移动端可用。',
     source: 'Anthropic',
     url: 'https://claude.com/resources/articles/introducing-personal-finance-in-claude',
+  },
+  {
+    date: '2026-11-05',
+    category: 'AI',
+    title: 'Thinking Machines 发布 Inkling',
+    summary: '594B 总参 17B 激活 MoE，现已上线 Tinker（闭源），安全测试后以 Apache 2.0 开放权重。',
+    source: 'Thinking Machines',
+    url: 'https://thinkingmachines.ai/news/inkling-2-small/',
   },
   {
     date: '2026-11-04',
