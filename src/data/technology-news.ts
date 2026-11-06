@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-05',
+    time: '22:44',
+    category: 'AI',
+    title: '谷歌 Gemini Omni 1.2 Flash 发布',
+    summary: '谷歌视频模型 Omni 1.2 Flash 上线，支持文生视频、图生视频与视频编辑，AI Studio 可用。',
+    source: 'Google',
+    url: 'https://deepmind.google/models/gemini-omni/',
+  },
+  {
+    date: '2026-11-05',
+    time: '22:26',
+    category: 'AI',
+    title: 'Perplexity 推出 Teammates 智能体',
+    summary: '常驻工作区智能体可并行执行多任务，融合项目、技能与记忆，集成 Perplexity Computer。',
+    source: 'The Verge',
+    url: 'https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work',
+  },
+  {
+    date: '2026-11-05',
     time: '19:35',
     category: 'AI',
     title: '英伟达开放 Cosmos 3 世界模拟模型',
@@ -766,24 +784,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'OpenSSL 4.1.0 稳定版发布，包含新特性与修复，已发布至官方仓库。',
     source: 'OpenSSL',
     url: 'https://github.com/openssl/openssl/releases/tag/openssl-4.1.0',
-  },
-  {
-    date: '2026-10-22',
-    time: '19:00',
-    category: 'AI',
-    title: 'OpenAI 推出 Decisions API',
-    summary: '新 API 让应用获得更快的结构化决策输出，适用于路由与判定类场景。',
-    source: 'OpenAI',
-    url: 'https://openai.com/index/decisions-api',
-  },
-  {
-    date: '2026-10-22',
-    time: '00:58',
-    category: '后端',
-    title: 'Bun v1.4.4 发布',
-    summary: 'Bun 1.4.4 维护版本发布，包含多项缺陷修复与稳定性改进。',
-    source: 'Bun',
-    url: 'https://bun.com/blog/bun-v1.4.4',
   },
 ]
 
