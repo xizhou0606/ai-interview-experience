@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-06',
+    time: '08:04',
+    category: '后端',
+    title: 'Chainalysis 遭智能体攻击泄露全部凭据',
+    summary: '智能体攻击致全部用户密码哈希与令牌泄露，KYT、Reactor 已下线，需重置密码并轮换密钥。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html',
+  },
+  {
+    date: '2026-11-06',
     time: '05:58',
     category: '后端',
     title: 'Control Web Panel 曝无日志后门',
