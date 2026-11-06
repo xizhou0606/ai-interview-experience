@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-06',
+    time: '14:00',
+    category: 'AI',
+    title: 'AI2 开源 ToyBlocks 机器人仿真框架',
+    summary: 'Ai2 发布 FoundationWorlds 首个仿真环境：自动生成机械臂演示数据，开源 8.5 万条轨迹与模型。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/allenai/toyblocks',
+  },
+  {
+    date: '2026-11-06',
     time: '12:37',
     category: '后端',
     title: 'D-Link DGS-3130 交换机曝多个零日漏洞',
