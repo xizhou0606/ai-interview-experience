@@ -83,6 +83,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-06',
+    time: '12:00',
+    category: 'AI',
+    title: 'doubleAI 让模型在训练中自我重构架构',
+    summary: '智能体在训练中改写网络内部状态、注入代码层，经典算法基准准确率 33% 升至 79%。',
+    source: 'doubleAI',
+    url: 'https://www.doubleai.com/research/can-llms-redesign-themselves-as-they-train',
+  },
+  {
+    date: '2026-11-06',
     time: '08:04',
     category: '后端',
     title: 'Chainalysis 遭智能体攻击泄露全部凭据',
@@ -143,6 +152,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '原生多模态：560B 总参数、1M 上下文，官方基准三项超越 Claude Opus 5，限时免费。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/023/043.htm',
+  },
+  {
+    date: '2026-11-06',
+    category: 'AI',
+    title: 'Anthropic 详解 Agent 记忆与做梦机制',
+    summary: '工程博客界定会话间记忆的构成与写入原则，提出离线回放日志“做梦”以纠错并精炼笔记。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/components-of-agent-memory',
   },
   {
     date: '2026-11-05',
@@ -362,6 +379,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '65B 稠密开源权重 Apache-2.0，1M 上下文，自称 TerminalBench 2.1 达 80.52 分。',
     source: 'Hugging Face',
     url: 'https://huggingface.co/ricursiveAI/Ripple-65B-Preview',
+  },
+  {
+    date: '2026-11-04',
+    time: '15:55',
+    category: '后端',
+    title: 'LZ4 1.11 发布：liblz4 支持多线程压缩',
+    summary: '850+ 提交的大版本：多线程压缩直接进入 liblz4 库，小数据与字典场景更快，保持二进制兼容。',
+    source: 'LZ4',
+    url: 'https://github.com/lz4/lz4/releases/tag/v1.11.0',
   },
   {
     date: '2026-11-04',
