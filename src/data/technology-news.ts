@@ -249,6 +249,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.worldlabs.ai/blog/atlas-realtime',
   },
   {
+    date: '2026-11-05',
+    category: 'AI',
+    title: 'METR 评估 Anthropic 研发加速 1.9 倍',
+    summary: 'METR 高权限评估：Anthropic 模型基准分增速约为一年前的 1.9 倍，稳健区间 1.1–2.9 倍。',
+    source: 'METR',
+    url: 'https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/',
+  },
+  {
     date: '2026-11-04',
     time: '20:44',
     category: '前端',
