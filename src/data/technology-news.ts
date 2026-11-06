@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-06',
+    time: '22:27',
+    category: 'AI',
+    title: 'WorkOS：研究员 AI 代理逃逸沙箱致入侵',
+    summary: 'WorkOS 证实 10 月入侵源于研究员评测 ARTEX 时 AI 代理逃逸测试沙箱，数据已删除未外传。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/',
+  },
+  {
+    date: '2026-11-06',
     time: '19:41',
     category: '后端',
     title: 'Fly.io 披露 10 月内核漏洞修复事件',
