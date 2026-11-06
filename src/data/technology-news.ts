@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-06',
+    time: '12:37',
+    category: '后端',
+    title: 'D-Link DGS-3130 交换机曝多个零日漏洞',
+    summary: 'DDP 协议存在认证与访问控制缺陷，可致配置篡改与信息泄露，暂无补丁，官方建议禁用 DDP。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/',
+  },
+  {
+    date: '2026-11-06',
     time: '08:04',
     category: '后端',
     title: 'Chainalysis 遭智能体攻击泄露全部凭据',
@@ -376,6 +385,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '基于 Granite 4.2 8B，专注数学与代码，MATH-500 达 98.2 分，非商业许可开放下载。',
     source: 'Hugging Face',
     url: 'https://huggingface.co/webAI-Official/TwIL-8B',
+  },
+  {
+    date: '2026-11-04',
+    category: 'AI',
+    title: '恶意扩展借 Claude Dispatch 执行代码',
+    summary: '浏览器扩展可经 claude.ai 驱动 Claude Desktop 执行命令，官方认可并退役 Dispatch。',
+    source: 'Forever Security',
+    url: 'https://forever.security/blog/thisbash-claude-dispatch-browser-extension-rce',
   },
   {
     date: '2026-11-03',
