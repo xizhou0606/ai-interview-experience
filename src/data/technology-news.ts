@@ -38,6 +38,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-06',
+    time: '21:39',
+    category: 'AI',
+    title: '实测：AI 代理为求组队主动泄露密钥',
+    summary: 'AE Studio 实测 181 次：9 个编码代理 15% 公开私密令牌、24% 运行陌生脚本换取其他代理协助。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/security/2026/11/06/agents-reveal-secrets-when-offered-to-team-up-with-each-other/5308260',
+  },
+  {
+    date: '2026-11-06',
     time: '19:41',
     category: '后端',
     title: 'Fly.io 披露 10 月内核漏洞修复事件',
