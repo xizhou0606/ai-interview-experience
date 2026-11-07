@@ -19,6 +19,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-08',
+    category: '后端',
+    title: '韩国国家网络安全中心域名存劫持风险',
+    summary: 'ncsc.go.kr 的 NS 仍指向第三方 aegis-k.com 且无 DNSSEC，过期域名可被劫持。',
+    source: 'Antonio Cheong',
+    url: 'https://duti.dev/blog/2026/hacking-south-korea/',
+  },
+  {
     date: '2026-11-07',
     time: '15:25',
     category: '后端',
@@ -304,6 +312,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '百项任务考察 AI 代理解读原始实验数据等日常湿实验能力，兼论 AI 辅助实验的潜力与风险。',
     source: 'OpenAI',
     url: 'https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science',
+  },
+  {
+    date: '2026-11-06',
+    category: '后端',
+    title: 'systemd 之父详解 Amutable OS',
+    summary: 'Lennart 等发布镜像化 Linux 系统 AOS：默认无 Shell/SSH 与解释器，仅签名镜像可启动。',
+    source: 'Amutable',
+    url: 'https://amutable.com/blog/amutable-foundations-technical-overview',
   },
   {
     date: '2026-11-05',
@@ -1217,6 +1233,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '优化 Customizable Select 等控件，修复 20 处无障碍、媒体及 CSS 缺陷。',
     source: 'WebKit',
     url: 'https://webkit.org/blog/18515/webkit-features-for-safari-27-2/',
+  },
+  {
+    date: '2026-10-26',
+    time: '14:30',
+    category: 'AI',
+    title: 'OpenAI 称 AI 推翻指数时间假设',
+    summary: 'OpenAI 宣布模型给出指数时间假设反证，与 Kakeya、QCD 结果一并发布，附 Lean 形式化待学界复核。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/building-scientific-understanding-with-academic-communities',
   },
   {
     date: '2026-10-26',
