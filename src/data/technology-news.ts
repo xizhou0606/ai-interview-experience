@@ -206,6 +206,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://mitchellh.com/writing/libghostty-1-0',
   },
   {
+    date: '2026-11-06',
+    category: '前端',
+    title: 'ESLint 官方支持 Shell 脚本检查',
+    summary: '继 JSON、Markdown、CSS 后推出 @eslint/shell 官方插件，规则参考 ShellCheck。',
+    source: 'ESLint',
+    url: 'https://eslint.org/blog/2026/11/eslint-shell-plugin-announcement/',
+  },
+  {
     date: '2026-11-05',
     time: '22:44',
     category: 'AI',
