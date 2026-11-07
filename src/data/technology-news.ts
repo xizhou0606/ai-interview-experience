@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-07',
+    time: '00:00',
+    category: '后端',
+    title: 'SonicWall SSL-VPN 认证绕过漏洞遭利用',
+    summary: 'SonicWall 修复七项 SonicOS 漏洞，SAML 认证绕过漏洞 CVE-2026-19868 已遭利用。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/',
+  },
+  {
     date: '2026-11-06',
     time: '22:27',
     category: 'AI',
@@ -169,6 +178,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '工程博客界定会话间记忆的构成与写入原则，提出离线回放日志“做梦”以纠错并精炼笔记。',
     source: 'Anthropic',
     url: 'https://www.anthropic.com/research/components-of-agent-memory',
+  },
+  {
+    date: '2026-11-06',
+    category: '后端',
+    title: 'libghostty 1.0 正式发布',
+    summary: 'Ghostty 作者发布终端核心库 libghostty 1.0，JetBrains IDE 终端已采用。',
+    source: 'Mitchell Hashimoto',
+    url: 'https://mitchellh.com/writing/libghostty-1-0',
   },
   {
     date: '2026-11-05',
@@ -1074,33 +1091,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '导出 Activity 使无权限应用冒充微软应用领取工作账号令牌，问题披露后微软已修复。',
     source: 'Enclave',
     url: 'https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens',
-  },
-  {
-    date: '2026-10-23',
-    time: '17:54',
-    category: '后端',
-    title: 'Ruby 修复引发 GitLab RCE 的正则缺陷',
-    summary: '三个正则引擎缺陷曾导致四个 GitLab 关键 RCE，Ruby 已发布修复版本。',
-    source: 'The Hacker News',
-    url: 'https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html',
-  },
-  {
-    date: '2026-10-23',
-    time: '17:00',
-    category: '前端',
-    title: 'Safari 27.1 新特性一览',
-    summary: 'WebKit 官方盘点 Safari 27.1 带来的 Web 平台新特性与改进。',
-    source: 'WebKit',
-    url: 'https://webkit.org/blog/18486/webkit-features-for-safari-27-1/',
-  },
-  {
-    date: '2026-10-23',
-    time: '12:23',
-    category: '后端',
-    title: 'OpenSSL 4.1.0 正式发布',
-    summary: 'OpenSSL 4.1.0 稳定版发布，包含新特性与修复，已发布至官方仓库。',
-    source: 'OpenSSL',
-    url: 'https://github.com/openssl/openssl/releases/tag/openssl-4.1.0',
   },
 ]
 
