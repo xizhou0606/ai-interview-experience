@@ -74,6 +74,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-06',
+    time: '17:22',
+    category: '前端',
+    title: 'Discord 演示 Rust 重构安卓客户端',
+    summary: '官方 X 视频对比新旧安卓端：Rust 重构版在 2017 年低端手机上也能秒开。',
+    source: 'Discord',
+    url: 'https://x.com/discord/status/2118755849367896539',
+  },
+  {
+    date: '2026-11-06',
     time: '17:04',
     category: '后端',
     title: 'QNAP 通报 Plex2Shell 攻击入侵 NAS',
@@ -285,6 +294,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '代码块 HTML 预览可绕过沙箱，零点击窃取对话、投递钓鱼，Check Point 披露，OpenAI 已修复。',
     source: 'Check Point',
     url: 'https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/',
+  },
+  {
+    date: '2026-11-05',
+    time: '12:00',
+    category: '后端',
+    title: 'Node 27 Alpha 将 V8 升级到 15.6',
+    summary: 'Node 官方详解 V8 14.6→15.6 带来的新 JS 语言特性与改进，Alpha 期仍可能有破坏性升级。',
+    source: 'Node.js',
+    url: 'https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha',
   },
   {
     date: '2026-11-05',
