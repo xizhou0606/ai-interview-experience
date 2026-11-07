@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-07',
+    time: '06:44',
+    category: 'AI',
+    title: 'Claude Code“不再询问”文件泄露密码与密钥',
+    summary: '开发者点“是，且不再询问”后，含密码与 API 密钥的本地文件被提交，GitHub 已有 1122 份公开副本。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html',
+  },
+  {
+    date: '2026-11-07',
     time: '00:00',
     category: '后端',
     title: 'SonicWall SSL-VPN 认证绕过漏洞遭利用',
@@ -115,6 +124,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Plex Media Server 四漏洞链遭在野利用，QNAP 收到多起 NAS 入侵报告，建议升级修复。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/',
+  },
+  {
+    date: '2026-11-06',
+    time: '15:00',
+    category: 'AI',
+    title: 'Nous Research 推出 Arete-27B',
+    summary: '基于 Qwen3.8-27B 后训练的对齐模型，主打“强化西方价值观”取向。',
+    source: 'Nous Research',
+    url: 'https://nousresearch.com/arete',
   },
   {
     date: '2026-11-06',
@@ -229,6 +247,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '继 JSON、Markdown、CSS 后推出 @eslint/shell 官方插件，规则参考 ShellCheck。',
     source: 'ESLint',
     url: 'https://eslint.org/blog/2026/11/eslint-shell-plugin-announcement/',
+  },
+  {
+    date: '2026-11-06',
+    category: 'AI',
+    title: 'AI 证得 Aaronson-Ambainis 猜想',
+    summary: 'PSI 研究系统运行未公开 Anthropic 模型，证得悬置 18 年的量子计算基础猜想，证明与代码已公开。',
+    source: 'PSI',
+    url: 'https://psi.inc/research/aaronson-ambainis/',
   },
   {
     date: '2026-11-05',
