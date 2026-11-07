@@ -28,6 +28,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/',
   },
   {
+    date: '2026-11-07',
+    category: '后端',
+    title: 'Asahi Linux 进展报告：M3 支持转正',
+    summary: 'M3 系列支持移除 EXPERT 标志正式转 GA，macaudio、avd 两大驱动进入上游提交。',
+    source: 'Asahi Linux',
+    url: 'https://asahilinux.org/2026/11/progress-report-7-3/',
+  },
+  {
     date: '2026-11-06',
     time: '22:27',
     category: 'AI',
@@ -89,6 +97,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '官方 X 视频对比新旧安卓端：Rust 重构版在 2017 年低端手机上也能秒开。',
     source: 'Discord',
     url: 'https://x.com/discord/status/2118755849367896539',
+  },
+  {
+    date: '2026-11-06',
+    time: '17:07',
+    category: 'AI',
+    title: 'DeepMind AI 代理发现旧版 RSA 弱点',
+    summary: 'AI 代理在人工监督下发现 RSA-1024 两个新弱点，加速密码分析；2048 位密钥仍安全。',
+    source: 'Google DeepMind',
+    url: 'https://x.com/pushmeet/status/2118752095859794390',
   },
   {
     date: '2026-11-06',
