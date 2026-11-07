@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-07',
+    time: '15:25',
+    category: '后端',
+    title: '法国银行经服务商通道被窃 1.33 亿美元',
+    summary: '攻击者经服务商平台进入 Arkéa 网络，用银行自有账户转出稳定币，或达 1.18 亿欧元。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/',
+  },
+  {
+    date: '2026-11-07',
     time: '06:44',
     category: 'AI',
     title: 'Claude Code“不再询问”文件泄露密码与密钥',
@@ -287,6 +296,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Axiom 公开 sorry-free Lean 仓库：Grothendieck–Deligne 证明落地，未加公理。',
     source: 'Axiom Math',
     url: 'https://axiommath.ai/research/the-weil-conjectures-formalized-in-lean/',
+  },
+  {
+    date: '2026-11-06',
+    category: 'AI',
+    title: 'OpenAI 发布 BioBasicsBench 基准',
+    summary: '百项任务考察 AI 代理解读原始实验数据等日常湿实验能力，兼论 AI 辅助实验的潜力与风险。',
+    source: 'OpenAI',
+    url: 'https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science',
   },
   {
     date: '2026-11-05',
@@ -723,6 +740,23 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '官方宣布 5.9 下周进入 Preview，Web 重返目标平台，并带来 AI 工作流与渲染动画更新。',
     source: 'Unreal Engine',
     url: 'https://x.com/UnrealEngine/status/2117603978489811012',
+  },
+  {
+    date: '2026-11-02',
+    time: '15:19',
+    category: '后端',
+    title: 'Postgres 19 内置 REPACK 清理表膨胀',
+    summary: 'PG19 新增内置 REPACK：在线回收膨胀空间，无需停机与 pg_repack 等外部扩展。',
+    source: 'Snowflake',
+    url: 'https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/',
+  },
+  {
+    date: '2026-11-02',
+    category: '后端',
+    title: 'Psalm 7 发布：默认开启安全分析',
+    summary: 'PHP 静态分析 Psalm 7 大版本：污点分析提速 10 倍并默认启用，新增 LLM 提示注入检测。',
+    source: 'Psalm',
+    url: 'https://psalm.dev/articles/psalm-7',
   },
   {
     date: '2026-11-01',
