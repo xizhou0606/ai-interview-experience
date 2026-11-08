@@ -822,6 +822,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-02',
+    time: '20:30',
+    category: '后端',
+    title: 'Prusa 3D 打印机固件链式漏洞实现 RCE',
+    summary: '研究员在签名上游固件发现 14 处缺陷并串成 RCE，Prusa 已在 Buddy 7.0.0 修复。',
+    source: 'Yannick Dixken',
+    url: 'https://dixken.de/blog/never-gonna-print-you-up',
+  },
+  {
+    date: '2026-11-02',
     time: '15:19',
     category: '后端',
     title: 'Postgres 19 内置 REPACK 清理表膨胀',
