@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-08',
+    time: '15:43',
+    category: '后端',
+    title: 'Iris Ohyama 云服务遭入侵波及 770 万人',
+    summary: '第三方云服务遭未授权访问，Iris Plaza 商城 580 万会员及 190 万非会员姓名、密码等信息或泄露。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/',
+  },
+  {
+    date: '2026-11-08',
     time: '03:24',
     category: '后端',
     title: 'bcachefs 下一版将 100% 由 Rust 编写',
