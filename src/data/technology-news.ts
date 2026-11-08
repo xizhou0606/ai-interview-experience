@@ -892,6 +892,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://github.com/OpenSenseNova/SenseNova-Loop',
   },
   {
+    date: '2026-11-01',
+    category: '后端',
+    title: 'OpenSSL 3.4 与 3.6 系列终止支持',
+    summary: '两版本分别于 10 月 22 日与 11 月 1 日 EOL，官方建议升级至 4.1 或 3.5 LTS。',
+    source: 'OpenSSL',
+    url: 'https://openssl-library.org/post/2026-11-01-eol34-36/',
+  },
+  {
     date: '2026-10-31',
     time: '13:43',
     category: 'AI',
