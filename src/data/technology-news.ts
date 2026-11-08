@@ -595,6 +595,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-04',
+    time: '19:03',
+    category: 'AI',
+    title: 'Claude 文本水印扩展至旧模型且易绕过',
+    summary: 'Anthropic 赶欧盟 AI 法案期限为更多 Claude 模型启用水印，旧模型改一个采样参数即可绕过。',
+    source: 'The Decoder',
+    url: 'https://the-decoder.com/anthropics-text-watermark-is-easy-to-bypass-on-several-older-claude-models/',
+  },
+  {
+    date: '2026-11-04',
     time: '18:55',
     category: 'AI',
     title: '苹果披露人形机器人自主系统 HALO',
@@ -783,6 +792,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '官方宣布 5.9 下周进入 Preview，Web 重返目标平台，并带来 AI 工作流与渲染动画更新。',
     source: 'Unreal Engine',
     url: 'https://x.com/UnrealEngine/status/2117603978489811012',
+  },
+  {
+    date: '2026-11-02',
+    time: '22:14',
+    category: 'AI',
+    title: 'Anthropic 招股书警告接近 RSI 能力',
+    summary: 'S-1/A 称负责任扩展政策将监控并缓解逼近「递归自我改进」的风险。',
+    source: 'TechCrunch',
+    url: 'https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/',
   },
   {
     date: '2026-11-02',
