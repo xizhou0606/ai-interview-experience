@@ -359,6 +359,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-05',
+    time: '20:35',
+    category: '后端',
+    title: '一个字母绕过 HuggingFace 聊天管理 API',
+    summary: '未认证单请求即可触发批量导出全部用户私聊，研究者 X 发帖披露，第三方博客跟进分析。',
+    source: 'V12 (@v12sec)',
+    url: 'https://x.com/v12sec/status/2118442075574464848',
+  },
+  {
+    date: '2026-11-05',
     time: '20:23',
     category: '后端',
     title: 'GitHub 详解新一代 Git 存储架构',
