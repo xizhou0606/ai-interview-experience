@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-08',
+    time: '03:24',
+    category: '后端',
+    title: 'bcachefs 下一版将 100% 由 Rust 编写',
+    summary: '维护者 Kent Overstreet 确认 Rust 迁移基本完成，下个发行版将是纯 Rust 文件系统。',
+    source: 'GitHub',
+    url: 'https://github.com/lxc/incus/issues/213#issuecomment-6716682748',
+  },
+  {
+    date: '2026-11-08',
     category: '后端',
     title: '韩国国家网络安全中心域名存劫持风险',
     summary: 'ncsc.go.kr 的 NS 仍指向第三方 aegis-k.com 且无 DNSSEC，过期域名可被劫持。',
@@ -783,6 +792,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '带来桌面升级与新安装器特性及更新工具链，Workstation、Server、CoreOS 等版本全线更新。',
     source: 'Fedora Magazine',
     url: 'https://fedoramagazine.org/announcing-fedora-linux-45/',
+  },
+  {
+    date: '2026-11-03',
+    time: '14:00',
+    category: 'AI',
+    title: 'Menlo 报告：中国模型占开源模型支出 89%',
+    summary: 'Menlo 报告：中国模型占企业开源模型支出 89%（Kimi 61%、DeepSeek 15%、GLM 11%）。',
+    source: 'Menlo Ventures',
+    url: 'https://menlovc.com/perspective/2026-the-state-of-enterprise-ai/',
   },
   {
     date: '2026-11-03',
