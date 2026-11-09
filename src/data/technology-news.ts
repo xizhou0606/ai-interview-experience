@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-09',
+    time: '18:57',
+    category: 'AI',
+    title: 'Anthropic 发布 Fable 5.2 双模型',
+    summary: 'Fable 5.2 全量开放，Mythos 5.2 去网络生物护栏仅限受审核机构，可编排小模型。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/claude-fable-and-mythos-5-2',
+  },
+  {
+    date: '2026-11-09',
     time: '17:50',
     category: '后端',
     title: '俄云服务商 Beget 遭数据清除攻击',
@@ -114,6 +123,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '面向工具调用、编码子任务与路由等高频负载，称每美元智能超 Haiku 5.5 与 GPT-6 Luna。',
     source: 'Meta',
     url: 'https://research.meta.ai/blog/muse-ember',
+  },
+  {
+    date: '2026-11-09',
+    category: 'AI',
+    title: 'Claude 全流程设计电子原型',
+    summary: 'Anthropic 实测 Claude 端到端设计三件可工作电子装置，覆盖选型、布线到调试。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/claude-electronics-design',
   },
   {
     date: '2026-11-08',
