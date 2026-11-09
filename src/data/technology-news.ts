@@ -1375,24 +1375,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Entire',
     url: 'https://entire.com/blog/the-git-forge-for-agent-human-collaboration',
   },
-  {
-    date: '2026-10-25',
-    time: '18:45',
-    category: '后端',
-    title: '.NET 发布十月带外安全更新',
-    summary: '十月带外更新修复多项安全漏洞，覆盖多个受支持版本，建议尽快升级。',
-    source: 'Microsoft',
-    url: 'https://devblogs.microsoft.com/dotnet/dotnet-october-2026-oob-security-updates/',
-  },
-  {
-    date: '2026-10-25',
-    time: '13:27',
-    category: '后端',
-    title: '微软验证器漏洞可致零权限应用窃取令牌',
-    summary: '导出 Activity 使无权限应用冒充微软应用领取工作账号令牌，问题披露后微软已修复。',
-    source: 'Enclave',
-    url: 'https://enclave.ai/blog/authmask-we-made-microsoft-authenticator-hand-over-tokens',
-  },
 ]
 
 function codePointLength(value: string) {
