@@ -107,6 +107,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-06',
+    time: '20:35',
+    category: '后端',
+    title: 'Blacksmith CI 作业日志存储遭未授权访问',
+    summary: '11 月 5 日检测到 CI 作业日志存储遭未授权访问并当日阻断，约 2.6% 客户账户波及，完整报告将另行发布。',
+    source: 'Blacksmith',
+    url: 'https://status.blacksmith.sh/cmw5fokyu013w13mrtneqjv5l',
+  },
+  {
+    date: '2026-11-06',
     time: '19:41',
     category: '后端',
     title: 'Fly.io 披露 10 月内核漏洞修复事件',
@@ -774,6 +783,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '浏览器扩展可经 claude.ai 驱动 Claude Desktop 执行命令，官方认可并退役 Dispatch。',
     source: 'Forever Security',
     url: 'https://forever.security/blog/thisbash-claude-dispatch-browser-extension-rce',
+  },
+  {
+    date: '2026-11-04',
+    category: 'AI',
+    title: 'Anthropic 解析原核细胞 vault 颗粒结构',
+    summary: '首次解析原核细胞 vault 颗粒三维结构，Claude 参与检索、分离与建模各环节，预印本将提交 bioRxiv。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/investigating-vault-particles-with-claude',
   },
   {
     date: '2026-11-03',
