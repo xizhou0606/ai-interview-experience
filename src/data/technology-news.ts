@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-10',
+    time: '12:54',
+    category: 'AI',
+    title: '内核维护者因 AI 补丁洪水退出评审',
+    summary: 'Arm mm 维护者 Stoakes 因 AI 生成补丁噪音退出部分内核评审角色，2014 年起贡献至今。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Lorenzo-Stoakes-AI-Flood',
+  },
+  {
+    date: '2026-11-10',
+    time: '09:56',
+    category: '后端',
+    title: 'Binance 警告 iOS 沙箱逃逸威胁钱包',
+    summary: 'worse_query PoC 可读他应用文件窃取凭据，昨日 iOS 更新未修复，Binance 警告钱包风险。',
+    source: 'Binance',
+    url: 'https://x.com/binance/status/2120093246399430770',
+  },
+  {
+    date: '2026-11-10',
     time: '07:49',
     category: 'AI',
     title: 'Fireworks AI 再遭入侵波及 Notion',
@@ -51,6 +69,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'ControlPlane 研究员用 Claude 扫描十年政府开源代码，发现 100 余个高危漏洞。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/024/865.htm',
+  },
+  {
+    date: '2026-11-10',
+    category: 'AI',
+    title: 'DeepMind AI 形式化验证 Signal 协议',
+    summary: 'AlphaProof Code 多智能体框架生成 600 万行 Lean 证明，四周完成实现级验证并开源工件。',
+    source: 'Google DeepMind',
+    url: 'https://deepmind.google/blog/introducing-alphaproof-code/',
+  },
+  {
+    date: '2026-11-10',
+    category: '后端',
+    title: 'Xen Orchestra 认证绕过漏洞遭活跃利用',
+    summary: '空对象登录令牌可获 Admin 权限，Vates 评级 Critical，6.9.1/6.10.0 已修复。',
+    source: 'Vates',
+    url: 'https://docs.vates.tech/security-advisories/advisories/2026/vates-sa-2026-062/',
   },
   {
     date: '2026-11-09',
