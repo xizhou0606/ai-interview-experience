@@ -19,6 +19,14 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-10',
+    category: 'AI',
+    title: '蚂蚁灵波开源 LingBot-Touch 触觉模型',
+    summary: '统一磁、视触、压阻信号为触觉 token，5000 小时真机数据预训练，26 项真机测试成功率升 14-26 个百分点。',
+    source: 'Robbyant',
+    url: 'https://technology.robbyant.com/lingbot-touch',
+  },
+  {
     date: '2026-11-09',
     time: '22:09',
     category: '后端',
@@ -202,6 +210,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '零样本克隆与可控 TTS 小模型，Apache-2.0 权重已上架 Hugging Face。',
     source: 'Zyphra',
     url: 'https://www.zyphra.com/our-work/zonos3-mini',
+  },
+  {
+    date: '2026-11-09',
+    category: 'AI',
+    title: '字节跳动发布 Seedream 5.5 图像模型',
+    summary: '新一代图像模型支持百轮稳定编辑、原生 RGBA 透明输出，并改进小字渲染与真实感。',
+    source: 'ByteDance Seed',
+    url: 'https://seed.bytedance.com/en/seedream5_5',
   },
   {
     date: '2026-11-08',
@@ -1109,6 +1125,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '全新 WasmGC 引擎，支持 Java 21/25 与完整 OpenJDK 在浏览器中直接运行。',
     source: 'Leaning Tech',
     url: 'https://labs.leaningtech.com/blog/cheerpj-5.0',
+  },
+  {
+    date: '2026-11-02',
+    category: 'AI',
+    title: 'Anthropic 开源 FlashProve 推理验证',
+    summary: '以 zkSNARK 证明响应出自指定模型且不泄露权重，单 H100 每秒出证 100+ token，代码已开源。',
+    source: 'Anthropic',
+    url: 'https://www.anthropic.com/research/provable-inference',
   },
   {
     date: '2026-11-01',
