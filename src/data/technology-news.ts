@@ -20,11 +20,28 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-10',
+    time: '07:49',
+    category: 'AI',
+    title: 'Fireworks AI 再遭入侵波及 Notion',
+    summary: '经第三方云商入侵研发机发动二次攻击，波及账单元数据与部分模型权重，Notion AI 会话或泄露。',
+    source: 'BleepingComputer',
+    url: 'https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/',
+  },
+  {
+    date: '2026-11-10',
     category: 'AI',
     title: '蚂蚁灵波开源 LingBot-Touch 触觉模型',
     summary: '统一磁、视触、压阻信号为触觉 token，5000 小时真机数据预训练，26 项真机测试成功率升 14-26 个百分点。',
     source: 'Robbyant',
     url: 'https://technology.robbyant.com/lingbot-touch',
+  },
+  {
+    date: '2026-11-10',
+    category: '后端',
+    title: 'AI 扫描英国政府公开代码发现上百漏洞',
+    summary: 'ControlPlane 研究员用 Claude 扫描十年政府开源代码，发现 100 余个高危漏洞。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/024/865.htm',
   },
   {
     date: '2026-11-09',
@@ -218,6 +235,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '新一代图像模型支持百轮稳定编辑、原生 RGBA 透明输出，并改进小字渲染与真实感。',
     source: 'ByteDance Seed',
     url: 'https://seed.bytedance.com/en/seedream5_5',
+  },
+  {
+    date: '2026-11-09',
+    category: 'AI',
+    title: 'Amazon 用决策模型替换 Sonnet 4.6',
+    summary: '工单标注以 Strands Decider 替换 Sonnet 4.6，单票成本降 98%，年省数百万美元。',
+    source: 'Strands Agents',
+    url: 'https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/',
+  },
+  {
+    date: '2026-11-09',
+    category: '前端',
+    title: 'Chrome 157 修复第 8 个在野利用零日',
+    summary: '9 项修复含 XML UAF 零日 CVE-2026-125350 已被在野利用，更新至 157.0.8103.50。',
+    source: 'Chrome Releases',
+    url: 'https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_018223192.html',
   },
   {
     date: '2026-11-08',
