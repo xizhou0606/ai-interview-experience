@@ -29,6 +29,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-10',
+    time: '07:20',
+    category: 'AI',
+    title: 'DeepSeek Harness 日活 154 万',
+    summary: '官方 API 用户日活 154 万，日耗 Token 约 92 万亿，插件超 3.5 万个，激励计划筹备中。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK',
+  },
+  {
+    date: '2026-11-10',
     category: 'AI',
     title: '蚂蚁灵波开源 LingBot-Touch 触觉模型',
     summary: '统一磁、视触、压阻信号为触觉 token，5000 小时真机数据预训练，26 项真机测试成功率升 14-26 个百分点。',
