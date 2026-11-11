@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-11',
+    time: '03:55',
+    category: 'AI',
+    title: 'Qwen Code 1.0 预览版发布',
+    summary: '融合 Qoder 智能体能力，提供三平台原生安装包与脚本化执行，仓库 2.9 万星。',
+    source: 'GitHub',
+    url: 'https://github.com/QwenLM/qwen-code',
+  },
+  {
+    date: '2026-11-11',
     time: '02:01',
     category: 'AI',
     title: 'Qwen4-Max 开启预览',
@@ -894,6 +903,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '未认证单请求即可触发批量导出全部用户私聊，研究者 X 发帖披露，第三方博客跟进分析。',
     source: 'V12 (@v12sec)',
     url: 'https://x.com/v12sec/status/2118442075574464848',
+  },
+  {
+    date: '2026-11-05',
+    time: '20:25',
+    category: '后端',
+    title: 'Process Explorer 登陆 macOS',
+    summary: 'Sysinternals 经典进程管理工具推出原生 macOS 版，SwiftUI 构建，已发布 1.0.0。',
+    source: 'GitHub',
+    url: 'https://github.com/microsoft/Procexp-Mac',
   },
   {
     date: '2026-11-05',
