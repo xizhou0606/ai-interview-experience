@@ -19,6 +19,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-11',
+    time: '02:01',
+    category: 'AI',
+    title: 'Qwen4-Max 开启预览',
+    summary: '通义千问官宣 Qwen4 将至：Qwen4-Max 预览版上线阿里 Token 平台，主打编码与智能体能力。',
+    source: 'Alibaba Qwen',
+    url: 'https://x.com/Alibaba_Qwen/status/2120335993643684315',
+  },
+  {
+    date: '2026-11-11',
+    time: '01:51',
+    category: 'AI',
+    title: 'Claude 免费重置额度并扩展 MCP Apps',
+    summary: '修复词元超耗 Bug，付费用户可免费重置完整额度；MCP Apps 支持完整应用嵌入，开放预览。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/025/292.htm',
+  },
+  {
+    date: '2026-11-11',
+    time: '01:43',
+    category: '后端',
+    title: 'Ubuntu 26.10 推出 upki 证书吊销',
+    summary: '基于 CRLite 的证书吊销支持开始在 Ubuntu 26.10 的 curl 包上推出。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Ubuntu-26.10-Does-upki',
+  },
+  {
     date: '2026-11-10',
     time: '20:54',
     category: '后端',
