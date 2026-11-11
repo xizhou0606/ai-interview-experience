@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-11',
+    time: '20:48',
+    category: '后端',
+    title: 'GitHub 多产品服务出现降级故障',
+    summary: 'Webhooks、Actions、Pages 与 Copilot 同时降级，CI 与集成受影响，仍在排查。',
+    source: 'GitHub',
+    url: 'https://www.githubstatus.com/incidents/dvy0t3mvh1lg',
+  },
+  {
+    date: '2026-11-11',
     time: '18:23',
     category: 'AI',
     title: 'Anthropic 确认 RSP 安全阈值已触发',
@@ -44,6 +53,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Decision 1 模型单次前向输出校准概率与置信度，面向路由、策略检查等封闭决策，端到端约 200 毫秒。',
     source: 'Google',
     url: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/',
+  },
+  {
+    date: '2026-11-11',
+    time: '16:45',
+    category: '后端',
+    title: 'Node.js 三条 LTS 线发布安全更新',
+    summary: '修复 7 个高危缺陷：未鉴权客户端可读内存与私钥、绕过 mTLS 或击溃 HTTP/2 服务。',
+    source: 'Node.js',
+    url: 'https://nodejs.org/en/blog/release/v26.13.1',
   },
   {
     date: '2026-11-11',
