@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-11',
+    time: '08:10',
+    category: 'AI',
+    title: 'OpenAI 将于 12 月 11 日停用旧版语音模式',
+    summary: '高级/标准语音模式将移除并自动迁移至 GPT-Live，视频共享等场景暂留旧模式。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/025/567.htm',
+  },
+  {
+    date: '2026-11-11',
     time: '03:55',
     category: 'AI',
     title: 'Qwen Code 1.0 预览版发布',
