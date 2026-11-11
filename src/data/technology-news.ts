@@ -1768,42 +1768,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     source: 'Eighth Rank',
     url: 'https://8rank.ai/game/apple-intelligence-personal-knowledge-graph',
   },
-  {
-    date: '2026-10-27',
-    time: '17:16',
-    category: 'AI',
-    title: 'Liquid AI 发布 LFM3 多模态模型',
-    summary: '面向专用多模态场景的 LFM3 上线 Hugging Face，可按领域微调构建垂直模型。',
-    source: 'Hugging Face',
-    url: 'https://huggingface.co/blog/LiquidAI/lfm3',
-  },
-  {
-    date: '2026-10-27',
-    time: '16:13',
-    category: 'AI',
-    title: 'DeepMind 发布 Genie 4 世界模拟模型',
-    summary: '从文本或图像生成可交互 3D 世界，新增音频与语音，物理与人物更逼真，仍属实验性。',
-    source: 'Google DeepMind',
-    url: 'https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/',
-  },
-  {
-    date: '2026-10-27',
-    time: '09:36',
-    category: '后端',
-    title: 'JetBrains 终端改用 libghostty',
-    summary: 'JetBrains IDE 内置终端迁移至 libghostty 终端核心。',
-    source: 'JetBrains',
-    url: 'https://blog.jetbrains.com/platform/2026/10/jetbrains-terminal-now-uses-ghostty/',
-  },
-  {
-    date: '2026-10-27',
-    time: '09:35',
-    category: '前端',
-    title: 'Firefox 159 发布',
-    summary: '新版修复 AMD Linux 显卡内存占用过高问题，含常规安全修复。',
-    source: 'Mozilla',
-    url: 'https://www.firefox.com/en-US/firefox/159.0/releasenotes/',
-  },
 ]
 
 function codePointLength(value: string) {
