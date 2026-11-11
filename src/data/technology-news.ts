@@ -55,6 +55,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.phoronix.com/news/Ubuntu-26.10-Does-upki',
   },
   {
+    date: '2026-11-11',
+    category: 'AI',
+    title: '百度发布 ERNIE 5.5 Flash Preview',
+    summary: '基于 Base 首个后训练版本：280B 总参数 14B 激活、1M 上下文，权重将以 Apache 2.0 开源。',
+    source: 'Baidu ERNIE',
+    url: 'https://ernie.baidu.com/release/ernie-5-5-flash-preview/',
+  },
+  {
     date: '2026-11-10',
     time: '20:54',
     category: '后端',
