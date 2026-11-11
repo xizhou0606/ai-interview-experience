@@ -47,6 +47,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-11',
+    time: '05:36',
+    category: '后端',
+    title: 'Python 元老 Tim Peters 逝世',
+    summary: 'Zen of Python 与 Timsort 作者。Guido 发讣告：Peters 于 7 月 15 日离世。',
+    source: 'Python Discourse',
+    url: 'https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028',
+  },
+  {
+    date: '2026-11-11',
     time: '03:55',
     category: 'AI',
     title: 'Qwen Code 1.0 预览版发布',
@@ -292,6 +301,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '微软研究 Lazarus：免训练改写休眠神经元植入后门，触发词激活后以智能体权限执行命令。',
     source: 'Microsoft Research',
     url: 'https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/',
+  },
+  {
+    date: '2026-11-10',
+    category: '前端',
+    title: 'Firefox 160 正式发布',
+    summary: '新增 Web SpeechRecognition 端内语音识别，macOS WebGL 改用 Metal 渲染。',
+    source: 'Mozilla',
+    url: 'https://www.firefox.com/en-US/firefox/160.0/releasenotes/',
   },
   {
     date: '2026-11-09',
