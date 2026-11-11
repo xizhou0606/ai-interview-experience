@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-11',
+    time: '09:40',
+    category: '后端',
+    title: 'GitHub 负责人称 PR 不应是必经流程',
+    summary: 'Jay Parikh 称个人项目无需 PR；9 月起超 40% PR 由编码智能体起草首版，3 月仅 17%。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/x0B056QFxzYEewT1Et34',
+  },
+  {
+    date: '2026-11-11',
+    time: '08:17',
+    category: '后端',
+    title: '微软修复在野利用的 Outlook 零日漏洞',
+    summary: 'CVE-2026-124194 在野利用，恶意文件可致连接攻击者站点泄露 NTLMv2 哈希，已列入 KEV。',
+    source: 'Microsoft',
+    url: 'https://msrc.microsoft.com/update-guide/releaseNote/2026-Nov',
+  },
+  {
+    date: '2026-11-11',
     time: '08:10',
     category: 'AI',
     title: 'OpenAI 将于 12 月 11 日停用旧版语音模式',
@@ -266,6 +284,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '开发者 LLM 辅助改进 DisplayLink 驱动遭 Synaptics 专利警告，工作停摆。',
     source: 'LWN',
     url: 'https://lwn.net/Articles/1102549/',
+  },
+  {
+    date: '2026-11-10',
+    category: 'AI',
+    title: '改写不足 10 个神经元即可后门智能体',
+    summary: '微软研究 Lazarus：免训练改写休眠神经元植入后门，触发词激活后以智能体权限执行命令。',
+    source: 'Microsoft Research',
+    url: 'https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/',
   },
   {
     date: '2026-11-09',
