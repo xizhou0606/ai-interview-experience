@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-12',
+    time: '13:51',
+    category: 'AI',
+    title: '黄仁勋辞任英伟达 CEO，即刻生效',
+    summary: '官方公告：辞去总裁、CEO 与董事职务，CFO 克雷斯任临时 CEO，董事会启动永久继任者遴选。',
+    source: 'NVIDIA',
+    url: 'https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition',
+  },
+  {
+    date: '2026-11-12',
     time: '13:07',
     category: 'AI',
     title: '讯飞 SparkAudio 1.0 开放语音 API',
