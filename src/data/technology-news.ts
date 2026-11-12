@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-12',
+    time: '05:10',
+    category: '后端',
+    title: 'Windows 分阶段强制 NTLM 消息签名',
+    summary: '微软修复 CVE-2026-118737：11 月起客户端默认签名，2027 年 5 月服务器拒绝未签名连接。',
+    source: 'Microsoft',
+    url: 'https://support.microsoft.com/zh-cn/servicing/os/windows/docs/2026/11/kb5135557-ntlm-signing-security-improvements',
+  },
+  {
+    date: '2026-11-12',
+    time: '04:39',
+    category: '后端',
+    title: 'ScreenConnect 遭蠕虫式恶意客户端攻击',
+    summary: 'ConnectWise 禁用 5 个第三方扩展，恶意客户端蠕虫式扩散至 48 家组织 288 端点，窃取会话凭据。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html',
+  },
+  {
+    date: '2026-11-12',
     time: '03:26',
     category: '前端',
     title: 'Safari 27.3 beta 引入全局隐私控制',
