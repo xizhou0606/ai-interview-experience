@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-12',
+    time: '14:25',
+    category: '后端',
+    title: 'PostgreSQL 修复 52 漏洞，14 版停止维护',
+    summary: '五个受支持版本与 19 RC 2 同日更新，含任意代码执行等高危 CVE，PG 14 已到期。',
+    source: 'PostgreSQL',
+    url: 'https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/',
+  },
+  {
+    date: '2026-11-12',
+    time: '14:20',
+    category: 'AI',
+    title: '哈萨克斯坦黑客用 AI 智能体从事间谍活动',
+    summary: 'CloudSEK 曝光 Silent Lynx 用开源智能体 Hermes（主用 DeepSeek）自动化侦察与清痕。',
+    source: 'The Record',
+    url: 'https://therecord.media/kazakhstan-hackers-central-asia',
+  },
+  {
+    date: '2026-11-12',
+    time: '14:00',
+    category: 'AI',
+    title: '谷歌 Gemini 智能眼镜开启预售',
+    summary: '官方公告：Gentle Monster 与 Warby Parker 款预售开启，12 月 10 日发售。',
+    source: 'Google',
+    url: 'https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/',
+  },
+  {
+    date: '2026-11-12',
     time: '13:51',
     category: 'AI',
     title: '黄仁勋辞任英伟达 CEO，即刻生效',
