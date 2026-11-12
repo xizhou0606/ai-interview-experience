@@ -65,6 +65,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-12',
+    time: '07:26',
+    category: 'AI',
+    title: 'Runway 开放 Praxis-1 机器人模型权重',
+    summary: '270 亿参数视频基础模型驱动的世界动作模型，Apache 2.0 开源权重，可本地运行与微调。',
+    source: 'Runway',
+    url: 'https://runway.com/research/introducing-praxis-1',
+  },
+  {
+    date: '2026-11-12',
     time: '06:33',
     category: 'AI',
     title: '字节发布 Seedance 2.5 flash 视频模型',
