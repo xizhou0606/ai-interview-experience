@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-12',
+    time: '10:45',
+    category: 'AI',
+    title: 'Claude 被曝禁止生成宝可梦游戏素材',
+    summary: 'Automaton 收集的用户反馈与代码分析显示，精灵图、音乐、关卡、名称均被拒，系首个针对特定游戏 IP 的限制。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/348.htm',
+  },
+  {
+    date: '2026-11-12',
     time: '09:25',
     category: '后端',
     title: 'MongoDB 预授权故障转移崩溃漏洞',
@@ -53,6 +62,24 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'ICANN 确认撤回，约 2.2 万个人姓名域名可继续续费，新注册关闭；用户曾担忧邮箱被接管。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/026/110.htm',
+  },
+  {
+    date: '2026-11-12',
+    time: '06:33',
+    category: 'AI',
+    title: '字节发布 Seedance 2.5 flash 视频模型',
+    summary: '效果最接近 Seedance 2.5，速度翻倍价格降 34%，720P 约 0.99 元/秒，API 周日上线火山方舟。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/069.htm',
+  },
+  {
+    date: '2026-11-12',
+    time: '06:24',
+    category: '后端',
+    title: '微软收紧 PowerShell 脚本编码校验',
+    summary: '11 月累积更新拒绝无效 UTF-8 编码，已签名脚本可被判未签名，需转 BOM UTF-8 重签，微软提供修复工具。',
+    source: 'Microsoft',
+    url: 'https://support.microsoft.com/zh-cn/servicing/os/windows/docs/2026/11/powershell-sip-canonical-repair',
   },
   {
     date: '2026-11-12',
