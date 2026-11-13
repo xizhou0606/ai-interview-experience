@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '06:53',
+    category: '后端',
+    title: 'UCIe 4.0 发布：芯粒互连扩展到系统级',
+    summary: '新增 UCIe.mem 片上存储链路与功率优化配置，64GT/s 下能效提升 30~80%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/751.htm',
+  },
+  {
+    date: '2026-11-13',
     time: '06:26',
     category: '后端',
     title: '微软确认 11 月更新致 Word 文档无法打印',
@@ -431,6 +440,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '据华尔街日报与彭博报道，董事会聘外部机构寻继任者并考虑临时 CEO，盘后股价跌约 8%。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/025/852.htm',
+  },
+  {
+    date: '2026-11-12',
+    category: '后端',
+    title: '苹果 Secure Exclaves 隔离环境感知数据',
+    summary: '专用硅级安全区处理麦克风/摄像头信号，数据不出安全区，传感器启用状态防篡改。',
+    source: 'Apple',
+    url: 'https://security.apple.com/blog/secure-exclaves/',
   },
   {
     date: '2026-11-11',
