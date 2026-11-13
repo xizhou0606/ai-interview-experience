@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '08:41',
+    category: 'AI',
+    title: '腾讯混元发布实时语音模型 Hy Realtime',
+    summary: '新增 Agentic 工具调用与唱歌能力，已在元宝语音通话上线，近期开放腾讯云 API。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/825.htm',
+  },
+  {
+    date: '2026-11-13',
+    time: '08:19',
+    category: '后端',
+    title: '日本甲贺市防灾广播系统遭勒索攻击',
+    summary: '广播服务器 11 月 12 日被勒索软件感染，户外扩音器等防灾服务暂停，正排查信息泄露。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/805.htm',
+  },
+  {
+    date: '2026-11-13',
+    time: '08:05',
+    category: '后端',
+    title: 'PHP2Shell 攻击 Check Point 网关',
+    summary: '获取初始访问后利用新披露 Gaia 提权漏洞 CVE-2026-123039，部署 TSGA 后门并擦除 ESXi。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html',
+  },
+  {
+    date: '2026-11-13',
     time: '06:53',
     category: '后端',
     title: 'UCIe 4.0 发布：芯粒互连扩展到系统级',
