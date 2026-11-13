@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '12:00',
+    category: 'AI',
+    title: '谷歌开放 WeatherNext 3 双气象数据集',
+    summary: '开放 WeatherNext 3 背后的 SatWeave 卫星云图与 PARDIG 降水数据集，含历史档案与实时流。',
+    source: 'Google DeepMind',
+    url: 'https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/',
+  },
+  {
+    date: '2026-11-13',
     time: '11:10',
     category: '后端',
     title: 'SilentAir 劫持亚洲电信网络窃取短信 2FA',
@@ -571,6 +580,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/',
   },
   {
+    date: '2026-11-12',
+    category: 'AI',
+    title: 'EU 超算用 PyTorch 训练 1T MoE',
+    summary: 'JUPITER 超算用 TorchTitan 训练 9519 亿参数 MoE，吞吐升至 1300 tokens/s。',
+    source: 'PyTorch',
+    url: 'https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/',
+  },
+  {
     date: '2026-11-11',
     time: '23:53',
     category: 'AI',
@@ -650,6 +667,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Gemini Live 进入 CarPlay 车机：免提语音对话可连 Gmail 日历，聊天记录同步 iPhone。',
     source: 'Google',
     url: 'https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/',
+  },
+  {
+    date: '2026-11-11',
+    time: '16:55',
+    category: '后端',
+    title: '微软扫描 Linux 内核获 33 个 CVE',
+    summary: 'FORGE 实验室三个月扫描产出 59 份上游报告与 33 个 CVE，8 个可提权利用，38 项修复已入主线。',
+    source: 'Microsoft',
+    url: 'https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/',
   },
   {
     date: '2026-11-11',
