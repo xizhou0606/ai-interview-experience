@@ -450,6 +450,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://security.apple.com/blog/secure-exclaves/',
   },
   {
+    date: '2026-11-12',
+    category: '后端',
+    title: '台积电证实员工数据泄露，溯源至云服务商',
+    summary: '台积电 6-K 声明：现任与前员工数据出现在外部网站，与云服务商存储一致，未发现自家系统被入侵证据。',
+    source: 'SEC',
+    url: 'https://www.sec.gov/Archives/edgar/data/1046179/000104617926000800/a20261112statementregardin.htm',
+  },
+  {
+    date: '2026-11-12',
+    category: 'AI',
+    title: '研究员称四家中国AI实验室用Blackwell训练',
+    summary: 'Will Depue 权重取证称 DeepSeek 等四家中企最新模型基于被禁运 Blackwell 训练。',
+    source: 'Will Depue',
+    url: 'https://x.com/willdepue/status/2120992457630326841',
+  },
+  {
     date: '2026-11-11',
     time: '23:53',
     category: 'AI',
