@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '10:47',
+    category: '后端',
+    title: 'openEuler 发布智能体基础设施操作系统',
+    summary: '面向 Agentic Infra 升级，新增沙箱、KV Cache 与 Agent 安全，装机量预计破 2200 万。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/911.htm',
+  },
+  {
+    date: '2026-11-13',
+    time: '10:20',
+    category: 'AI',
+    title: 'llama.cpp 发布 v1.0.0 版本',
+    summary: '告别 b 数字编号迎来 1.0 里程碑，发布说明称详情将于欧洲中部时间 15 时公布。',
+    source: 'GitHub',
+    url: 'https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0',
+  },
+  {
+    date: '2026-11-13',
     time: '09:58',
     category: 'AI',
     title: 'Claude 登录故障波及官网与 Code',
@@ -500,6 +518,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Will Depue 权重取证称 DeepSeek 等四家中企最新模型基于被禁运 Blackwell 训练。',
     source: 'Will Depue',
     url: 'https://x.com/willdepue/status/2120992457630326841',
+  },
+  {
+    date: '2026-11-12',
+    category: '前端',
+    title: 'Bryntum 8 全组件免费 MIT 开源',
+    summary: 'Grid、Scheduler、Gantt 等五组件上公开 npm，MIT 许可，无密钥无限时，可商用。',
+    source: 'Bryntum',
+    url: 'https://bryntum.com/blog/whats-new-in-v8/',
   },
   {
     date: '2026-11-11',
