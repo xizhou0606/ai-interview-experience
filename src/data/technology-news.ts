@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '06:26',
+    category: '后端',
+    title: '微软确认 11 月更新致 Word 文档无法打印',
+    summary: 'GDI 打印遇零宽高图像即失败，波及 Win10/11 与 Server 2016-2025，暂无补丁。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/737.htm',
+  },
+  {
+    date: '2026-11-13',
     time: '02:48',
     category: '后端',
     title: 'FBI 披露朝鲜假视频会议骗局窃 4 亿美元',
