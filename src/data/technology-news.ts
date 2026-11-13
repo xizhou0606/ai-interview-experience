@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-13',
+    time: '00:31',
+    category: '后端',
+    title: '微软确认 11 月更新致 KMS 激活命令失效',
+    summary: 'KB5131080 致 slmgr.vbs 报 0x80041008，已激活设备不受影响，微软将数日内带外修复。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/474.htm',
+  },
+  {
     date: '2026-11-12',
     time: '22:52',
     category: '后端',
@@ -672,6 +681,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '开放协议让 AI 智能体直接生成原生界面，附 React、Flutter、SwiftUI 等渲染 SDK。',
     source: 'Google',
     url: 'https://developers.googleblog.com/a2ui-10-build-delightful-fast-reliable-agentic-experiences/',
+  },
+  {
+    date: '2026-11-11',
+    category: '前端',
+    title: 'Flutter 3.50 发布：原生互操作转正',
+    summary: 'FFIgen/JNIgen 稳定，WebAssembly 覆盖 Safari 与 Firefox，UI 包解耦成默认。',
+    source: 'Flutter',
+    url: 'https://flutter.dev/blog/whats-new-in-flutter-3-50',
   },
   {
     date: '2026-11-10',
