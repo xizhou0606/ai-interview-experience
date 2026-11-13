@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '02:48',
+    category: '后端',
+    title: 'FBI 披露朝鲜假视频会议骗局窃 4 亿美元',
+    summary: '假 Zoom/Teams/Meet 会议诱导点击修复音频植入木马，18 个月 900 余人受害，多涉加密行业。',
+    source: 'BBC',
+    url: 'https://www.bbc.com/news/articles/cqdj1ellpd70o',
+  },
+  {
+    date: '2026-11-13',
     time: '00:31',
     category: '后端',
     title: '微软确认 11 月更新致 KMS 激活命令失效',
@@ -53,6 +62,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '指纹分析指 DeepSeek、Kimi、MiniMax 等六模型匹配 B200/GB200 硬件，最高 1385σ。',
     source: 'Unemployment Labs',
     url: 'https://unemploymentlabs.com/checkpoint-forensics',
+  },
+  {
+    date: '2026-11-12',
+    time: '21:42',
+    category: '后端',
+    title: '美司法部获准扣押币安被盗 12 亿美元',
+    summary: '上月 63.4 亿美元失窃案后获法院授权扣押，累计冻结 27 亿，归因朝鲜 TraderTraitor。',
+    source: 'The Record',
+    url: 'https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted',
   },
   {
     date: '2026-11-12',
