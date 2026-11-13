@@ -154,6 +154,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.ithome.com/1/026/474.htm',
   },
   {
+    date: '2026-11-13',
+    time: '00:20',
+    category: '后端',
+    title: 'GitHub 发布 10 月可用性报告',
+    summary: 'GitHub 公布 10 月共 8 起服务降级事故及各次时长，单次最长持续 4 小时 30 分钟。',
+    source: 'GitHub',
+    url: 'https://github.blog/news-insights/company-news/github-availability-report-october-2026/',
+  },
+  {
     date: '2026-11-12',
     time: '22:52',
     category: '后端',
@@ -161,6 +170,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '10 月热钱包被盗 63.4 亿美元，官方以 SAFU 与自有资金全额补足并更新储备证明，不转嫁用户。',
     source: 'IT之家',
     url: 'https://www.ithome.com/1/026/456.htm',
+  },
+  {
+    date: '2026-11-12',
+    time: '22:28',
+    category: 'AI',
+    title: 'FAA 将 SMART AI 空管辅助扩至全美',
+    summary: 'FAA 把耗资 8.75 亿美元的 SMART 空管 AI 从华盛顿区域扩展到全美 22 个空管中心。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/',
   },
   {
     date: '2026-11-12',
