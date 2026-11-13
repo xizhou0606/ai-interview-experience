@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '09:58',
+    category: 'AI',
+    title: 'Claude 登录故障波及官网与 Code',
+    summary: 'Anthropic 确认 claude.ai 与 Claude Code 认证出错，含控制台，正排查中。',
+    source: 'Anthropic Status',
+    url: 'https://status.claude.com/incidents/nn11wk485zfn',
+  },
+  {
+    date: '2026-11-13',
     time: '08:41',
     category: 'AI',
     title: '腾讯混元发布实时语音模型 Hy Realtime',
