@@ -29,6 +29,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-13',
+    time: '05:43',
+    category: '后端',
+    title: 'N-central 漏洞确认感染 21 台已修复服务器',
+    summary: '4EverAble2Shell 从试探转为实战挖矿，21 台中招、19 台已装热修复，N-able 加强限制。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html',
+  },
+  {
+    date: '2026-11-13',
     time: '02:48',
     category: '后端',
     title: 'FBI 披露朝鲜假视频会议骗局窃 4 亿美元',
