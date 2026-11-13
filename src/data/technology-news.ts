@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '11:10',
+    category: '后端',
+    title: 'SilentAir 劫持亚洲电信网络窃取短信 2FA',
+    summary: 'Enea 命名国家级间谍组织 SilentAir，入侵至少 6 个亚洲国家运营商设备，拦截通话与短信 2FA。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html',
+  },
+  {
+    date: '2026-11-13',
+    time: '10:55',
+    category: '后端',
+    title: 'Operation Endgame 打掉三大恶意软件家族',
+    summary: '国际警方行动打掉 Gootloader、CastleRAT 与 StealC 服务器，查获 640 万条被盗登录凭据。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html',
+  },
+  {
+    date: '2026-11-13',
     time: '10:47',
     category: '后端',
     title: 'openEuler 发布智能体基础设施操作系统',
@@ -71,6 +89,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '获取初始访问后利用新披露 Gaia 提权漏洞 CVE-2026-123039，部署 TSGA 后门并擦除 ESXi。',
     source: 'The Hacker News',
     url: 'https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html',
+  },
+  {
+    date: '2026-11-13',
+    time: '08:01',
+    category: 'AI',
+    title: '语飞国际中文教育垂直大模型发布',
+    summary: '2026 世界中文大会发布，面向学习者、教师与机构提供辅导、备课与标准化接口服务。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/026/801.htm',
   },
   {
     date: '2026-11-13',
@@ -526,6 +553,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Grid、Scheduler、Gantt 等五组件上公开 npm，MIT 许可，无密钥无限时，可商用。',
     source: 'Bryntum',
     url: 'https://bryntum.com/blog/whats-new-in-v8/',
+  },
+  {
+    date: '2026-11-12',
+    category: 'AI',
+    title: 'Anthropic 自托管 Managed Agents',
+    summary: '私有测试版可在自有云或本地运行智能体控制平面，托管凭据与会话历史，自选请求去向。',
+    source: 'Anthropic',
+    url: 'https://claude.com/resources/articles/self-hosted-claude-managed-agents',
+  },
+  {
+    date: '2026-11-12',
+    category: '后端',
+    title: 'GraphQL over HTTP 规范首版发布',
+    summary: '新增 graphql-response+json 媒体类型，返回数据用 2xx，仅报错用 4xx/5xx。',
+    source: 'GraphQL',
+    url: 'https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/',
   },
   {
     date: '2026-11-11',
