@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-13',
+    time: '14:29',
+    category: 'AI',
+    title: 'DeepSeek 开放全家桶应用 API',
+    summary: 'V4.1-Flash 支持联网搜索、文件输入、读链接与 OCR/ASR/TTS 独立接口，可复刻官方 App。',
+    source: 'DeepSeek',
+    url: 'https://api-docs.deepseek.com/news/news261113',
+  },
+  {
+    date: '2026-11-13',
+    time: '14:05',
+    category: 'AI',
+    title: 'llama.cpp 公布 v1.0.0 版本化策略',
+    summary: 'libllama 与 ggml 同发 1.0.0，此后破坏 C API 兼容将升主版本号。',
+    source: 'Hugging Face',
+    url: 'https://huggingface.co/blog/ggml-org/llama-cpp-v1',
+  },
+  {
+    date: '2026-11-13',
     time: '12:00',
     category: 'AI',
     title: '谷歌开放 WeatherNext 3 双气象数据集',
@@ -143,6 +161,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '假 Zoom/Teams/Meet 会议诱导点击修复音频植入木马，18 个月 900 余人受害，多涉加密行业。',
     source: 'BBC',
     url: 'https://www.bbc.com/news/articles/cqdj1ellpd70o',
+  },
+  {
+    date: '2026-11-13',
+    time: '01:41',
+    category: '后端',
+    title: 'Codex 修复近 20 年 Radeon 驱动老缺陷',
+    summary: '开源贡献者借 Codex 定位 R600 UVD 视频解码损坏，补丁将随 Linux 7.5 合入。',
+    source: 'Phoronix',
+    url: 'https://www.phoronix.com/news/Codex-R600-UVD-FIx-Linux-7.5',
   },
   {
     date: '2026-11-13',
@@ -1119,6 +1146,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '新增 Web SpeechRecognition 端内语音识别，macOS WebGL 改用 Metal 渲染。',
     source: 'Mozilla',
     url: 'https://www.firefox.com/en-US/firefox/160.0/releasenotes/',
+  },
+  {
+    date: '2026-11-10',
+    category: '前端',
+    title: 'PyTorch 模型可跑浏览器 GPU 推理',
+    summary: 'ExecuTorch 新增 WebGPU 后端，模型免转 GGUF/ONNX 即可在浏览器 GPU 本地推理。',
+    source: 'PyTorch',
+    url: 'https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/',
   },
   {
     date: '2026-11-09',
