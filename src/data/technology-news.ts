@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-14',
+    time: '07:54',
+    category: '后端',
+    title: '大阪市行政系统泄露 108 万条邮箱',
+    summary: '市政邮件服务商 arara 遭非法访问，7–10 月收件邮箱外泄，未确认姓名与个人编号泄露。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/162.htm',
+  },
+  {
+    date: '2026-11-14',
     time: '00:13',
     category: '后端',
     title: 'Workday 大范围故障：备份系统测试所致',
