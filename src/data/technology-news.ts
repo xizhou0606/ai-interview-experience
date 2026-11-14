@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-14',
+    time: '00:13',
+    category: '后端',
+    title: 'Workday 大范围故障：备份系统测试所致',
+    summary: '服务超 1.15 万组织的 HR 软件大范围故障，官方承认备份系统测试致数据不一致，已转维护模式逐步恢复。',
+    source: 'SF Chronicle',
+    url: 'https://www.sfchronicle.com/tech/article/workday-outage-employees-accounts-22529939.php',
+  },
+  {
     date: '2026-11-13',
     time: '21:05',
     category: '后端',
@@ -765,8 +774,17 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-11',
-    time: '23:02',
+    time: '23:11',
     category: '后端',
+    title: '微软确认 10 月更新致 SQL 连接泄漏',
+    summary: '连 Oracle、PostgreSQL 等外部库的连接不释放而累积拖慢服务器，11 月更新未修，带外修复数日内发布。',
+    source: 'Microsoft',
+    url: 'https://learn.microsoft.com/en-us/windows/release-health/status-windows-11-24h2',
+  },
+  {
+    date: '2026-11-11',
+    time: '23:02',
+    category: 'AI',
     title: 'Stela 让 x86 PC 启动 macOS',
     summary: 'UEFI 内置 arm64e 翻译器与 NVIDIA Metal 驱动，模拟 M2 运行 macOS，v0.1 仍慢。',
     source: 'GitHub',
