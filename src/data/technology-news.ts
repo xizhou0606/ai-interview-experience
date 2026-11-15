@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-14',
+    time: '23:12',
+    category: '后端',
+    title: '香港迪士尼票务系统遭入侵暂停售票',
+    summary: '侦测到系统异常活动，约 1.7 万个门票二维码疑被盗，官网售票与酒店预订暂停并报警。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/251.htm',
+  },
+  {
+    date: '2026-11-14',
     time: '17:43',
     category: 'AI',
     title: 'Lovable 平台大量应用泄露敏感数据',
@@ -2576,40 +2585,6 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '两版本分别于 10 月 22 日与 11 月 1 日 EOL，官方建议升级至 4.1 或 3.5 LTS。',
     source: 'OpenSSL',
     url: 'https://openssl-library.org/post/2026-11-01-eol34-36/',
-  },
-  {
-    date: '2026-10-31',
-    time: '13:43',
-    category: 'AI',
-    title: 'DeepMind 开源 gBench 评测套件',
-    summary: '面向开放模型的评测套件：86 套学术评测、冒烟测试与智能体质量三档。',
-    source: 'GitHub',
-    url: 'https://github.com/google-deepmind/gbench',
-  },
-  {
-    date: '2026-10-31',
-    time: '13:36',
-    category: 'AI',
-    title: 'DeepSeek 开源 dsh-superagent',
-    summary: 'DeepSeek 主动式编码智能体原型，监听 GitHub 自主领取任务开发并回 PR，多数代码由智能体编写。',
-    source: 'GitHub',
-    url: 'https://github.com/deepseek-ai/dsh-superagent-prototype',
-  },
-  {
-    date: '2026-10-31',
-    category: 'AI',
-    title: 'Apple 智能国行落地：接入阿里千问',
-    summary: '苹果官宣首批 Apple 智能功能落地中国，部分体验接入阿里千问，11 月 4 日开测。',
-    source: 'Apple',
-    url: 'https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/',
-  },
-  {
-    date: '2026-10-31',
-    category: '后端',
-    title: 'Jepsen:ParticleDB 曝 96 项缺陷',
-    summary: '多模型 AI 数据库号称全 ACID，实测 96 项问题：丢写、幻影表、字符串变整数，新版声称已修复。',
-    source: 'Jepsen',
-    url: 'https://jepsen.io/analyses/particledb-1.1.4',
   },
 ]
 
