@@ -173,6 +173,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-13',
+    time: '20:26',
+    category: 'AI',
+    title: 'AWS 蜜罐捕获 ARTEX 代理实战攻击活动',
+    summary: 'MadPot 蜜罐捕获 ARTEX 代理攻击记录：自续式窃取 AI 凭据，赃钥支付推理费用，另有深度伪造绕过 KYC。',
+    source: 'AWS Security Blog',
+    url: 'https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/',
+  },
+  {
+    date: '2026-11-13',
     time: '20:20',
     category: 'AI',
     title: 'Cloudflare 开源 Kitesurf 浏览器',
