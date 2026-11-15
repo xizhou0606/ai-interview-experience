@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-15',
+    time: '01:07',
+    category: 'AI',
+    title: '百度词元所发布首日新增客户超千家',
+    summary: '百度世界 2026 发布的大模型交易所：供应商申请超百家、客户新增超千家，试运行日均调用破 5000 万次。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/266.htm',
+  },
+  {
     date: '2026-11-14',
     time: '23:12',
     category: '后端',
