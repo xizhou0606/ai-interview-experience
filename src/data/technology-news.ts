@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '08:22',
+    category: 'AI',
+    title: 'Cursor 数据泄露因 Fireworks 密钥被盗',
+    summary: '木马化 Claude Code 扩展事件溯源：攻击者用盗取的 Fireworks 密钥窃取代码与客服数据。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html',
+  },
+  {
+    date: '2026-11-15',
     time: '07:52',
     category: '后端',
     title: '日本京成 Skyliner 订票系统遭黑客攻击',
