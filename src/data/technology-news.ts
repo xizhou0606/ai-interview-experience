@@ -467,6 +467,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-12',
+    time: '22:12',
+    category: 'AI',
+    title: 'Claude Code 新增 Code Mode',
+    summary: 'v2.1.323 引入实验性 opt-in：Claude 写 JS 调用工具，可按组织开启或关闭。',
+    source: 'Anthropic',
+    url: 'https://code.claude.com/docs/en/code-mode',
+  },
+  {
+    date: '2026-11-12',
     time: '21:56',
     category: 'AI',
     title: '研究：中国前沿模型带 Blackwell 训练指纹',
