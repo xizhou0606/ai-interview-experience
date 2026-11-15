@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '16:15',
+    category: '后端',
+    title: '荷兰至少 12 家网站遭恶意广告代码攻击',
+    summary: '广告商 PXR NextDay 管理系统被入侵，广告标签遭注入，静默收集访客数据并尝试利用旧款 iPhone 漏洞。',
+    source: 'NL Times',
+    url: 'https://nltimes.nl/2026/11/15/least-12-dutch-websites-warn-malicious-ad-code-tried-hack-old-iphones',
+  },
+  {
+    date: '2026-11-15',
     time: '13:16',
     category: 'AI',
     title: '开源盘古 openPangu-2.1-Pro 上线华为云',
