@@ -82,6 +82,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.ithome.com/1/027/266.htm',
   },
   {
+    date: '2026-11-15',
+    category: 'AI',
+    title: '调查：AI 模型偏爱 PHP 冷落 Python',
+    summary: 'JetBrains 问 12 个 AI 模型 1200 次：多数嫌弃 Python，反而盛赞 PHP。',
+    source: 'JetBrains',
+    url: 'https://blog.jetbrains.com/ai/2026/11/ai-models-hate-python-and-love-php-we-asked-12-of-them-1-200-times/',
+  },
+  {
     date: '2026-11-14',
     time: '23:12',
     category: '后端',
@@ -224,6 +232,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '研究员并入各通用模型团队，改由通用模型直接驱动机器人，官方称是为加速而非放弃。',
     source: 'Fortune',
     url: 'https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/',
+  },
+  {
+    date: '2026-11-13',
+    time: '16:41',
+    category: '后端',
+    title: '意大利学校炸弹威胁邮箱现身窃密日志',
+    summary: 'Hudson Rock：意学校炸弹威胁两发件邮箱早在 2021 年就被 Vidar 木马窃取，暴露逾一年。',
+    source: 'The Register',
+    url: 'https://www.theregister.com/cyber-crime/2026/11/13/email-addresses-used-in-european-school-bomb-hoaxes-spotted-in-old-infostealer-logs/5309765',
   },
   {
     date: '2026-11-13',
