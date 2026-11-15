@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-14',
+    time: '17:43',
+    category: 'AI',
+    title: 'Lovable 平台大量应用泄露敏感数据',
+    summary: '扫描 15.9 万个 Lovable 项目：2.4 万站点加载即暴露数据库记录，含护照号与 20 万条聊天。',
+    source: 'Crissy Field',
+    url: 'https://www.crissyfield.de/research/lovable-en/',
+  },
+  {
+    date: '2026-11-14',
     time: '13:46',
     category: 'AI',
     title: 'Meta Muse 上线代打电话功能',
@@ -825,6 +834,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'WebGPU 优先、回退 WebGL2：3D 与 2D 共享舞台，阴影粒子后处理内置，现开放测试。',
     source: 'PixiJS',
     url: 'https://pixijs.com/blog/pixi-3d-open-beta',
+  },
+  {
+    date: '2026-11-12',
+    category: '前端',
+    title: 'Brave 浏览器自动剥离 Meta 图片追踪标识',
+    summary: '桌面版 1.98 起自动移除 Instagram/Facebook 照片中的隐藏 FBMD 标识，阻止跨账号关联追踪。',
+    source: 'Brave',
+    url: 'https://brave.com/privacy-updates/40-remove-tracking-metadata/',
   },
   {
     date: '2026-11-11',
