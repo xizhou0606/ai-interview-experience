@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '16:33',
+    category: '后端',
+    title: 'Linux 内核曝 NoisyTCP 预认证远程崩溃',
+    summary: '潜伏 11 年的 TCP 查找竞态可预认证远程打崩内核，默认配置 Nginx/Apache/SSH 均受影响。',
+    source: 'GitHub',
+    url: 'https://github.com/V4bel/NoisyTCP',
+  },
+  {
+    date: '2026-11-15',
     time: '16:15',
     category: '后端',
     title: '荷兰至少 12 家网站遭恶意广告代码攻击',
@@ -498,6 +507,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'ATProto 权限数据 Spaces 从 alpha 转入公测，12 月 1 日启动，兼容 PDS 开始铺开。',
     source: 'AT Protocol',
     url: 'https://atproto.com/blog/getting-ready-for-the-spaces-public-beta',
+  },
+  {
+    date: '2026-11-13',
+    category: '前端',
+    title: 'Meta 把安卓 Cuttlefish 移植到 Mac',
+    summary: 'QEMU 与 Hypervisor.framework 把 AOSP 虚拟设备框架跑上 Mac，补丁已开源。',
+    source: 'Meta',
+    url: 'https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/',
   },
   {
     date: '2026-11-12',
