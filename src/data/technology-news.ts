@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '10:53',
+    category: 'AI',
+    title: '安纳智芯发布 AX100 模拟计算芯片',
+    summary: '世界首颗一步求解矩阵方程的模拟芯片，单次求解小于 100 纳秒、功耗约 80 毫瓦，不依赖先进制程。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/430.htm',
+  },
+  {
+    date: '2026-11-15',
     time: '08:22',
     category: 'AI',
     title: 'Cursor 数据泄露因 Fireworks 密钥被盗',
