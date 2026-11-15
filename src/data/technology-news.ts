@@ -101,6 +101,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     },
     {
       date: '2026-11-14',
+      time: '17:01',
+      category: '后端',
+      title: '微软故障致德国乐园氯气事故 15 客人受伤',
+      summary: '自动加氯系统故障致氯气超标，Outlook 报警邮件因微软故障未送达，15 名客人呼吸道受伤，4 人送医。',
+      source: 'WDR',
+      url: 'https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html',
+    },
+    {
+      date: '2026-11-14',
       time: '14:00',
       category: '后端',
       title: '欧盟数字身份钱包被指可跨服务追踪用户',
@@ -958,6 +967,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '桌面版 1.98 起自动移除 Instagram/Facebook 照片中的隐藏 FBMD 标识，阻止跨账号关联追踪。',
     source: 'Brave',
     url: 'https://brave.com/privacy-updates/40-remove-tracking-metadata/',
+  },
+  {
+    date: '2026-11-12',
+    category: 'AI',
+    title: '谷歌演示 Gemini 加 Z3 捕捉 Go 越界缺陷',
+    summary: '谷歌博客演示：将 Go 源码与反汇编喂给 Gemini 配 Z3 求解器，每函数约 1 分钟求出越界崩溃输入。',
+    source: 'Google Developers Blog',
+    url: 'https://developers.googleblog.com/en/catch-go-bugs-that-fuzzing-misses-with-gemini-and-a-constraint-solver/',
   },
   {
     date: '2026-11-11',
