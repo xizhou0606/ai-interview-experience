@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '07:52',
+    category: '后端',
+    title: '日本京成 Skyliner 订票系统遭黑客攻击',
+    summary: '成田至东京上野特急订票系统遭非法访问，最多约 337 万条用户信息疑泄露，线上购票全面暂停。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/356.htm',
+  },
+  {
+    date: '2026-11-15',
+    time: '07:11',
+    category: 'AI',
+    title: '谋先飞发布 MotrixSim 1.0 物理仿真引擎',
+    summary: 'Rust 核心机器人仿真引擎 1.0 发布，兼容 MJCF，G1 人形机器人端到端训练仅需 10.2 分钟。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/340.htm',
+  },
+  {
+    date: '2026-11-15',
     time: '01:07',
     category: 'AI',
     title: '百度词元所发布首日新增客户超千家',
