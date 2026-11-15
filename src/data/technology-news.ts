@@ -119,6 +119,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-13',
+    time: '17:57',
+    category: 'AI',
+    title: 'FBI 发布 ARTEX 自主渗透框架警告',
+    summary: 'FBI FLASH 通报：LLM 驱动的开源渗透框架 ARTEX 遭武器化，3 小时内可达特权访问，附 IOC。',
+    source: 'FBI',
+    url: 'https://www.ic3.gov/CSA/2026/261113.pdf',
+  },
+  {
+    date: '2026-11-13',
     time: '17:05',
     category: 'AI',
     title: 'OpenAI 撤销独立机器人团队',
