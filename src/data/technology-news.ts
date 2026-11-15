@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '13:16',
+    category: 'AI',
+    title: '开源盘古 openPangu-2.1-Pro 上线华为云',
+    summary: '华为云 MaaS 正式上线开源盘古 openPangu-2.1-Pro，Agent、AI 编码与推理链路三方向升级。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/450.htm',
+  },
+  {
+    date: '2026-11-15',
     time: '10:53',
     category: 'AI',
     title: '安纳智芯发布 AX100 模拟计算芯片',
@@ -437,6 +446,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '迄今最大规模原生 4-bit 前向训练：NVFP4 前向 + MXFP8 反向，预训练提速 8%、RL 提速 20%。',
     source: 'Thinking Machines',
     url: 'https://thinkingmachines.ai/blog/end-to-end-4-bit-training/',
+  },
+  {
+    date: '2026-11-13',
+    category: '后端',
+    title: 'ATProto Spaces 将开启公测',
+    summary: 'ATProto 权限数据 Spaces 从 alpha 转入公测，12 月 1 日启动，兼容 PDS 开始铺开。',
+    source: 'AT Protocol',
+    url: 'https://atproto.com/blog/getting-ready-for-the-spaces-public-beta',
   },
   {
     date: '2026-11-12',
