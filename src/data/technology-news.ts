@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-16',
+    time: '00:44',
+    category: 'AI',
+    title: '腾讯 WorkBuddy 接入 Gemini 模型',
+    summary: '国际版面向 Pro 用户上线 Gemini 4 Carbon，输入输出合计上下文最高 100 万 Token。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/487.htm',
+  },
+  {
     date: '2026-11-15',
     time: '23:23',
     category: 'AI',
