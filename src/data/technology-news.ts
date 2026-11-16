@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '14:15',
+    category: 'AI',
+    title: 'AMD 完成收购 World Labs',
+    summary: '李飞飞出任 AMD 执行副总裁兼首席科学家，World Labs 专注交互式 3D 环境与机器人学习模型。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/969.htm',
+  },
+  {
+    date: '2026-11-16',
     time: '12:34',
     category: '后端',
     title: 'Danfoss 制冷控制器六漏洞无补丁',
@@ -178,6 +187,22 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '假招聘笔试让官方市场扩展执行隐藏脚本，C2 地址取自以太坊交易，RAT 与 DEV#POPPER 样本一致。',
     source: 'Pavel Savinov',
     url: 'https://getjump.me/posts/03-huntrole-fake-take-home/',
+  },
+  {
+    date: '2026-11-16',
+    category: '后端',
+    title: 'Rust nightly 默认启用并行前端',
+    summary: '编译器前端在 nightly 默认并行执行，借广泛使用收集问题，为并行前端稳定化做准备。',
+    source: 'Rust Blog',
+    url: 'https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/',
+  },
+  {
+    date: '2026-11-16',
+    category: '后端',
+    title: '谷歌：AI 智能体全自动补丁转漏洞利用',
+    summary: 'GTIG 称俄语团伙多智能体框架对比补丁自动生成并执行利用窃取数据，属首次发现。',
+    source: 'Google Cloud',
+    url: 'https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold',
   },
   {
     date: '2026-11-16',
@@ -374,6 +399,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'JetBrains 问 12 个 AI 模型 1200 次：多数嫌弃 Python，反而盛赞 PHP。',
     source: 'JetBrains',
     url: 'https://blog.jetbrains.com/ai/2026/11/ai-models-hate-python-and-love-php-we-asked-12-of-them-1-200-times/',
+  },
+  {
+    date: '2026-11-15',
+    category: '后端',
+    title: '神秘域名冲进 Majestic 百万榜第 8',
+    summary: '域名注册前已被 2.4 亿反链抬进 Majestic 第 8 与 Tranco 第 38，至今不解析，疑刷榜污染排名。',
+    source: 'jack.cab',
+    url: 'https://jack.cab/blog/siterate',
   },
   {
     date: '2026-11-14',
