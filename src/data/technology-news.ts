@@ -786,6 +786,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-12',
+    time: '16:35',
+    category: '前端',
+    title: 'Uno Platform 7.0 发布',
+    summary: '统一 SkiaSharp 4 渲染，新增 WebGPU 后端、Apple TV，移除原生渲染，支持 .NET 11。',
+    source: 'Uno Platform',
+    url: 'https://platform.uno/blog/uno-platform-7-0/',
+  },
+  {
+    date: '2026-11-12',
     category: 'AI',
     title: 'Reddit 流量下滑 13%，AI 搜索分流在列',
     summary: 'Similarweb：Reddit 11 月流量同比降 13%，AI Overviews 分流搜索是主因之一。',
@@ -1844,6 +1853,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '未授权者访问 14 个网站在线表单（2007-2026），含证件、健康与财务信息，10 月 25 日发现。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/',
+  },
+  {
+    date: '2026-11-09',
+    time: '19:41',
+    category: '后端',
+    title: 'OpenSSH *sshole 漏洞遭在野利用',
+    summary: 'Greynoise 蜜罐确认 GT10 团伙在野利用 musl 密码绕过植入 TAC Agent 后门。',
+    source: 'Ars Technica',
+    url: 'https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/',
   },
   {
     date: '2026-11-09',
