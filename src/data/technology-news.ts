@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '09:32',
+    category: '后端',
+    title: 'SANSAR Linux 挖矿木马伪造 GPU 读数',
+    summary: '经暴露 Ray 作业入侵获 root，rootkit 隐藏进程，谎报 GPU 利用率为 0%，经 TOR 收令。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html',
+  },
+  {
+    date: '2026-11-16',
     time: '07:45',
     category: '后端',
     title: 'IT 求职平台 Paiza 测试环境漏洞涉 90 万用户',
