@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '06:46',
+    category: 'AI',
+    title: '华为云开源昇腾原生具身世界模型',
+    summary: '发布会开源 CloudRobo-WM1.2 与训练框架，DualAct 架构，RoboTwin 2.0 双基准第一。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/684.htm',
+  },
+  {
+    date: '2026-11-16',
     time: '05:09',
     category: 'AI',
     title: '腾讯混元发布 Hy4 flash 模型',
