@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '05:09',
+    category: 'AI',
+    title: '腾讯混元发布 Hy4 flash 模型',
+    summary: '224B 总参 12B 激活，单任务成本约为 Hy4 的 5%，支持 100 万上下文并计划开源。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/630.htm',
+  },
+  {
+    date: '2026-11-16',
+    time: '04:27',
+    category: 'AI',
+    title: '豆包工作上线「工作台」功能',
+    summary: '首批覆盖金融、医疗、教育等 21 个专业场景，预置技能工具，支持自建与分享。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/608.htm',
+  },
+  {
+    date: '2026-11-15',
+    time: '21:33',
+    category: '后端',
+    title: 'Debian 6.1.0-55 内核更新致系统死机',
+    summary: '升级后数分钟内死机并报 Oops，两人独立复现，回滚 6.1.0-54 可恢复，级别 critical。',
+    source: 'Debian',
+    url: 'https://bugs.debian.org/1154101',
+  },
+  {
+    date: '2026-11-16',
     time: '03:44',
     category: 'AI',
     title: 'DeepSeek 对长对话实施使用限额',
