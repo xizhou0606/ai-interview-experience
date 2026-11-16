@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '01:52',
+    category: 'AI',
+    title: '阿莫迪称算力是 Anthropic 最深难题',
+    summary: '与戴蒙对谈称算力为最深层商业难题，IPO 增加现金储备以缓冲算力需求。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/505.htm',
+  },
+  {
+    date: '2026-11-16',
+    time: '01:01',
+    category: 'AI',
+    title: 'Claude Fable 5.2 写代码逐笔作画',
+    summary: '写 Python 代码模拟画笔与画布逐笔作画，无需图像模型，单幅约 70 万次笔触。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/490.htm',
+  },
+  {
+    date: '2026-11-16',
     time: '00:44',
     category: 'AI',
     title: '腾讯 WorkBuddy 接入 Gemini 模型',
@@ -252,6 +270,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://lemire.me/blog/2026/11/14/reading-json-at-277-gb-s-in-python/',
   },
   {
+    date: '2026-11-15',
+    category: 'AI',
+    title: '苹果启动健康 AI 使用研究',
+    summary: '联合 OpenEvidence 推出虚拟研究与配套 App，评估用户对健康 AI 的信任与理解。',
+    source: 'Apple',
+    url: 'https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/',
+  },
+  {
     date: '2026-11-14',
     time: '14:00',
     category: '后端',
@@ -304,6 +330,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: '服务超 1.15 万组织的 HR 软件大范围故障，官方承认备份系统测试致数据不一致，已转维护模式逐步恢复。',
     source: 'SF Chronicle',
     url: 'https://www.sfchronicle.com/tech/article/workday-outage-employees-accounts-22529939.php',
+  },
+  {
+    date: '2026-11-14',
+    category: 'AI',
+    title: 'HN 招聘帖降至 2013 年来最低',
+    summary: '11 月招聘帖同比降 37%，过半帖子提及 AI；2026 年均值为 2013 年以来最低。',
+    source: 'HN Trends',
+    url: 'https://www.hntrends.com/2026/november.html',
   },
   {
     date: '2026-11-13',
