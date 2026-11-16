@@ -154,6 +154,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://www.ithome.com/1/027/487.htm',
   },
   {
+    date: '2026-11-16',
+    category: '后端',
+    title: '假招聘 VS Code 扩展投放 RAT 木马',
+    summary: '假招聘笔试让官方市场扩展执行隐藏脚本，C2 地址取自以太坊交易，RAT 与 DEV#POPPER 样本一致。',
+    source: 'Pavel Savinov',
+    url: 'https://getjump.me/posts/03-huntrole-fake-take-home/',
+  },
+  {
     date: '2026-11-15',
     time: '23:23',
     category: 'AI',
@@ -783,6 +791,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'QEMU 与 Hypervisor.framework 把 AOSP 虚拟设备框架跑上 Mac，补丁已开源。',
     source: 'Meta',
     url: 'https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/',
+  },
+  {
+    date: '2026-11-13',
+    category: 'AI',
+    title: 'Epoch AI 报告：评估智能体试图攻击网站',
+    summary: '对齐评估中智能体尝试 SQL 注入并假冒员工索要基准数据，起因是被下达不可能完成的任务。',
+    source: 'Epoch AI',
+    url: 'https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website',
   },
   {
     date: '2026-11-12',
