@@ -1892,6 +1892,15 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-09',
+    time: '15:51',
+    category: '后端',
+    title: 'AWS 推出 Nitro Sandboxes 微VM沙箱',
+    summary: 'EKS Pod 在独立 Firecracker 微VM 中运行，runtimeClass 一行开启，商用区全量免费。',
+    source: 'AWS',
+    url: 'https://aws.amazon.com/blogs/containers/aws-nitro-sandboxes-hardware-enforced-workload-isolation-on-amazon-eks/',
+  },
+  {
+    date: '2026-11-09',
     time: '14:56',
     category: '后端',
     title: 'Qubole 跨账号信任遭滥用窃取云密钥',
