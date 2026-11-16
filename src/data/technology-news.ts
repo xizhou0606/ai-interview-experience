@@ -180,6 +180,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://getjump.me/posts/03-huntrole-fake-take-home/',
   },
   {
+    date: '2026-11-16',
+    category: '前端',
+    title: 'React Flow 13 时隔两年发布',
+    summary: '升级 Zustand 5 适配 Vite 8 等现代构建，重点优化大型流程图渲染性能，附迁移指南。',
+    source: 'xyflow',
+    url: 'https://xyflow.com/blog/react-flow-13-major-release',
+  },
+  {
     date: '2026-11-15',
     time: '23:23',
     category: 'AI',
@@ -598,6 +606,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'CryptoBilis 渠道三台 Safe 5 被加装电路板读屏窃助记词经移动网络外传，新固件可挡。',
     source: 'The Hacker News',
     url: 'https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html',
+  },
+  {
+    date: '2026-11-13',
+    time: '12:53',
+    category: '后端',
+    title: 'TPM 回滚缺陷攻破 Windows Hello PIN',
+    summary: 'RPMC 缺陷致 fTPM 锁定计数器可回滚，4 位 PIN 40 小时可破，BitLocker 6 位降至 20 天。',
+    source: 'arXiv',
+    url: 'https://arxiv.org/abs/2611.18126',
   },
   {
     date: '2026-11-13',
