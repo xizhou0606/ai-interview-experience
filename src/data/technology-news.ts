@@ -237,6 +237,14 @@ export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
     category: '后端',
+    title: 'Turso Sync：本地优先 SQLite 同步',
+    summary: '以逻辑变更取代 WAL 页复制，写入留在本地按需推送拉取，基于 Rust 重写的 Turso Database。',
+    source: 'Turso',
+    url: 'https://turso.tech/blog/turso-sync-local-first-sqlite-with-push-and-pull',
+  },
+  {
+    date: '2026-11-16',
+    category: '后端',
     title: '假招聘 VS Code 扩展投放 RAT 木马',
     summary: '假招聘笔试让官方市场扩展执行隐藏脚本，C2 地址取自以太坊交易，RAT 与 DEV#POPPER 样本一致。',
     source: 'Pavel Savinov',
