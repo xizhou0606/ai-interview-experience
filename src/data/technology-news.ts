@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '12:34',
+    category: '后端',
+    title: 'Danfoss 制冷控制器六漏洞无补丁',
+    summary: 'AK-SM800A 六个漏洞可免登录远程接管，最新固件 5.4.0 仍未修复，欧洲多国机构警告。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html',
+  },
+  {
+    date: '2026-11-16',
+    time: '12:33',
+    category: '后端',
+    title: 'Retadup 蠕虫重现传播 CoffeeLoader',
+    summary: '停摆 7 年的 Retadup 蠕虫重现，借 7-Zip DLL 侧载与新 Armoury 加壳器投递后门载荷。',
+    source: 'The Hacker News',
+    url: 'https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html',
+  },
+  {
+    date: '2026-11-16',
     time: '09:32',
     category: '后端',
     title: 'SANSAR Linux 挖矿木马伪造 GPU 读数',
@@ -1853,6 +1871,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     url: 'https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/',
   },
   {
+    date: '2026-11-10',
+    category: 'AI',
+    title: 'Linux 基金会接纳智能体身份标准 ANS',
+    summary: '开放标准借 DNS 与现有证书验证智能体身份，含命名注册、日志审计与互认证，11 家组织支持。',
+    source: 'The Linux Foundation',
+    url: 'https://www.linuxfoundation.org/press/linux-foundation-welcomes-agent-name-service-to-bring-verifiable-identity-and-discovery-to-ai-agents',
+  },
+  {
     date: '2026-11-09',
     time: '22:09',
     category: '后端',
@@ -2270,6 +2296,15 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'Dr.Web：伪装扫描与日志分析工具的仓库藏后门与窃密木马，超 2000 台 Windows 中招。',
     source: 'BleepingComputer',
     url: 'https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/',
+  },
+  {
+    date: '2026-11-06',
+    time: '18:43',
+    category: 'AI',
+    title: '测试显示 DeepSeek 等开源模型攻击逼近闭源',
+    summary: 'Vals 网络入侵模拟测试：OpenAI Daybreak 完成 81%，DeepSeek 达 73%，成本低一个量级。',
+    source: 'WIRED',
+    url: 'https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/',
   },
   {
     date: '2026-11-06',
