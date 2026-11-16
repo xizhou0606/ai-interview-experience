@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '02:07',
+    category: 'AI',
+    title: 'Qwen4-Max 正式上线：2.4 万亿参数',
+    summary: '通义旗舰模型正式上线，任务成本降低超 60%，后续将开源小尺寸模型。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/512.htm',
+  },
+  {
+    date: '2026-11-15',
+    time: '18:30',
+    category: '前端',
+    title: 'uBlock Origin 曝通用 XSS 漏洞',
+    summary: '恶意网页借元素选择器注入受信任过滤规则，可在任意站点执行脚本，现已修复。',
+    source: 'iter.ca',
+    url: 'https://iter.ca/post/ubo-uxss/',
+  },
+  {
+    date: '2026-11-16',
     time: '01:52',
     category: 'AI',
     title: '阿莫迪称算力是 Anthropic 最深难题',
