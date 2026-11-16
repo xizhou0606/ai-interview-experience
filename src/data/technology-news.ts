@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-16',
+    time: '03:44',
+    category: 'AI',
+    title: 'DeepSeek 对长对话实施使用限额',
+    summary: '算力承压下多名用户反馈长对话与日额度受限，单次输入缩至约 4 万字，官方暂无公告。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/597.htm',
+  },
+  {
+    date: '2026-11-16',
     time: '02:07',
     category: 'AI',
     title: 'Qwen4-Max 正式上线：2.4 万亿参数',
