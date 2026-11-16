@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-15',
+    time: '23:23',
+    category: 'AI',
+    title: '纽约立法禁止算法“大数据杀熟”',
+    summary: '纽约市通过 Intro 891-A，禁止用个人数据与算法对同一商品差异化定价，每次违规最高罚 1000 美元。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/027/469.htm',
+  },
+  {
+    date: '2026-11-15',
+    time: '15:00',
+    category: '前端',
+    title: 'Yelp AI 助手混用原生与服务端驱动 UI',
+    summary: '混合架构融合原生移动控件与服务端驱动对话渲染，跨平台界面得以快速迭代变更。',
+    source: 'InfoQ',
+    url: 'https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy',
+  },
+  {
+    date: '2026-11-15',
     time: '22:51',
     category: '后端',
     title: 'FAA 停飞余波：预计 16 日全面恢复',
@@ -614,6 +632,23 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'QEMU 与 Hypervisor.framework 把 AOSP 虚拟设备框架跑上 Mac，补丁已开源。',
     source: 'Meta',
     url: 'https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/',
+  },
+  {
+    date: '2026-11-12',
+    time: '19:05',
+    category: '后端',
+    title: 'Mongo 兼容的 DocumentDB 发布 1.2',
+    summary: '基于 Postgres 的开源文档库 1.2 上线：安装脚本直装 PG18，容器镜像不再允许空密码启动。',
+    source: 'GitHub',
+    url: 'https://github.com/documentdb/documentdb/releases/tag/v1.2-0',
+  },
+  {
+    date: '2026-11-12',
+    category: 'AI',
+    title: 'Reddit 流量下滑 13%，AI 搜索分流在列',
+    summary: 'Similarweb：Reddit 11 月流量同比降 13%，AI Overviews 分流搜索是主因之一。',
+    source: 'Business Insider',
+    url: 'https://www.businessinsider.com/reddit-traffic-down-13-percent-similarweb-google-ai-overviews-2026-11',
   },
   {
     date: '2026-11-12',
@@ -1979,6 +2014,14 @@ export const technologyNews: TechnologyNewsItem[] = [
     summary: 'ForgeRock 路径混淆拿下 SSO RCE，换取移动端令牌远程操控车辆，附完整披露时间线。',
     source: 'Sam Curry',
     url: 'https://samcurry.net/forgerock',
+  },
+  {
+    date: '2026-11-06',
+    category: 'AI',
+    title: 'Uber 公开智能体安全框架落地经验',
+    summary: '传统身份与 API 控制难以约束会动态推理的智能体，Uber 分享覆盖全生命周期的安全实践。',
+    source: 'Uber Engineering',
+    url: 'https://www.uber.com/us/en/blog/securing-ai-agents/',
   },
   {
     date: '2026-11-06',
