@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '06:12',
+    category: '后端',
+    title: 'Anthropic 收紧漏洞披露：缓冲期缩至 30 天',
+    summary: '自 2027 年起高危与关键漏洞披露期从 90 天缩至 30 天，其余级别 45 天，因 AI 加速漏洞发现。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/236.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '03:46',
     category: 'AI',
     title: 'App Store 中国区新增 AIGC 合规入口',
