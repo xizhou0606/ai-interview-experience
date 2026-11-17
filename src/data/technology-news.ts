@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '03:28',
+    category: 'AI',
+    title: '中国旗舰 AI 模型集体收紧攻击能力',
+    summary: '彭博社报道：Qwen4-Max、腾讯混元、Kimi K3.1 Pro 新模型均剔除网络攻击训练材料，仅保留防御。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/133.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '01:01',
     category: '后端',
     title: 'TOP500 11 月榜出炉：灵晟蝉联第一',
