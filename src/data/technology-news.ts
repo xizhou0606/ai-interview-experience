@@ -303,6 +303,14 @@ export const technologyNews: TechnologyNewsItem[] = [
   },
   {
     date: '2026-11-16',
+    category: '前端',
+    title: 'WebKit 发布 spatial CSS 开发者预览',
+    summary: 'visionOS 27.3 Safari 限量预览空间化 CSS：model 元素配 portal、环境贴图等语法。',
+    source: 'WebKit',
+    url: 'https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/',
+  },
+  {
+    date: '2026-11-16',
     category: 'AI',
     title: 'Aristotle 形式验证扩展至 Rust',
     summary: 'AI 数学验证系统新增 Rust 证明支持（无未定义行为），此前已支持 C 与 Verilog。',
