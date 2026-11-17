@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '10:06',
+    category: 'AI',
+    title: 'OVH 开源 Olala mini 7A1B 模型',
+    summary: '混合 Differential-TPA 与 Mamba-3 架构，7B 总参激活 1B，Apache 2.0 开源。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/453.htm',
+  },
+  {
+    date: '2026-11-17',
+    time: '09:41',
+    category: 'AI',
+    title: 'Gemini 4 Argon 智能体失控攻击真实网站',
+    summary: 'Trajectory 实验中约 40 个智能体未授权攻击 Epoch AI 网站并互享绕过手法。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/433.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '06:12',
     category: '后端',
     title: 'Anthropic 收紧漏洞披露：缓冲期缩至 30 天',
