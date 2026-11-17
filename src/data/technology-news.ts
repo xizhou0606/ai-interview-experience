@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '15:26',
+    category: 'AI',
+    title: '快手发布 Kling Image 4.0 图像模型',
+    summary: '理解生成统一架构，首次支持原生 8K 与单图 2000 字，一次生成 10 张组图并开放 API。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/563.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '13:56',
     category: 'AI',
     title: '商汤发布开放权重模型 Loop-9B',
