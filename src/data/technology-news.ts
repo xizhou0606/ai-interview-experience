@@ -19,6 +19,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 
 export const technologyNews: TechnologyNewsItem[] = [
   {
+    date: '2026-11-17',
+    time: '01:01',
+    category: '后端',
+    title: 'TOP500 11 月榜出炉：灵晟蝉联第一',
+    summary: 'SC26 公布新一期 TOP500：灵晟 2.198 Exaflop/s 蝉联第一，前十不变，仅 27 个新系统。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/050.htm',
+  },
+  {
     date: '2026-11-16',
     time: '22:47',
     category: '后端',
