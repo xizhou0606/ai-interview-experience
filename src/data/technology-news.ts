@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '13:56',
+    category: 'AI',
+    title: '商汤发布开放权重模型 Loop-9B',
+    summary: '9B 参数循环复用至 56 层计算、512K 上下文，4bit 权重 4.9GB，部署显存低于 10GB。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/534.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '11:26',
     category: 'AI',
     title: '米哈游公布通用 VLA 基础模型 Gamer',
