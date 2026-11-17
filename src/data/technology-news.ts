@@ -20,6 +20,33 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '22:55',
+    category: 'AI',
+    title: '微软发布 MAI Image 2.7 图像模型',
+    summary: '上线 Foundry 预览，登顶 AA 图像编辑榜，成本约为 GPT Image 2.6 的 1/5。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/582.htm',
+  },
+  {
+    date: '2026-11-17',
+    time: '22:42',
+    category: 'AI',
+    title: '微软发布 MAI Code 2 编程模型',
+    summary: 'Ignite 2026 发布并上线 Copilot，单任务成本约 $0.31，仅为 Opus 5.5 的 5%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/579.htm',
+  },
+  {
+    date: '2026-11-17',
+    time: '22:23',
+    category: 'AI',
+    title: 'OpenAI 发布 GPT-6.2 Astra/Sol',
+    summary: '旗舰 Astra 主攻专业工作与智能体，Sol 面向日常任务，输入输出价降 20%。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/577.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '15:26',
     category: 'AI',
     title: '快手发布 Kling Image 4.0 图像模型',
