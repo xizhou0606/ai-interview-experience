@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '03:46',
+    category: 'AI',
+    title: 'App Store 中国区新增 AIGC 合规入口',
+    summary: '开发者须提交 AIGC 备案与安全评估证明，现有应用 2027 年 1 月 31 日前补齐，新应用即时提交。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/158.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '03:28',
     category: 'AI',
     title: '中国旗舰 AI 模型集体收紧攻击能力',
