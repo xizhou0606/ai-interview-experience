@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-17',
+    time: '11:26',
+    category: 'AI',
+    title: '米哈游公布通用 VLA 基础模型 Gamer',
+    summary: '5Hz 画面输入生成 30Hz 键鼠指令模拟真人操作，H200 端到端延迟降至 65ms。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/028/503.htm',
+  },
+  {
+    date: '2026-11-17',
     time: '10:06',
     category: 'AI',
     title: 'OVH 开源 Olala mini 7A1B 模型',
