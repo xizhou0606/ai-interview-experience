@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-18',
+    time: '12:33',
+    category: 'AI',
+    title: 'DeepSeek API 调整：搜索抓取不计费',
+    summary: '自 18 日 12:00 起，模型调用触发的服务端搜索与网页抓取不再计费，仅按 Token 用量结算。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/058.htm',
+  },
+  {
+    date: '2026-11-18',
+    time: '10:54',
+    category: 'AI',
+    title: '微信小微 AI 助理日活破 3000 万',
+    summary: '测试范围扩大融入微信高频场景，基于 WeLM 定制模型，未来部分推理任务将在设备端运行。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/018.htm',
+  },
+  {
+    date: '2026-11-18',
     time: '09:01',
     category: 'AI',
     title: '理想自研马赫 M100 芯片已量产装车',
