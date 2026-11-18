@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-18',
+    time: '13:39',
+    category: 'AI',
+    title: 'AMD 推出 Instinct MI450X 加速器',
+    summary: 'MI400 系列新型号，核心规格同 MI455X，显存 432GB 降至 288GB HBM4，匹配负载下优化成本。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/084.htm',
+  },
+  {
+    date: '2026-11-18',
     time: '12:55',
     category: 'AI',
     title: '豆包工作上线三个月 DAU 破 800 万',
