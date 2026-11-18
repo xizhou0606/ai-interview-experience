@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-18',
+    time: '12:55',
+    category: 'AI',
+    title: '豆包工作上线三个月 DAU 破 800 万',
+    summary: '官方宣布上线三个月日活破 800 万，企业客户年度经常性收入（ARR）突破 20 亿元。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/064.htm',
+  },
+  {
+    date: '2026-11-18',
     time: '12:33',
     category: 'AI',
     title: 'DeepSeek API 调整：搜索抓取不计费',
