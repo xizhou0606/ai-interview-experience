@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-19',
+    time: '06:55',
+    category: 'AI',
+    title: '豆包实时音视频通话模型 API 上线',
+    summary: '火山引擎全量上线 SeedRealtime 1.0 API，端到端统一声画时序，实现边看边听边说实时交互。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/406.htm',
+  },
+  {
+    date: '2026-11-19',
+    time: '06:44',
+    category: 'AI',
+    title: '美亚利桑那州刑事调查 OpenAI 等 AI 企业',
+    summary: '因失控智能体入侵银行系统，亚利桑那州对 OpenAI 等展开刑事调查，多家银行已封禁第三方智能体。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/331.htm',
+  },
+  {
+    date: '2026-11-19',
     time: '06:21',
     category: '后端',
     title: 'SiliconForest 开源系统亮相',
