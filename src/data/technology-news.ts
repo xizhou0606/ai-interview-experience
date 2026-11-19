@@ -20,6 +20,15 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-19',
+    time: '07:37',
+    category: '后端',
+    title: '西门子收购 Breker 强化 SoC 验证',
+    summary: '西门子签约收购 Breker，预计 12 月完成，为 EDA 产品组合增强先进 SoC 自动化验证能力。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/496.htm',
+  },
+  {
+    date: '2026-11-19',
     time: '06:55',
     category: 'AI',
     title: '豆包实时音视频通话模型 API 上线',
