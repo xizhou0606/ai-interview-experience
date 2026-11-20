@@ -20,6 +20,24 @@ const MS_PER_DAY = 24 * 60 * 60 * 1000
 export const technologyNews: TechnologyNewsItem[] = [
   {
     date: '2026-11-20',
+    time: '04:22',
+    category: '后端',
+    title: '群晖 DSM 现 CVSS 9.8 严重漏洞',
+    summary: 'CVE-2026-120382 位于 OAuth API，无需登录即可远程读写 NAS 文件，修复版今日发布。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/861.htm',
+  },
+  {
+    date: '2026-11-20',
+    time: '03:47',
+    category: 'AI',
+    title: '腾讯混元 Hy4 旗舰模型正式开源',
+    summary: '770B 总参 49B 激活，权重上线 GitHub/HF，Apache 2.0，混元 LLM 系列实现全量开源。',
+    source: 'IT之家',
+    url: 'https://www.ithome.com/1/029/841.htm',
+  },
+  {
+    date: '2026-11-20',
     time: '00:50',
     category: 'AI',
     title: 'OpenAI 开放 GPT-Live-1.1 API',
